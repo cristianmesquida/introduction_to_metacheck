@@ -1,0 +1,570 @@
+---
+title: "Introduction to Metacheck"
+output: html_document
+date: "`r Sys.Date()`"
+author: Cristian Mesquida
+---
+
+### Additional educational resources
+
+For further guidance on implementing and using Metacheck, consider the following resources:
+
+#### **Metacheck documentation**
+
+Comprehensive documentation and tutorials for using Metacheck: <http://www.scienceverse.org/metacheck/index.html>
+
+#### **Daniël Lakens' blog**
+
+A series of blog posts introducing and explaining *Metacheck’*s modules: <https://daniellakens.blogspot.com/2025/06/introducing-papercheck.html>
+
+### Install packages
+
+```{r}
+devtools::install_github("scienceverse/metacheck")
+install.packages("rcrossref")  
+install.packages("dplyr")      
+```
+
+## Load packages
+
+```{r}
+library(rcrossref)  # use crossref to get info
+library(papercheck) # load papercheck
+library(dplyr)      # data wrangling
+```
+
+### Download papers
+
+There are two ways to download papers:
+
+#### Manual download
+
+Manuscripts can be manually downloaded from a specific journal or across several journals and selected based on specific criteria or topics. For this workshop, I have manually downloaded 6 hypothesis-testing studies in PDF format from the journal *Collabra: Psychology* and saved them into `pdf_folder`.
+
+#### Automatic download
+
+The following code snippet queries Crossref for articles from the journal *Collabra: Psychology* published between May 1 and June 1, 2025. It downloads available PDF files for those articles into `pdf_folder_2`.
+
+```{r}
+output_dir <- file.path(getwd(), "pdf_folder_2")
+
+# Attempt safer API call
+results <- tryCatch({
+  cr_journals(
+    issn = "2474-7394",
+    works = TRUE,
+    limit = 100,
+    # Select papers published between these two dates
+    filter = c(from_created_date = "2025-05-01",  until_created_date = "2025-06-01")
+  )
+}, error = function(e) {
+  stop("Crossref API call failed: ", conditionMessage(e))
+})
+
+# Check expected columns before continuing
+if (!"doi" %in% names(results$data) || !"link" %in% names(results$data)) {
+  stop("No 'doi' or 'link' data returned. Possibly due to a server error or no results.")
+}
+
+# Continue with downloads only if data exists
+for (i in 1:length(results$data$doi)) {
+  if (is.null(results$data$link[[i]]) || is.null(results$data$link[[i]]$URL[1])) next
+
+  # Sanitize filename and define destination file path
+  safe_filename <- gsub("[/:]", "_", results$data$doi[i])
+  destfile1 <- file.path(output_dir, paste0(safe_filename, ".pdf"))
+
+  # Attempt download
+  tryCatch({
+    download.file(
+      url = results$data$link[[i]]$URL[1],
+      destfile = destfile1,
+      mode = "wb",
+      headers = c("User-Agent" = "Mozilla/5.0")
+    )
+    print(paste0(i, " out of ", length(results$data$doi), " downloaded"))
+  }, error = function(e) {
+    message(paste("Failed to download:", results$data$doi[i]))
+  })
+}
+
+```
+
+### Convert PDFs to XMLs using Grobid
+
+#### Single article
+
+Now that we have a sample of studies in PDF format, the next step is to convert these files into structured **TEI XML** format using **Grobid**. By converting to XML, we unlock Papercheck’s ability to run automated checks.
+
+```{r}
+pdf <- "~/Desktop/workshop_metacheck/manuscript.pdf"  # path for pdf file
+xml <- "~/Desktop/workshop_metacheck/manuscript.xml"  # path for xml file
+
+# Convert one single PDF to XML file
+pdf2grobid(pdf,
+           save_path = xml,
+           grobid_url = "https://thesanogoeffect-grobid-papercheck.hf.space")
+```
+
+#### Batch processing
+
+We will read in all of the PDF files from `pdf_folder`, process them with a local version of GROBID, and save the XML files in a directory called `xml_folder`.
+
+```{r}
+pdf_folder <- "~/Desktop/workshop_metacheck/pdf_folder" # path to PDF files
+xml_folder <- "~/Desktop/workshop_metacheck/xml_folder" # path to XML files
+
+# Get a list of all PDF files inside pdf_folder
+pdf_files <- list.files(
+  path = pdf_folder, 
+  pattern = "\\.pdf$", 
+  full.names = TRUE)
+
+pdf2grobid(
+  pdf_files, 
+  save_path = xml_folder, # store XML files in xml_folder
+  grobid_url = "https://thesanogoeffect-grobid-papercheck.hf.space"
+)
+
+```
+
+Then read in the XML files and save in an object called `collabra`.
+
+```{r}
+xml_files <- list.files(
+  path = xml_folder, 
+  pattern = "\\.xml$", 
+  full.names = TRUE
+  )
+
+collabra <- read(xml_files)
+
+```
+
+These steps can take some time if you are processing a lot of papers, and only needs to happen once, so it is often useful to save the object containing the papers (i.e., `collabra`) as an Rds file, and load the papers from this object on future runs of your script.
+
+```{r}
+# load from RDS for efficiency
+saveRDS(collabra, "collabra.Rds")
+papers <- readRDS("collabra.Rds")
+```
+
+### Paper components
+
+Paper objects contain a lot of structured information, including info, references, and citations.
+
+#### Individual article
+
+```{r}
+paper <- papers[[2]]        # select a paper
+paper$info                  # get info section
+paper$references            # get references section
+text <- search_text(paper)  # get all sections
+text
+```
+
+#### Batch
+
+You can get this as a table for a batch of papers using `info_table()`.
+
+```{r}
+info_table(
+  papers, 
+  info = c("title", "keywords")
+  ) |> 
+  head()
+```
+
+#### Pattern
+
+We can use the argument "pattern" to match words
+
+Let's search for how many studies tested a hypothesis:
+
+```{r}
+# sentences containing the following words:
+word_pattern <- "(hypothesis|hypothesized|predicted|expected)"
+
+search_text(
+  papers, 
+  pattern = word_pattern, 
+  section = "intro", 
+  return = "sentence"
+  ) |> 
+  distinct(id, .keep_all = TRUE)
+```
+
+Let's search for how many studies reported a priori power analyses:
+
+```{r}
+# sentences containing the following words: 
+word_pattern <- "(a[- ]?priori (power( analysis|calculation)?)?|statistical power|G\\*Power|sample size (estimation|calculation))"
+
+paragraph <- search_text( 
+  papers, 
+  pattern = word_pattern, 
+  section = "intro", 
+  return = "paragraph" 
+  ) |> 
+  distinct(id, .keep_all = TRUE)
+
+paragraph$text
+```
+
+### List of modules
+
+You can see the list of built-in modules with the function below.
+
+```{r}
+module_list()
+```
+
+#### Journal Article Reporting Standards (JARS)
+
+JARS (journal article reporting standards), by the American Psychological Association offer guidance on the information that should be reported in scientific articles to enhance their scientific rigor.
+
+#### “exact-p" module
+
+The first reporting guideline recommends to report exact p-values. The APA Manual states:
+
+"Report exact p values (e.g., p = .031) to two or three decimal places. However, report p values less than .001 as p \< .001."
+
+Papercheck has a dedicated module, “exact-p”, to identify the presence of imprecise p-values. We can run it on a single paper. Let's check whether a single paper contains any imprecise *p*-values:
+
+```{r}
+p_imprecise <- module_run(
+  paper = papers[[4]],  # change to subset any paper     
+  module = "exact_p"
+  )
+
+p_imprecise
+```
+
+Now let's check all 6 papers:
+
+```{r}
+p_imprecise <- module_run(
+  paper = papers, 
+  module = "exact_p"
+  )
+
+p_imprecise
+```
+
+#### “effect-size" module
+
+A second JARS guideline is whether authors report effect sizes alongside their test result. Each test (e.g., a *t*-test, *F*-test, etc.) should include the corresponding effect size (e.g., Cohen’s *d*, or partial eta-squared). 
+
+First let's check a single paper:
+
+```{r}
+module_run(
+  paper = papers[[1]],    # try out 1, 2 and 3
+  module = "effect_size"
+)
+
+```
+
+We can also check multiple papers at once and get a summary table:
+
+```{r}
+module_run(papers, "effect_size")
+```
+
+#### "marginal" module
+
+Researchers often interpret a *p*-value just above the conventional threshold for significance (e.g., *p* = 0.06) as “marginally significant” or “trending toward significance.” However, this is considered poor practice, as *p*-values are either significant or not based on the predefined alpha level.
+
+We can use the marginal module to list all sentences that describe a non-significant p-value as "marginally significant"
+
+```{r}
+marginal_ps <- module_run(papers, 
+                          module = "marginal")
+
+marginal_ps
+```
+
+We can also print a table with additional information
+
+```{r}
+marginal_ps$table
+```
+
+#### Chaining modules
+
+Modules return a summary table as well as the detailed results, which is automatically added to the summary if you chain modules.
+
+```{r}
+paper_chain <- papers |>
+  module_run(module = "all_p_values") |> # counts number of p-values
+  module_run(module = "exact_p") |> # counts number of exact p-values
+  module_run(module = "marginal") # counts instances of marginilly significant
+
+paper_chain$summary
+```
+
+#### AsPredcicted preregistrations
+
+We can also check whether the study was preregistered in AsPredicted
+
+```{r}
+aspredicted_links(papers)
+```
+
+Our sample of studies from *Collabra* did not contain any study preregistered in AsPredicted. Fortunately, the *Metacheck* package conveniently includes the `psychsci` object containing 250 studies published *Psychological Science* that contain AsPredcited preregistrations.
+
+```{r}
+links <- aspredicted_links(psychsci)
+
+unique(links)
+```
+
+We can see that 74 out of 250 contained AsPredicted preregistrations. Now let's retrieve the links of one single paper.
+
+```{r}
+# Select a paper
+paper <- psychsci$`09567976221082938`
+
+# Get the links
+links <- aspredicted_links(paper)
+
+# Retrieve links
+prereg <- aspredicted_retrieve(links)
+```
+
+AsPredicted preregistrations contain the following fields:
+
+```{r}
+# get just the AsPredicted columns
+cols <- names(prereg)
+
+ap_cols <- cols[grepl("^AP_", cols)]
+
+# transpose for easier reading
+prereg[1, ap_cols] |> t()
+```
+
+Here we show the field contain the description of the sample size:
+
+```{r}
+prereg_sample_size <- unique(prereg$AP_sample_size)
+# use cat("> ", x = _) with #| results: 'asis' in the code chunk
+# to print out results with markdown quotes
+prereg_sample_size |> cat("> ", x = _)
+```
+
+```{r}
+# match "sample" or "# particip..."
+regex_sample <- "\\bsample\\b|\\d+\\s+particip\\w+"
+
+# get full paragraphs only from the method section
+sample <- search_text(
+  paper, regex_sample, 
+  section = "method", 
+  return= "paragraph"
+  )
+
+sample$text |> cat("> ", x = _)
+```
+
+It appears that the final sample size was one **lemur** fewer than the preregistered sample size.Sample size justification
+
+#### Sample size justification
+
+In this section we will try to detect a priori power analyses using regex matches and then use a Large Language Model to extract the information.
+
+##### Regex matches
+
+```{r}
+
+# match "a priori" or "a-priori" or "power"
+regex_sample <- "\\ba[ -]priori\\b|\\bpower\\b"
+
+# get full paragraphs only from the method section
+sample <- search_text(
+  papers[[1]], 
+  pattern = regex_sample, 
+  section = "method", 
+  return= "paragraph"
+  )
+
+sample$text |> cat("> ", x = _)
+```
+
+##### Large Language Models
+
+We can query the extracted text of papers with LLMs using [groq](#0). You will need to get your own API key from [https://console.groq.com/keys](#0){.uri}. To avoid having to type it out, add it to the .Renviron file in the following format (you can use `usethis::edit_r_environ()`\`to access the .Renviron file.
+
+```{r}
+GROQ_API_KEY="REPLACE_THIS_TEXT_FOR_YOUR_API_KEY" # Option 1
+
+api_key <- Sys.getenv("GROQ_API_KEY") # Best Option
+```
+
+We first use `search_text()` to narrow down the text into what you want to query. Below, we limit the search to the first ten papers’ method sections, and returned sentences that contains the word “power” and at least one number. Then we asked an LLM to determine if this is an a priori power analysis, and if so, to return some relevant values in a JSON-structured format.
+
+```{r}
+power <- papers[[1]] |>
+  search_text(pattern = "power", # search for sentences containing the word power in methods
+              section = "method") |> # search for sentences in method section
+  search_text("[0-9]")  # search for sentences containing at least one number
+
+# ask a specific question with specific response format
+query <- 'Does this sentence report an a priori power analysis? If so, return the test, sample size, critical alpha criterion, power level, effect size and effect size metric plus any other relevant parameters, in JSON format like:
+
+{
+  "apriori": true, 
+  "test": "paired samples t-test", 
+  "sample": 20, 
+  "alpha": 0.05, 
+  "power": 0.8, 
+  "es": 0.4, 
+  "es_metric": "cohen\'s D"
+}
+
+If not, return {"apriori": false}
+
+Answer only in valid JSON format, starting with { and ending with }.'
+
+llm_power <- llm(power, 
+                 query, 
+                API_KEY = api_key,
+                 seed = 8675309)
+```
+
+The function `json_expand()` expands a column with a JSON-formatted response into a data frame.
+
+```{r}
+
+llm_response <- json_expand(llm_power, "answer") |>
+  select(id, text, apriori:es_metric) |>
+  t() # select all columns
+
+llm_response
+
+```
+
+#### Download files from Open Science Framework
+
+Researchers increasingly use the Open Science Framework (OSF) to share files, such as data and code underlying scientific publications. We can use Metacheck to check.
+
+You can only make 100 API requests per hour, unless you authorize your requests, when you can make 10K requests per day. The OSF functions in Metacheck often make several requests per URL to get all of the info, so it’s worthwhile setting your PAT. You can authorize them by creating an OSF token at [https://osf.io/settings/tokens](#0){.uri} and including the following line in your .Renviron file (which you can open using `usethis::edit_r_environ()`):
+
+```{r}
+usethis::edit_r_environ()
+OSF_PAT= "REPLACE_THIS_TEXT_FOR_YOUR_API_KEY"  # Option 1
+osf_key <- Sys.getenv("OSF_PAT")               # Best Option using 
+```
+
+##### Find OSF links
+
+```{r}
+# obtain links from selected paper
+links <- osf_links(papers[2])                 # try out 2, 4 and 5
+links
+```
+
+##### Retrieve OSF files
+
+```{r}
+info <- osf_retrieve(
+  links, 
+  recursive = TRUE,    # if TRUE, it will retrieve all components, files and folders
+  find_project = FALSE # if TRUE, it will look up the parent project of any links (but this   requires more API calls).
+  )
+info |> select(osf_id, osf_type, filetype)
+
+osf_files_summary <- summarize_contents(info) # we will use this later on
+osf_files_summary
+```
+
+##### Check for best practices
+
+As most scientists have not been taught how to code explicitly, it is common to see scripts that do not adhere to best coding practices. We are no exception ourselves (e.g., you will not find a sessioninfo.txt file in our repositories). Although code might be reproducible even if it takes time to figure out which versions of an R package was used, which R version was used, and by changing fixed paths, reproducibility is facilitated if best practices are used. The whole point of automated checks is to have algorithms that capture expertise make recommendations that improve how we currently work.
+
+The following R function evaluates OSF repositories for compliance with four best practices. It returns a summary report indicating whether each practice is met.
+
+```{r}
+osf_report <- function(summary) {
+  files <- filter(summary, osf_type == "files")
+  data <- filter(files, file_category == "data") |> nrow()
+  code <- filter(files, file_category == "code") |> nrow()
+  codebook <- filter(files, file_category == "codebook") |> nrow()
+  readme <- filter(files, file_category == "readme") |> nrow()
+  
+  traffic_light <- dplyr::case_when(
+    data == 0 & code == 0 & readme == 0 ~ "red",
+    data == 0 | code == 0 | readme == 0 ~ "yellow",
+    data > 0 & code > 0 & readme > 0 ~ "green"
+  )
+  
+  data_report <- case_when(
+    data == 0 ~ "\u26A0\uFE0F There was no data detected. Are you sure you cannot share any of the underlying data? If you did share the data, consider naming the file(s) or file folder with 'data'.",
+    data > 0 ~ "\u2705 Data file(s) were detected. Great job making your research more transparent and reproducible!"
+  )
+  
+  codebook_report <- case_when(
+    codebook == 0 ~ "\u26A0\uFE0F️ No codebooks or data dictionaries were found. Consider adding one to make it easier for others to know which variables you have collected, and how to re-use them. The codebook package in R can automate a substantial part of the generation of a codebook: https://rubenarslan.github.io/codebook/",
+    codebook > 0 ~ "\u2705 Codebook(s) were detected. Well done!"
+  )
+  
+  code_report <- case_when(
+    code == 0 ~ "\u26A0\uFE0F️ No code files were found. Are you sure there is no code related to this manuscript? If you shared code, consider naming the file or file folder with 'code' or 'script'.",
+    code > 0 ~ "\u2705 Code file(s) were detected. Great job making it easier to  reproduce your results!"
+  )
+  
+  readme_report <- case_when(
+    readme == 0 ~ "\u26A0\uFE0F No README files were identified. A read me is best practice to facilitate re-use. If you have a README, please name it explicitly (e.g., README.txt or _readme.pdf).",
+    readme > 0 ~ "\u2705 README detected. Great job making it easier to understand how to re-use files in your repository!"
+  )
+  
+  report_message <- paste(
+    readme_report,
+    data_report, 
+    codebook_report,
+    code_report,
+    "Learn more about reproducible data practices: https://www.projecttier.org/tier-protocol/",
+    sep = "\n\n"
+  )
+
+  return(list(
+    traffic_light = traffic_light,
+    report = report_message
+  ))
+}
+```
+
+Now let's use `osf_report()`:
+
+```{r}
+report <- osf_report(osf_files_summary) 
+
+# print the report into a file
+module_report(report) |> cat()
+```
+
+Let's check out the OSF repository for study 4: <https://osf.io/ek2gp/files/osfstorage>
+
+Let's check out the OSF repository for study 5: <https://osf.io/bv9ds/files/osfstorage>
+
+##### Download OSF files to your working directory
+
+Let's download files for study 4:
+
+```{r}
+# Download files
+osf_file_download("ek2gp")
+
+# Store them in the "ek2gp" folder
+list.files(path = "ek2gp")
+```
+
+Let's download the OSF files for study 5:
+
+```{r}
+# Download files
+osf_file_download("bv9ds")
+
+# Store them in the "bv9ds" folder 
+list.files(path = "bv9ds")
+```

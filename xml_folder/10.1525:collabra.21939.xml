@@ -1,0 +1,1734 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Circadian Rhythm and Memory Performance: No Time-Of-Day Effect on Face Recognition</title>
+				<funder ref="#_cxYs4s2">
+					<orgName type="full">unknown</orgName>
+				</funder>
+				<funder ref="#_CWgwqEm">
+					<orgName type="full">Erasmus Mundus Joint</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2025-07-22">22 July 2025</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName><forename type="first">Sergii</forename><surname>Yaremenko</surname></persName>
+							<email>sergii.yaremenko@maastrichtuniversity.nl</email>
+							<affiliation key="aff0">
+								<orgName type="department">Clinical Psychological Science (CPS)</orgName>
+								<orgName type="institution">Maastricht University</orgName>
+								<address>
+									<settlement>Maastricht</settlement>
+									<region>Netherlands</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Melanie</forename><surname>Sauerland</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Psychology</orgName>
+								<orgName type="institution">University of Portsmouth</orgName>
+								<address>
+									<region>Portsmouth, UK</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Lorraine</forename><surname>Hope</surname></persName>
+							<idno type="ORCID">0000-0002-7401-1365</idno>
+							<affiliation key="aff2">
+								<orgName type="department">Clinical Psychological Science (CPS)</orgName>
+								<orgName type="institution">Maastricht University</orgName>
+								<address>
+									<settlement>Maastricht</settlement>
+									<region>Netherlands</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff3">
+								<orgName type="department">Department of Psychology</orgName>
+								<orgName type="institution">University of Portsmouth</orgName>
+								<address>
+									<settlement>Portsmouth</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Circadian Rhythm and Memory Performance: No Time-Of-Day Effect on Face Recognition</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2025-07-22">22 July 2025</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">9E9DE102A6EE342BF7EA8687D9816623</idno>
+					<idno type="DOI">10.1525/collabra.21939</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.3-SNAPSHOT" ident="GROBID" when="2025-09-17T15:44+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">b64991a</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>body clock</term>
+					<term>chronotype</term>
+					<term>time of day</term>
+					<term>testing optimality</term>
+					<term>source memory</term>
+					<term>source monitoring</term>
+					<term>recollection</term>
+					<term>familiarity</term>
+					<term>synchrony effect</term>
+				</keywords>
+			</textClass>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The circadian rhythm regulates arousal and activity levels throughout the day and determines hours of optimal cognitive performance. Thus far, circadian fluctuations in face recognition performance received little attention in the research literature. The current experiment investigated the effects of time-of-day optimality on the ability to recognize faces and discriminate between the contexts in which where they were encountered. Morning-and evening-type participants (N = 91) encoded faces in a crime-related and a neutral context, either at their optimal or non-optimal time of day. Contrary to our hypotheses, neither face recognition nor source monitoring performance benefited from testing at optimal time of day. We discuss peculiarities of face processing that could account for the discrepancy of our findings with word recall and recognition literature.</p><p>Have you ever recognized a person but were unable to recall where you knew them from? This common experience reveals an important fact about the way our memory works: Familiarity is not always accompanied by the correct recollection of the memory source <ref type="bibr">(Johnson et al., 1993)</ref>. In everyday life the consequences of such memory source errors are mostly benign. However, in legal contexts the costs can be severe. For example, an innocent suspect may feel familiar to an eyewitness from mug shot viewings, repeated identification procedures, or because they were a bystander at the crime scene <ref type="bibr" target="#b11">(Deffenbacher et al., 2006)</ref>. Attributing familiarity to the incorrect source can lead to misidentifications and wrongful convictions <ref type="bibr" target="#b32">(Lindsay, 2007)</ref>, emphasizing the importance of studying factors that increase the risk of such memory errors. Time of day could be one such factor: Due to the functioning of our body clock, certain hours of the day are associated with the decline in cognitive performance, making us prone to memory errors <ref type="bibr" target="#b54">(Schmidt et al., 2007)</ref>. This observation motivated us to investigate whether testing at non-optimal time of day could be among the risk factors for errors in source memory for faces.</p><p>Our body clock generates the circadian rhythm which coordinates numerous aspects of our physiology, cognition and behaviour <ref type="bibr" target="#b18">(Halberg et al., 2003;</ref><ref type="bibr" target="#b48">Refinetti, 1999)</ref>. Among other things, the circadian rhythm determines optimal times for engaging in various activities and modulates cognitive performance levels across the day. Generally, we perform better at circadian peaks and worse at circadian troughs <ref type="bibr" target="#b54">(Schmidt et al., 2007)</ref>. The exact timing of circadian phases can vary across individuals, resulting in inter-individual differences in periods of the day that are optimal <ref type="bibr" target="#b0">(Adan et al., 2012;</ref><ref type="bibr" target="#b25">Horne &amp; Östberg, 1976)</ref>. The so-called morning types perform best early in the day, whereas evening types peak in their performance in the evening hours <ref type="bibr" target="#b16">(Goldstein et al., 2007;</ref><ref type="bibr" target="#b31">Levandovski et al., 2013)</ref>. This pattern is known as the synchrony effect: Performance varies as a function of synchrony, or alignment of the time when a certain task is performed with the ongoing circadian phase (e.g., <ref type="bibr" target="#b35">May, 1999;</ref><ref type="bibr" target="#b36">May &amp; Hasher, 1998;</ref><ref type="bibr" target="#b39">Nowack &amp; Van Der Meer, 2018)</ref>.</p><p>Performance on long-term memory tasks also follows the standard synchrony effect pattern, with better performance at circadian peaks as opposed to circadian troughs. Recall of words and prose passages <ref type="bibr" target="#b42">(Petros et al., 1990;</ref><ref type="bibr" target="#b52">Ryan et al., 2002)</ref>, sentence and word recognition <ref type="bibr" target="#b37">(May et al., 1993;</ref><ref type="bibr" target="#b52">Ryan et al., 2002)</ref>, and cued recall performance in stem completion tasks <ref type="bibr" target="#b37">(May et al., 2005;</ref><ref type="bibr" target="#b45">Puttaert et al., 2018)</ref> are better at the hours of the day that are aligned with participants' chronotype. Such performance fluctuation can be explained by circadian cycles in arousal that are closely linked with the amount of attentional resources available to us across the day <ref type="bibr" target="#b23">(Hirst &amp; Kalmar, 1987;</ref><ref type="bibr" target="#b38">Necka, 1997)</ref>. Conditions for encoding and retrieval of new memories are most optimal at circadian peaks, when arousal is highest. Circadian arousal troughs, by contrast, may not offer sufficient cognitive capacities necessary to engage in efficient cognitive processing, potentially leading to memory errors <ref type="bibr" target="#b39">(Nowack &amp; Van Der Meer, 2018)</ref>.</p><p>The synchrony effect patterns in memory for encoded prose passages, sentences, word lists, word stems and pictorial stimuli are well-established (e.g. <ref type="bibr" target="#b26">Intons-Peterson et al., 1999;</ref><ref type="bibr" target="#b37">May et al., 1993;</ref><ref type="bibr" target="#b45">Puttaert et al., 2018)</ref>. However, this effect has not been studied before in the context of face recognition, which is a highly specialized function that differs from other types of recognition <ref type="bibr" target="#b22">(Haxby et al., 2001;</ref><ref type="bibr" target="#b30">Kanwisher et al., 1997)</ref>. In the current experiment, we made the first attempt to investigate the synchrony effect in the traditional face recognition paradigm.</p><p>Not all manifestations of memory rely on our attentional resources to the same extent. So-called implicit memory processes that operate outside of our awareness appear to be affected by the circadian rhythm in a different manner than standard recall and recognition tasks. For instance, priming seems to be affected by the circadian rhythm differently than cued recall. When explicitly instructed to use previously studied words on a stem completion task, participants usually show a classic synchrony effect pattern. Implicit memory tests, by contrast, generally show that performance is unaffected by circadian variations in arousal <ref type="bibr" target="#b45">(Puttaert et al., 2018;</ref><ref type="bibr" target="#b61">Yang et al., 2007)</ref>. In fact, one study reported a reversed synchrony effect <ref type="bibr" target="#b37">(May et al., 2005)</ref>.</p><p>To summarize, the circadian rhythm affects our conscious, intentional uses of memory. We perform better when tested at optimal time of day, whereas automatic influences of memory seem to be unaffected by testing optimality. A common explanation for this dissociation relates to the fact that automatic processes require little to no cognitive resources for their execution, and, therefore, can remain unaffected by many factors that generally impair cognition <ref type="bibr" target="#b20">(Hasher &amp; Zacks, 1979</ref><ref type="bibr" target="#b21">, 1984)</ref>. By contrast, controlled, conscious memory processes heavily rely on available cognitive resources for their execution. Performance on tasks that rely on these processes is impaired when cognitive resources are limited <ref type="bibr" target="#b56">(Smith &amp; DeCoster, 2000)</ref>. This also appears to be the case with time-of-day optimality: Reduced cognitive capacity at circadian troughs impairs performance on tasks with a stronger controlled component (e.g., <ref type="bibr" target="#b37">May et al., 1993;</ref><ref type="bibr" target="#b42">Petros et al., 1990;</ref><ref type="bibr" target="#b52">Ryan et al., 2002)</ref>, whereas automatic memory performance remains unaffected <ref type="bibr" target="#b37">(May et al., 2005;</ref><ref type="bibr" target="#b61">Yang et al., 2007)</ref>.</p><p>When providing testimony, eyewitnesses engage in a mixture of automatic and controlled memory processes. If presented with the culprit during an identification procedure, the eyewitness may be able to engage in an effortful, controlled process known as recollection in order to retrieve some qualitative information about the event (e.g., "I remember this man: He was holding the gun"). If recollection fails, the culprit may still be likely to be selected merely based on familiarity. This is a classic example of an automatic, effortless memory process ("I recognize this person -he must be the man from the crime scene"). In fact, automatic and controlled processes often work together in these scenarios to produce a correct recognition decision: The feeling of familiarity is complemented by recollection, resulting in an accurate identification. In other words, the 'teamwork' of automatic and controlled processes is beneficial when two memory systems point in the same direction.</p><p>For comparison, let us consider a scenario in which an innocent suspect becomes part of a lineup and feels familiar to the eyewitness. The suspect may have been present at the crime scene as a bystander, or their face may have become familiar from previously administered identification procedures or mug shot viewings <ref type="bibr" target="#b11">(Deffenbacher et al., 2006)</ref>. In these scenarios, a response based solely on familiarity could result in a misidentification. An accurate identification decision requires recollection of the context in which the suspect was encountered before ("They already showed me a mug shot of this man two weeks ago").</p><p>Memory for the context in which information was encoded is often referred to as source monitoring <ref type="bibr">(Johnson et al., 1993)</ref>. Generally, source monitoring tasks are more difficult than standard recognition tasks, and impairing factors can have a disproportionate impact on source monitoring compared to recognition performance (for a review, see <ref type="bibr">Mitchell &amp; Johnson, 2009)</ref>. This happens because the two tasks differ in the proportion of automatic and controlled influences of memory on task performance. Source monitoring relies to a large extent on controlled, effortful processes, whereas recognition decisions can be made based on a familiarity response that occurs automatically. As impairing factors affect recollection but leave familiarity intact, they produce larger impairments in source monitoring than recognition memory <ref type="bibr" target="#b62">(Yonelinas, 1999)</ref>.</p><p>In the current experiment, we investigated whether time-of-day optimality impairs face recognition and source monitoring performance. We tested morning-and eveningtype participants either at their optimal or non-optimal time of day. Participants encoded face stimuli in two contexts: a crime-related context and a neutral context. At recognition, participants indicated whether they had encountered the face earlier in the experiment. We expected enhanced recognition performance when participants were tested at optimal versus non-optimal time of day. Specifically, we expected higher hit (hypothesis 1a) and lower false alarm rates (hypothesis 1b) at optimal than non-optimal time of day.</p><p>To experimentally recreate a situation that requires source memory judgments, we designed a task in which participants had to reject faces encountered in a neutral context and select faces they remembered from a criminal context. This procedure should parallel situations involving exposure to mug shots <ref type="bibr" target="#b11">(Deffenbacher et al., 2006)</ref> or an innocent bystander prior to a lineup <ref type="bibr" target="#b8">(Brackmann et al., 2019)</ref>. Under such conditions, an incorrect 'yes' response to a face encountered in a neutral, non-relevant context can occur, if the face seems familiar but the memory for source is impaired. We expected that participants would be more likely to make such errors when tested at non-optimal compared to optimal time of day (hypothesis 2).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Method Participants</head><p>To determine the required sample size, we conducted apriori power analysis for a one-tailed t test with G*Power v3.1 <ref type="bibr" target="#b14">(Faul et al., 2007</ref><ref type="bibr" target="#b13">(Faul et al., , 2009))</ref>. Based on the earlier findings contrasting time-of-day optimality effects in explicit memory performance as opposed to priming <ref type="bibr" target="#b37">(May et al., 2005)</ref>, we expected an effect size of d = 0.52. We used an alpha error probability of .05 and a power of .80, which resulted in a We pre-screened 346 individuals for their chronotype using the Morningness-Eveningness Questionnaire (MEQ; <ref type="bibr" target="#b25">Horne &amp; Östberg, 1976)</ref>. We invited morning-and eveningtype individuals for participation in the experiment. We managed to test 91 of the planned 94 participants (25 male, 66 female; age 18 to 33, M = 21.96, Mdn = 21 years), resulting in a power of .79 to detect an effect of the expected size. The sample included university students (n = 87) and members of the general public (n = 4). Among them, 57.1% were evening types (n = 52, M MEQ = 34.37, SD MEQ = 5.05) and 42.9% were morning types (n = 39, M MEQ = 63.77, SD MEQ = 4.46). We only included Caucasian participants to avoid cross-racial bias <ref type="bibr" target="#b60">(Wilson et al., 2016)</ref>. Forty-nine participants were tested at optimal time of day (38 female, 11 male, age 18 to 33, M = 22.18, Mdn = 21 years) and 42 participants at non-optimal time of day (28 female, 14 male, age 18 to 31, M = 21.69, Mdn = 21 years).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Design</head><p>We manipulated optimality (optimal vs non-optimal) as a between-subjects factor. Encoding context (crime-related vs neutral) and task type (recognition vs source monitoring) served as within-subjects factors. We manipulated encoding context by embedding face stimuli into crime-related and neutral scenarios. In the recognition task, participants indicated whether they had seen each face earlier in the experiment, irrespective of the context. In the source monitoring task, participants had to exclude faces from the neutral context, but indicate recognition for faces from the crime-related context. Proportions of yes responses to studied (hits) and unstudied faces (false alarms) from each context served as the outcome variables.</p><p>We used hit and false alarm rates to calculate discrimination accuracy and response bias. Discrimination accuracy (d′) indicates participants' ability to distinguish signals (studied faces) from noise (fillers). A value of zero indicates zero ability to distinguish studied faces from fillers, whereas a value of 4.65 is considered an effective ceiling. Response bias (c), on the other hand, reflects participants' threshold for deciding that they have seen the face before. A positive c value shows a bias towards saying no, whereas a negative c value reflects participants' tendency to indicate that they have seen the face before <ref type="bibr" target="#b17">(Green &amp; Swets, 1966;</ref><ref type="bibr" target="#b34">Macmillan &amp; Creelman, 2009)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Materials</head><p>Pre-screening questionnaire. We used the full version of MEQ <ref type="bibr" target="#b25">(Horne &amp; Östberg, 1976)</ref> to determine participants' chronotype. The MEQ consists of 19 questions about participants' sleeping habits, alertness levels at different points of the day, and preferred times for engaging in physically and cognitively demanding tasks (e.g., "At what time in the evening do you feel tired and in need of sleep?"). The MEQ score correlates with daily changes in melatonin and cortisol levels, body temperature <ref type="bibr" target="#b3">(Baehr et al., 2000;</ref><ref type="bibr" target="#b25">Horne &amp; Östberg, 1976)</ref>, sleep habits and activity levels <ref type="bibr" target="#b2">(Andrade et al., 1992;</ref><ref type="bibr" target="#b4">Bailey &amp; Heitkemper, 2001;</ref><ref type="bibr" target="#b12">Duffy et al., 2001)</ref>. The MEQ items in the pre-screening were intermixed with filler questions about food and caffeine consumption habits and sleep to provide additional support for the cover story.</p><p>Face stimuli. We selected 64 photographs with a neutral emotional expression from the Karolinska Directed Emotional Faces database <ref type="bibr" target="#b33">(Lundqvist et al., 1998)</ref>. All the actors were between 20 and 30 years old and were wearing the same grey T-shirt. When the stimuli were prepared, the actors were not permitted to wear earrings or eyeglasses, visible makeup, beards or moustaches. Thirty-two faces (16 male, 16 female) served as targets and 32 faces served as filler faces. Faces appeared against a background image depicting the respective context (see Figure <ref type="figure" target="#fig_2">1</ref>). Importantly, for each of the actors, the database includes two versions of each facial expression taken at two separate occasions. Having two different photographs of the same person available allowed us to use different photographs at encoding and at test, which is a preferable way of testing face recognition performance <ref type="bibr" target="#b10">(Burton, 2013)</ref>. The appendix shows the counterbalancing plan.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Procedure</head><p>Participants were recruited via advertisements at the university campus. The cover story held that the experiment concerned differences in food and caffeine consumption habits between morning-and evening-type individuals and their effect on memory performance. Morning sessions took place between 7:40 AM and 9:00 AM, and evening sessions were scheduled between 8:30 PM and 9:30 PM.</p><p>We instructed participants not to consume alcohol 18 hours prior to testing, avoid caffeine and chocolate on the day of testing and schedule participation only if they slept a minimum of six hours in the night prior to testing. Participants confirmed compliance to these criteria and signed the consent form at the beginning of the testing session. Next, we presented participants with the crime-related scenario:</p><p>Imagine waiting for a bus late at night. There has been an important football derby in your town and you notice a large group of football hooligans that are behaving violently. They approach a single fan of the other team and start insulting him. Very quickly the encounter becomes violent: the hooligans start pushing and beating him. You decide to call the police. You will now be presented with the faces of the hooligans. Pay attention -you may be asked to identify them later. These instructions were accompanied by a context-cue: a photograph of a dark street with police cars and a policeman. Figure <ref type="figure" target="#fig_2">1</ref> depicts an example. After that, we informed participants that they would be presented with the faces of the hooligans and instructed them to pay attention as they may be asked to identify them later. Participants saw 16 faces, presented against the background that accompanied the imagery instructions, one at a time for 1 s followed by a 0.5 s interval.</p><p>Following a 5-min filler task (object search), we introduced the neutral context:</p><p>Imagine heading out to the supermarket on a rainy day. You drop off your beloved umbrella that you received as a gift from your grandmother at the entrance. After you finished shopping, you want to pick up your umbrella  -but you realize that it's gone! However, you notice another umbrella that is very similar to yours. Someone must have mistaken their umbrella with yours and taken it by accident. You will now see the people you've encountered in the supermarket while shopping. Pay attention -one of them might have your umbrella! These instructions were accompanied by an image of a supermarket aisle. We told participants that they would now see the people they encountered in the supermarket and again instructed them to pay attention to the faces as one of them might have their umbrella. The faces were presented against the background of the supermarket aisle.</p><p>Following another 5-min filler task (object search) and a questionnaire about their sleep, food and caffeine consumption habits, participants received the recognition and the source monitoring tasks. In the recognition task, we reminded participants of the pictures they encoded earlier and asked them to indicate whether they had seen each of the faces in either context. Participants indicated if they had or had not seen each face earlier in the experiment. In the source monitoring task, we told participants that, unlike in the previous task, they should only select the faces previously seen in the crime-related context (i.e., the hooligans). Participants had unlimited time for their decisions. Participants received 5-euro gift vouchers or participation credit for their participation. We debriefed participants upon the completion of the data collection.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head><p>One participant was an outlier because they produced zero hits and false alarms on the recognition task and zero false alarms on the source memory task, whereas the proportion of correct responses on the source memory task was high (.88). We ran all analyses twice, once including the data from this participant and once excluding it. The pattern of results was analogous. We further report the analyses and descriptives including all data but exclude this participant from Signal Detection Theory calculations.</p><p>Table <ref type="table">1</ref> presents mean proportion of yes responses to faces from each context across the experimental conditions. We ran a three-way mixed ANOVA to test whether optimality affected recognition performance (hypothesis 1) and source monitoring performance (hypothesis 2). We entered optimality (optimal vs non-optimal), test type (recognition test vs source memory test), context (crime-related vs neutral) as factors; proportions of 'yes' responses to faces studied in each context (i.e., independent of accuracy) served as the dependent variable.</p><p>Table <ref type="table">2</ref> presents the results. Participants provided significanly more yes responses in the criminal (M = .48, SE = .01) than the non-criminal context (M = .41, SE = .02) and more yes responses to old faces on the face recognition test (M = .49, SE = .02) compared to the source monitoring test (M = .40, SE = .02). All the other effects were non-significant. These findings lend no support to hypotheses 1 and 2.</p><p>1 Table 1. Mean Proportion of Yes Responses [and 95% CI] to Studied Faces in Crime-related and Neutral Contexts and Non-studied Faces in the Face Recognition and Source Monitoring Task as a Function of Time of Testing. Time of testing Context Optimal Non-optimal Recognition task Crime-related .52 [.46; .58] .55 [.48; .61] Neutral .42 [.35; .49] .47 [.40; .55] Non-studied .22 [.17; .26] .25 [.21; .30] Source monitoring task Crime-related .44 [.37; .51] .42 [.34; .49] Neutral .34 [.28; .40] .40 [.33; .46] Non-studied .17 [.13; .21] .19 [.14; .25]</p><p>Table 2. Three-way Analysis of Variance of Proportions of 'Yes' Responses to Studied Faces by Optimality, Context, and Test Type Factor SS F (1, 89) p η p 2 optimality 0.077 1.031 .313 .011 context 0.492 18.473 &lt; .001 .172 test type 0.769 10.307 .002 .104 optimality x context 0.073 2.753 .101 .030 optimality x test type 0.009 0.122 .728 .001 context x test type 0.018 0.623 .432 .007 optimality x context x test type 0.016 0.545 .462 .006</p><p>nition and source monitoring task at optimal and non-optimal time of day.</p><p>Explorative Signal Detection Theory analyses showed that sensitivity (i.e., participants' ability to differentiate targets and non-targets) did not significantly differ between optimal (d' = 0.81) and non-optimal time of day (d' = 0.76), t(88) = .353, p = .608, d = 0.07. Similiarly, there was no significant difference between the referring response bias (i.e., the threshold for deciding that the target was encountered before) at optimal and non-optimal time of day (c = 0.95 and c = 0.74, respectively), t(88) = 1.150, p = .253, d = 0.24.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head><p>We tested whether face recognition and source monitoring performance varies as a function of time of day. Previous studies showed superior recall and recognition performance at those hours of the day that were aligned with individual's peak arousal hours, as determined by the circadian clock (e.g., <ref type="bibr" target="#b1">Anderson et al., 1991;</ref><ref type="bibr" target="#b37">May et al., 1993;</ref><ref type="bibr" target="#b42">Petros et al., 1990)</ref>. The current experiment extends earlier work by investigating the synchrony effect specifically in face recognition. We hypothesised that face recognition performance would be superior at circadian peaks as opposed to circadian troughs (hypothesis 1). We also expected to find a synchrony effect for source monitoring perfor-mance (hypothesis 2). Surprisingly, our results show no evidence of such synchrony effect in either test. Participants performed very similarly across optimal and non-optimal testing sessions. These observations contrast with findings reported in previous studies that used non-facial stimuli to examine synchrony effects in episodic memory performance.</p><p>From a cognitive perspective, processing of faces differs from processing of other types of information <ref type="bibr" target="#b9">(Bruce &amp; Young, 2012;</ref><ref type="bibr" target="#b50">Robotham &amp; Starrfelt, 2017;</ref><ref type="bibr" target="#b55">Schwartz, 2014)</ref>. Faces are processed holistically (e.g., <ref type="bibr" target="#b49">Richler &amp; Gauthier, 2014)</ref> and are distinct in terms of allocation of attention during encoding. For instance, when presented with two faces simultaneously, encoding of one of the faces requires us to suppress processing of features of the other face, whereas this is not the case when we are simultaneously presented with two objects (e.g., <ref type="bibr" target="#b6">Bindemann et al., 2007;</ref><ref type="bibr" target="#b7">Boutet &amp; Chaudhuri, 2001;</ref><ref type="bibr" target="#b40">Palermo &amp; Rhodes, 2002)</ref>. Considering that circadian variations in cognitive performance are generally construed in terms of availability of attentional capacities <ref type="bibr" target="#b59">(Valdez, 2019)</ref> and abilities of efficient allocation of cognitive resources (e.g., <ref type="bibr" target="#b39">Nowack &amp; Van Der Meer, 2018)</ref>, the specifics of distribution of attention in encoding of faces may account for the fact that the circadian performance cycles are expressed differently in face recogallows to detect the effect size d = 0.36 with an alpha error probability of .05 and a power of .80. From a neuroscientific perspective, face recognition relies on specialized areas of the brain different from areas involved in other types of recognition memory <ref type="bibr" target="#b55">(Schwartz, 2014)</ref>. Areas of our brain responsible for memory functioning show oscillations that are autonomous from those generated in the suprachiasmatic nuclei, also known as the central pacemaker of our body. Even though these peripheral oscillators contribute to daily cycles in memory functioning <ref type="bibr" target="#b57">(Snider et al., 2018)</ref>, little is known about autonomous circadian cycles in the specialized areas responsible for face processing. The divergent pattern of daily fluctuations in face recognition compared to recognition of other types of stimuli could be linked to the fact that peripheral oscillations in the brain areas responsible for face processing function in a different manner. The combination of brain imaging techniques with the forced desynchrony protocol may offer promising discoveries about these dissociations.</p><p>Apart from general face recognition performance, we were also interested in potential negative effects of nonoptimal testing on source memory. Source memory judgements can be important when eyewitnesses are presented with a suspect who is innocent but nonetheless familiar to them from another (non-criminal) context. In this situation, eyewitnesses have to attribute the suspects' familiarity to the correct source. A failure to do so may result in the misidentification of an innocent person (e.g., <ref type="bibr" target="#b11">Deffenbacher et al., 2006;</ref><ref type="bibr" target="#b47">Read et al., 1990;</ref><ref type="bibr" target="#b51">Ross et al., 1994)</ref>. At a descriptive level, participants selected faces from the irrelevant context less often at optimal time of day than at non-optimal time of day. However, this difference was not statistically significant. Because general face recognition performance was also unaffected by testing optimality, we cannot assess whether these data suggest that source monitoring in general is unaffected by circadian variations in arousal. An experiment that tests source monitoring for non-facial stimuli may provide more comprehensive insight into whether our ability to discriminate encoding contexts can vary as a function of time of day.</p><p>One limitation of this study concerns overall low performance in the memory tests. Hit rates were low, though performance in target-absent trials was better, resulting in overall low sensitivity in both optimality conditions with small negative bias. It seems that participants found the task overall difficult, which may have masked possible effects of time-of-day optimality. Future studies might address this issue by increasing exposure duration, which should result in stronger encoding and better overall performance. Additionally, collecting confidence ratings and decision time data for recognition and source monitoring decisions in future studies would provide a more sensitive test of potential circadian variations in performance. Future research might include additional tests of cognitive performance along with long-term memory tests, allowing a comparison of time-of-day optimality effects across different cognitive domains.</p><p>Another limitation concerns the fact that faces from the crime-related context produced better performance than faces from the neutral context. Crime-related faces were presented first, possibly causing this difference in perfor- mance across the two contexts. Alternatively, participants may have perceived crime-related faces as more important. Even though the differences in memory strength for faces from the two contexts do not compromise our results, counterbalancing the order of contexts in future studies would allow to avoid differences in performance rates resulting from order effects.</p><p>Finally, encoding and retrieval in all our experiments took place in the same experimental session. As this experiment is the very first investigation of the synchrony effect in this context, it was most efficient to find out whether the circadian effects can be observed in face recognition performance in the first place. However, this design does not allow us to assess the effects of non-optimal testing on encoding and retrieval differentially. Future studies may address this issue by separating the two memory stages into different testing sessions and manipulating testing optimality for each of them separately, that is, by employing a testing optimality (optimal versus non-optimal) x memory stage (encoding versus retrieval) design.</p><p>To conclude, this work provides a first investigation into the possible circadian effects on face recognition performance. The current findings cautiously suggest that face recognition performance may not follow the standard synchrony effect patterns observed in memory for non-facial stimuli. It remains unclear whether this immunity to daily fluctuations in performance is a result of cognitive and neural mechanisms underlying face processing, which outlines important directions for future research. Aditional research is also necessary to test the possibility of the synchrony effect in older populations, which are known to have </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Circadian</head><figDesc>Rhythm and Memory Performance: No Time-Of-Day Effect on Face Recognition Collabra: Psychology required sample size of 94.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Circadian</head><figDesc>Rhythm and Memory Performance: No Time-Of-Day Effect on Face Recognition Collabra: Psychology</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. Example of encoding stimuli presented in crime-related context (top row) and neutral context (bottom row).</figDesc><graphic coords="4,77.89,64.00,439.50,262.50" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><figDesc>Figure 2 shows participants' performance on face recog-Sensitivity analyses conducted with G*Power v3.1 (Faul et al., 2007, 2009) showed that based on a sample size of 91, this statistical model 1 Circadian Rhythm and Memory Performance: No Time-Of-Day Effect on Face Recognition Collabra: Psychology</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Circadian</head><figDesc>Rhythm and Memory Performance: No Time-Of-Day Effect on Face Recognition Collabra: Psychology nition performance.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. Proportion of Yes responses to faces encoded in criminal (top panel) and neutral (lower panel) contexts in the recognition and source memory task (with 95% CI error bars and individual data points) at optimal and non-optimal time of day.</figDesc><graphic coords="6,303.64,64.00,237.64,242.11" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Circadian</head><figDesc>Rhythm and Memory Performance: No Time-Of-Day Effect on Face Recognition Collabra: Psychology</figDesc></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>Downloaded from http://online.ucpress.edu/collabra/article-pdf/7/1/21939/835016/collabra_2021_7_1_21939.pdf by guest on 22 July 2025</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><p>age-related decline in memory performance <ref type="bibr" target="#b15">(Fitzgerald &amp; Price, 2015)</ref> and are more prone to source monitoring errors (e.g., <ref type="bibr" target="#b5">Benjamin &amp; Craik, 2001;</ref><ref type="bibr" target="#b53">Schacter et al., 1991;</ref><ref type="bibr" target="#b58">Trott et al., 1999)</ref>.</p></div>
+<div><head>Acknowledgements</head><p>We would like to thank <rs type="person">Karpenko Mariia</rs>, <rs type="person">Wedadi Babak</rs>, <rs type="person">Harrison Jennifer</rs>, <rs type="person">Reichel Lea</rs>, <rs type="person">Knöpfel Dido</rs>, <rs type="person">Völker Maja</rs>, <rs type="person">Tix Ruth</rs>, <rs type="person">Vieten Janine</rs>, <rs type="person">Lück Severina</rs>, and <rs type="person">Rau Aila</rs> for their help in piloting the materials and collecting data.</p></div>
+			</div>
+			<div type="funding">
+<div><head>Funding</head><p>This research is supported by a fellowship awarded from the <rs type="funder">Erasmus Mundus Joint</rs> Doctorate Program The House of Legal Psychology with Framework Partnership Agreement 2013-<rs type="grantNumber">0036</rs> under Specific Grant Agreement <rs type="grantNumber">2016-1339</rs> to <rs type="person">Sergii Yaremenko</rs>.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_CWgwqEm">
+					<idno type="grant-number">0036</idno>
+				</org>
+				<org type="funding" xml:id="_cxYs4s2">
+					<idno type="grant-number">2016-1339</idno>
+				</org>
+			</listOrg>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data Accessibility Statement</head><p>Open data and analytic code are available online at <ref type="url" target="https://osf.io/z8pv4/">https://osf.io/z8pv4/</ref>. Submitted: May 14, 2020 PDT, Accepted: February 19, 2021 PDT This is an open-access article distributed under the terms of the Creative Commons Attribution 4.0 International License (CCBY-4.0). View this license's legal deed at <ref type="url" target="http://creativecommons.org/licenses/by/4.0">http://creativecommons.org/licenses/by/4.0</ref> and legal code at <ref type="url" target="http://creativecom-">http://creativecom-</ref>mons.org/licenses/by/4.0/legalcode for more information. Circadian Rhythm and Memory Performance: No Time-Of-Day Effect on Face Recognition Collabra: Psychology</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Competing Interests</head><p>The authors report no competing interests.  </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Author Contributions</head></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct status="extracted"  xml:id="b0">
+	<analytic>
+		<author>
+			<persName><forename type="first">A</forename><surname>Adan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">N</forename><surname>Archer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">P</forename><surname>Hidalgo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Di Milia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Natale</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Randler</surname></persName>
+		</author>
+		<idno type="DOI">10.3109/07420528.2012.719971</idno>
+		<idno>31 09/07420528.2012.719971</idno>
+		<ptr target="https://doi.org/10" />
+	</analytic>
+	<monogr>
+		<title level="m">Circadian Typology: A Comprehensive Review</title>
+		<imprint>
+			<date type="published" when="2012">2012</date>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="1153" to="1175" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Adan, A., Archer, S. N., Hidalgo, M. P., Di Milia, L., Natale, V., &amp; Randler, C. (2012). Circadian Typology: A Comprehensive Review. Chronobiology International, 29(9), 1153-1175. https://doi.org/10.31 09/07420528.2012.719971</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Individual differences in the effect of time of day on long-term memory access</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Anderson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">V</forename><surname>Petros</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">E</forename><surname>Beckwith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">W</forename><surname>Mitchell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Fritz</surname></persName>
+		</author>
+		<idno type="DOI">10.2307/1423157</idno>
+		<ptr target="https://doi.org/10.2307/1423157" />
+	</analytic>
+	<monogr>
+		<title level="j">The American Journal of Psychology</title>
+		<imprint>
+			<biblScope unit="volume">104</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="241" to="255" />
+			<date type="published" when="1991">1991</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Anderson, M. J., Petros, T. V., Beckwith, B. E., Mitchell, W. W., &amp; Fritz, S. (1991). Individual differences in the effect of time of day on long-term memory access. The American Journal of Psychology, 104(2), 241-255. https://doi.org/10.2307/1423157</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Correlations between morningness-eveningness character, sleep habits and temperature rhythm in adolescents</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Andrade</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Benedito-Silva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Menna-Barreto</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Brazilian Journal of Medical and Biological Research</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="835" to="839" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Andrade, M. M., Benedito-Silva, A. A., &amp; Menna- Barreto, L. (1992). Correlations between morningness-eveningness character, sleep habits and temperature rhythm in adolescents. Brazilian Journal of Medical and Biological Research, 25, 835-839.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Individual differences in the phase and amplitude of the human circadian temperature rhythm: With an emphasis on morningness-eveningness</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">K</forename><surname>Baehr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Revelle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">I</forename><surname>Eastman</surname></persName>
+		</author>
+		<idno type="DOI">10.1046/j.1365-2869.2000.00196.x</idno>
+		<ptr target="https://doi.org/10.1046/j.1365-2869.2000.00196.x" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Sleep Research</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="117" to="127" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Baehr, E. K., Revelle, W., &amp; Eastman, C. I. (2000). Individual differences in the phase and amplitude of the human circadian temperature rhythm: With an emphasis on morningness-eveningness. Journal of Sleep Research, 9(2), 117-127. https://doi.org/10.1046/ j.1365-2869.2000.00196.x</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Circadian rhythmicity of cortisol and body temperature: Morningness-eveningness effects</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Bailey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Heitkemper</surname></persName>
+		</author>
+		<idno type="DOI">10.1081/cbi-100103189</idno>
+		<ptr target="https://doi.org/10.1081/cbi-100103189" />
+	</analytic>
+	<monogr>
+		<title level="j">Chronobiology International</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="249" to="261" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bailey, S. L., &amp; Heitkemper, M. M. (2001). Circadian rhythmicity of cortisol and body temperature: Morningness-eveningness effects. Chronobiology International, 18(2), 249-261. https://doi.org/10.1081/ cbi-100103189</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Parallel effects of aging and time pressure on memory for source: Evidence from the spacing effect</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Benjamin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">I</forename><surname>Craik</surname></persName>
+		</author>
+		<idno type="DOI">10.3758/bf03200471</idno>
+		<ptr target="https://doi.org/10.3758/bf03200471" />
+	</analytic>
+	<monogr>
+		<title level="j">Memory &amp; Cognition</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="691" to="697" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Benjamin, A. S., &amp; Craik, F. I. M. (2001). Parallel effects of aging and time pressure on memory for source: Evidence from the spacing effect. Memory &amp; Cognition, 29(5), 691-697. https://doi.org/10.3758/bf0 3200471</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b6">
+	<analytic>
+		<title level="a" type="main">A bottleneck in face identification: Repetition priming from flanker images</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bindemann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Jenkins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Burton</surname></persName>
+		</author>
+		<idno type="DOI">10.1027/1618-3169.54.3.192</idno>
+		<ptr target="https://doi.org/10.1027/1618-3169.54.3.192" />
+	</analytic>
+	<monogr>
+		<title level="j">Experimental Psychology</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="192" to="201" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bindemann, M., Jenkins, R., &amp; Burton, A. M. (2007). A bottleneck in face identification: Repetition priming from flanker images. Experimental Psychology, 54(3), 192-201. https://doi.org/10.1027/1618-3169.54.3.192</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Multistability of overlapped face stimuli is dependent upon orientation</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Boutet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Chaudhuri</surname></persName>
+		</author>
+		<idno type="DOI">10.1068/p3183</idno>
+		<ptr target="https" />
+	</analytic>
+	<monogr>
+		<title level="j">Perception</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="743" to="753" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Boutet, I., &amp; Chaudhuri, A. (2001). Multistability of overlapped face stimuli is dependent upon orientation. Perception, 30(6), 743-753. https://doi.or g/10.1068/p3183</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Developmental trends in lineup performance: Adolescents are more prone to innocent bystander misidentifications than children and adults</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Brackmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Sauerland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Otgaar</surname></persName>
+		</author>
+		<idno type="DOI">10.3758/s13421-018-0877-6</idno>
+		<idno>13421-018-0877-6</idno>
+		<ptr target="https://doi.org/10.3758/s" />
+	</analytic>
+	<monogr>
+		<title level="j">Memory &amp; Cognition</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="428" to="440" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Brackmann, N., Sauerland, M., &amp; Otgaar, H. (2019). Developmental trends in lineup performance: Adolescents are more prone to innocent bystander misidentifications than children and adults. Memory &amp; Cognition, 47(3), 428-440. https://doi.org/10.3758/s 13421-018-0877-6</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b9">
+	<monogr>
+		<title level="m" type="main">Face perception</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Bruce</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Young</surname></persName>
+		</author>
+		<idno type="DOI">10.4324/9780203721254</idno>
+		<ptr target="https://doi.org/10.4324/978020372" />
+		<imprint>
+			<date type="published" when="2012">2012</date>
+			<publisher>Psychology Press</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bruce, V., &amp; Young, A. (2012). Face perception. Psychology Press. https://doi.org/10.4324/978020372</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Why has research in face recognition progressed so slowly? The importance of variability</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Burton</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/17470218.2013.800125</idno>
+		<ptr target="https://doi.org/10.1080/17470218.2013.800125" />
+	</analytic>
+	<monogr>
+		<title level="j">Quarterly Journal of Experimental Psychology</title>
+		<imprint>
+			<biblScope unit="volume">66</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="1467" to="1485" />
+			<date type="published" when="1254">1254. 2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">1254 Burton, A. M. (2013). Why has research in face recognition progressed so slowly? The importance of variability. Quarterly Journal of Experimental Psychology, 66(8), 1467-1485. https://doi.org/10.1080/ 17470218.2013.800125</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Mugshot exposure effects: Retroactive interference, mugshot commitment, source confusion, and unconscious transference</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Deffenbacher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">H</forename><surname>Bornstein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Penrod</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s10979-006-9008-1</idno>
+		<ptr target="https://doi.org/10.1007/s10979-006-9008-1" />
+	</analytic>
+	<monogr>
+		<title level="j">Law and Human Behavior</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="287" to="307" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Deffenbacher, K. A., Bornstein, B. H., &amp; Penrod, S. D. (2006). Mugshot exposure effects: Retroactive interference, mugshot commitment, source confusion, and unconscious transference. Law and Human Behavior, 30(3), 287-307. https://doi.org/10.10 07/s10979-006-9008-1</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Association of intrinsic circadian period with morningness-eveningness, usual wake time, and circadian phase</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Duffy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>Rimmer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Czeisler</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/0735-7044.115.4.895</idno>
+		<ptr target="https://doi.org/10.1037/0735-7044.115.4.89" />
+	</analytic>
+	<monogr>
+		<title level="j">Behavioral Neuroscience</title>
+		<imprint>
+			<biblScope unit="volume">115</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="895" to="899" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Duffy, J. F., Rimmer, D. W., &amp; Czeisler, C. A. (2001). Association of intrinsic circadian period with morningness-eveningness, usual wake time, and circadian phase. Behavioral Neuroscience, 115(4), 895-899. https://doi.org/10.1037/0735-7044.115.4.89</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Statistical power analyses using G*Power 3.1: Tests for correlation and regression analyses</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Faul</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Erdfelder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Buchner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A.-G</forename><surname>Lang</surname></persName>
+		</author>
+		<idno type="DOI">10.3758/brm.41.4.1149</idno>
+		<ptr target="https://doi.org/1" />
+	</analytic>
+	<monogr>
+		<title level="j">Behavior Research Methods</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="1149" to="1160" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Faul, F., Erdfelder, E., Buchner, A., &amp; Lang, A.-G. (2009). Statistical power analyses using G*Power 3.1: Tests for correlation and regression analyses. Behavior Research Methods, 41(4), 1149-1160. https://doi.org/1</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b14">
+	<analytic>
+		<title level="a" type="main">G*Power 3: A flexible statistical power analysis program for the social, behavioral, and biomedical sciences</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Faul</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Erdfelder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A.-G</forename><surname>Lang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Buchner</surname></persName>
+		</author>
+		<idno type="DOI">10.3758/bf03193146</idno>
+		<ptr target="https://doi.org/10.3758/bf03193146" />
+	</analytic>
+	<monogr>
+		<title level="j">Behavior Research Methods</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="175" to="191" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Faul, F., Erdfelder, E., Lang, A.-G., &amp; Buchner, A. (2007). G*Power 3: A flexible statistical power analysis program for the social, behavioral, and biomedical sciences. Behavior Research Methods, 39(2), 175-191. https://doi.org/10.3758/bf03193146</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Eyewitness identification across the life span: A meta-analysis of age differences</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Fitzgerald</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">L</forename><surname>Price</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/bul0000013</idno>
+		<ptr target="https://doi.org/10.1037/bul0000013" />
+	</analytic>
+	<monogr>
+		<title level="j">Psychological Bulletin</title>
+		<imprint>
+			<biblScope unit="volume">141</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="1228" to="1265" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Fitzgerald, R. J., &amp; Price, H. L. (2015). Eyewitness identification across the life span: A meta-analysis of age differences. Psychological Bulletin, 141(6), 1228-1265. https://doi.org/10.1037/bul0000013</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Time of day, intellectual performance, and behavioral problems in Morning versus Evening type adolescents: Is there a synchrony effect?</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Goldstein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S</forename><surname>Hahn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Hasher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><forename type="middle">J</forename><surname>Wiprzycka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">D</forename><surname>Zelazo</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.paid.2006.07.008</idno>
+		<ptr target="https://doi.org/10.1016/j.paid.2006.07.008" />
+	</analytic>
+	<monogr>
+		<title level="j">Personality and Individual Differences</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="431" to="440" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Goldstein, D., Hahn, C. S., Hasher, L., Wiprzycka, U. J., &amp; Zelazo, P. D. (2007). Time of day, intellectual performance, and behavioral problems in Morning versus Evening type adolescents: Is there a synchrony effect? Personality and Individual Differences, 42(3), 431-440. https://doi.org/10.1016/j.paid.2006.07.008</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b17">
+	<monogr>
+		<title level="m" type="main">Signal detection theory and psychophysics</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Green</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Swets</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1966">1966</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Green, D., &amp; Swets, J. (1966). Signal detection theory and psychophysics. Wiley.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Transdisciplinary unifying implications of circadian findings in the 1950s</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Halberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Cornélissen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Katinas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">V</forename><surname>Syutkina</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">B</forename><surname>Sothern</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Zaslavskaya</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Halberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Watanabe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Schwartzkopff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Otsuka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Tarquini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Frederico</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Siggelova</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/1740-3391-1-2</idno>
+		<ptr target="https://doi.org/10.1186/1740-3391-1-2" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Circadian Rhythms</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Halberg, F., Cornélissen, G., Katinas, G., Syutkina, E. V., Sothern, R. B., Zaslavskaya, R., Halberg, F., Watanabe, Y., Schwartzkopff, O., Otsuka, K., Tarquini, R., Frederico, P., &amp; Siggelova, J. (2003). Transdisciplinary unifying implications of circadian findings in the 1950s. Journal of Circadian Rhythms, 1, 2. https://doi.org/10.1186/1740-3391-1-2</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b19">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">Circadian</forename><surname>Rhythm</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">No Time-Of-Day Effect on Face Recognition Collabra: Psychology</orgName>
+			</affiliation>
+		</author>
+		<author>
+			<persName><forename type="first">Memory</forename><surname>Performance</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">No Time-Of-Day Effect on Face Recognition Collabra: Psychology</orgName>
+			</affiliation>
+		</author>
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">Circadian Rhythm and Memory Performance: No Time-Of-Day Effect on Face Recognition Collabra: Psychology</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Automatic and effortful processes in memory</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Hasher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">T</forename><surname>Zacks</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/0096-3445.108.3.356</idno>
+		<ptr target="https://doi.org/10.1037/0096-3445.108.3.356" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Experimental Psychology: General</title>
+		<imprint>
+			<biblScope unit="volume">108</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="356" to="388" />
+			<date type="published" when="1979">1979</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hasher, L., &amp; Zacks, R. T. (1979). Automatic and effortful processes in memory. Journal of Experimental Psychology: General, 108(3), 356-388. https://doi.org/ 10.1037/0096-3445.108.3.356</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Automatic processing of fundamental information: The case of frequency of occurrence</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Hasher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">T</forename><surname>Zacks</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/0003-066x.39.12.1372</idno>
+		<ptr target="https://doi.org/10.1037/0003-066x.39.12.1372" />
+	</analytic>
+	<monogr>
+		<title level="j">American Psychologist</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="1372" to="1388" />
+			<date type="published" when="1984">1984</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hasher, L., &amp; Zacks, R. T. (1984). Automatic processing of fundamental information: The case of frequency of occurrence. American Psychologist, 39(12), 1372-1388. https://doi.org/10.1037/0003-066 x.39.12.1372</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Distributed and overlapping representations of faces and objects in ventral temporal cortex</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">V</forename><surname>Haxby</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">I</forename><surname>Gobbini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Furey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ishai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Schouten</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Pietrini</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.1063736</idno>
+		<ptr target="https://doi.org/10.1126/science.1063736" />
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">293</biblScope>
+			<biblScope unit="issue">5539</biblScope>
+			<biblScope unit="page" from="2425" to="2430" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Haxby, J. V., Gobbini, M. I., Furey, M. L., Ishai, A., Schouten, J. L., &amp; Pietrini, P. (2001). Distributed and overlapping representations of faces and objects in ventral temporal cortex. Science, 293(5539), 2425-2430. https://doi.org/10.1126/science.1063736</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Characterizing attentional resources</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Hirst</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Kalmar</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/0096-3445.116.1.68</idno>
+		<ptr target="https://doi.org/1" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Experimental Psychology: General</title>
+		<imprint>
+			<biblScope unit="volume">116</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="68" to="81" />
+			<date type="published" when="1987">1987</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hirst, W., &amp; Kalmar, D. (1987). Characterizing attentional resources. Journal of Experimental Psychology: General, 116(1), 68-81. https://doi.org/1</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b24">
+	<monogr>
+		<title/>
+		<idno type="DOI">10.1037/0096-3445.116.1.68</idno>
+		<idno>1037/0096-3445.116.1.68</idno>
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">1037/0096-3445.116.1.68</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b25">
+	<analytic>
+		<title level="a" type="main">A self-assessment questionnaire to determine morningnesseveningness in human circadian rhythms</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Horne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Östberg</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/0748730405285278</idno>
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Chronobiology</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="97" to="100" />
+			<date type="published" when="1976">1976</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Horne, J. A., &amp; Östberg, O. (1976). A self-assessment questionnaire to determine morningness- eveningness in human circadian rhythms. International Journal of Chronobiology, 4, 97-100. http s://doi.org/10.1177/0748730405285278</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Age, testing at preferred or nonpreferred times (testing optimality), and false memory</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Intons-Peterson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Rocchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>West</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Mclellan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hackney</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/0278-7393.25.1.23</idno>
+		<ptr target="https://doi.org/1" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Experimental Psychology: Learning, Memory, and Cognition</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="23" to="40" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Intons-Peterson, M. J., Rocchi, P., West, T., McLellan, K., &amp; Hackney, A. (1999). Age, testing at preferred or nonpreferred times (testing optimality), and false memory. Journal of Experimental Psychology: Learning, Memory, and Cognition, 25(1), 23-40. https://doi.org/1</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b27">
+	<monogr>
+		<title/>
+		<idno type="DOI">10.1037/0278-7393.25.1.23</idno>
+		<idno>1037/0278-7393.25.1.23</idno>
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">1037/0278-7393.25.1.23</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b28">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Hashtroudi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Lindsay</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">Johnson, M. K., Hashtroudi, S., &amp; Lindsay, D. S.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Source monitoring</title>
+		<idno type="DOI">10.1037/0033-2909.114.1.3</idno>
+		<ptr target="https://doi.org/10.1037/0033-2909.11" />
+	</analytic>
+	<monogr>
+		<title level="j">Psychological Bulletin</title>
+		<imprint>
+			<biblScope unit="volume">114</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="3" to="28" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Source monitoring. Psychological Bulletin, 114(1), 3-28. https://doi.org/10.1037/0033-2909.11</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b30">
+	<analytic>
+		<title level="a" type="main">The fusiform face area: A module in human extrastriate cortex specialized for face perception</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Kanwisher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Mcdermott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Chun</surname></persName>
+		</author>
+		<idno type="DOI">10.1523/jneurosci.17-11-04302.1997</idno>
+		<ptr target="https://doi.org/10.1523/jneurosci.17-11-04302.1997" />
+	</analytic>
+	<monogr>
+		<title level="j">The Journal of Neuroscience</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="4302" to="4311" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kanwisher, N., McDermott, J., &amp; Chun, M. M. (1997). The fusiform face area: A module in human extrastriate cortex specialized for face perception. The Journal of Neuroscience, 17(11), 4302-4311. https://do i.org/10.1523/jneurosci.17-11-04302.1997</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Chronotype: A review of the advances, limits and applicability of the main instruments used in the literature to assess human phenotype</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Levandovski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Sasso</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">P</forename><surname>Hidalgo</surname></persName>
+		</author>
+		<idno type="DOI">10.1590/s2237-60892013000100002</idno>
+		<ptr target="https://doi.org/10.1590/s2237-60892013000100002" />
+	</analytic>
+	<monogr>
+		<title level="j">Trends in Psychiatry and Psychotherapy</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="3" to="11" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Levandovski, R., Sasso, E., &amp; Hidalgo, M. P. (2013). Chronotype: A review of the advances, limits and applicability of the main instruments used in the literature to assess human phenotype. Trends in Psychiatry and Psychotherapy, 35(1), 3-11. https://do i.org/10.1590/s2237-60892013000100002</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Autobiographical memory, eyewitness reports, and public policy</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Lindsay</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/cp2007007</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Canadian Psychology/Psychologie Canadienne</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="57" to="66" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lindsay, D. S. (2007). Autobiographical memory, eyewitness reports, and public policy. Canadian Psychology/Psychologie Canadienne, 48(2), 57-66. http s://doi.org/10.1037/cp2007007</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b33">
+	<monogr>
+		<title level="m" type="main">The Karolinska Directed Emotional Faces -KDEF [CD ROM]. Department of Clinical Neuroscience, Psychology section</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Lundqvist</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Flykt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Öhman</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1998">1998</date>
+			<publisher>Karolinska Institutet</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lundqvist, D., Flykt, A., &amp; Öhman, A. (1998). The Karolinska Directed Emotional Faces -KDEF [CD ROM]. Department of Clinical Neuroscience, Psychology section, Karolinska Institutet.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b34">
+	<monogr>
+		<author>
+			<persName><forename type="first">N</forename><surname>Macmillan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Creelman</surname></persName>
+		</author>
+		<title level="m">Detection theory</title>
+		<imprint>
+			<publisher>Psychology Press</publisher>
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Macmillan, N., &amp; Creelman, C. (2009). Detection theory. Psychology Press.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Synchrony effects in cognition: The costs and a benefit</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">P</forename><surname>May</surname></persName>
+		</author>
+		<idno type="DOI">10.3758/bf03210822</idno>
+		<ptr target="https://doi.org/10.3758/bf03210822" />
+	</analytic>
+	<monogr>
+		<title level="j">Psychonomic Bulletin &amp; Review</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="142" to="147" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">May, C. P. (1999). Synchrony effects in cognition: The costs and a benefit. Psychonomic Bulletin &amp; Review, 6(1), 142-147. https://doi.org/10.3758/bf03210822</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Synchrony effects in inhibitory control over thought and action</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">P</forename><surname>May</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Hasher</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/0096-1523.24.2.363</idno>
+		<ptr target="https://doi.org/10.1037/0096-1523.24.2.363" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Experimental Psychology: Human Perception and Performance</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="363" to="379" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">May, C. P., &amp; Hasher, L. (1998). Synchrony effects in inhibitory control over thought and action. Journal of Experimental Psychology: Human Perception and Performance, 24(2), 363-379. https://doi.org/10.1037/ 0096-1523.24.2.363</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Source monitoring 15 years later: What have we learned from fMRI about the neural mechanisms of source memory?</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">P</forename><surname>May</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Hasher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Foong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">P</forename><surname>May</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Hasher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">R</forename><surname>Stoltzfus</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/a0015849</idno>
+		<idno>10.1037/a0015849</idno>
+		<ptr target="https://doi.org/10.1111/j.1467-9280.1993.tb00573" />
+	</analytic>
+	<monogr>
+		<title level="j">Psychological Bulletin</title>
+		<editor>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Mitchell</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Johnson</surname></persName>
+		</editor>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="638" to="677" />
+			<date type="published" when="1993">2005. 1993. 2009</date>
+		</imprint>
+	</monogr>
+	<note>Optimal time of day and the magnitude of age differences in memory Psychological Science Implicit memory, age, and time of day: Paradoxical priming effects Psychological Science</note>
+	<note type="raw_reference">May, C. P., Hasher, L., &amp; Foong, N. (2005). Implicit memory, age, and time of day: Paradoxical priming effects. Psychological Science, 16(2), 96-100. https://d oi.org/10.1111/j.0956-7976.2005.00788.x May, C. P., Hasher, L., &amp; Stoltzfus, E. R. (1993). Optimal time of day and the magnitude of age differences in memory. Psychological Science, 4(5), 326-330. https://doi.org/10.1111/j.1467-9280.1993.tb 00573.x Mitchell, K. J., &amp; Johnson, M. K. (2009). Source monitoring 15 years later: What have we learned from fMRI about the neural mechanisms of source memory? Psychological Bulletin, 135(4), 638-677. http s://doi.org/10.1037/a0015849</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Attention, working memory and arousal: Concepts apt to account for the &quot;process of intelligence</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Necka</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/s0166-4115(97)80129-x</idno>
+		<ptr target="https://doi.org/10.1016/s0166-4115(97)8012" />
+	</analytic>
+	<monogr>
+		<title level="m">Cognitive Science Perspectives on Personality and Emotion</title>
+		<editor>
+			<persName><forename type="first">G</forename><surname>Matthews</surname></persName>
+		</editor>
+		<imprint>
+			<publisher>Elsevier</publisher>
+			<date type="published" when="1997">1997</date>
+			<biblScope unit="page" from="503" to="554" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Necka, E. (1997). Attention, working memory and arousal: Concepts apt to account for the &quot;process of intelligence.&quot; In G. Matthews (Ed.), Cognitive Science Perspectives on Personality and Emotion (pp. 503-554). Elsevier. https://doi.org/10.1016/s0166-4115(97)8012</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b39">
+	<analytic>
+		<title level="a" type="main">The synchrony effect revisited: Chronotype, time of day and cognitive performance in a semantic analogy task</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Nowack</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Van Der</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Meer</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/07420528.2018.1500477</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Chronobiology International</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="1647" to="1662" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">9-x Nowack, K., &amp; Van Der Meer, E. (2018). The synchrony effect revisited: Chronotype, time of day and cognitive performance in a semantic analogy task. Chronobiology International, 36, 1647-1662. http s://doi.org/10.1080/07420528.2018.1500477</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b40">
+	<monogr>
+		<title level="m" type="main">The influence of divided attention on holistic face perception</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Palermo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Rhodes</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Palermo, R., &amp; Rhodes, G. (2002). The influence of divided attention on holistic face perception.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b41">
+	<analytic>
+		<title/>
+		<idno type="DOI">10.1016/s0010-0277(01)00160-3</idno>
+		<idno>00 10-0277(01)00160-3</idno>
+		<ptr target="https://doi.org/10.1016/s" />
+	</analytic>
+	<monogr>
+		<title level="j">Cognition</title>
+		<imprint>
+			<biblScope unit="volume">82</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="225" to="257" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cognition, 82(3), 225-257. https://doi.org/10.1016/s00 10-0277(01)00160-3</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Individual differences in the effects of time of day and passage difficulty on prose memory in adults</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">V</forename><surname>Petros</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">E</forename><surname>Beckwith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Anderson</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.2044-8295.1990.tb02346.x</idno>
+		<ptr target="https://doi.org/1" />
+	</analytic>
+	<monogr>
+		<title level="j">British Journal of Psychology</title>
+		<imprint>
+			<biblScope unit="volume">81</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="63" to="72" />
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Petros, T. V., Beckwith, B. E., &amp; Anderson, M. (1990). Individual differences in the effects of time of day and passage difficulty on prose memory in adults. British Journal of Psychology, 81(1), 63-72. https://doi.org/1</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b43">
+	<monogr>
+		<title/>
+		<idno type="DOI">10.1111/j.2044-8295.1990.tb02346.x</idno>
+		<idno>1111/j.2044-8295.1990.tb02346.x</idno>
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">1111/j.2044-8295.1990.tb02346.x</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b44">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">Circadian</forename><surname>Rhythm</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">No Time-Of-Day Effect on Face Recognition Collabra: Psychology</orgName>
+			</affiliation>
+		</author>
+		<author>
+			<persName><forename type="first">Memory</forename><surname>Performance</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">No Time-Of-Day Effect on Face Recognition Collabra: Psychology</orgName>
+			</affiliation>
+		</author>
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">Circadian Rhythm and Memory Performance: No Time-Of-Day Effect on Face Recognition Collabra: Psychology</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b45">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><surname>Puttaert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Adam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Peigneux</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Puttaert, D., Adam, S., &amp; Peigneux, P. (2018).</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Subjectively-defined optimal/non-optimal time of day modulates controlled but not automatic retrieval processes in verbal memory</title>
+		<idno type="DOI">10.1111/jsr.12798</idno>
+		<ptr target="https://doi.org/10.1111/jsr.12798" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Sleep Research</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page">12798</biblScope>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Subjectively-defined optimal/non-optimal time of day modulates controlled but not automatic retrieval processes in verbal memory. Journal of Sleep Research, 28(4), e12798. https://doi.org/10.1111/jsr.12798</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b47">
+	<analytic>
+		<title level="a" type="main">The unconscious transference effect: Are innocent bystanders ever misidentified?</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Read</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Tollestrup</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Hammersley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Mcfadzen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Christensen</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/acp.2350040103</idno>
+		<ptr target="https://doi.org/10.1002/acp.2350040103" />
+	</analytic>
+	<monogr>
+		<title level="j">Applied Cognitive Psychology</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="3" to="31" />
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Read, J. D., Tollestrup, P., Hammersley, R., McFadzen, E., &amp; Christensen, A. (1990). The unconscious transference effect: Are innocent bystanders ever misidentified? Applied Cognitive Psychology, 4(1), 3-31. https://doi.org/10.1002/acp.2350040103</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b48">
+	<monogr>
+		<title level="m" type="main">Circadian physiology</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Refinetti</surname></persName>
+		</author>
+		<idno type="DOI">10.1201/9781420048216</idno>
+		<imprint>
+			<date type="published" when="1999">1999</date>
+			<publisher>CRC Press</publisher>
+		</imprint>
+	</monogr>
+	<note>h ttps</note>
+	<note type="raw_reference">Refinetti, R. (1999). Circadian physiology. CRC Press. h ttps://doi.org/10.1201/9781420048216</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b49">
+	<analytic>
+		<title level="a" type="main">A meta-analysis and review of holistic face processing</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Richler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Gauthier</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/a0037004</idno>
+		<ptr target="https://doi.org/10.1037/a0037004" />
+	</analytic>
+	<monogr>
+		<title level="j">Psychological Bulletin</title>
+		<imprint>
+			<biblScope unit="volume">140</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="1281" to="1302" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Richler, J. J., &amp; Gauthier, I. (2014). A meta-analysis and review of holistic face processing. Psychological Bulletin, 140(5), 1281-1302. https://doi.org/10.1037/a 0037004</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Face and word recognition can be selectively affected by brain injury or developmental disorders</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Robotham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Starrfelt</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fpsyg.2017.01547</idno>
+		<ptr target="https://doi.org/10.3389/fpsyg.2017.01547" />
+	</analytic>
+	<monogr>
+		<title level="j">Frontiers in Psychology</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">1547</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Robotham, R. J., &amp; Starrfelt, R. (2017). Face and word recognition can be selectively affected by brain injury or developmental disorders. Frontiers in Psychology, 8, 1547. https://doi.org/10.3389/fpsyg.2017.01547</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Unconscious transference and mistaken identity: When a witness misidentifies a familiar but innocent person</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Ross</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Ceci</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Dunning</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">P</forename><surname>Toglia</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/0021-9010.79.6.918</idno>
+		<ptr target="https://doi.org/10.1037/0021-9010.79.6.918" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Applied Psychology</title>
+		<imprint>
+			<biblScope unit="volume">79</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="918" to="930" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ross, D. R., Ceci, S. J., Dunning, D., &amp; Toglia, M. P. (1994). Unconscious transference and mistaken identity: When a witness misidentifies a familiar but innocent person. Journal of Applied Psychology, 79(6), 918-930. https://doi.org/10.1037/0021-9010.79.6.918</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Caffeine reduces time-of-day effects on memory performance in older adults</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Ryan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Hatfield</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hofstetter</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/1467-9280.00412</idno>
+		<ptr target="https://doi.org/10.1111/1467-9280.0041" />
+	</analytic>
+	<monogr>
+		<title level="j">Psychological Science</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="68" to="71" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ryan, L., Hatfield, C., &amp; Hofstetter, M. (2002). Caffeine reduces time-of-day effects on memory performance in older adults. Psychological Science, 13(1), 68-71. https://doi.org/10.1111/1467-9280.0041</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b53">
+	<analytic>
+		<title level="a" type="main">The relation between source memory and aging</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Schacter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">W</forename><surname>Kaszniak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Kihlstrom</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Valdiserri</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/0882-7974.6.4.559</idno>
+		<ptr target="https://doi.org/10.1037/0882-7974.6.4.559" />
+	</analytic>
+	<monogr>
+		<title level="j">Psychology and Aging</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="559" to="568" />
+			<date type="published" when="1991">1991</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Schacter, D. L., Kaszniak, A. W., Kihlstrom, J. F., &amp; Valdiserri, M. (1991). The relation between source memory and aging. Psychology and Aging, 6(4), 559-568. https://doi.org/10.1037/0882-7974.6.4.559</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b54">
+	<analytic>
+		<title level="a" type="main">A time to think: Circadian rhythms in human cognition</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Schmidt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Collette</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Cajochen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Peigneux</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/02643290701754158</idno>
+		<ptr target="https://doi.org/10.1080/02643290701754158" />
+	</analytic>
+	<monogr>
+		<title level="j">Cognitive Neuropsychology</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="755" to="789" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Schmidt, C., Collette, F., Cajochen, C., &amp; Peigneux, P. (2007). A time to think: Circadian rhythms in human cognition. Cognitive Neuropsychology, 24(7), 755-789. https://doi.org/10.1080/02643290701754158</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Memory for people: Integration of face, voice, name, and biographical information</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">L</forename><surname>Schwartz</surname></persName>
+		</author>
+		<idno type="DOI">10.4135/9781446294703.n1</idno>
+		<ptr target="https://doi.org/10.4135/9781446294703.n1" />
+	</analytic>
+	<monogr>
+		<title level="m">The SAGE Handbook of Applied Memory</title>
+		<editor>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Perfect</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Lindsay</surname></persName>
+		</editor>
+		<imprint>
+			<publisher>SAGE Publications Ltd</publisher>
+			<date type="published" when="2014">2014</date>
+			<biblScope unit="page" from="3" to="19" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Schwartz, B. L. (2014). Memory for people: Integration of face, voice, name, and biographical information. In T. J. Perfect &amp; D. S. Lindsay (Eds.), The SAGE Handbook of Applied Memory (pp. 3-19). SAGE Publications Ltd. https://doi.org/10.4135/97814 46294703.n1</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Dual-process models in social and cognitive psychology: Conceptual integration and links to underlying memory systems</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">R</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Decoster</surname></persName>
+		</author>
+		<idno type="DOI">10.1207/s15327957pspr0402_01</idno>
+		<ptr target="https://doi.org/10.1207/s15327" />
+	</analytic>
+	<monogr>
+		<title level="j">Personality and Social Psychology Review</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page">1</biblScope>
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Smith, E. R., &amp; DeCoster, J. (2000). Dual-process models in social and cognitive psychology: Conceptual integration and links to underlying memory systems. Personality and Social Psychology Review, 4(2), 108-131. https://doi.org/10.1207/s15327 957pspr0402_01</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b57">
+	<analytic>
+		<title level="a" type="main">Circadian regulation of hippocampal-dependent memory: Circuits, synapses, and molecular mechanisms</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">H</forename><surname>Snider</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Sullivan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Obrietan</surname></persName>
+		</author>
+		<idno type="DOI">10.1155/2018/7292540</idno>
+		<ptr target="https://doi.org/10.1155/2018/7292540" />
+	</analytic>
+	<monogr>
+		<title level="j">Neural Plasticity</title>
+		<imprint>
+			<biblScope unit="page" from="1" to="13" />
+			<date type="published" when="2018">2018. 2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Snider, K. H., Sullivan, K. A., &amp; Obrietan, K. (2018). Circadian regulation of hippocampal-dependent memory: Circuits, synapses, and molecular mechanisms. Neural Plasticity, 2018, 1-13. https://do i.org/10.1155/2018/7292540</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b58">
+	<analytic>
+		<title level="a" type="main">Episodic priming and memory for temporal source: Event-related potentials reveal age-related differences in prefrontal functioning</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">T</forename><surname>Trott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Friedman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Ritter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Fabiani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Snodgrass</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/0882-7974.14.3.390</idno>
+		<ptr target="https://doi.org/10.1037/0882-7974.14.3.390" />
+	</analytic>
+	<monogr>
+		<title level="j">Psychology and Aging</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="390" to="413" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Trott, C. T., Friedman, D., Ritter, W., Fabiani, M., &amp; Snodgrass, J. G. (1999). Episodic priming and memory for temporal source: Event-related potentials reveal age-related differences in prefrontal functioning. Psychology and Aging, 14(3), 390-413. https://doi.org/ 10.1037/0882-7974.14.3.390</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b59">
+	<analytic>
+		<title level="a" type="main">Circadian rhythms in attention</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Valdez</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">The Yale Journal of Biology and Medicine</title>
+		<imprint>
+			<biblScope unit="volume">92</biblScope>
+			<biblScope unit="page" from="81" to="92" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Valdez, P. (2019). Circadian rhythms in attention. The Yale Journal of Biology and Medicine, 92, 81-92.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b60">
+	<analytic>
+		<title level="a" type="main">A synthetic perspective on the own-race bias in eyewitness identification</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Wilson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Bernstein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Hugenberg</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/978-3-319-43083-6_8</idno>
+		<ptr target="org/10.1007/978-3-319-43083-6_8" />
+	</analytic>
+	<monogr>
+		<title level="m">Advances in psychology and law</title>
+		<editor>
+			<persName><forename type="first">B</forename><surname>Bornstein</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">M</forename><surname>Miller</surname></persName>
+		</editor>
+		<imprint>
+			<publisher>Springer International Publishing</publisher>
+			<date type="published" when="2016">2016</date>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="241" to="270" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wilson, J. P., Bernstein, M. J., &amp; Hugenberg, K. (2016). A synthetic perspective on the own-race bias in eyewitness identification. In B. Bornstein &amp; M. Miller (Eds.), Advances in psychology and law (Vol. 2, pp. 241-270). Springer International Publishing. http s://doi.org/10.1007/978-3-319-43083-6_8</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b61">
+	<analytic>
+		<title level="a" type="main">Synchrony effects in automatic and controlled retrieval</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Hasher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Wilson</surname></persName>
+		</author>
+		<idno type="DOI">10.3758/bf03194027</idno>
+		<ptr target="https://doi.org/10.3758/bf03194027" />
+	</analytic>
+	<monogr>
+		<title level="j">Psychonomic Bulletin &amp; Review</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="51" to="56" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Yang, L., Hasher, L., &amp; Wilson, D. E. (2007). Synchrony effects in automatic and controlled retrieval. Psychonomic Bulletin &amp; Review, 14(1), 51-56. https://doi.org/10.3758/bf03194027</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b62">
+	<analytic>
+		<title level="a" type="main">The contribution of recollection and familiarity to recognition and source-memory judgments: A formal dual-process model and an analysis of receiver operating characterstics</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">P</forename><surname>Yonelinas</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/0278-7393.25.6.1415</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Experimental Psychology: Learning, Memory, And Cognition</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="1415" to="1434" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Yonelinas, A. P. (1999). The contribution of recollection and familiarity to recognition and source-memory judgments: A formal dual-process model and an analysis of receiver operating characterstics. Journal of Experimental Psychology: Learning, Memory, And Cognition, 25(6), 1415-1434. h ttps://doi.org/10.1037/0278-7393.25.6.1415</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b63">
+	<monogr>
+		<title level="m" type="main">No Time-Of-Day Effect on Face Recognition Collabra: Psychology Circadian Rhythm and Memory Performance: No Time-Of-Day Effect on Face Recognition Collabra: Psychology</title>
+		<author>
+			<persName><forename type="first">Circadian</forename><surname>Rhythm</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Memory</forename><surname>Performance</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">Circadian Rhythm and Memory Performance: No Time-Of-Day Effect on Face Recognition Collabra: Psychology Circadian Rhythm and Memory Performance: No Time-Of-Day Effect on Face Recognition Collabra: Psychology</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

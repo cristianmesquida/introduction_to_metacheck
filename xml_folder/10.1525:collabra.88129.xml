@@ -1,0 +1,2326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Effects of Picture Naming and Categorization on Concurrent Comprehension: Evidence From the N400</title>
+				<funder ref="#_sMvkyPY">
+					<orgName type="full">Max Planck Society, Munich, Germany</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2025-07-22">22 July 2025</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName><forename type="first">Cecília</forename><surname>Hustá</surname></persName>
+							<email>cecilia.husta@mpi.nl</email>
+							<affiliation key="aff0">
+								<orgName type="department">Max Planck Institute for Psycholinguistics</orgName>
+								<address>
+									<settlement>Nijmegen</settlement>
+									<country key="NL">The Netherlands</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Mante</forename><surname>Nieuwland</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Max Planck Institute for Psycholinguistics</orgName>
+								<address>
+									<settlement>Nijmegen</settlement>
+									<country key="NL">The Netherlands</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Donders Institute for Brain</orgName>
+								<orgName type="institution">Cognition and Behaviour</orgName>
+								<address>
+									<settlement>Nijmegen</settlement>
+									<country key="NL">The Netherlands</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Antje</forename><surname>Meyer</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Max Planck Institute for Psycholinguistics</orgName>
+								<address>
+									<settlement>Nijmegen</settlement>
+									<country key="NL">The Netherlands</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Donders Institute for Brain</orgName>
+								<orgName type="institution">Cognition and Behaviour</orgName>
+								<address>
+									<settlement>Nijmegen</settlement>
+									<country key="NL">The Netherlands</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Effects of Picture Naming and Categorization on Concurrent Comprehension: Evidence From the N400</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2025-07-22">22 July 2025</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">874A9EAC385B188EEC8655705E24B85D</idno>
+					<idno type="DOI">10.1525/collabra.88129</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.3-SNAPSHOT" ident="GROBID" when="2025-09-17T15:44+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">b64991a</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>N400</term>
+					<term>speech planning</term>
+					<term>comprehension</term>
+					<term>semantic processing</term>
+					<term>turn taking</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>In conversations, interlocutors concurrently perform two related processes: speech comprehension and speech planning. We investigated effects of speech planning on comprehension using EEG. Dutch speakers listened to sentences that ended with expected or unexpected target words. In addition, a picture was presented two seconds after target onset (Experiment 1) or 50 ms before target onset (Experiment 2). Participants' task was to name the picture or to stay quiet depending on the picture category. In Experiment 1, we found a strong N400 effect in response to unexpected compared to expected target words. Importantly, this N400 effect was reduced in Experiment 2 compared to Experiment 1. Unexpectedly, the N400 effect was not smaller in the naming compared to categorization condition. This indicates that conceptual preparation or the decision whether to speak (taking place in both task conditions of Experiment 2) rather than processes specific to word planning interfere with comprehension.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p>In conversation, interlocutors take turns, rapidly switch between the roles of speaker and listener, and often talk in overlap (e.g., <ref type="bibr" target="#b11">Corps et al., 2019</ref><ref type="bibr" target="#b10">Corps et al., , 2022;;</ref><ref type="bibr" target="#b78">Stivers et al., 2009)</ref>. This implies that speech planning and comprehension processes must occur simultaneously, and indeed a substantial body of laboratory work has shown that speakers can combine these processes <ref type="bibr" target="#b5">(Bögels et al., 2015</ref><ref type="bibr">(Bögels et al., , 2018;;</ref><ref type="bibr" target="#b6">Boiteau et al., 2014;</ref><ref type="bibr">Sjerps &amp; Meyer, 2015)</ref>. Laboratory work has also shown that speech planning is hampered by concurrent speech input (e.g., <ref type="bibr" target="#b31">He et al., 2021)</ref>. This is not surprising, given that both speech planning and comprehension require processing capacity (e.g., <ref type="bibr" target="#b9">Cook &amp; Meyer, 2008;</ref><ref type="bibr" target="#b22">Ferreira &amp; Pashler, 2002;</ref><ref type="bibr" target="#b40">Jongman et al., 2015;</ref><ref type="bibr" target="#b45">Kristensen et al., 2013;</ref><ref type="bibr" target="#b57">Mädebach et al., 2011;</ref><ref type="bibr" target="#b60">Moisala et al., 2015)</ref>, and are highly similar cognitive processes with shared representations (e.g., <ref type="bibr" target="#b28">Glaser &amp; Düngelhoff, 1984;</ref><ref type="bibr" target="#b42">Kittredge &amp; Dell, 2016;</ref><ref type="bibr" target="#b59">Mitterer &amp; Ernestus, 2008;</ref><ref type="bibr" target="#b76">Schriefers et al., 1990)</ref>. Additionally, activating the production system has been found to enhance semantic prediction in comprehension <ref type="bibr" target="#b13">(Dell &amp; Chang, 2014;</ref><ref type="bibr" target="#b25">Gastaldon et al., 2023;</ref><ref type="bibr" target="#b33">Hintz et al., 2016;</ref><ref type="bibr" target="#b51">Lelonkiewicz et al., 2021;</ref><ref type="bibr" target="#b67">Pickering &amp; Gambi, 2018;</ref><ref type="bibr" target="#b68">Pickering &amp; Garrod, 2013)</ref>, showing close links between the production and comprehension systems and the importance of studying their mutual interference. Less is currently known about the way comprehension is affected by speech planning. This question is addressed in the current paper. Specifically, we presented participants with spoken sentences ending in an expected or an unexpected word while EEG was recorded. We asked whether the classic N400 effect for comprehending unexpected compared to expected words would be reduced when participants planned a picture name while listening to the sentence. Our aim was to better understand how interlocutors combine speech planning and comprehension. Simultaneously, we explored which, if any, components of the EEG signal could be used as indicators of the onset of speech planning during speech processing.</p><p>Some studies investigating concurrent speech comprehension and planning have focused on comprehension tasks that did not require semantic processing, such as syllable identification <ref type="bibr" target="#b20">(Fairs, 2019;</ref><ref type="bibr" target="#b21">Fargier &amp; Laganaro, 2016;</ref><ref type="bibr" target="#b62">Paucke et al., 2015)</ref>. They confirmed that these simple comprehension tasks can run in parallel with word planning. However, they also showed that the comprehension tasks interfered more with word planning than with non-linguistic tasks, such as tone identification. Evidence for effects of concurrent speech planning on the semantic processing of sentences comes from EEG studies carried out by <ref type="bibr" target="#b5">Bögels and</ref><ref type="bibr">colleagues (2015, 2018)</ref> and <ref type="bibr" target="#b26">Gerakaki (2020)</ref>. Both examined how the N400 component of the EEG was modified in the presence, compared to the absence, of concurrent word planning.</p><p>The N400 is a negative deflection in the EEG signal peaking around 400 ms post-stimulus onset. It is most pronounced at centro-parietal sites. In general, theories are in agreement that the N400 represents some form of semantic processing (e.g., <ref type="bibr" target="#b48">Kutas &amp; Hillyard, 1984;</ref><ref type="bibr" target="#b82">Van Berkum et al., 1999)</ref>. It has been linked to semantic prediction in comprehension <ref type="bibr" target="#b30">(Grisoni et al., 2021;</ref><ref type="bibr" target="#b70">Rabovsky et al., 2018;</ref><ref type="bibr" target="#b71">Rabovsky &amp; McRae, 2014)</ref>. Importantly, the N400 has a larger amplitude in response to semantically unexpected stimuli than to expected stimuli, in other words, stimuli that have been pre-activated by the context (for review see <ref type="bibr" target="#b46">Kutas &amp; Federmeier, 2011)</ref>. The difference between an N400 waveform elicited by unexpected and expected stimuli constitutes an N400 effect. The N400 effect in comprehension decreases if the listeners' attention is diverted by performing another task, as listeners then activate less semantic information (e.g., <ref type="bibr" target="#b3">Batterink et al., 2010;</ref><ref type="bibr" target="#b27">Giesbrecht et al., 2007;</ref><ref type="bibr" target="#b36">Hohlfeld et al., 2004</ref><ref type="bibr" target="#b34">Hohlfeld et al., , 2015;;</ref><ref type="bibr" target="#b37">Hubbard &amp; Federmeier, 2021;</ref><ref type="bibr" target="#b56">Lien et al., 2008;</ref><ref type="bibr" target="#b81">Vachon &amp; Jolicoeur, 2012)</ref>. We will refer to this pattern as an N400 effect reduction. An N400 effect reduction can be interpreted as an online index of listening quality, and can be used to assess the trade-off between comprehension and word planning.</p><p>To investigate EEG signatures of speech planning during comprehension, <ref type="bibr">Bögels and colleagues (2018)</ref> asked participants to respond to auditory questions about objects on their screen. The trial structure allowed participants to plan their responses while comprehending the questions. On each trial, participants chose to name one of the two displayed objects (e.g., banana and pineapple) depending on the question. The questions contained expected and unexpected words, in the context of the pictures, which were presented either in the middle of the sentence (e.g., Welk object wordt als fruit/gezond gezien en is krom? [Which object is considered to be a type of fruit/healthy and is curved?]) or at its end (e.g., Welk object is krom en word als fruit/gezond gezien? [Which object is curved and is considered to be a type of fruit/healthy?]). Additionally, critical words (e.g., krom [curved]) appeared early or late in the sentence and they indicated which object should be named. The position of the critical word in the sentence allowed for either early or late word planning. This allowed the authors to investigate whether an N400 effect, elicited by the expected and unexpected words, was reduced when simultaneous word planning was taking place. They did not find a smaller N400 effect in the early compared to the late planning condition. However, they found that participants with shorter naming latencies had smaller N400 effects in the early planning condition than participants with longer naming latencies. This indicates that simultaneous word planning (that was more likely to occur in the fast responders) interfered with semantic processing in comprehension. It is possible that for some of the fast respon-ders the attention-demanding processes of word planning were finished before the onset of the expected and unexpected words, leading to small N400 effect reductions. Consequently, the N400 effect reductions should be investigated when word planning begins right before the comprehension of the target words.</p><p>Gerakaki (2020) utilized a design where participants began word planning during comprehension of expected (e.g., "cookie") or unexpected words (e.g., "mouse") presented in sentence contexts (e.g., "With tea we always eat a …"). In the plan condition, participants were asked to name pictures of real objects. In the no-plan condition, participants were presented with a picture of a nonsense drawing and were asked to stay quiet. An N400 effect was smaller in the plan compared to the no-plan condition, indicating attenuated or modulated semantic processing in comprehension during simultaneous word planning. Thus, the N400 effect reduction shows promise as an index of word planning. However, this study had two limitations. Firstly, the pictures were only meaningful in the word planning trials. Hence, the N400 effect may have decreased just due to processing of another meaningful stimulus and not because word planning was taking place. This would mean that other tasks encouraging concurrent processing of pictures, such as a categorization task or simply passive viewing of pictures, could lead to the same N400 effect reduction. Secondly, the nonsense drawing was the same on all no-plan trials, whereas the object pictures varied across trials, introducing greater visual variability on plan than in no-plan trials. To overcome these limitations, we used a similar design but varied the pictures in both conditions.</p><p>Before turning to our study, it should be noted that <ref type="bibr" target="#b5">Bögels and</ref><ref type="bibr">colleagues (2015, 2018)</ref> pointed to other potential ERP signatures of speech planning. In these studies, the early speech-planning condition was associated with a late positive potential (LPP), which they thought reflected word planning. However, the LPP was also found (although to a lesser degree) in a control experiment where participants did not provide any overt responses and were asked to remember the sentences <ref type="bibr" target="#b5">(Bögels et al., 2015)</ref>. The authors argued that the LPP in the control experiment was likely driven by attentional control. However, it was not explained why the pattern of the LPP in the control experiment closely resembled the pattern seen in the main experiment. Finding the LPP in the control experiment could indicate that it does not truly reflect word planning, but rather general semantic processing that takes place in both word planning and comprehension. In addition, <ref type="bibr">Jongman and colleagues (2019)</ref> found that the LPP had different distributions of neural sources when the comprehension stimuli were presented in the auditory or visual modality, which should not be the case if the LPP reflected word planning. Jongman and colleagues suggested that the LPP reflected a difference in attention toward the sentence end. Hence, a new way of capturing speech planning during comprehension needs to be established. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.1.">Current Study</head><p>The current study consisted of two experiments, where we examined how word planning interfered with semantic processing during comprehension, as indexed by an N400. In parallel, this study assessed whether an N400 effect reduction can be used as an index of word planning during comprehension.</p><p>In the first experiment (see Figure <ref type="figure" target="#fig_2">1A</ref>), participants listened to sentences containing sentence-final target words that either were contextually expected (e.g., "She bought a stroller for the baby") or unexpected (e.g., "She bought a book for the baby"). The expected as well as the unexpected sentences did not feature any instances of semantic anomalies. After the target word, a picture appeared on the screen. The pictures belonged to one of two categories: fruits and vegetables. Participants were asked to name pictures that belonged to one of these categories, and remain silent when they saw pictures of the other category. Hence, in the naming condition participants engaged in both categorization and naming, while in the categorization condition the task did not require participants to perform any processes beyond picture categorization. However, we cannot exclude that in the categorization condition participants engaged in word production processes beyond conceptualization even though it was not required of them <ref type="bibr">(Bloem &amp; La Heij, 2003;</ref><ref type="bibr" target="#b52">Levelt, 1993;</ref><ref type="bibr" target="#b79">Strijkers et al., 2011;</ref><ref type="bibr" target="#b85">Zwitserlood et al., 2018)</ref>. We will return to this point in the General Discussion. This experiment served as a pilot to gain two critical pieces of information needed before running Experiment 2. Firstly, we expected to see a more negative N400 component in the unexpected as compared to the expected condition <ref type="bibr" target="#b46">(Kutas &amp; Federmeier, 2011)</ref>. We were interested in the size of this N400 effect to determine the sample size needed to investigate the interaction between expectancy and task (i.e., naming or categorization). Secondly, we examined the interval after the picture onset to gage the difference between the naming and categorization conditions, in the absence of comprehension effects. Based on Gerakaki's (2020) results, we expected a larger positivity in the categorization condition between 100 ms and 300 ms post picture onset, and a larger positivity in the naming condition between 400 ms and 600 ms.</p><p>In the second experiment, participants listened to the same sentences but the pictures of fruits and vegetables now appeared during the sentences, namely 50 ms before the target word (see Figure <ref type="figure" target="#fig_2">1B</ref>). In the naming condition, participants were asked to name pictures of one category, while in the categorization condition, participants saw pictures of the other category, but did not have to perform any explicit task. Instead they had to refrain from naming the picture. Thus, in this experiment, participants always had to process the sentence context, categorize the picture, and decide whether or not to start word planning. Considering that in the categorization condition participants had to engage in semantic processing, we could use a design with similar attentional demands in all conditions. We expected to see a larger N400 component in the unexpected as compared to the expected condition, as well as a larger posi-tivity in the naming as compared to categorization condition. Crucially, we also hypothesized that there would be an interaction between expectancy and task conditions, as we expected a reduced or delayed N400 effect in the naming compared to the categorization condition. This interaction would indicate that semantic processing in comprehension is reduced due to simultaneous word planning and not just due to semantic processing of the picture.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Experiment 1</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1.">Method</head><p>EEG data, experimental scripts, and analysis scripts are available on <ref type="url" target="https://osf.io/vfu57/">https://osf.io/vfu57/</ref>. The present study was approved by the Ethics Committee of the Social Sciences department of the Radboud University Nijmegen (ECSW-2019-019).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1.1.">Participants</head><p>Twenty-five, right-handed, native Dutch speaking participants took part in the experiment for financial compensation. One participant did not complete the experiment because of technical issues. The remaining 24 participants had a mean age of 24.29 years (range: 18 -38) and six were male.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1.2.">Materials and design</head><p>Two-hundred forty Dutch sentences with the expected endings were taken from previous studies (see <ref type="bibr" target="#b43">Klaus et al., 2020;</ref><ref type="bibr" target="#b63">Piai, Roelofs, &amp; Maris, 2014;</ref><ref type="bibr" target="#b65">Piai et al., 2015;</ref><ref type="bibr" target="#b69">Poulton &amp; Nieuwland, 2021;</ref><ref type="bibr" target="#b74">Roos &amp; Piai, 2020)</ref>. In these sentences the context predicted the target word (e.g., "Ze kochten een wieg voor de baby" [She bought a stroller for the baby]). Matching sentences with unexpected endings (e.g., "Ze kochten een boek voor de baby" [She bought a book for the baby]) were created by replacing strongly related context words by neutral words. Note that the last two pre-target words were kept the same across conditions. The sentences consisted of seven to 11 words and were unrelated to the theme of food depicted in the target pictures (depicting fruits and vegetables). To avoid word repetition effects, we split the items into two lists: A and B. Both lists contained all targets, half were contextually expected and half unexpected (contextually expected targets in list A were matched with neutral contexts in list B and vice versa). Thus, each target was included in both, the expected and unexpected condition, but participants saw each target only once.</p><p>To examine the expectedness of the target words, we conducted a cloze-pretest where 10 participants red all sentences with the last word missing. They were asked to write down the word that most likely completed the sentence. The cloze probabilities for the expected and unexpected words were computed for each item. The cloze probability was used to judge the quality of items as it reliably correlates with an N400 component <ref type="bibr" target="#b46">(Kutas &amp; Federmeier, 2011)</ref>. The cloze probability was significantly higher for the sentences with the expected (M = 0.90, SD = 0.11, range: 0.6  -1) compared to sentences with unexpected endings (M = 0.04, SD = 0.07, range: 0 -0.3, t(239) = 31.52, p &lt; 0.001, d = 2.03) and the cloze probability was comparable between list A (expected: M = 0.90, SD = 0.11; unexpected: M = 0.04, SD = 0.07) and B (expected: M = 0.90, SD = 0.11; unexpected: M = 0.04, SD = 0.07). All sentences were pre-recorded by a female speaker using 3.0.0 Audacity(R).</p><p>The target pictures were greyscale drawings depicting six fruits and six vegetables from the MultiPic database <ref type="bibr" target="#b17">(Duñabeitia et al., 2018</ref>; for the complete list see Supplementary Materials). The mean frequency of the picture names was 3.17 per million words (range: 1.55 -5.33) for the fruits and 3.22 per million words (range: 1.33 -6.11) for the vegetables <ref type="bibr" target="#b12">(Decuyper et al., 2021)</ref>. Each picture was displayed 10 times in the expected and 10 times in the unexpected condition.</p><p>We used a two-by-two design with the variables of target expectedness (expected versus unexpected) and planning (plan versus no-plan). We utilized 60 trials per condition. We pseudorandomized the items in list A with <ref type="bibr">MIX (Van Casteren &amp; Davis, 2006)</ref>, creating six unique lists. The same comprehension condition (i.e., expected or unexpected) and task condition (i.e., naming or categorization) appeared on maximally four consecutive trials. Each picture was shown 20 times, with at least three pictures intervening between repetitions. The same randomization was used for list B, meaning that targets appeared in the same order, creating comparable six lists. Each randomized list was used for two participants; one participant named fruits and the other named vegetables. This between-participant variable had only small effect on RTs. Vegetables were named about 50 ms faster (M = 758, SD = 224) than fruit (M = 809, SD = 298). However, the word planning could be initiated at the same time for both groups of participants. Hence, this between-participant variable was not considered in further analyses.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1.3.">EEG acquisition</head><p>EEG was recorded using 32-scalp electrodes using act-iCap system (Brain Products, Germany) arranged according to the 10-20 system. Twenty-five electrodes were positioned on the scalp. We used the remaining six electrodes to capture eye movements and speech artefacts: two above and below the left eye, two on the left and right temples, and two above and below the right side of the lips on the orbicularis oris muscle. The left mastoid was used as online reference. The data was recorded using 500 Hz sampling rate with a band-pass filter of 0.016 to 150 Hz. We adjusted impedances of all electrodes below 25 kΩ.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1.4.">Procedure</head><p>The participants were first fitted with an EEG cap. During the capping they were familiarized with the picture names, by looking at each picture and reading its associated name on a printed sheet. In the beginning of the experiment participants were instructed to carefully listen to all sentences and pay attention to the pictures. They were asked to name either the fruits or vegetables as fast as possible after the onset of an exclamation mark. All stimuli were presented with Presentation Software (Neurobehavioral Systems). Each trial started with a fixation cross presented simultaneously with a beep sound (200 ms). Subsequently, the expected and unexpected sentences were Collabra: Psychology played. The pictures appeared in the center of the screen 2000 ms after the onset of the target words and remained on the screen for 2500 ms. Afterwards, an exclamation mark appeared and participants named either the fruits or vegetables (or they remained quiet). At the end of every trial, a blinking interval was presented with duration jittered between 1200 and 1500 ms. Trials were separated into 10 blocks each lasting about 4.5 minutes, and participants could take a break after each block.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1.5.">EEG preprocessing</head><p>The EEG data was preprocessed using BrainVision Analyzer (Version 2.2.0). Channels with excessive noise were removed (no more than three channels were excluded per participant) and subsequently interpolated using neighbouring channels. We filtered the data with a band-pass filter between 0.1 and 30 Hz and a notch filter at 50 Hz, using 24dB/octave roll-off. All channels were re-referenced to an average mastoid reference. The data was segmented starting 200 ms before target word onset to 600 ms post picture onset, and baseline correction was performed using the first 200 ms of the segment. Subsequently, we rejected trials with artificial noise (e.g., steep jumps in the amplitude). ICA was performed to correct for blinks, eye movements, and steady muscle activity. The remaining physiological artefacts were removed using a semiautomatic procedure with a threshold of ±80 μV. A minimum of 40 trials were included per participant and per condition.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1.6.">Analysis</head><p>Naming latencies were calculated automatically with a threshold in Presentation. They were analysed with linear mixed effects model fitted with lmerTest package (version 3.4; including the lme4 package, <ref type="bibr" target="#b2">Bates et al., 2015)</ref> with random intercepts for participant, item, and picture category.</p><p>For the EEG analysis, we specified three regions of interest (ROI) for which we computed Bayesian linear mixed effects models using the 'brms' <ref type="bibr" target="#b7">(Bürkner, 2017)</ref> package in R (version 3.4.2). To examine the N400 effect, we averaged voltages from 300 to 600 ms post target comprehension onset for the centro-parietal electrodes (i.e., C3, Cz, C4, CP5, CP1, CP2, CP6, P7, P3, Pz, P4, P8) for every trial. We specified two ROIs to examine the ERP differences between naming and categorization trials one from 100 to 300 ms and one from 400 -600 ms both for parieto-occipital regions (i.e., CP5, CP1, CP2, CP6, P7, P3, Pz, P4, P8, Oz) as the effect was prominent in this region <ref type="bibr" target="#b26">(Gerakaki, 2020)</ref>. We computed three Bayesian linear mixed effects models where the voltages from the 3 ROIs served as dependent variables.</p><p>For the N400 effect we used the expectancy as independent variable with random intercepts and random slopes for subjects and target words (voltage ~ expectancy + (expectancy | subj) + (expectancy | target)). For both naming versus categorization we used the task condition as independent variable with random intercepts and random slopes for subjects and pictures (voltage ~ task + (task | subj) + (task | picture)). We used the default priors for the main effects, intercept, standard deviations of group-level effects, and the residual error in all three models <ref type="bibr" target="#b7">(Bürkner, 2017)</ref>. For each main effect we reported beta and 95% credible interval. The credible interval indicates a 95% probability that the population estimate would lie within the interval, given the observed data. Thus, when comparing two groups, credible intervals that do not include 0 indicate that there is 95% likelihood that the population means are different from one another, given the observed data.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.">Results and Discussion</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.1.">Accuracy and naming latencies</head><p>Accuracy was close to perfect, as 99.38% of the trials had a correct response. Trials with incorrect responses were excluded from all subsequent analyses. Naming latencies were examined for the naming condition. No RTs were recorded for the categorization condition. The naming latencies were comparable following expected (M = 783, SD = 261) and unexpected targets (M = 782, SD = 267). Linear mixed effects model did not show significant effect of expectancy on naming latencies (β = -0.01, S.E. = 7.05, t = -10 -3 , p = 0.999). The expectancy of the targets did not affect the naming latencies because the comprehension and production tasks did not overlap, and participants could name the pictures only 2500 ms after the onset of the target word.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.2.">The N400 effect</head><p>Both the expected and unexpected condition showed a negative potential at around 500 ms after target in the centro-parietal electrodes (Figure <ref type="figure" target="#fig_5">2</ref>; for a figure with all electrodes see Supplementary Materials). As expected, this peak (i.e., an N400) had more negative amplitude in the unexpected compared to the expected condition in the time interval from 300 to 600 ms (β = -1.45, CrI [-1.97 -0.93]).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.3.">Planning effect</head><p>There was a strong difference between the naming and categorization condition starting at approximately 300 ms and peaking 550 ms after the presentation of the picture (Figure <ref type="figure" target="#fig_6">3</ref>; for a figure showing all electrodes see Supplementary Materials). There was a larger positive potential in the naming as compared to categorization condition in the time interval from 400 to 600 ms after the picture onset (β = 8.87, CrI <ref type="bibr">[8.71 9</ref>.04]). There was very small difference between the conditions from 100 to 300 ms after the picture onset (β = 0.13, CrI [-0.46 0.73]). Thus, there is no evidence that the conditions differed from one another in this time interval.</p><p>In sum, we found a large N400 effect, indicating that participants engaged in semantic processing of the target words. We found a more pronounced positive potential in the naming compared to the categorization condition. There are two main possibilities with regard to what this potential could reflect: firstly, the LPP <ref type="bibr" target="#b5">(Bögels et al., 2015</ref><ref type="bibr">(Bögels et al., , 2018;;</ref><ref type="bibr" target="#b39">Jongman et al., 2019)</ref>, or secondly, a more general go   no-go effect (e.g., <ref type="bibr" target="#b72">Rodriguez-Fornells et al., 2002;</ref><ref type="bibr" target="#b75">Schmitt et al., 2000)</ref>. Our results cannot clarify which process is driving the positivity effect in our experiment.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Experiment 2</head><p>Subsequently, we investigated whether the N400 effect was reduced if simultaneous word planning was taking place during comprehension of the expected and unex-pected words. Based on the results of Experiment 1, we planned to analyse a time-window between 300 ms and 600 ms post target word onset, where we expected the strongest N400 effect.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.">Method</head><p>In Experiment 2, most of the materials and analyses were the same, thus, only differences will be described. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.1.">Power analysis</head><p>To determine the minimum number of participants required we performed a power analysis with SIMR package <ref type="bibr" target="#b29">(Green &amp; MacLeod, 2016)</ref>. The power analysis was based on a linear mixed effects model fitted with the lmerTest package (version 3.4; including the lme4 package, <ref type="bibr" target="#b2">Bates et al., 2015)</ref>. We used the ROI from 300 to 600 ms for the centroparietal electrodes as a dependent variable. The size of an N400 effect was estimated using the following model: voltage ~ expectancy + (expectancy | subj) + (expectancy | target). The data for the categorization condition was simulated using the fixed effects from this model, with the value for the intercept set at -0.472, and the value for the effect of expectancy set at -1.451. The data for the naming condition was simulated based on anticipating an effect of half the size, with the same intercept and the value for the effect of expectancy set at -0.725. Subsequently, the data for the naming and categorization conditions were combined, and a model with the interaction was run. Due to convergence issues we removed random slopes for the combined model (voltage ~ expectancy * task + (1 | subj) + (1 | target)). For this model, there was a significant effect of expectancy (β = -1.29, S.E. = 0.17, t = -7.56, p &lt; 0.001), task (β = -0.39, S.E. = 0.17, t = -2.27, p = 0.02), and their interaction (β = 1.06, S.E. = 0.34, t = 3.09, p = 0.002). For the power simulation the model was extended for 200 subjects. The power analysis with 1000 simulations showed that at the alpha level of 0.05 including 24 subjects would give us more than 80% power to detect the interaction between expectancy and task.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.2.">Participants</head><p>Twenty-five right-handed native Dutch speaking participants took part in the experiment for financial compensation. Data of one participant was excluded from the analysis because of technical difficulties. The remaining 24 participants had a mean age of 21.83 years (range: 18 -35) and eight were male, 15 female, and one other gender.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.3.">Materials and design</head><p>The same experimental lists, recordings, and pictures were used as in Experiment 1 (see section 2.1.2), except that the pictures of lemon and orange were slightly modified to make the distinction easier for participants. The picture of lemon was made pointier and the picture of orange was made larger than that of the lemon. The naming latencies were again longer for fruit (M = 849, SD = 307) as compared to vegetable pictures (M = 777, SD = 304). This between-participant factor was again not included in follow up analyses as it was counterbalanced between the conditions of interest.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.4.">Procedure</head><p>EEG recording and picture familiarization was done in the same way as in Experiment 1 (see section 2.1.3). Each trial started with a fixation cross (200 ms), subsequently the expected and unexpected sentences were played. The picture appeared in the centre of the screen 50 ms before the onset of the target word (to ensure word planning was initiated before the comprehension was concluded) and remained on the screen for 3000 ms, which was 500 ms longer than in Experiment 1, to ensure there was a sufficiently long time-window to analyse without speech preparation artefacts. Afterwards, and exclamation mark appeared and participants were asked to name the pictures of one category (fruits or vegetables, depending on the group they were assigned to) and remain silent when a picture of the other category appeared. After each trial same blinking interval was presented as in Experiment 1. Trials were separated into 10 blocks each lasting about four minutes, and participants could take a break after each block.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.5.">EEG preprocessing</head><p>The same preprocessing pipeline was used as in Experiment 1. Channels with excessive noise were removed (no more than three channels were excluded per participant). Minimum of 40 trials were included per participant and per condition (i.e., expected target word with naming trials, expected target word with categorization trials, unexpected target word with naming trials, and unexpected target word with categorization trials).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.6.">EEG analysis</head><p>We specified one region of interest (ROI), which was the same as the centro-parietal ROI in Experiment 1, for which we computed Bayesian linear mixed effects model (for more details see section 2.1.6). We used voltage as dependent variable, and expectancy and task as independent variables. The model included the interaction term and random intercepts as well as random slopes for subjects and target words (voltage ~ expectancy * task + (expectancy * task | subj) + (expectancy * task | target)). We used default priors for all parameters except for the interaction between expectancy and task. Following <ref type="bibr">Dienes and colleagues (2014)</ref>, for the interaction, we used a prior centred on mean zero and SD of 2, as 2 μV was the approximate previous reported effect size for a similar interaction <ref type="bibr" target="#b26">(Gerakaki, 2020)</ref>. Hence, there is a 95% prior probability that the population parameter lies between -4 and 4 μV. For the interaction, we calculated the Bayes Factor evidence in support of the null hypothesis (BF null ) in addition to the parameter estimate and credible intervals. Our Bayes Factors corresponded to the ratio between posterior density and prior density at zero. Values higher than one indicate proportional increase in confidence in the null hypothesis, such that BF null = 3 indicates a three-fold increase of the evidence for the null hypothesis.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.">Results and Discussion</head><p>Accuracy was again close to perfect, as 99.68% of the trials had a correct response. Trials with incorrect responses were excluded from all subsequent analyses. Naming latencies were examined for the naming condition. Naming latencies were faster following expected (M = 808, SD = 306)  than unexpected targets (M = 820, SD = 309; β = 16.78, S.E. = 7.21, t = 2.33, p = 0.02). The expectancy of the targets affected the naming latencies because of the overlap between the comprehension and production tasks. This indicates that lower comprehension demands, as in the expected condition, were associated with faster speech production. However, the difference between the naming latencies in the two conditions was only 12 ms. Thus, this effect is likely not important for the interpretation of the long-lasting N400 component. Interestingly, the naming latencies were around 30 ms slower than in Experiment 1, showing that the task overlap between comprehension and production delayed speech production in general.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.1.">The N400 during word planning</head><p>In Experiment 2, we found effects of expectancy and of task in the same direction as in Experiment 1 (Figure <ref type="figure" target="#fig_9">4</ref>; for a figure with all electrodes see Supplementary Materials). The unexpected compared to the expected condition had a more negative amplitude from 300 to 600 ms post target word onset (β = -0.66, CrI [-1.13 -0.19]), consistent with an N400 effect. There was again a strong difference between the naming and categorization conditions starting at approximately 300 ms after the presentation of the picture.</p><p>There was a larger positive potential in the naming as compared to categorization condition from 350 to 650 ms post picture onset <ref type="bibr">(β = 4.60,</ref><ref type="bibr">CrI [3.54 5.64]</ref>).</p><p>The amplitude of the N400 effect did not increase or decrease in naming as compared to categorization condition, yielding evidence for the null hypothesis (β = 0.13, CrI [-0.46 0.73], BF null = 4.83). Note that BF null larger than 3 provides moderate evidence against the interaction between expectancy and task <ref type="bibr" target="#b50">(Lee &amp; Wagenmakers, 2013)</ref>.</p><p>We also performed a sensitivity analysis <ref type="bibr" target="#b61">(Nicenboim &amp; Vasishth, 2016)</ref> to assess the robustness of the null result for the interaction, based on the chosen priors. Using a narrower prior (SD = 1) yielded only anecdotal evidence for the null (BF null = 2.47), whereas using a wider prior (SD = 4) confirmed moderate evidence for the null (BF null = 9.16).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.2.">Correlation between general naming latencies and the N400 effect size</head><p>Following <ref type="bibr">Bögels and colleagues (2018)</ref>, we computed the correlation between naming latencies and effect size of the N400. For every participant, we averaged naming latencies as well as their N400 effect size in the naming condition. We computed Bayesian correlation in brms using Gaussian likelihood and default priors. We did not find enough evidence to reject the null (r = 0.31, CrI [-0.08 0.63]). Note that there is a trend in the expected direction, as participants with shorter naming latencies seem to show smaller N400 effect.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.3.">N400 effect comparison between experiments</head><p>Subsequently, we compared the N400 effect in Experiment 1 and Experiment 2. We ran an additional Bayesian linear mixed effects model based on the combined data of both experiments, for the centro-parietal electrodes, and for the time window from 300 to 600 ms post target onset. We used expectancy and experiment as independent variables, and we included random intercepts and random slopes for subjects and target words (voltage ~ expectancy * experiment + (expectancy | subj) + (expectancy | target)). We used the default priors for all parameters. This analysis showed that the unexpected compared to the expected condition had more negative amplitude (β = -1.06, CrI <ref type="bibr">[-1.40 -0.73]</ref>). Experiment 2 compared to Experiment 1 had more positive amplitude (β = 9.72, CrI <ref type="bibr">[8.09 11.35]</ref>). Most crucially, the analysis showed that the effect of expectancy was larger in Experiment 1 than in Experiment 2 (β = -0.78, CrI <ref type="bibr">[-1.42 -0.13]</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">General Discussion</head><p>The goal of the present study was to examine whether word planning interfered with the semantic processing of spoken sentences, as indexed by the N400 effect. In Experiment 1, participants processed sentences that ended with either expected or unexpected word, after which they engaged in word planning. Thus, we could observe the EEG signatures of both processes independently of each other. By contrast, in Experiment 2, word planning took place during semantic processing of the expected and unexpected words. Thus, we could observe the impact of word planning on comprehension.</p><p>The study yielded three main results. First, an N400 effect was seen in both experiments (i.e., with and without concurrent word planning). This means that participants engaged in semantic processing of the target when there was no explicit comprehension task, and even in a dual-task scenario. Our results suggest that semantic processes as reflected in N400 activity are not completely suppressed by word planning.</p><p>Second, the N400 effect was reduced in Experiment 2 compared to Experiment 1. Thus, the secondary task elicited by the presentation of the picture interfered with the semantic processing of the sentences. Our results are in line with other studies that found modulations of an N400 effect in dual tasks <ref type="bibr" target="#b36">(Hohlfeld et al., 2004</ref><ref type="bibr" target="#b34">(Hohlfeld et al., , 2015;;</ref><ref type="bibr" target="#b37">Hubbard &amp; Federmeier, 2021;</ref><ref type="bibr" target="#b56">Lien et al., 2008;</ref><ref type="bibr" target="#b81">Vachon &amp; Jolicoeur, 2012)</ref>.</p><p>Third, in Experiment 2 we found moderate evidence against the interaction between word planning and expectancy. In other words, the N400 effect was independent of whether or not the participants prepared to name the picture. Recall that in the naming and categorization condition, participants had to process the pictures enough to categorise them as fruits versus vegetables, and, based on this information, decide whether to name or not to name the picture. Apparently, these processes interfered with sentence processing, but the actual preparation for naming did not lead to further measurable interference.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1.">A Secondary Task Reduces the N400 Effect</head><p>The N400 effect was reduced in Experiment 2 compared to Experiment 1. In the secondary task elicited by the presentation of the picture, participants had to recognize and categorize the pictures as belonging to the fruit or vegetable category. Subsequently, they had to initiate the corresponding task set by preparing for naming, or preparing for button press. Thus, the secondary task interfered with the semantic processing of the sentences. However, several sub-processes relevant for the secondary task, such as con-ceptual processing, decision whether or not to speak, or linguistic processes evoked by the picture, could be responsible for the observed interference. We discuss these options below.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1.1.">The secondary task might divert attention from semantic processing</head><p>In both the naming and categorization condition, participants had to process the pictures sufficiently on a conceptual level to determine the semantic category (fruit vs. vegetable) and then decide whether or not to name the picture. Participants had to decide whether to speak or not in both conditions, in order to name the picture or to stay silent. It is difficult to decide which process was more likely responsible for the N400 effect reduction, since both processes require capacity. Activation of conceptual information requires attention <ref type="bibr" target="#b57">(Mädebach et al., 2011)</ref>. Categorization in itself may require less attentional involvement, especially categorization of less complex visual scenes comprised of pictures including only one object <ref type="bibr" target="#b18">(Evans &amp; Treisman, 2005;</ref><ref type="bibr" target="#b84">Walker et al., 2008)</ref>. However, the decision to speak or to stay silent based on the categorization likely increased the attentional demands of the categorization process further. Thus, the processing capacity requirements do not help us to disambiguate which of these processes were responsible for the reduction of the N400 effect. The results of <ref type="bibr">Bögels and colleagues (2018)</ref> might indicate that conceptual preparation alone is sufficient to reduce the N400 effect under specific conversational constraints, as there were some N400 effect reductions when participants had to speak on all trials and therefore no trial-by-trial decision was needed.</p><p>A follow-up experiment should test which of these processes actually drive the N400 effect reductions. This could be done by varying the difficulty of the decision processes. For example, modifying the relative frequency of naming versus categorization trials within blocks could modify the difficulty of the decision whether to speak. The speech blocks could consist 90% of naming and 10% of categorization trials, and the no-speech blocks could consist 90% of categorization and 10% of naming trials. The decision whether to speak would be easier in speech blocks and more difficult in the no speech blocks. Similar to our design, all conditions would require conceptual processing of pictures to the same extent. If we were to see a reduced N400 effect in both conditions (as in Experiment 2), it is likely that the conceptual preparation is driving the N400 effect reductions. On the other hand, if we were to see a larger N400 effect (as in Experiment 1), it is likely that the speech versus no speech decision was driving the effect.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1.2.">Linguistic processing evoked by the picture might interfere with semantic processing of the sentences</head><p>Activation of the production system has been found to enhance semantic prediction in comprehension (i.e., prediction-by production; <ref type="bibr" target="#b13">Dell &amp; Chang, 2014;</ref><ref type="bibr" target="#b25">Gastaldon et al., 2023;</ref><ref type="bibr" target="#b33">Hintz et al., 2016;</ref><ref type="bibr" target="#b51">Lelonkiewicz et al., 2021</ref>; Pick-Effects of Picture Naming and Categorization on Concurrent Comprehension: Evidence From the N400 ering &amp; Gambi, 2018; <ref type="bibr" target="#b68">Pickering &amp; Garrod, 2013)</ref>. The N400 has been linked to semantic prediction as well <ref type="bibr" target="#b30">(Grisoni et al., 2021;</ref><ref type="bibr" target="#b70">Rabovsky et al., 2018;</ref><ref type="bibr" target="#b71">Rabovsky &amp; McRae, 2014)</ref>, meaning that in our study, the amplitude of the N400 effect could have been impacted by whether participants' prediction-by-production system was hindered or facilitated. Firstly, the functioning of the system could have been hindered if it was preoccupied with linguistic processing evoked by the picture. This would imply that, in this experiment, pictures evoke linguistic processing not only in the naming but also in the categorization task. Thus, in Experiment 2, due to task overlap, participants might not be able to use the prediction-by-production system for the comprehension task, leading to a smaller N400 effect in Experiment 2. This explanation is in line with <ref type="bibr">Martin and colleagues (2018)</ref> who found that the N400 effect, elicited by expected and unexpected gender-marked determiners in Spanish, was smaller when participant's production system was occupied. This means that taxing the production system hinders prediction in comprehension.</p><p>Secondly, the prediction-by-production system could have been facilitated in both conditions through the presence of the naming task, similarly as in the study by <ref type="bibr">Hintz and colleagues (2016)</ref>. This study showed that people tended to read expected ends of sentences faster than unexpected ends of sentences, but only if the reading task was intermixed with a naming task that activated the production system. Thus, activation of the production system was associated with enhanced semantic prediction. We cannot evaluate this option as we did not have block of trials where participants never named the pictures.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1.3.">The role of the late positivity</head><p>In both experiments, we found a big positive potential in the naming compared to the categorization condition. There are two possibilities for what this positive potential could reflect. Firstly, it is consistent with the LPP (i.e., sustained positivity) that was found during word planning <ref type="bibr" target="#b5">(Bögels et al., 2015</ref><ref type="bibr">(Bögels et al., , 2018;;</ref><ref type="bibr" target="#b39">Jongman et al., 2019)</ref>. The LPP is currently thought to reflect differences in attention to the sequence end when word planning compared to no planning is taking place <ref type="bibr" target="#b39">(Jongman et al., 2019)</ref>. Secondly, similar positivities were also found in go no-go tasks (e.g., <ref type="bibr" target="#b72">Rodriguez-Fornells et al., 2002;</ref><ref type="bibr" target="#b75">Schmitt et al., 2000)</ref>. Thus, the positive potential may reflect the go no-go nature of this experiment, as participants prepared to name a picture in the naming condition and withhold any response in the categorization condition.</p><p>Note that this large positive potential overlaps with the N400 latency. Hence, the N400 effect modulations that we observed in Experiment 2 relative to Experiment 1 could have occurred because the positive potential occluded the N400 effect. This could mean that in Experiments 1 and 2, the semantic processing in comprehension is taking place in the same manner, while the N400 is reduced due to component overlap. We deem this explanation unlikely, considering in Figure <ref type="figure" target="#fig_9">4</ref>, the expected and unexpected conditions seem to differ in the naming condition during the timewindow where the positive potential is most pronounced. If the N400 effect reductions were indeed driven by component overlap, we would expect to see the smallest N400 effect when the positive potential is largest (i.e., in the naming condition around 500 ms after picture onset). Thus, we believe that the N400 effect reductions in Experiment 2 are not entirely driven by component overlap.</p><p>In sum, we observed that the requirement to conceptually process, categorize, and possibly retrieve linguistic information about the picture affects predictive processing. However, these processes do not completely eliminate semantic prediction processing, as reflected by the N400. This points to a certain resilience of semantic prediction, perhaps due to the fact that speech processing often happens in dual-task contexts.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2.">Naming as Compared to Categorization Does Not Modulate the N400 Effect</head><p>The delayed naming task did not interfere more with semantic processing of the sentence than the categorization task. There are three main ways of explaining this. Firstly, there might have been activation of the picture names in the delayed naming condition, but not in the categorization condition. This would mean that the activation of linguistic information in the naming task did not interfere with the semantic processing of the sentence, in addition to the interference also present in the categorization task. Secondly, there might have been no activation of linguistic information in the analyzed time window. Thirdly, there might have been activation of linguistic information in both the naming and the categorization condition. Below, we discuss these three options.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2.1.">Explanation 1: Naming might interfere with semantic processing to the same extent as categorization</head><p>We assumed that participants activated the picture names in the naming condition but not in the categorization condition. If this was the case, the results would indicate that the activation of linguistic information does not interfere with semantic processing of the sentence. This is in line with studies that showed that even though speech planning interfered with comprehension, it did not completely eliminate semantic processing <ref type="bibr">(Bögels et al., 2018;</ref><ref type="bibr" target="#b58">Martin et al., 2018)</ref>. Thus, compared to the strong interference effect from conceptual and decision processes, which are present in both categorization and naming conditions, the specific linguistic interference effect may be weak. This points to some resilience of the comprehension system against additional interference from linguistic processes. This resilience might support interlocutors' fast turn taking abilities in conversations <ref type="bibr" target="#b55">(Levinson &amp; Torreira, 2015)</ref>.</p><p>The absence of additional interference from the naming task was surprising in light of <ref type="bibr" target="#b26">Gerakaki's (2020)</ref> results. In contrast to her results, we did not find a difference between the naming and categorization condition in Experiment 2. In our view, the most likely account of this difference is that the control tasks, where no speech planning was required, differed between the two studies. In Gerakaki's study, the Effects of Picture Naming and Categorization on Concurrent Comprehension: Evidence From the N400 Collabra: Psychology speech versus no speech decision was easy, as participants could base this decision on superficial features of the pictures (i.e., existing object or a scribble). In our study, participants had to categorize the pictures in both conditions to perform the speech versus no speech decision. This means that in Gerakaki's study, extensive conceptual processing of the objects had to be performed only in the plan condition, whereas in our study it was required in both conditions. In other words, Gerakaki's conditions were not matched for conceptual processing and the effect of planning on the N400 may have had a conceptual origin. Our study indicates that there is no additional interference of word planning on semantic processing of the sentence, as compared to conceptual processing.</p><p>Note also that in Gerakaki's study (2020), the unexpected target words were semantically anomalous (e.g., With tea we always eat a mouse), whereas in our study, they were merely unexpected (e.g., She bought a book for the baby). The semantically anomalous endings could have directed attention to comprehension, leading to a larger N400 effect <ref type="bibr" target="#b23">(Frank et al., 2013)</ref>. Moreover, N400 elicited by stimuli without semantic anomalies and N400 elicited by stimuli with semantic anomalies could be modulated differently in dual tasks. It could be that all tasks that require any level of attentional involvement (e.g., categorization, naming) reduce the N400 elicited by stimuli without semantic anomalies. Alternatively, it could be that only tasks that require high attentional involvement (e.g., naming) reduce the N400 elicited by stimuli with semantic anomalies, while tasks with lower attentional involvement (e.g., categorization) do not. Thus, future research could assess whether finding the interaction between expectancy and task depends both on the stimuli driving the N400 effect (stimuli with or without semantic anomalies) and the attentional demands of the naming and categorization tasks.</p><p>The absence of the interaction may appear to be inconsistent with earlier studies that showed crosstalk between production and comprehension. Speech planning was affected more by processing words or syllables than by processing non-linguistic or not understood stimuli <ref type="bibr" target="#b20">(Fairs, 2019;</ref><ref type="bibr" target="#b21">Fargier &amp; Laganaro, 2016;</ref><ref type="bibr" target="#b31">He et al., 2021;</ref><ref type="bibr" target="#b62">Paucke et al., 2015)</ref>. Note that these studies concerned the effects of comprehension on production, whereas we investigated the reverse effect -from production on comprehension. There are at least two possible interpretations of our findings. Firstly, processes of lexical access for production require little additional capacity when combined with conceptual processing. This interpretation is in line with studies that found that lemma selection does not require processing capacity <ref type="bibr" target="#b1">(Ayora et al., 2011;</ref><ref type="bibr" target="#b15">Dell'Acqua et al., 2007)</ref>. However, this is a controversial claim, as more recent studies found the opposite pattern, namely that lemma selection does require central attention <ref type="bibr" target="#b0">(Ayora et al., 2009;</ref><ref type="bibr" target="#b22">Ferreira &amp; Pashler, 2002;</ref><ref type="bibr" target="#b44">Kleinman, 2013;</ref><ref type="bibr" target="#b66">Piai, Roelofs, &amp; Schriefers, 2014;</ref><ref type="bibr" target="#b76">Schnur &amp; Martin, 2012)</ref>. Secondly, semantic processing of the sentence might take place at a different hierarchical level compared to the decision and lexical processes relevant in the picture-naming tasks. This could especially be the case if the N400 reflects higher-order integrative processes (e.g., <ref type="bibr" target="#b82">Van Berkum et al., 1999)</ref> that have little overlap with the processes required in the simple picture naming task. Hence, we might not observe any crosstalk effects due to little overlap between the tasks.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2.2.">Explanation 2: Participants did not prepare for naming before the response signal</head><p>Another possible reason for not finding a difference between the naming and categorization condition in Experiment 2 is that participants purposefully delayed word planning, or at least some stages of it. Delayed naming has not been frequently used in dual-tasking studies, so it is not clear how participants strategize to perform the task. In picture naming, activation rapidly spreads from the conceptual and lexical level evoked by the picture to word form and phonological level and then to articulatory commands <ref type="bibr" target="#b8">(Caramazza, 1997;</ref><ref type="bibr" target="#b14">Dell &amp; O'Seaghdha, 1992;</ref><ref type="bibr" target="#b54">Levelt et al., 1999)</ref>. We assumed that in a delayed naming task, the process was arrested when the level of word form and phonological retrieval was reached, and that only the preparation and execution of the motor commands remained to be done after the response signal <ref type="bibr" target="#b41">(Kawamoto et al., 2008)</ref>. In immediate naming, word form and phonological retrieval can be reached within 500 ms <ref type="bibr" target="#b38">(Indefrey &amp; Levelt, 2004)</ref>, so the chosen time window should have been sufficiently long to capture this stage. However, we cannot tell from our data how far this process had progressed in the critical time period we studied. In short, response preparation for naming and categorization in the critical window may have been more similar than we had originally envisioned.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2.3.">Explanation 3: The categorization task also activated lexical processes</head><p>It is unclear whether the presentation of pictures automatically activates all word planning stages, including word form and phonological retrieval, especially when participants are in a speaking mode. In this study, in the naming condition, participants had to go through all stages of word planning to successfully perform the task. In the categorization condition, it is unclear what exact word planning processes participants engaged in, as it is still debated whether objects that speakers do not plan to name aloud activate word planning processes. In the classical proposal by <ref type="bibr" target="#b52">Levelt (1993)</ref>, lexical-semantic information is only activated during speech planning. In agreement with this, several studies found that in picture naming and translation tasks, related pictures induced facilitation, arising at a prelexical, conceptual level, while related words induced interference effects, arising during lexical access <ref type="bibr">(Bloem &amp; La Heij, 2003;</ref><ref type="bibr" target="#b49">La Heij, Wido et al., 2003)</ref>. This implies that pictures only activate conceptual information. In contrast, another priming study indicated the opposite, namely that even rapidly presented pictures do activate word form and phonological information <ref type="bibr" target="#b85">(Zwitserlood et al., 2018)</ref>. <ref type="bibr">Strijkers and colleagues (2011)</ref> showed that word frequency EEG signatures, which indicate processing on a word form and phonological level, occur even when participants catego-Effects of Picture Naming and Categorization on Concurrent Comprehension: Evidence From the N400 Collabra: Psychology rized pictures without the intention to name them. Interestingly, the frequency signature in the categorization task emerged at a different time window than the frequency signature in the naming task. This indicates that the task itself has a strong impact on whether and how the word form and phonological information associated with the picture is activated.</p><p>Whether pictures automatically activate all word planning processes was never studied in dual tasks. In our experiment, participants conceptually engaged with pictures while performing another task (i.e., comprehending the sentence). We assumed that they would engage in the least demanding version of the naming and categorization task to save resources for comprehension. Thus, we assumed that in the categorization condition, participants would stop the chain of the word planning stages after the conceptual processing of the picture. However, we cannot exclude the possibility that participants engaged in the complete chain of word production processes, apart from preparing motor commands and executing them, even in the categorization condition. This might have led to equal N400 effect reductions in both conditions.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.3.">Central Attention Versus Task Switching</head><p>Based on previous literature it is still unclear whether N400 effect reductions in dual task scenarios are driven by central attention limitation (e.g., <ref type="bibr" target="#b3">Batterink et al., 2010;</ref><ref type="bibr" target="#b27">Giesbrecht et al., 2007;</ref><ref type="bibr" target="#b36">Hohlfeld et al., 2004</ref><ref type="bibr" target="#b34">Hohlfeld et al., , 2015;;</ref><ref type="bibr" target="#b56">Lien et al., 2008)</ref> or by task switching <ref type="bibr" target="#b81">(Vachon &amp; Jolicoeur, 2012)</ref>. These accounts might have important implications for follow up research in this field. According to the central attention bottleneck account, the N400 effect is smaller in Experiment 2 because the planning task occupies central attention that is necessary for semantic processing in comprehension. Alternatively, our results could be interpreted according to the task switching account, if we presume that participants had to engage in task switching between the explicit task (naming or categorization) and passive comprehension. This account would predict that such a switch alone could drive the N400 reduction. Despite our experiment not using a true dual-task paradigm, the task switching account might be important to consider because the content of the comprehension and the explicit task were not related. It could be vital to investigate whether the N400 reductions persist even when the planning task is related to the comprehension task.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.4.">Conclusion</head><p>The present study was a partial replication of Gerakaki (2020). We showed an N400 effect elicited by auditory comprehension in a dual task. We showed decreases in the N400 effect when participants engaged in word planning or categorization simultaneously with comprehension. The N400 effect was not more reduced in the word naming compared to categorization condition. These results are difficult to interpret, as it is not clear how participants prepared the picture names in the delayed naming condition, or which word planning stages were activated in the categorization condition. In general, the N400 effect reduction seems to reflect conceptual and decision processes (taking place in naming and categorization condition) rather than lexical processing effect. This points to a resilience of the comprehension system against interference from capacity-demanding decision and categorization processes. This resilience might support swift responses observed in dialogue settings.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><figDesc>Effects of Picture Naming and Categorization on Concurrent Comprehension: Evidence From the N400 Collabra: Psychology</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><figDesc>Effects of Picture Naming and Categorization on Concurrent Comprehension: Evidence From the N400 Collabra: Psychology</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. Trial structure of A) Experiment 1 and B) Experiment 2. Both figures depict an example sentence leading to an expected target word. Naming begins at the offset of a fruit or a vegetable picture, depending on the instructions.</figDesc><graphic coords="4,80.44,64.00,434.40,262.50" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><figDesc>Effects of Picture Naming and Categorization on Concurrent Comprehension: Evidence From the N400</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><figDesc>Effects of Picture Naming and Categorization on Concurrent Comprehension: Evidence From the N400 Collabra: Psychology</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. The difference between the unexpected (red) and the expected (blue) condition in μV, plotted for the centro-parietal electrodes, where 0 is the onset of the target word. The analysis time-window between 300 and 600 ms is highlighted in grey.</figDesc><graphic coords="6,54.00,64.00,487.28,232.56" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Figure 3 .</head><label>3</label><figDesc>Figure 3. The voltage difference between the naming (blue) and categorization (red) condition in μV, plotted for the parieto-occipital electrodes where 0 ms corresponds to the onset of the target word and 2000 ms to the onset of the picture. The analyses time windows from 2100 to 2300 ms and from 2400 to 2600 ms are highlighted in grey.</figDesc><graphic coords="6,54.00,370.34,487.28,232.56" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><figDesc>Effects of Picture Naming and Categorization on Concurrent Comprehension: Evidence From the N400 Collabra: Psychology</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><figDesc>Effects of Picture Naming and Categorization on Concurrent Comprehension: Evidence From the N400 Collabra: Psychology</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9"><head>Figure 4 .</head><label>4</label><figDesc>Figure 4. The expected (blue) and unexpected (red) as well as naming (solid) and categorization (dashed) conditions in μV, plotted for the centro-parietal electrodes where 0 is the onset of the target word and -50 is the onset of the picture. The analysis window (selected based on Experiment 1) from 300 to 600 ms is highlighted in grey.</figDesc><graphic coords="8,54.00,64.00,487.28,232.56" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_10"><figDesc>Effects of Picture Naming and Categorization on Concurrent Comprehension: Evidence From the N400 Collabra: Psychology</figDesc></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>Downloaded from http://online.ucpress.edu/collabra/article-pdf/9/1/88129/828469/collabra_2023_9_1_88129.pdf by guest on 22 July 2025</p></note>
+		</body>
+		<back>
+
+			<div type="funding">
+<div><head>Funding Information</head><p>The study was part of the first author's <rs type="projectName">PhD</rs> project, funded by the <rs type="funder">Max Planck Society, Munich, Germany</rs>.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funded-project" xml:id="_sMvkyPY">
+					<orgName type="project" subtype="full">PhD</orgName>
+				</org>
+			</listOrg>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data Accessibility Statement</head><p>EEG data, experimental scripts, and analysis scripts are available on <ref type="url" target="https://osf.io/vfu57/">https://osf.io/vfu57/</ref>. Submitted: March 08, 2023 PDT, Accepted: August 07, 2023 PDT This is an open-access article distributed under the terms of the Creative Commons Attribution 4.0 International License (CCBY-4.0). View this license's legal deed at <ref type="url" target="http://creativecommons.org/licenses/by/4.0">http://creativecommons.org/licenses/by/4.0</ref> and legal code at <ref type="url" target="http://creativecom-">http://creativecom-</ref>mons.org/licenses/by/4.0/legalcode for more information. Effects of Picture Naming and Categorization on Concurrent Comprehension: Evidence From the N400</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Contributions</head><p>All authors contributed to conception and design, analysis and interpretation of the data, drafting and revision of the article, as well as final approval. Acquisition of the data was done by Cecilia Husta.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Competing Interests</head><p>No authors have competing interests.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supplementary Materials</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Peer Review Communication</head><p>Download: <ref type="url" target="https://collabra.scholasticahq.com/article/88129-effects-of-picture-naming-and-categorization-on-concurrent-comprehension-evidence-from-the-n400/attachment/181574.docx?auth_token=veExX4JwDNv8q6LvYPlq">https://collabra.scholasticahq.com/article/88129-effects-of-picture-naming-and-categorization-on- concurrent-comprehension-evidence-from-the-n400/attachment/  181574.docx?auth_token=veExX4JwDNv8q6LvYPlq</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supplementary Materials</head><p>Download: <ref type="url" target="https://collabra.scholasticahq.com/article/88129-effects-of-picture-naming-and-categorization-on-concurrent-comprehension-evidence-from-the-n400/attachment/181603.zip?auth_token=veExX4JwDNv8q6LvYPlq">https://collabra.scholasticahq.com/article/88129-effects-of-picture-naming-and-categorization-on- concurrent-comprehension-evidence-from-the-n400/attachment/181603.zip?auth_token=veExX4JwDNv8q6LvYPlq</ref> </p><p>Effects of Picture Naming and Categorization on Concurrent Comprehension: Evidence From the N400 Collabra: Psychology</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct status="extracted"  xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Attentional requirements for the selection of words from different grammatical categories</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Ayora</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Janssen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Dell'acqua</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F.-X</forename><surname>Alario</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/a0016373</idno>
+		<ptr target="https://doi.org/10.1037/a0016373" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Experimental Psychology: Learning, Memory, and Cognition</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="1344" to="1351" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ayora, P., Janssen, N., Dell&apos;Acqua, R., &amp; Alario, F.-X. (2009). Attentional requirements for the selection of words from different grammatical categories. Journal of Experimental Psychology: Learning, Memory, and Cognition, 35(5), 1344-1351. https://doi.org/10.1037/ a0016373</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b1">
+	<analytic>
+		<title level="a" type="main">What phonological facilitation tells about semantic interference: A dual-task study</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Ayora</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Peressotti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F.-X</forename><surname>Alario</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Mulatti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Pluchino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Job</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Dell'acqua</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fpsyg.2011.00057</idno>
+		<ptr target="https://doi.org/10.3389/fpsyg.2011.0" />
+	</analytic>
+	<monogr>
+		<title level="j">Frontiers in Psychology</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ayora, P., Peressotti, F., Alario, F.-X., Mulatti, C., Pluchino, P., Job, R., &amp; Dell&apos;Acqua, R. (2011). What phonological facilitation tells about semantic interference: A dual-task study. Frontiers in Psychology, 2(1). https://doi.org/10.3389/fpsyg.2011.0</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Fitting linear mixed-effects models using lme4</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Bates</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mächler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Bolker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Walker</surname></persName>
+		</author>
+		<idno type="DOI">10.18637/jss.v067.i01</idno>
+		<ptr target="https://doi.org/10.18637/jss.v067.i01" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Statistical Software</title>
+		<imprint>
+			<biblScope unit="volume">67</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="1" to="18" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bates, D., Mächler, M., Bolker, B., &amp; Walker, S. (2015). Fitting linear mixed-effects models using lme4. Journal of Statistical Software, 67(1), 1-18. https://do i.org/10.18637/jss.v067.i01</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b3">
+	<analytic>
+		<title level="a" type="main">The role of awareness in semantic and syntactic processing: An ERP attentional blink study</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Batterink</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Karns</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yamada</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Neville</surname></persName>
+		</author>
+		<idno type="DOI">10.1162/jocn.2009.21361</idno>
+		<ptr target="https://doi.org/10.1162/jocn.2009.21361" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Cognitive Neuroscience</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="2514" to="2529" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Batterink, L., Karns, C. M., Yamada, Y., &amp; Neville, H. (2010). The role of awareness in semantic and syntactic processing: An ERP attentional blink study. Journal of Cognitive Neuroscience, 22(11), 2514-2529. https://doi.org/10.1162/jocn.2009.21361</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Semantic facilitation and semantic interference in word translation: Implications for models of lexical access in language production</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Bloem</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">La</forename><surname>Heij</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Casillas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Levinson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename></persName>
+		</author>
+		<idno type="DOI">10.1016/j.neuropsychologia.2017.12.028</idno>
+		<idno>02)005 03-x Bögels,</idno>
+		<ptr target="https://doi.org/10.1016/j.neuropsychologia.2017.12.028" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Memory and Language</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="295" to="310" />
+			<date type="published" when="2003">2003. 2018</date>
+		</imprint>
+	</monogr>
+	<note>Planning versus comprehension in turn-taking: Fast responders show reduced anticipatory processing of the question Neuropsychologia</note>
+	<note type="raw_reference">Bloem, I., &amp; La Heij, W. (2003). Semantic facilitation and semantic interference in word translation: Implications for models of lexical access in language production. Journal of Memory and Language, 48(3), 468-488. https://doi.org/10.1016/s0749-596x(02)005 03-x Bögels, S., Casillas, M., &amp; Levinson, S. C. (2018). Planning versus comprehension in turn-taking: Fast responders show reduced anticipatory processing of the question. Neuropsychologia, 109(1), 295-310. http s://doi.org/10.1016/j.neuropsychologia.2017.12.028</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Neural signatures of response planning occur midway through an incoming question in conversation</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Bögels</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Magyari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Levinson</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/srep12881</idno>
+		<ptr target="https://doi.org/10.1038/srep12881" />
+	</analytic>
+	<monogr>
+		<title level="j">Scientific Reports</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">12881</biblScope>
+			<biblScope unit="page" from="1" to="11" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bögels, S., Magyari, L., &amp; Levinson, S. C. (2015). Neural signatures of response planning occur midway through an incoming question in conversation. Scientific Reports, 5(12881), 1-11. https://doi.org/10.1 038/srep12881</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Interference between conversation and a concurrent visuomotor task</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">W</forename><surname>Boiteau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">S</forename><surname>Malone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Peters</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Almor</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/a0031858</idno>
+		<ptr target="https://doi.org/10.1037/a0031858" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Experimental Psychology: General</title>
+		<imprint>
+			<biblScope unit="volume">143</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="295" to="311" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Boiteau, T. W., Malone, P. S., Peters, S. A., &amp; Almor, A. (2014). Interference between conversation and a concurrent visuomotor task. Journal of Experimental Psychology: General, 143(1), 295-311. https://doi.org/ 10.1037/a0031858</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Brms: An R package for Bayesian multilevel models using stan</title>
+		<author>
+			<persName><forename type="first">P.-C</forename><surname>Bürkner</surname></persName>
+		</author>
+		<idno type="DOI">10.18637/jss.v080.i01</idno>
+		<ptr target="https://doi.org/10.18637/jss.v08" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Statistical Software</title>
+		<imprint>
+			<biblScope unit="volume">80</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="1" to="28" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bürkner, P.-C. (2017). Brms: An R package for Bayesian multilevel models using stan. Journal of Statistical Software, 80(1), 1-28. https://doi.org/10.18637/jss.v08</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b8">
+	<analytic>
+		<title level="a" type="main">How many levels of processing are there in lexical access?</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Caramazza</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/026432997381664</idno>
+		<ptr target="https://doi.org/10.1080/026432997381664" />
+	</analytic>
+	<monogr>
+		<title level="j">Cognitive Neuropsychology</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="177" to="208" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Caramazza, A. (1997). How many levels of processing are there in lexical access? Cognitive Neuropsychology, 14(1), 177-208. https://doi.org/10.1080/02643299738 1664</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Capacity demands of phoneme selection in word production: New evidence from dual-task experiments</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">E</forename><surname>Cook</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Meyer</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/0278-7393.34.4.886</idno>
+		<ptr target="https://doi.org/10.1037/0278-7393.34.4.886" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Experimental Psychology: Learning, Memory, and Cognition</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="886" to="899" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cook, A. E., &amp; Meyer, A. S. (2008). Capacity demands of phoneme selection in word production: New evidence from dual-task experiments. Journal of Experimental Psychology: Learning, Memory, and Cognition, 34(4), 886-899. https://doi.org/10.1037/0278-7393.34.4.886</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Overrated gaps: Inter-speaker gaps provide limited information about the timing of turns in conversation</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">E</forename><surname>Corps</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Knudsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Meyer</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.cognition.2022.105037</idno>
+		<ptr target="https://doi.org/10.1016/j.cognition.2022.105037" />
+	</analytic>
+	<monogr>
+		<title level="j">Cognition</title>
+		<imprint>
+			<biblScope unit="volume">223</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">105037</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Corps, R. E., Knudsen, B., &amp; Meyer, A. S. (2022). Overrated gaps: Inter-speaker gaps provide limited information about the timing of turns in conversation. Cognition, 223(1), 105037. https://doi.or g/10.1016/j.cognition.2022.105037</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b11">
+	<monogr>
+		<title level="m" type="main">Predicting turn-ends in discourse context. Language, Cognition and Neuroscience</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">E</forename><surname>Corps</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Pickering</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Gambi</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/23273798.2018.1552008</idno>
+		<ptr target="https://doi.org/10.1080/23273798.2018.1552008" />
+		<imprint>
+			<date type="published" when="2019">2019</date>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="615" to="627" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Corps, R. E., Pickering, M. J., &amp; Gambi, C. (2019). Predicting turn-ends in discourse context. Language, Cognition and Neuroscience, 34(5), 615-627. https://do i.org/10.1080/23273798.2018.1552008</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Bank of Standardized Stimuli (BOSS): Dutch Names for 1400 Photographs</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Decuyper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Brysbaert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">B</forename><surname>Brodeur</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Meyer</surname></persName>
+		</author>
+		<idno type="DOI">10.5334/joc.180</idno>
+		<ptr target="https://doi.org/10.5334/joc.180" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Cognition</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="1" to="22" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Decuyper, C., Brysbaert, M., Brodeur, M. B., &amp; Meyer, A. S. (2021). Bank of Standardized Stimuli (BOSS): Dutch Names for 1400 Photographs. Journal of Cognition, 4(1), 1-22. https://doi.org/10.5334/joc.180</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b13">
+	<analytic>
+		<title level="a" type="main">The p-chain: Relating sentence production and its disorders to comprehension and acquisition</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">S</forename><surname>Dell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Chang</surname></persName>
+		</author>
+		<idno type="DOI">10.1098/rstb.2012.0394</idno>
+		<ptr target="https://doi.org/10.1098/rstb.2012.0394" />
+	</analytic>
+	<monogr>
+		<title level="j">Philosophical Transactions of the Royal Society B: Biological Sciences</title>
+		<imprint>
+			<biblScope unit="volume">369</biblScope>
+			<biblScope unit="issue">1634</biblScope>
+			<date type="published" when="2014">2014. 20120394</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Dell, G. S., &amp; Chang, F. (2014). The p-chain: Relating sentence production and its disorders to comprehension and acquisition. Philosophical Transactions of the Royal Society B: Biological Sciences, 369(1634), 20120394. https://doi.org/10.1098/rstb.20 12.0394</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Stages of lexical access in language production</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">S</forename><surname>Dell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">G</forename><surname>O'seaghdha</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0010-0277(92)90046-k</idno>
+		<ptr target="https://doi.org/10.1016/0010-0277(92)9004" />
+	</analytic>
+	<monogr>
+		<title level="j">Cognition</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="issue">1-3</biblScope>
+			<biblScope unit="page" from="287" to="314" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Dell, G. S., &amp; O&apos;Seaghdha, P. G. (1992). Stages of lexical access in language production. Cognition, 42(1-3), 287-314. https://doi.org/10.1016/0010-0277(92)9004</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b15">
+	<analytic>
+		<title level="a" type="main">The picture-word interference effect is not a Stroop effect</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Dell'acqua</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Job</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Peressotti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Pascali</surname></persName>
+		</author>
+		<idno type="DOI">10.3758/bf03196827</idno>
+		<ptr target="https://doi.org/10.3758/bf03196827" />
+	</analytic>
+	<monogr>
+		<title level="j">Psychonomic Bulletin &amp; Review</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="717" to="722" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">6-k Dell&apos;Acqua, R., Job, R., Peressotti, F., &amp; Pascali, A. (2007). The picture-word interference effect is not a Stroop effect. Psychonomic Bulletin &amp; Review, 14(4), 717-722. https://doi.org/10.3758/bf03196827</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Using Bayes to get the most out of non-significant results</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Dienes</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fpsyg.2014.00781</idno>
+		<ptr target="https://doi.org/10.3389/fpsyg.2014.00781" />
+	</analytic>
+	<monogr>
+		<title level="j">Frontiers in Psychology</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="1" to="17" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Dienes, Z. (2014). Using Bayes to get the most out of non-significant results. Frontiers in Psychology, 5(1), 1-17. https://doi.org/10.3389/fpsyg.2014.00781</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b17">
+	<analytic>
+		<title level="a" type="main">MultiPic: A standardized set of 750 drawings with norms for six European languages</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Duñabeitia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Crepaldi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Meyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>New</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Pliatsikas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Smolka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Brysbaert</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/17470218.2017.1310261</idno>
+		<ptr target="https://doi.org/10.1080/17470218.2017.1310261" />
+	</analytic>
+	<monogr>
+		<title level="j">Quarterly Journal of Experimental Psychology</title>
+		<imprint>
+			<biblScope unit="volume">71</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="808" to="816" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Duñabeitia, J. A., Crepaldi, D., Meyer, A. S., New, B., Pliatsikas, C., Smolka, E., &amp; Brysbaert, M. (2018). MultiPic: A standardized set of 750 drawings with norms for six European languages. Quarterly Journal of Experimental Psychology, 71(4), 808-816. https://do i.org/10.1080/17470218.2017.1310261</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Perception of objects in natural scenes: Is it really attention free</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">K</forename><surname>Evans</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Treisman</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/0096-1523.31.6.1476</idno>
+		<ptr target="https://doi.org/1" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Experimental Psychology: Human Perception and Performance</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="1476" to="1492" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Evans, K. K., &amp; Treisman, A. (2005). Perception of objects in natural scenes: Is it really attention free? Journal of Experimental Psychology: Human Perception and Performance, 31(6), 1476-1492. https://doi.org/1</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b19">
+	<monogr>
+		<title/>
+		<idno type="DOI">10.1037/0096-1523.31.6.1476</idno>
+		<idno>1037/0096-1523.31.6.1476</idno>
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">1037/0096-1523.31.6.1476</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b20">
+	<monogr>
+		<title level="m" type="main">Linguistic dual-tasking: Understanding temporal overlap between production and comprehension</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Fairs</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Fairs, A. L. (2019). Linguistic dual-tasking: Understanding temporal overlap between production and comprehension.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Neurophysiological modulations of non-verbal and verbal dual-tasks interference during word planning</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Fargier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Laganaro</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pone.0168358</idno>
+		<ptr target="https://doi.org/10.1371/journal.pone.0168358" />
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="1" to="19" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Fargier, R., &amp; Laganaro, M. (2016). Neurophysiological modulations of non-verbal and verbal dual-tasks interference during word planning. PLoS ONE, 11(12), 1-19. https://doi.org/10.1371/journal.pone.0168358</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Central bottleneck influences on the processing stages of word production</title>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">S</forename><surname>Ferreira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Pashler</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/0278-7393.28.6.1187</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Experimental Psychology: Learning, Memory, and Cognition</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="1187" to="1199" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+	<note>ht tps</note>
+	<note type="raw_reference">Ferreira, V. S., &amp; Pashler, H. (2002). Central bottleneck influences on the processing stages of word production. Journal of Experimental Psychology: Learning, Memory, and Cognition, 28(6), 1187-1199. ht tps://doi.org/10.1037/0278-7393.28.6.1187</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b23">
+	<monogr>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Frank</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">J</forename><surname>Otten</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Galli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Vigliocco</surname></persName>
+		</author>
+		<title level="m">Word surprisal predicts N400 amplitude during reading. 51st Annual Meeting of the Association for Computational Linguistics</title>
+		<imprint>
+			<date type="published" when="2013">2013</date>
+			<biblScope unit="page" from="878" to="883" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Frank, S. L., Otten, L. J., Galli, G., &amp; Vigliocco, G. (2013). Word surprisal predicts N400 amplitude during reading. 51st Annual Meeting of the Association for Computational Linguistics, 878-883.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b24">
+	<monogr>
+		<title level="m">Effects of Picture Naming and Categorization on Concurrent Comprehension: Evidence From the N400 Collabra: Psychology</title>
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">Effects of Picture Naming and Categorization on Concurrent Comprehension: Evidence From the N400 Collabra: Psychology</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Inefficient speech-motor control affects predictive speech comprehension: Atypical electrophysiological correlates in stuttering</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Gastaldon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Busan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Arcara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Peressotti</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/cercor/bhad004</idno>
+		<ptr target="https://doi.org/10.1093/cercor/bhad004" />
+	</analytic>
+	<monogr>
+		<title level="j">Cerebral Cortex</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="6834" to="6851" />
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gastaldon, S., Busan, P., Arcara, G., &amp; Peressotti, F. (2023). Inefficient speech-motor control affects predictive speech comprehension: Atypical electrophysiological correlates in stuttering. Cerebral Cortex, 33(11), 6834-6851. https://doi.org/10.1093/ce rcor/bhad004</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b26">
+	<monogr>
+		<title level="m" type="main">The moment in between: Planning speech while listening</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Gerakaki</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gerakaki, S. (2020). The moment in between: Planning speech while listening.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Electrophysiological evidence for both perceptual and postperceptual selection during the attentional blink</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Giesbrecht</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Sy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Elliott</surname></persName>
+		</author>
+		<idno type="DOI">10.1162/jocn.2007.19.12.2005</idno>
+		<ptr target="https://doi.org/10.1162/jocn.2007.19.12.2005" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Cognitive Neuroscience</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="2005" to="2018" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Giesbrecht, B., Sy, J. L., &amp; Elliott, J. C. (2007). Electrophysiological evidence for both perceptual and postperceptual selection during the attentional blink. Journal of Cognitive Neuroscience, 19(12), 2005-2018. https://doi.org/10.1162/jocn.2007.19.12.2005</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b28">
+	<analytic>
+		<title level="a" type="main">The time course of picture-word interference</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">R</forename><surname>Glaser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F.-J</forename><surname>Düngelhoff</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/0096-1523.10.5.640</idno>
+		<ptr target="https://doi.org/10.1037/0096-1523.10.5.640" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Experimental Psychology: Human Perception and Performance</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="640" to="654" />
+			<date type="published" when="1984">1984</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Glaser, W. R., &amp; Düngelhoff, F.-J. (1984). The time course of picture-word interference. Journal of Experimental Psychology: Human Perception and Performance, 10(5), 640-654. https://doi.org/10.1037/ 0096-1523.10.5.640</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b29">
+	<analytic>
+		<title level="a" type="main">SIMR: An R package for power analysis of generalized linear mixed models by simulation</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Green</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Macleod</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/2041-210x.12504</idno>
+		<ptr target="https://doi.org/10.1111/2041-210x.12504" />
+	</analytic>
+	<monogr>
+		<title level="j">Methods in Ecology and Evolution</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="493" to="498" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Green, P., &amp; MacLeod, C. J. (2016). SIMR: An R package for power analysis of generalized linear mixed models by simulation. Methods in Ecology and Evolution, 7(4), 493-498. https://doi.org/10.1111/2041-210x.12504</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Correlated brain indexes of semantic prediction and prediction error: Brain localization and category specificity</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Grisoni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Tomasello</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Pulvermüller</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/cercor/bhaa308</idno>
+		<ptr target="https://doi.org/10.1093/cercor/bhaa308" />
+	</analytic>
+	<monogr>
+		<title level="j">Cerebral Cortex</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="1553" to="1568" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Grisoni, L., Tomasello, R., &amp; Pulvermüller, F. (2021). Correlated brain indexes of semantic prediction and prediction error: Brain localization and category specificity. Cerebral Cortex, 31(3), 1553-1568. http s://doi.org/10.1093/cercor/bhaa308</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Concurrent listening affects speech planning and fluency: The roles of representational similarity and capacity limitation</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>He</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Meyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Brehm</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/23273798.2021.1925130</idno>
+		<ptr target="https://doi.org/10.1080/2327379" />
+	</analytic>
+	<monogr>
+		<title level="j">Language, Cognition and Neuroscience</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="1258" to="1280" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">He, J., Meyer, A. S., &amp; Brehm, L. (2021). Concurrent listening affects speech planning and fluency: The roles of representational similarity and capacity limitation. Language, Cognition and Neuroscience, 36(10), 1258-1280. https://doi.org/10.1080/2327379</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b32">
+	<monogr>
+		<title/>
+		<idno type="DOI">10.1080/23273798.2021.1925130</idno>
+		<imprint>
+			<date type="published" when="2021">2021.1925130</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">2021.1925130</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Encouraging prediction during production facilitates subsequent comprehension: Evidence from interleaved object naming in sentence context and sentence reading</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Hintz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Meyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Huettig</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/17470218.2015.1131309</idno>
+		<ptr target="https://doi.org/10.1080/17470218.2015.1131309" />
+	</analytic>
+	<monogr>
+		<title level="j">Quarterly Journal of Experimental Psychology</title>
+		<imprint>
+			<biblScope unit="volume">69</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="1056" to="1063" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hintz, F., Meyer, A. S., &amp; Huettig, F. (2016). Encouraging prediction during production facilitates subsequent comprehension: Evidence from interleaved object naming in sentence context and sentence reading. Quarterly Journal of Experimental Psychology, 69(6), 1056-1063. https://doi.org/10.108 0/17470218.2015.1131309</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Is semantic processing during sentence reading autonomous or controlled? Evidence from the N400 component in a dual task paradigm</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hohlfeld</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Martín-Loeches</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Sommer</surname></persName>
+		</author>
+		<idno type="DOI">10.5709/acp-0170-2</idno>
+		<ptr target="https://doi.org/1" />
+	</analytic>
+	<monogr>
+		<title level="j">Advances in Cognitive Psychology</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="42" to="55" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hohlfeld, A., Martín-Loeches, M., &amp; Sommer, W. (2015). Is semantic processing during sentence reading autonomous or controlled? Evidence from the N400 component in a dual task paradigm. Advances in Cognitive Psychology, 11(2), 42-55. https://doi.org/1</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b35">
+	<monogr>
+		<title/>
+		<idno type="DOI">10.5709/acp-0170-2</idno>
+		<idno>5709/acp-0170-2</idno>
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">5709/acp-0170-2</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Effects of additional tasks on language perception: An eventrelated brain potential investigation</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hohlfeld</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Sangals</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Sommer</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/0278-7393.30.5.1012</idno>
+		<ptr target="https://doi.org/10.1037/0278-7393.30.5.1012" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Experimental Psychology: Learning, Memory, and Cognition</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="1012" to="1025" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hohlfeld, A., Sangals, J., &amp; Sommer, W. (2004). Effects of additional tasks on language perception: An event- related brain potential investigation. Journal of Experimental Psychology: Learning, Memory, and Cognition, 30(5), 1012-1025. https://doi.org/10.1037/ 0278-7393.30.5.1012</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Dividing attention influences contextual facilitation and revision during language comprehension</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Hubbard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">D</forename><surname>Federmeier</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.brainres.2021.147466</idno>
+		<ptr target="https://doi.org/10.1016/j.brainres.2021.147466" />
+	</analytic>
+	<monogr>
+		<title level="j">Brain Research</title>
+		<imprint>
+			<biblScope unit="volume">1764</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">147466</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hubbard, R. J., &amp; Federmeier, K. D. (2021). Dividing attention influences contextual facilitation and revision during language comprehension. Brain Research, 1764(1), 147466. https://doi.org/10.1016/j.b rainres.2021.147466</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b38">
+	<analytic>
+		<title level="a" type="main">The spatial and temporal signatures of word production components</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Indefrey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">J</forename><surname>Levelt</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.cognition.2002.06.001</idno>
+		<ptr target="https://doi.org/10.1016/j.cognition.2002.06.001" />
+	</analytic>
+	<monogr>
+		<title level="j">Cognition</title>
+		<imprint>
+			<biblScope unit="volume">92</biblScope>
+			<biblScope unit="issue">1-2</biblScope>
+			<biblScope unit="page" from="101" to="144" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Indefrey, P., &amp; Levelt, W. J. M. (2004). The spatial and temporal signatures of word production components. Cognition, 92(1-2), 101-144. https://doi.org/10.1016/ j.cognition.2002.06.001</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Planning for language production: The electrophysiological signature of attention to the cue to speak</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Jongman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Piai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Meyer</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/23273798.2019.1690153</idno>
+		<ptr target="https://doi.org/10.1080/23273798.2019.1690153" />
+	</analytic>
+	<monogr>
+		<title level="j">Language, Cognition and Neuroscience</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="915" to="932" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Jongman, S. R., Piai, V., &amp; Meyer, A. S. (2019). Planning for language production: The electrophysiological signature of attention to the cue to speak. Language, Cognition and Neuroscience, 35(7), 915-932. https://d oi.org/10.1080/23273798.2019.1690153</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Sustained attention in language production: An individual differences investigation</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Jongman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Roelofs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Meyer</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/17470218.2014.964736</idno>
+		<ptr target="https://doi.org/10.1080/17470218.2014.964736" />
+	</analytic>
+	<monogr>
+		<title level="j">Quarterly Journal of Experimental Psychology</title>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="710" to="730" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Jongman, S. R., Roelofs, A., &amp; Meyer, A. S. (2015). Sustained attention in language production: An individual differences investigation. Quarterly Journal of Experimental Psychology, 68(4), 710-730. https://do i.org/10.1080/17470218.2014.964736</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Articulatory preparation in the delayed naming task</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">H</forename><surname>Kawamoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Mura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sanchez</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jml.2007.06.002</idno>
+		<ptr target="https://doi.org/10.1016/j.jml.2007.06.002" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Memory and Language</title>
+		<imprint>
+			<biblScope unit="volume">58</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="347" to="365" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kawamoto, A. H., Liu, Q., Mura, K., &amp; Sanchez, A. (2008). Articulatory preparation in the delayed naming task. Journal of Memory and Language, 58(2), 347-365. https://doi.org/10.1016/j.jml.2007.06.002</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Learning to speak by listening: Transfer of phonotactics from perception to production</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Kittredge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">S</forename><surname>Dell</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jml.2015.08.001</idno>
+		<idno>08.001</idno>
+		<ptr target="https://doi.org/10.1016/j.jml.2015" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Memory and Language</title>
+		<imprint>
+			<biblScope unit="volume">89</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="8" to="22" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kittredge, A. K., &amp; Dell, G. S. (2016). Learning to speak by listening: Transfer of phonotactics from perception to production. Journal of Memory and Language, 89(1), 8-22. https://doi.org/10.1016/j.jml.2 015.08.001</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Transient perturbation of the left temporal cortex evokes plasticity-related reconfiguration of the lexical network</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Klaus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J L G</forename><surname>Schutter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Piai</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/hbm.24860</idno>
+		<ptr target="https://doi.org/10.1002/hbm.24860" />
+	</analytic>
+	<monogr>
+		<title level="j">Human Brain Mapping</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="1061" to="1071" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Klaus, J., Schutter, D. J. L. G., &amp; Piai, V. (2020). Transient perturbation of the left temporal cortex evokes plasticity-related reconfiguration of the lexical network. Human Brain Mapping, 41(4), 1061-1071. https://doi.org/10.1002/hbm.24860</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Resolving semantic interference during word production requires central attention</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Kleinman</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/a0033095</idno>
+		<ptr target="https://doi.org/10.1037/a0033095" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Experimental Psychology: Learning, Memory, and Cognition</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="1860" to="1877" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kleinman, D. (2013). Resolving semantic interference during word production requires central attention. Journal of Experimental Psychology: Learning, Memory, and Cognition, 39(6), 1860-1877. https://doi.org/10.10 37/a0033095</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b45">
+	<analytic>
+		<title level="a" type="main">The interface between language and attention: Prosodic focus marking recruits a general attention network in spoken language comprehension</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">B</forename><surname>Kristensen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Petersson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Hagoort</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/cercor/bhs164</idno>
+		<ptr target="org/10.1093/cercor/bhs164" />
+	</analytic>
+	<monogr>
+		<title level="j">Cerebral Cortex</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="1836" to="1848" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note>ht tps</note>
+	<note type="raw_reference">Kristensen, L. B., Wang, L., Petersson, K. M., &amp; Hagoort, P. (2013). The interface between language and attention: Prosodic focus marking recruits a general attention network in spoken language comprehension. Cerebral Cortex, 23(8), 1836-1848. ht tps://doi.org/10.1093/cercor/bhs164</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Thirty years and counting: Finding meaning in the N400 component of the event-related brain potential (ERP)</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kutas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">D</forename><surname>Federmeier</surname></persName>
+		</author>
+		<idno type="DOI">10.1146/annurev.psych.093008.131123</idno>
+		<ptr target="https://doi.org/1" />
+	</analytic>
+	<monogr>
+		<title level="j">Annual Review of Psychology</title>
+		<imprint>
+			<biblScope unit="volume">62</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="621" to="647" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kutas, M., &amp; Federmeier, K. D. (2011). Thirty years and counting: Finding meaning in the N400 component of the event-related brain potential (ERP). Annual Review of Psychology, 62(1), 621-647. https://doi.org/1</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b47">
+	<monogr>
+		<title/>
+		<idno type="DOI">10.1146/annurev.psych.093008.131123</idno>
+		<idno>1146/annurev.psych.093008.131123</idno>
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">1146/annurev.psych.093008.131123</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Brain potentials during reading reflect word expectancy and semantic association</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kutas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Hillyard</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/307161a0</idno>
+		<ptr target="https" />
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">307</biblScope>
+			<biblScope unit="issue">5947</biblScope>
+			<biblScope unit="page" from="161" to="163" />
+			<date type="published" when="1984">1984</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kutas, M., &amp; Hillyard, S. A. (1984). Brain potentials during reading reflect word expectancy and semantic association. Nature, 307(5947), 161-163. https://doi.o rg/10.1038/307161a0</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b49">
+	<monogr>
+		<title level="m" type="main">Picture naming in picture context: Semantic interference or semantic facilitation?</title>
+		<author>
+			<persName><forename type="first">La</forename><surname>Heij</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Wido</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Karin</forename><forename type="middle">W</forename><surname>Heikoop</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Akerboom</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Simone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ineke</forename><surname>Bloem</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2003">2003</date>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="page" from="49" to="62" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">La Heij, Wido, Heikoop, Karin W., Akerboom, Simone, &amp; Bloem, Ineke. (2003). Picture naming in picture context: Semantic interference or semantic facilitation? 45(1), 49-62.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b50">
+	<monogr>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E.-J</forename><surname>Wagenmakers</surname></persName>
+		</author>
+		<idno type="DOI">10.1017/cbo9781139087759</idno>
+		<title level="m">Bayesian Cognitive Modeling</title>
+		<imprint>
+			<publisher>Cambridge University Press</publisher>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lee, M. D., &amp; Wagenmakers, E.-J. (2013). Bayesian Cognitive Modeling. Cambridge University Press. http s://doi.org/10.1017/cbo9781139087759</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b51">
+	<analytic>
+		<title level="a" type="main">The role of language production in making predictions during comprehension</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Lelonkiewicz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Rabagliati</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Pickering</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/17470218211028438</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Quarterly Journal of Experimental Psychology</title>
+		<imprint>
+			<biblScope unit="volume">74</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="2193" to="2209" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lelonkiewicz, J. R., Rabagliati, H., &amp; Pickering, M. J. (2021). The role of language production in making predictions during comprehension. Quarterly Journal of Experimental Psychology, 74(12), 2193-2209. http s://doi.org/10.1177/17470218211028438</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b52">
+	<monogr>
+		<title level="m" type="main">Speaking: From Intention to Articulation</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">J M</forename><surname>Levelt</surname></persName>
+		</author>
+		<idno type="DOI">10.7551/mitpress/6393.001.0001</idno>
+		<ptr target="https://doi.org/10.7551/mitpress/6393.001.0001" />
+		<imprint>
+			<date type="published" when="1993">1993</date>
+			<publisher>The MIT Press</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Levelt, W. J. M. (1993). Speaking: From Intention to Articulation. The MIT Press. https://doi.org/10.7551/ mitpress/6393.001.0001</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b53">
+	<monogr>
+		<title level="m">Effects of Picture Naming and Categorization on Concurrent Comprehension: Evidence From the N400 Collabra: Psychology</title>
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">Effects of Picture Naming and Categorization on Concurrent Comprehension: Evidence From the N400 Collabra: Psychology</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b54">
+	<analytic>
+		<title level="a" type="main">A theory of lexical access in speech production</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">J M</forename><surname>Levelt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Roelofs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Meyer</surname></persName>
+		</author>
+		<idno type="DOI">10.1017/s0140525x99001776</idno>
+		<ptr target="https://doi.org/10.1017/s0140525x99001776" />
+	</analytic>
+	<monogr>
+		<title level="j">Behavioral and Brain Sciences</title>
+		<imprint>
+			<biblScope unit="issue">01</biblScope>
+			<biblScope unit="page">22</biblScope>
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Levelt, W. J. M., Roelofs, A., &amp; Meyer, A. S. (1999). A theory of lexical access in speech production. Behavioral and Brain Sciences, 22(01). https://doi.org/ 10.1017/s0140525x99001776</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Timing in turntaking and its implications for processing models of language</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Levinson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Torreira</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fpsyg.2015.00731</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Frontiers in Psychology</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="issue">731</biblScope>
+			<biblScope unit="page" from="1" to="17" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Levinson, S. C., &amp; Torreira, F. (2015). Timing in turn- taking and its implications for processing models of language. Frontiers in Psychology, 6(731), 1-17. http s://doi.org/10.3389/fpsyg.2015.00731</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b56">
+	<analytic>
+		<title level="a" type="main">On the nonautomaticity of visual word processing: Electrophysiological evidence that word processing requires central attention</title>
+		<author>
+			<persName><forename type="first">M.-C</forename><surname>Lien</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Ruthruff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Cornett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Goodin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Allen</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/0096-1523.34.3.751</idno>
+		<ptr target="https://doi.org/10.1037/0096-1523.34.3.751" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Experimental Psychology: Human Perception and Performance</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="751" to="773" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lien, M.-C., Ruthruff, E., Cornett, L., Goodin, Z., &amp; Allen, P. A. (2008). On the nonautomaticity of visual word processing: Electrophysiological evidence that word processing requires central attention. Journal of Experimental Psychology: Human Perception and Performance, 34(3), 751-773. https://doi.org/10.1037/ 0096-1523.34.3.751</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b57">
+	<analytic>
+		<title level="a" type="main">Ease of processing constrains the activation flow in the conceptual-lexical system during speech planning</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mädebach</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Jescheniak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Oppermann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Schriefers</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/a0022330</idno>
+		<ptr target="https://doi.org/10.1037/a0022330" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Experimental Psychology: Learning, Memory, and Cognition</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="649" to="660" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mädebach, A., Jescheniak, J. D., Oppermann, F., &amp; Schriefers, H. (2011). Ease of processing constrains the activation flow in the conceptual-lexical system during speech planning. Journal of Experimental Psychology: Learning, Memory, and Cognition, 37(3), 649-660. https://doi.org/10.1037/a0022330</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b58">
+	<analytic>
+		<title level="a" type="main">Prediction is Production: The missing link between language production and comprehension</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">D</forename><surname>Martin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">M</forename><surname>Branzi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bar</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41598-018-19499-4</idno>
+		<ptr target="https://doi.org/10.1038/s41598-018-1949" />
+	</analytic>
+	<monogr>
+		<title level="j">Scientific Reports</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="1" to="9" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Martin, C. D., Branzi, F. M., &amp; Bar, M. (2018). Prediction is Production: The missing link between language production and comprehension. Scientific Reports, 8(1), 1-9. https://doi.org/10.1038/s41598-018-1949</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b59">
+	<analytic>
+		<title level="a" type="main">The link between speech perception and production is phonological and abstract: Evidence from the shadowing task</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Mitterer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ernestus</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.cognition.2008.08.002</idno>
+		<idno>08.002</idno>
+		<ptr target="https://doi.org/10.1016/j.cognition" />
+	</analytic>
+	<monogr>
+		<title level="j">Cognition</title>
+		<imprint>
+			<biblScope unit="volume">109</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="168" to="173" />
+			<date type="published" when="2008">2008. 2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">9-4 Mitterer, H., &amp; Ernestus, M. (2008). The link between speech perception and production is phonological and abstract: Evidence from the shadowing task. Cognition, 109(1), 168-173. https://doi.org/10.1016/ j.cognition.2008.08.002</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b60">
+	<analytic>
+		<title level="a" type="main">Brain activity during divided and selective attention to auditory and visual sentence comprehension tasks</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Moisala</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Salmela</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Salo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Carlson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Vuontela</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Salonen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Alho</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fnhum.2015.00086</idno>
+		<ptr target="https://doi.org/10.3389/fnhum.2015.00086" />
+	</analytic>
+	<monogr>
+		<title level="j">Frontiers in Human Neuroscience</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">86</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Moisala, M., Salmela, V., Salo, E., Carlson, S., Vuontela, V., Salonen, O., &amp; Alho, K. (2015). Brain activity during divided and selective attention to auditory and visual sentence comprehension tasks. Frontiers in Human Neuroscience, 9(86). https://doi.org/10.3389/fn hum.2015.00086</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b61">
+	<analytic>
+		<author>
+			<persName><forename type="first">B</forename><surname>Nicenboim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Vasishth</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/lnc3.12207</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Statistical methods for linguistic research: Foundational Ideas-Part II: Statistical methods for linguistics--Part II</title>
+		<imprint>
+			<date type="published" when="2016">2016</date>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="591" to="613" />
+		</imprint>
+	</monogr>
+	<note>h ttps</note>
+	<note type="raw_reference">Nicenboim, B., &amp; Vasishth, S. (2016). Statistical methods for linguistic research: Foundational Ideas- Part II: Statistical methods for linguistics--Part II. Language and Linguistics Compass, 10(11), 591-613. h ttps://doi.org/10.1111/lnc3.12207</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b62">
+	<analytic>
+		<title level="a" type="main">On the costs of parallel processing in dualtask performance: The case of lexical processing in word production</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Paucke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Oppermann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Koch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Jescheniak</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/a0039583</idno>
+		<ptr target="https://doi.org/10.1037/a0039583" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Experimental Psychology: Human Perception and Performance</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="1539" to="1552" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Paucke, M., Oppermann, F., Koch, I., &amp; Jescheniak, J. D. (2015). On the costs of parallel processing in dual- task performance: The case of lexical processing in word production. Journal of Experimental Psychology: Human Perception and Performance, 41(6), 1539-1552. https://doi.org/10.1037/a0039583</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b63">
+	<analytic>
+		<title level="a" type="main">Oscillatory brain responses in spoken word production reflect lexical frequency and sentential constraint</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Piai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Roelofs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Maris</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.neuropsychologia.2013.11.014</idno>
+		<ptr target="https://doi.org/1" />
+	</analytic>
+	<monogr>
+		<title level="j">Neuropsychologia</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="146" to="156" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Piai, V., Roelofs, A., &amp; Maris, E. (2014). Oscillatory brain responses in spoken word production reflect lexical frequency and sentential constraint. Neuropsychologia, 53(1), 146-156. https://doi.org/1</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b64">
+	<monogr>
+		<title/>
+		<idno type="DOI">10.1016/j.neuropsychologia.2013.11.014</idno>
+		<idno>1016/j.neuropsychologia.2013.11.014</idno>
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">1016/j.neuropsychologia.2013.11.014</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b65">
+	<analytic>
+		<title level="a" type="main">Beta oscillations reflect memory and motor aspects of spoken word production</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Piai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Roelofs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Rommers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Maris</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/hbm.22806</idno>
+		<ptr target="https://doi.org/10.1002/hbm.22806" />
+	</analytic>
+	<monogr>
+		<title level="j">Human Brain Mapping</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="2767" to="2780" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Piai, V., Roelofs, A., Rommers, J., &amp; Maris, E. (2015). Beta oscillations reflect memory and motor aspects of spoken word production. Human Brain Mapping, 36(7), 2767-2780. https://doi.org/10.1002/hbm.22806</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b66">
+	<analytic>
+		<title level="a" type="main">Locus of semantic interference in picture naming: Evidence from dual-task performance</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Piai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Roelofs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Schriefers</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/a0033745</idno>
+		<ptr target="https://doi.org/10.1037/a0033745" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Experimental Psychology: Learning, Memory, and Cognition</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="147" to="165" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Piai, V., Roelofs, A., &amp; Schriefers, H. (2014). Locus of semantic interference in picture naming: Evidence from dual-task performance. Journal of Experimental Psychology: Learning, Memory, and Cognition, 40(1), 147-165. https://doi.org/10.1037/a0033745</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b67">
+	<analytic>
+		<title level="a" type="main">Predicting while comprehending language: A theory and review</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Pickering</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Gambi</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/bul0000158</idno>
+		<ptr target="https://doi.org/10.1037/bul0000158" />
+	</analytic>
+	<monogr>
+		<title level="j">Psychological Bulletin</title>
+		<imprint>
+			<biblScope unit="volume">144</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="1002" to="1044" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Pickering, M. J., &amp; Gambi, C. (2018). Predicting while comprehending language: A theory and review. Psychological Bulletin, 144(10), 1002-1044. https://do i.org/10.1037/bul0000158</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b68">
+	<analytic>
+		<title level="a" type="main">An integrated theory of language production and comprehension</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Pickering</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Garrod</surname></persName>
+		</author>
+		<idno type="DOI">10.1017/s0140525x12001495</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Behavioral and Brain Sciences</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="329" to="347" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Pickering, M. J., &amp; Garrod, S. (2013). An integrated theory of language production and comprehension. Behavioral and Brain Sciences, 36(4), 329-347. http s://doi.org/10.1017/s0140525x12001495</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b69">
+	<monogr>
+		<title level="m" type="main">Can you hear what&apos;s coming? Failure to replicate ERP evidence for phonological prediction</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Poulton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Nieuwland</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note>Manuscript under review</note>
+	<note type="raw_reference">Poulton, V., &amp; Nieuwland, M. S. (2021). Can you hear what&apos;s coming? Failure to replicate ERP evidence for phonological prediction. Manuscript under review.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b70">
+	<analytic>
+		<title level="a" type="main">Modelling the N400 brain potential as change in a probabilistic representation of meaning</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Rabovsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename><surname>Hansen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Mcclelland</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41562-018-0406-4</idno>
+		<ptr target="https://doi.org/10.1038/s41562-018-0406-4" />
+	</analytic>
+	<monogr>
+		<title level="j">Nature Human Behaviour</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="693" to="705" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rabovsky, M., Hansen, S. S., &amp; McClelland, J. L. (2018). Modelling the N400 brain potential as change in a probabilistic representation of meaning. Nature Human Behaviour, 2(9), 693-705. https://doi.org/10.1 038/s41562-018-0406-4</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b71">
+	<analytic>
+		<title level="a" type="main">Simulating the N400 ERP component as semantic network error: Insights from a feature-based connectionist attractor model of word meaning</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Rabovsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Mcrae</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.cognition.2014.03.010</idno>
+		<ptr target="https://doi.org/10.1016/j.cognition.2014.03.010" />
+	</analytic>
+	<monogr>
+		<title level="j">Cognition</title>
+		<imprint>
+			<biblScope unit="volume">132</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="68" to="89" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rabovsky, M., &amp; McRae, K. (2014). Simulating the N400 ERP component as semantic network error: Insights from a feature-based connectionist attractor model of word meaning. Cognition, 132(1), 68-89. https://doi.o rg/10.1016/j.cognition.2014.03.010</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b72">
+	<monogr>
+		<title level="m" type="main">Electrophysiological estimates of the time course of semantic and phonological encoding during listening and naming</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Rodriguez-Fornells</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">M</forename><surname>Schmitt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kutas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">F</forename><surname>Münte</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rodriguez-Fornells, A., Schmitt, B. M., Kutas, M., &amp; Münte, T. F. (2002). Electrophysiological estimates of the time course of semantic and phonological encoding during listening and naming.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b73">
+	<analytic>
+		<title/>
+		<idno type="DOI">10.1016/s0028-3932(01)00188-9</idno>
+		<ptr target="https://doi.org/10.1016/s0028-3932" />
+	</analytic>
+	<monogr>
+		<title level="j">Neuropsychologia</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="188" to="189" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Neuropsychologia, 40(7), 778-787. https://doi.org/10.1 016/s0028-3932(01)00188-9</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b74">
+	<analytic>
+		<title level="a" type="main">Across-session consistency of context-driven language processing: A magnetoencephalography study</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">M</forename><surname>Roos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Piai</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/ejn.14785</idno>
+		<ptr target="https://doi.org/10.1111/ejn.14785" />
+	</analytic>
+	<monogr>
+		<title level="j">European Journal of Neuroscience</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="3457" to="3469" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Roos, N. M., &amp; Piai, V. (2020). Across-session consistency of context-driven language processing: A magnetoencephalography study. European Journal of Neuroscience, 52(5), 3457-3469. https://doi.org/10.11 11/ejn.14785</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b75">
+	<analytic>
+		<title level="a" type="main">Electrophysiological estimates of the time course of semantic and phonological encoding during implicit picture naming</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">M</forename><surname>Schmitt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">F</forename><surname>Münte</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kutas</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/1469-8986.3740473</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Psychophysiology</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="473" to="484" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Schmitt, B. M., Münte, T. F., &amp; Kutas, M. (2000). Electrophysiological estimates of the time course of semantic and phonological encoding during implicit picture naming. Psychophysiology, 37(4), 473-484. htt ps://doi.org/10.1111/1469-8986.3740473</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b76">
+	<analytic>
+		<title level="a" type="main">Exploring the time course of lexical access in language production: Picture-word interference studies</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">T</forename><surname>Schnur</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Martin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Schriefers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Meyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">J M</forename><surname>Levelt</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0749-596x(90)90011-n</idno>
+		<ptr target="https://doi.org/10.1016/0749-596x(90)9001" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Memory and Language</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="86" to="102" />
+			<date type="published" when="1990">2012. 1990</date>
+		</imprint>
+	</monogr>
+	<note>Semantic picture-word interference is a postperceptual effect Psychonomic Bulletin &amp; Review</note>
+	<note type="raw_reference">Schnur, T. T., &amp; Martin, R. (2012). Semantic picture-word interference is a postperceptual effect. Psychonomic Bulletin &amp; Review, 19(2), 301-308. http s://doi.org/10.3758/s13423-011-0190-x Schriefers, H., Meyer, A. S., &amp; Levelt, W. J. M. (1990). Exploring the time course of lexical access in language production: Picture-word interference studies. Journal of Memory and Language, 29(1), 86-102. https://doi.org/10.1016/0749-596x(90)9001</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b77">
+	<analytic>
+		<title level="a" type="main">Variation in dualtask performance reveals late initiation of speech planning in turn-taking</title>
+		<idno type="DOI">10.1016/j.cognition.2014.10.008</idno>
+		<ptr target="org/10.1016/j.cognition.2014.10.008" />
+	</analytic>
+	<monogr>
+		<title level="j">Cognition</title>
+		<editor>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Sjerps</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Meyer</surname></persName>
+		</editor>
+		<imprint>
+			<biblScope unit="volume">136</biblScope>
+			<biblScope unit="page" from="304" to="324" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note>htt ps</note>
+	<note type="raw_reference">1-n Sjerps, M. J., &amp; Meyer, A. S. (2015). Variation in dual- task performance reveals late initiation of speech planning in turn-taking. Cognition, 136, 304-324. htt ps://doi.org/10.1016/j.cognition.2014.10.008</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b78">
+	<analytic>
+		<title level="a" type="main">Universals and cultural variation in turn-taking in conversation</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Stivers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Enfield</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Englert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hayashi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Heinemann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Hoymann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Rossano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>De Ruiter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K.-E</forename><surname>Yoon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Levinson</surname></persName>
+		</author>
+		<idno type="DOI">10.1073/pnas.0903616106</idno>
+		<ptr target="https://doi.org/10.1073/pnas.0903616106" />
+	</analytic>
+	<monogr>
+		<title level="j">Proceedings of the National Academy of Sciences</title>
+		<imprint>
+			<biblScope unit="volume">106</biblScope>
+			<biblScope unit="issue">26</biblScope>
+			<biblScope unit="page" from="10587" to="10592" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Stivers, T., Enfield, N. J., Brown, P., Englert, C., Hayashi, M., Heinemann, T., Hoymann, G., Rossano, F., de Ruiter, J. P., Yoon, K.-E., &amp; Levinson, S. C. (2009). Universals and cultural variation in turn-taking in conversation. Proceedings of the National Academy of Sciences, 106(26), 10587-10592. https://doi.org/10.10 73/pnas.0903616106</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b79">
+	<analytic>
+		<title level="a" type="main">Conscious intention to speak proactively facilitates lexical access during overt object naming</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Strijkers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Holcomb</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Costa</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jml.2011.06.002</idno>
+		<ptr target="https" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Memory and Language</title>
+		<imprint>
+			<biblScope unit="volume">65</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="345" to="362" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Strijkers, K., Holcomb, P. J., &amp; Costa, A. (2011). Conscious intention to speak proactively facilitates lexical access during overt object naming. Journal of Memory and Language, 65(4), 345-362. https://doi.or g/10.1016/j.jml.2011.06.002</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b80">
+	<monogr>
+		<title level="m">Effects of Picture Naming and Categorization on Concurrent Comprehension: Evidence From the N400 Collabra: Psychology</title>
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">Effects of Picture Naming and Categorization on Concurrent Comprehension: Evidence From the N400 Collabra: Psychology</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b81">
+	<analytic>
+		<title level="a" type="main">On the automaticity of semantic processing during task switching</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Vachon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Jolicoeur</surname></persName>
+		</author>
+		<idno type="DOI">10.1162/jocn_a_00149</idno>
+		<ptr target="https://doi.org/10.1162/jocn_a_00149" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Cognitive Neuroscience</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="611" to="626" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Vachon, F., &amp; Jolicoeur, P. (2012). On the automaticity of semantic processing during task switching. Journal of Cognitive Neuroscience, 24(3), 611-626. https://do i.org/10.1162/jocn_a_00149</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b82">
+	<analytic>
+		<title level="a" type="main">Semantic integration in sentences and discourse: Evidence from the N400</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J A</forename><surname>Van Berkum</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Hagoort</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Brown</surname></persName>
+		</author>
+		<idno type="DOI">10.1162/089892999563724</idno>
+		<ptr target="https://doi.org/10.1162/089892999563724" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Cognitive Neuroscience</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="657" to="671" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Van Berkum, J. J. A., Hagoort, P., &amp; Brown, C. M. (1999). Semantic integration in sentences and discourse: Evidence from the N400. Journal of Cognitive Neuroscience, 11(6), 657-671. https://doi.org/10.1162/ 089892999563724</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b83">
+	<analytic>
+		<title level="a" type="main">Mix, a program for pseudorandomization</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Van Casteren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Davis</surname></persName>
+		</author>
+		<idno type="DOI">10.3758/bf03193889</idno>
+		<ptr target="https://doi.org/10.3758/bf03193889" />
+	</analytic>
+	<monogr>
+		<title level="j">Behavior Research Methods</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="584" to="589" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Van Casteren, M., &amp; Davis, M. H. (2006). Mix, a program for pseudorandomization. Behavior Research Methods, 38(4), 584-589. https://doi.org/10.3758/bf03193889</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b84">
+	<analytic>
+		<title level="a" type="main">Ultra-rapid categorization requires visual attention: Scenes with multiple foreground objects</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Walker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Stafford</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Davis</surname></persName>
+		</author>
+		<idno type="DOI">10.1167/8.4.21</idno>
+		<ptr target="https://doi.org/10.1167/8.4.21" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Vision</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page">21</biblScope>
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Walker, S., Stafford, P., &amp; Davis, G. (2008). Ultra-rapid categorization requires visual attention: Scenes with multiple foreground objects. Journal of Vision, 8(4), 21. https://doi.org/10.1167/8.4.21</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b85">
+	<analytic>
+		<title level="a" type="main">Seeing for speaking: Semantic and lexical information provided by briefly presented, naturalistic action scenes</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Zwitserlood</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Bölte</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Hofmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Meier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Dobel</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pone.0194762</idno>
+		<ptr target="https://doi.org/10.1371/journal.pone.0194" />
+	</analytic>
+	<monogr>
+		<title level="j">PLOS ONE</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page">194762</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Zwitserlood, P., Bölte, J., Hofmann, R., Meier, C. C., &amp; Dobel, C. (2018). Seeing for speaking: Semantic and lexical information provided by briefly presented, naturalistic action scenes. PLOS ONE, 13(4), e0194762. https://doi.org/10.1371/journal.pone.0194</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b86">
+	<monogr>
+		<title level="m" type="main">762 Effects of Picture Naming and Categorization on Concurrent Comprehension: Evidence From the N400 Collabra: Psychology</title>
+		<idno type="DOI">10.1371/journal.pone.0194762</idno>
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">762 Effects of Picture Naming and Categorization on Concurrent Comprehension: Evidence From the N400 Collabra: Psychology</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

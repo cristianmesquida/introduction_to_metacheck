@@ -1,0 +1,1666 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Effects of Aging on General and Specific Memory for Impressions</title>
+				<funder ref="#_6uN4dFW">
+					<orgName type="full">National Institute on Aging</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2018-05-31">31 May 2018</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Megan</forename><forename type="middle">J</forename><surname>Limbert</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Brandeis University</orgName>
+								<address>
+									<settlement>Waltham</settlement>
+									<region>Massachusetts</region>
+									<country>US</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jennifer</forename><forename type="middle">A</forename><surname>Coleman</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Brandeis University</orgName>
+								<address>
+									<settlement>Waltham</settlement>
+									<region>Massachusetts</region>
+									<country>US</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="institution">Virginia Commonwealth University</orgName>
+								<address>
+									<settlement>Richmond</settlement>
+									<region>Virginia US</region>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><roleName>Dr</roleName><forename type="first">Angela</forename><surname>Gutchess</surname></persName>
+							<email>gutchess@brandeis.edu</email>
+							<affiliation key="aff0">
+								<orgName type="institution">Brandeis University</orgName>
+								<address>
+									<settlement>Waltham</settlement>
+									<region>Massachusetts</region>
+									<country>US</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Christopher</forename><surname>Madan</surname></persName>
+						</author>
+						<title level="a" type="main">Effects of Aging on General and Specific Memory for Impressions</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2018-05-31">31 May 2018</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">D4F93E060E9834C36C3BCAC301D7ADE2</idno>
+					<idno type="DOI">10.1525/collabra.109</idno>
+					<note type="submission">Submitted: 26 August 2017 Accepted: 23 April 2018</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.3-SNAPSHOT" ident="GROBID" when="2025-09-17T15:44+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">b64991a</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>aging</term>
+					<term>memory</term>
+					<term>social memory</term>
+					<term>person memory</term>
+					<term>emotional memory Motivated cognition: Effects of reward, emotion, and motivational processes across a variety of cognitive domains</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Despite the number of documented declines in memory with age, memory for socioemotional information can be preserved into older adulthood. These studies assessed whether memory for character information could be preserved with age, and how the general versus specific nature of the information tested affected outcomes. We hypothesized that memory for general impressions would be preserved with age, but that memory for specific details would be impaired. In two experiments, younger and older adults learned character information about individuals characterized as positive, neutral, or negative. Participants then retrieved general impressions and specific information for each individual. The testing conditions in Experiment 2 discouraged deliberate recall. In Experiment 1, we found that younger performed better than older adults on both general and specific memory measures. Although age differences in memory for specific information persisted in Experiment 2, we found that younger and older adults remembered general impressions to a similar extent when testing conditions encouraged the use of "gut impressions" rather than deliberate retrieval from memory. We conclude that aging affects memory for specific character information, but memory for general impressions can be age-equivalent. Furthermore, there is no evidence for a positivity bias or differences in the effects of valence on memory across the age groups.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Despite a large body of research documenting memory declines with age <ref type="bibr" target="#b45">(Park et al., 2002;</ref><ref type="bibr" target="#b48">Salthouse, 1996;</ref><ref type="bibr" target="#b57">Zacks, Hasher, &amp; Li, 2000)</ref>, recent work suggests exceptions to the pattern of age-related decline in socioemotional domains, depending on the positivity, motivational relevance, or importance to the self of information particularly in socioemotional domains (as discussed in <ref type="bibr">Carstensen &amp; Mikels, 2005;</ref><ref type="bibr" target="#b18">Hess, 2005;</ref><ref type="bibr" target="#b30">Kensinger &amp; Gutchess, 2015)</ref>. In these studies, we investigate whether the demands to remember specific details as opposed to general information can contribute to the occurrence and magnitude of age differences, with a focus on memory for the character of others.</p><p>Despite the growth in research at the intersection of motivation and cognition (e.g., <ref type="bibr" target="#b38">Madan, 2017)</ref>, there has been relatively little research explicitly addressing the effects of aging on memory for information about one's character (e.g., is this person "good" or "bad"?). This is an important question to address, in that older adults may make many decisions based on character information, such as who to trust with financial investments or which medical professional to recommend to a friend. If older adults' memory for impressions and character information is impaired, even at this general level, it would indicate that decision aids and support may be needed with such decisions. Should it be intact, that may suggest that older adults should have confidence in their memory and decisions based on such information, perhaps even more than other memory domains. Some evidence indicates that impression memory may be relatively spared with aging. Older adults may remember their impressions of others to the same extent as younger adults <ref type="bibr" target="#b53">(Todorov &amp; Olson, 2008)</ref>, though their sample was relatively middle-aged, with an average age of 57. Subsequent work with an older sample converges with those results to show that memory for trait information (e.g., rude, curious) can be age-equivalent, but only when information is framed in a personally meaningful way <ref type="bibr" target="#b3">(Cassidy &amp; Gutchess, 2012)</ref>. Meaningful goals seem to effectively engage older adults' cognitive resources, increasing task performance <ref type="bibr" target="#b19">(Hess, 2006;</ref><ref type="bibr" target="#b20">Hess, Follett, &amp; McGee, 1998;</ref><ref type="bibr" target="#b21">Hess, Germain, Swaim, &amp; Osowski, 2009)</ref>. Thus, older and younger adults may remember different character information that is in line with their goals. For example, inconsistent behaviors are more difficult for older adults to remember than young, because younger adults spontaneously attempt to explain inconsistencies in behavior <ref type="bibr" target="#b23">(Hess &amp; Tate, 1991)</ref>. Character information has been found to serve as a beneficial mediator of face-name memory for both younger and older adults, hinting at its potential value in memory <ref type="bibr" target="#b44">(Old &amp; Naveh-Benjamin, 2012)</ref>.</p><p>The distinction between memory for character information and other types of memory is also illustrated by work with patient groups, which demonstrates that character information can be retained despite memory impairments. Patients with amnesia due to Korsakoff's syndrome adequately encode character information such that they correctly express a preference for a target individual associated with "good" characteristics over a target individual associated with "bad" characteristics <ref type="bibr" target="#b26">(Johnson, Kim, &amp; Risse, 1985)</ref>. This learning of general character information occurs in the absence of memory for the specific supporting details regarding character. Results from another study converged. An amnesic individual with hippocampal damage remembered face-trait associations to the same extent as healthy controls when tested with a forced choice recognition test (i.e., which of these two people is the nicer individual?) <ref type="bibr" target="#b53">(Todorov &amp; Olson, 2008)</ref>. In the same study, patients with damage extending into the amygdala and temporal pole exhibited impaired memory for character information. These findings suggest that the neural system supporting character memory is separable from the system supporting other types of explicit memory. Given the effects of Korsakoff's syndrome and hippocampal damage on memory, individuals with less severe memory impairments, including older adults, should be able to accurately encode interpersonally relevant character information, at least at the general level of impressions.</p><p>Although older adults can remember information as well as younger adults when information is relevant and meaningful to one's life <ref type="bibr" target="#b3">(Cassidy &amp; Gutchess, 2012;</ref><ref type="bibr" target="#b41">May, Rahhal, Berry, &amp; Leighton, 2005;</ref><ref type="bibr">e.g., Rahhal, May, &amp; Hasher, 2002</ref>; American participants in <ref type="bibr" target="#b56">Yang, Chen, Ng, &amp; Fu, 2013)</ref>, it may be that, as is the case with amnesic patients <ref type="bibr" target="#b26">(Johnson, Kim, &amp; Risse, 1985;</ref><ref type="bibr" target="#b53">Todorov &amp; Olson, 2008)</ref>, the effects operate at a general level and do not improve memory for specific information. When forming impressions, older adults are less likely to use specific trait information in their organization of information <ref type="bibr" target="#b20">(Hess et al., 1998)</ref> and have more difficulty remembering inconsistent information than younger adults <ref type="bibr" target="#b23">(Hess &amp; Tate, 1991)</ref>; access to that specific information is particularly demanding of cognitive resources <ref type="bibr" target="#b19">(Hess, 2006;</ref><ref type="bibr" target="#b21">Hess et al., 2009)</ref>. In the broader memory literature, there is a large body of work showing that older adults emphasize gist, or general memory, but exhibit impaired memory for specific details (e.g., <ref type="bibr" target="#b33">Koutstaal &amp; Schacter, 1997;</ref><ref type="bibr" target="#b54">Tun, Wingfield, Rosen, &amp; Blanchard, 1998</ref>; though see <ref type="bibr" target="#b32">Koutstaal, 2006</ref> for evidence of retrieval flexibility for younger adults and, to some extent, older adults). For example, older adults are accurate at remembering the general range of prices and which grocery store item is a "better buy" <ref type="bibr" target="#b5">(Castel et al., 2005;</ref><ref type="bibr" target="#b13">Flores, Hargis, McGillivray, Friedman, &amp; Castel, 2017)</ref>, indicating intact memory for gist for another type of everyday information. Thus, the distinction between general and specific levels of memory may prove useful for socioemotional domains, such as remembering impressions of others.</p><p>Memory for emotional information has shown the importance of the distinction between general and specific memory. Negative arousing information can improve memory for specific visual details (e.g., which exemplar of a gun was studied previously?) in younger adults <ref type="bibr" target="#b28">(Kensinger, Garoff-Eaton, &amp; Schacter, 2006)</ref> as well as in older adults <ref type="bibr" target="#b29">(Kensinger, Garoff-Eaton, &amp; Schacter, 2007)</ref>. Emotional valence (i.e., the positivity or negativity of information), however, had different effects on general memory with age. Younger and older adults' general memory was superior for negatively valenced information, compared to neutral information, although positively valenced information also benefited older adults' general memory. Denburg and colleagues also find a distinction between general and specific information. Their work suggests that emotion helps younger and older adults to encode the gist, or general theme of information, but does not support the encoding of specific details <ref type="bibr" target="#b10">(Denburg et al., 2003)</ref>. These studies illustrate that the distinction between general and specific levels of memory is important for the study of emotional memory.</p><p>Recent neuroimaging work also indicates a dissociation between the neural regions implicated in general vs. specific memory for socioemotional information. In an fMRI study by <ref type="bibr" target="#b52">Somerville, Wig, Whalen, &amp; Kelley (2006)</ref>, faces were paired with information in order to color the character of an individual as positive, negative, or neutral. The participants' task was to determine whether they had seen the person's face before and to recall any specific information about that person (their name or information from the sentence). The authors found that the right hippocampus responded to all faces paired with a description regardless of valence, but that amygdala activation occurred during remembering general impressions of faces that had been paired with valenced (good or bad) information; this activation was independent of whether the individual could remember any detailed information related to the stimuli's valence. These results suggest a dissociation between general and specific memories, with memory for general socioemotional information supported by the amygdala.</p><p>In the present two studies, we investigate the effects of aging on general and specific memory for character information. Although previous studies have examined memory for character information, these investigate young adults <ref type="bibr" target="#b52">(Somerville et al., 2006)</ref> and amnesic patients <ref type="bibr" target="#b26">(Johnson et al., 1985;</ref><ref type="bibr" target="#b53">Todorov &amp; Olson, 2008)</ref>. We extend this body of work to healthy older adults, and also explicitly investigate memory across levels, examining the effects of aging on general memory for impressions of others as "good" or "bad" as well as memory for details, drawing on a distinction that has proved useful in nonsocial domains of memory (e.g., <ref type="bibr" target="#b33">Koutstaal &amp; Schacter, 1997)</ref>. We predict that socioemotional conditions can benefit memory accuracy at the general level of whether something is "good" or "bad". However, we predict that socioemotionality will disproportionately benefit general rather than specific memory for older adults such that younger and older adults will retrieve similar amounts of general information, but younger adults will retrieve more specific details upon which impressions were based.</p><p>As character impressions are considered as "good" or "bad", we furthermore explicitly investigate how aging Limbert et al: Aging and Impression Memory Art. 17, page 3 of 14 impacts memory for the different levels of valence. This connects with a rich, but varied, literature in the domain of emotion and age. Although older adults sometimes exhibit a positivity effect, remembering relatively more positive information than young (e.g., <ref type="bibr" target="#b6">Charles, Mather, &amp; Carstensen, 2003;</ref><ref type="bibr" target="#b40">Mather &amp; Carstensen, 2005;</ref><ref type="bibr" target="#b47">Reed, Chan, &amp; Mikels, 2014)</ref>, this finding is not pervasive (see <ref type="bibr" target="#b43">Murphy &amp; Isaacowitz, 2008)</ref>. In some cases, negative arousing information is most beneficial for older adults' memory <ref type="bibr" target="#b29">(Kensinger et al., 2007)</ref>. There is some evidence that memory for character information could be influenced by aging such that younger adults better remember negative information whereas older adults tend to better remember positive information (e.g., <ref type="bibr" target="#b36">Leshikar, Park, &amp; Gutchess, 2015)</ref> and engage neural regions in line with this age difference <ref type="bibr" target="#b4">(Cassidy, Leshikar, Shih, Aizenman, &amp; Gutchess, 2013)</ref>. However, the inconsistency of effects of valence on memory for impressions with age (e.g., <ref type="bibr" target="#b3">Cassidy &amp; Gutchess, 2012)</ref> across the few studies on this topic did not support clear predictions. The present experiments allow us to conduct exploratory analyses to assess the contribution of valence to memory for character information.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Experiment 1 Methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Participants</head><p>Twenty students, ranging in age from 18-22 (M age = 18.95, SD = 1.15; 11 females), from Brandeis University and twenty healthy older adults, ranging in age from 61-88 (M age = 75.15, SD = 6.29; 11 females), from the greater Boston area participated for course credit or pay. Sample size was determined based on other related studies (e.g., <ref type="bibr" target="#b53">Todorov &amp; Olson, 2008)</ref>; according to calculations with G*power, detecting an interaction between age and learning of valenced trait information would require n = 14 per group to detect effects at an effect size of f = .29. Older adults had scores of 26 or above on the Mini-Mental State Exam (MMSE) <ref type="bibr" target="#b14">(Folstein, Folstein, &amp; McHugh, 1975)</ref>. Data from one additional older adult were excluded due to failure to meet the criteria.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Stimuli</head><p>Participants passively viewed 48 different faces presented one at a time on a computer. As shown in Figure <ref type="figure" target="#fig_0">1</ref>, faces were presented with a name and a sentence providing contextual information about them, such as, "This person saved someone's life", "This person uses blue pens", or "This person is a murderer". The sentences manipulated the valence of the character information (good, neutral, or bad).</p><p>Faces. Face stimuli were obtained from the Productive Aging Lab at the University of Texas at Dallas database (<ref type="url" target="https://pal.utdallas.edu/facedb/">https://pal.utdallas.edu/facedb/</ref>). Forty-eight faces were selected based on perceived ages (ranges 18-24, M = 22.7 years and 60-69, M = 64.1 years) using equal numbers of younger and older and male and female faces. We selected faces based on norms <ref type="bibr" target="#b27">(Kennedy, Hope, &amp; Raz, 2009</ref>) that allowed us to equate faces on the dimensions of familiarity, memorability, mood, and picture quality across the gender and age groups (Fs &lt; 2.1).</p><p>Names. The names were selected from the United States Social Security Administration's database of most popular baby names for given years (<ref type="url" target="http://ssa.gov/OACT/babynames">http://ssa.gov/OACT/  babynames</ref>). After eliminating duplicate and similar (e.g. Christopher and Christine) names among age and sex groups and the name of an experimenter, 12 of the top 20 most popular names for males and females for the years 1943 and 1985 were collected for random assignment to age-and gender-congruent "old" and "young" faces. Limbert et al: Aging and Impression Memory Art. 17, page 4 of 14</p><p>These two years were selected as the years the stimulus individuals would have been born based on the average perceived ages for the face stimuli for each age group.</p><p>Sentences. The sentences that were presented with the faces in order to create a good, bad, or neutral context were a subset of those used by <ref type="bibr" target="#b52">Somerville et al. (2006)</ref>. Analyses for the ratings of valence and arousal obtained from twentythree younger adults in their study were combined with pilot ratings of six older adults in order to select the most appropriate sentences for the present study. We excluded sentences with SD &gt; 1.5 for valence ratings and SD &gt; 2.0 for arousal ratings in order to select stimuli that were rated most similarly across participants. To ensure that positive and negative sentences did not differ on arousal, the remaining positive and negative sentences were then matched for arousal (mean ratings from 4.0-5.9, on a scale of 1-9, 9 being most arousing) and sentences with the most extreme positive and negative valence ratings within this subgroup were selected. There were no significant differences in arousal (t = 1.85, p &lt; .08) or distance from a neutral valence (t = .71, p = .48) for positive and negative sentences. Neutral sentences were chosen by selecting the least arousing sentences and then selecting those sentences with valence ratings the closest to zero after eliminating sentences with highly variable valence ratings (SD &gt; 2.0), (arousal M = 1.68, SD = 1.21; valence M = .13, SD = 0.59 on a scale of -4 to 4, -4 being most negative, 4 being most positive). Sentences were assigned to the 48 face-name pairs, with equal numbers of good, bad, and neutral behaviors randomly assigned to faces of each age and gender. Four different combinations of stimuli (face/ name/sentence) were created for randomly-assigned use during the encoding phase. During this encoding phase, participants were presented with 16 face/name/sentence combinations of each context (good, bad, or neutral). The presentation of the stimuli was pseudo-randomized. An online randomization program (<ref type="url" target="http://random.org/lists/">http://random.org/  lists/</ref>) was used to determine the order, but the order was then manually corrected so that there were no more than 3 sentences of one valence, 4 faces of one age, or 4 faces of one sex presented sequentially.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Procedure</head><p>Participants provided written informed consent for the study, approved by the Brandeis University Institutional Review Board. Next, participants received instructions for encoding: "When you are viewing the slides, imagine you are meeting the individual for the first time. Read and try to learn the information about them. What is this person's name? Based on the information presented about them, what type of impression do you form about this person?". The face-name-sentence triads each were presented for 5 seconds, with a blank screen for 1 second before the next triad. After all 48 triads were presented, they were repeated again two more times in new orders so that all triads were seen a total of three times. The experiment was conducted with E-Prime 2.0 (Psychology Software Tools, Pittsburgh, PA).</p><p>For 30 seconds after encoding, participants counted backwards by 7 in order to eliminate recency effects in the following memory task. Participants were then presented with only the faces and names of each previously-learned character in a random order and were asked 1) what kind of impression they formed of this person and, 2) if they could recall any additional information about them. Participants made a keypress to indicate their positive, neutral, or negative assessment of the individual and reported aloud their recall of any additional character information. An experimenter recorded these verbal responses for later scoring.</p><p>Additional neuropsychological tests were then administered to characterize our samples, with results presented in Table <ref type="table" target="#tab_0">1</ref>. Participants completed demographics and health questionnaires, Verbal Paired Associates I to assess associative memory (Wechsler Memory Scale -III, <ref type="bibr" target="#b55">Wechsler, 1997)</ref>, a digit comparison task to assess speed of processing <ref type="bibr" target="#b16">(Hedden et al., 2002;</ref><ref type="bibr">modeled after Salthouse &amp; Babcock, 1991 Letter Comparison Task)</ref>, a letter-number sequencing task to assess working memory and executive function <ref type="bibr">(Wechsler Memory Scale -III, Wechsler, 1997)</ref>, and the Shipley Vocabulary Test to assess vocabulary as a type of crystallized intelligence <ref type="bibr" target="#b51">(Shipley, 1986)</ref>. Older adults completed the MMSE <ref type="bibr" target="#b14">(Folstein et al., 1975)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Scoring Specific Memory</head><p>The verbal responses to the question of, "What other information do you remember about this person?" were coded using a scheme that allowed the main idea to be communicated through rephrasing and/or synonyms (e.g. for a target of "helps the elderly", "likes old people" was accepted; for a target of "embezzler", "steals money", "is a crook", or "writes bad checks" were accepted). Two individuals separately scored each participant's responses. The Krippendorff's alpha statistic for inter-rater reliability was .99. In order to have only one score for each participant, any discordance between the two judges' scores was resolved through discussion with an additional member of the research team.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>General Memory</head><p>The ability to remember general, gist-based character information was measured as the number of correct responses to the question, "What kind of impression did you form of this person?", that was presented during the recognition trial, with the option of responding with "positive", "neutral", or "negative". In order to correct for potential group differences in guessing biases (i.e., the tendency to use "positive", "neutral", or "negative" labels), we used the adaptation of <ref type="bibr" target="#b7">Cohen's (1960)</ref> kappa statistic, as devised by <ref type="bibr" target="#b25">Isaacowitz et al. (2007)</ref>. It is important to use a measure of corrected recognition for our general memory data in order to distinguish the ability to correctly discriminate information in memory from response bias. A participant, for example, could tend to predominantly choose the "positive" response option. This may lead to the appearance of the excellent performance in the positive trials, but it would not account for all of the times that the "positive" response was misapplied to other conditions. Using kappa scores allows for a more appropriate comparison of memory sensitivity across conditions and age groups, whereas raw scores could reflect the bias to use different labels. Kappa is calculated as k = (number of correct responsesnumber of chance-expected correct responses)/(the total number of items -number of chance-expected correct responses). Kappa scores can range from 1 for perfect classification performance to 0 for chance performance (or below 0 when classification performance is below chance). Kappa scores were analyzed in a 2 × 3 mixed design ANOVA, with age (younger/older) as the between participants variable and valence (positive/neutral/negative) as the within-participant variable. As shown in Figure <ref type="figure">2</ref>, results revealed significant main effects of age, F(1, 38) = 6.99, p = .01, η p 2 = .16, and valence, F(2, 76) = 20.86, p &lt; .001, η p 2 = .35, but no age by valence interaction, F(2, 76) = .60, p = .55, η p 2 = .02. Younger adults performed better than the older adults, negative information was retrieved significantly better than positive, t(39) = 2.24, p = .03, and positive information was retrieved significantly better than neutral, t(39) = 5.24, p &lt; .001.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>General Memory Reaction Times</head><p>Reaction times for correct general memory trials were analyzed in a 2 × 3 mixed design ANOVA, with age (younger/older) as the between participants variable and valence (positive/neutral/negative) as the within participant variable. There was a significant main effect of age, such that older adults were slower than younger adults, F(1, 35) = 17.42, p &lt; .001, η p 2 = .33. The main effect</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Figure 2:</head><p>In Experiment 1, average kappa-corrected general memory scores (+SE) were higher for younger than older adults. Scores were higher for negative stimuli compared to positive, which were higher than neutral stimuli.</p><p>of valence was also significant, F(2, 70) = 5.06, p = .009, η p 2 = .13, whereas the interaction of valence × age was not: F(2, 35) = 2.05, p = .14, η p 2 = .06. As shown in Table <ref type="table" target="#tab_1">2</ref>, follow-up paired t-tests revealed that reaction times for correct positive trials were faster than for neutral trials, t(36) = 2.58, p = .014, and there was a trend for positive to be faster than negative, t(36) = 1.97, p = .06. Reaction times to negative and neutral trials did not significantly differ from each other, t(36) = .94, p = .36.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Specific Memory</head><p>Scores for specific memory performance were determined for each individual by first eliminating trials for which general impressions were not recalled correctly. This meant that of the 16 items presented for each condition, on average between 10.40-11.55 trials were scored for each condition for specific memory for younger adults and between 7.45-10.85 trials for older adults. The specific memory hits were converted into proportions indicating the percentage of the correct general impressions for which specific information was also remembered, which accounted for potential age and individual differences in the amount of general information remembered. This was done for each level of valence.</p><p>We conducted a 2 × 3 mixed-design ANOVA on the specific memory scores, with age group as the between participant and valence as the within-participant variables. As shown in Figure <ref type="figure">3</ref>, there was a significant main effect of age, F(1, 38) = 44.02, p &lt; .001, η p 2 = .54, with younger adults outperforming the older adults, but no significant effect of valence, F(2, 76) = .94, p &lt; .40, η p 2 = .02. There was also a marginal age by valence interaction, F(2, 76) = 2.53, Experiment 2 Positive vs. Negative Positive vs. Neutral Neutral vs. Negative Younger 2169.55 (812.41) 2413.80 (1071.99) 2253.66 (1066.42) Older 4032.16 (2570.12) 4515.61 (2722.81) 4348.02 (2571.37)</p><p>Figure <ref type="figure">3</ref>: Specific memory scores for Experiment 1 are higher for younger than older adults, with a trend towards older adults performing worse on neutral than positive trials, whereas younger adults did not differ across conditions. The graph depicts average performance (+SE) on the specific memory task.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Limbert et al: Aging and Impression Memory</head><p>Art. 17, page 7 of 14 p = .09, η p 2 = .06. This trend is driven by the neutral items, with older adults scoring worse on neutral than positive items, t(19) = 2.22, p = .04, whereas younger adults did not differ across levels of valence (all ts &lt; 1.6).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head><p>The results of Experiment 1 indicate that both general and specific memory for character information are impaired with age. In addition, a positivity bias did not emerge for older adults in the accuracy of memory for character information. Across younger and older adults, general memory for valenced information (negative and positive) is higher than for neutral information, with the highest levels of memory for negative information. Response times are fastest for positive general memory trials, but only statistically so compared to neutral trials. For specific memory, although there is a trend for older adults to better remember positive than neutral information, this does not emerge strongly. Importantly, no differences in specific memory emerge for positive versus negative valence, for younger or older adults. These results will be discussed in turn.</p><p>Based on previous studies in which socioemotional or personally meaningful content eliminated age differences in memory (e.g., <ref type="bibr" target="#b3">Cassidy &amp; Gutchess, 2012;</ref><ref type="bibr" target="#b41">May et al., 2005;</ref><ref type="bibr" target="#b46">Rahhal et al., 2002</ref>; American participants in <ref type="bibr" target="#b56">Yang et al., 2013)</ref>, we had predicted that older adults would perform as well as younger adults in remembering general impressions of others, but not the specific details of behaviors. These predictions were also informed by findings with amnesic patients that despite being unable to remember specific reasons for feeling a certain way towards someone, patients' ability to remember general impressions of individuals was spared <ref type="bibr" target="#b26">(Johnson et al., 1985</ref>; see also <ref type="bibr" target="#b53">Todorov &amp; Olson, 2008)</ref>. In fact, our results show that older adults did not remember either specific information or general impressions as well as younger adults.</p><p>Aspects of our design may have contributed to the similar pattern of age deficits across specific and general memory. In our procedure, there was an expected sequence of events in that participants reported their positive, negative, or neutral impression of one person, followed immediately by recalling any additional details for that individual. We expect that while contemplating the first question, participants were also thinking of the second question and basing their answer on their explicit memory for specific details. If all the general impressions were to be elicited before probing memory for specific details, we may be able to disentangle the effects of aging on general and specific memory. This will be assessed in Experiment 2.</p><p>Additionally, we found no evidence for a positivity bias when using kappa scores to compared corrected memory scores, corrected for guessing biases (based on <ref type="bibr" target="#b25">Isaacowitz et al., 2007)</ref>. Socioemotional selectivity theory <ref type="bibr" target="#b1">(Carstensen, Isaacowitz, &amp; Charles, 1999)</ref> predicts that older adults who are better emotion regulators than younger adults can, in some instances (e.g., <ref type="bibr" target="#b6">Charles et al., 2003;</ref><ref type="bibr" target="#b42">Mikels, Larkin, Reuter-Lorenz, &amp; Carstensen, 2005;</ref><ref type="bibr" target="#b47">Reed et al., 2014)</ref>, remember positive information better than neutral or negative information (but see <ref type="bibr" target="#b43">Murphy &amp; Isaacowitz, 2008)</ref>. It is possible that in memory for character information, there is no advantage for positive information or that this bias only emerges when behaviors have implications for the person encoding the information in memory. Some prior work highlights the importance of goals or contextual factors in age differences in cognitive processes, including memory for impressions of others (e.g., <ref type="bibr" target="#b3">Cassidy &amp; Gutchess, 2012;</ref><ref type="bibr" target="#b19">Hess, 2006;</ref><ref type="bibr" target="#b20">Hess et al., 1998;</ref><ref type="bibr" target="#b21">Hess et al., 2009;</ref><ref type="bibr">Leshikar et al., 2015)</ref>. The present task did not have a strong framing around personal or motivational goals, which could have prevented the emergence of valence effects. However, it is also possible that positivity effects emerge more consistently for arousing or valenced information that lacks social implications, in that both positive and negative behaviors of others have implications for social goals.</p><p>One limitation of Experiment 1 is that as the measures were designed, specific and general memory performance may have been closely coupled. As previously noted, because general and specific memory were assessed in succession for each face, participants may have attempted to consciously retrieve information from memory rather than relying on their gut impressions formed implicitly from prior experiences (as was the case for the amnesic patients tested by <ref type="bibr" target="#b26">Johnson et al., 1985 and</ref><ref type="bibr">Torodov &amp;</ref><ref type="bibr" target="#b53">Olson, 2008)</ref>. We address these concerns in Experiment 2.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Experiment 2</head><p>In Experiment 1, older adults performed worse than younger adults on measures of both general and specific memory. By emphasizing the importance of relying on a gut impression, adapting the format of the general memory test, and separating general and specific memory tests to be administered at different points in time, we aimed to reduce participants' potential tendency to rely on explicit memory in Experiment 2, thus better simulating conditions along the lines of prior work with amnesics <ref type="bibr" target="#b26">(Johnson et al., 1985;</ref><ref type="bibr" target="#b53">Todorov &amp; Olson, 2008)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Participants</head><p>Twenty-eight students, ranging in age from 17-25 (parental consent provided for those aged 17; M age = 18.93, SD = 1.46; 23 females), from Brandeis University and twenty-eight older adults, ranging in age from 59-91 1 (M age = 72.19, SD = 8.83; 22 females) from the greater Boston area were recruited using criteria identical to Experiment 1. 2 One additional younger and one additional older participant were eliminated from the sample because they scored at chance on the general memory task, eight additional young adults were discarded due to administration errors, and one younger adult was eliminated to match the sample size for older adults. See Table <ref type="table" target="#tab_0">1</ref> for sample characteristics.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Procedure</head><p>The stimuli and procedure were the same as those for Experiment 1, with the following changes. The 48 face-name-sentence triads were presented for only two runs. After the 30 second retention interval (i.e., counting backwards by 7s), the two memory tasks were administered separately, in order to better distinguish general and specific memory. In the first test of general memory, participants saw two faces side by side and were asked to decide which face they felt more positive about. They were instructed to rely on their gut impression rather than recalling past learned information. Participants responded by pressing one of two keys to indicate which face they felt more positive about. All 48 faces were shown, and the faces in the 24 pairs were matched by gender (i.e., two females or two males) and age (i.e., two younger or two older). The pairings were presented in a random order and four different versions of the task were created based on the 4 different encoding versions. Pairs were assigned to conditions of a positive face and a negative face (Pos/Neg), a positive face and a neutral face (Pos/Neu), or a neutral face and a negative face (Neu/Neg). Similarly, corrections were made to prevent face/name/ behavior triads from being placed in the same condition in all four counterbalanced versions. The specific recognition task followed the completion of the general memory test. The specific recognition test and neuropsychological tests were identical to those used in Experiment 1.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>General Memory</head><p>For general memory, we conducted a 2 × 3 mixed design ANOVA with age (younger/older) as the between participants variable and valence (negative vs. neutral, positive vs. neutral, positive vs. negative) as the withinparticipant variable. There was a significant main effect of valence, F(2, 108) = 16.48, p &lt; .001, η p 2 = .23, with follow up tests revealing that relative to the comparison of positive vs. neutral faces (M = .62, SD = .17), participants were more accurate at selecting the positive face vs. the negative one (M = .79, SD = .18), t(55) = 5.63, p &lt; .001, and the neutral face vs. the negative one (M = .75, SD = .18), t(55) = 3.67, p = .001. The main effect of age, F(1, 54) = 1.30, p = .26, η p 2 = .02, and the age × valence interaction, F(2, 108) = .52, p = .60, η p 2 = .01, did not approach significance. See results in Table <ref type="table" target="#tab_3">3</ref> and <ref type="table">Figure 4</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>General Memory Reaction Times</head><p>Reaction times to correct trials were analyzed. Although there was a main effect of age such that younger adults were faster than older adults, F(1, 54) = 16.96, p &lt; .001, η p 2 = .24, the main effect of valence, F(2, 108) = 2.20,  Memory Specific Memory Neg/Neutral Pos/Neg Pos/Neutral Positive Neutral Negative Younger .71 (.18) .78 (.16) .61 (.17) .36 (.18) .42 (.19) .42 (.19) Older .78 (.19) .80 (.19) .63 (.17) .21 (.16) .27 (.20) .24 (.15) Limbert et al: Aging and Impression Memory</p><p>Art. 17, page 9 of 14 p = .12, η p 2 = .04, and the interaction of age × valence were not significant, F(2, 108) = .31, p = .74, η p 2 = .01.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Specific Memory</head><p>For specific memory, we conducted a 2 × 3 mixed design ANOVA with age (younger/older) as the betweenparticipants variable and valence (negative, neutral, positive) as the within-participant variable. As shown in Table <ref type="table" target="#tab_3">3</ref>, there was a significant main effect of valence, F(2, 108) = 6.60, p = .002, η p 2 = .11, with specific memory for positive items (M = .28, SD = .19) worse than memory for negative (M = .33, SD = .19), t(55) = 2.76, p = .008, and neutral (M = .35, SD = .21) items, t(55), 3.77, p &lt; .001. The main effect of age was also significant, F(1, 54) = 14.44, p &lt; .001, η p 2 = .21, with younger adults (M = .40, SD = .17) outperforming older adults (M = .24, SD = .15), but the age valence interaction was not significant, F(2, 108) = .42, p = .66, η p 2 = .01.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Comparison of Reaction Times across Experiments 1 and 2</head><p>In addition, we conducted exploratory analyses of reaction times for general recognition across the two experiments. 3 These analyses were performed post hoc in an attempt to substantiate our claims that the general recognition test in Experiment 2 relied on more automatic processes than the general recognition test in Experiment 1, perhaps particularly benefiting older adults. As shown in Table <ref type="table" target="#tab_1">2</ref>, although both age groups respond faster on the general memory task in Experiment 2, the facilitation is larger for older than younger adults. This is seen in reaction times that are nearly half the duration in Experiment 2 compared to Experiment 1 in younger adults, but older adults show an even greater facilitation. A 2 × 2 × 3 mixed ANOVA, conducted across the two experiments, with age and valence as the additional factors, did reveal a significant age × study interaction, F(1, 89) = 7.11, p = .01, η p 2 = .07. A comparison of the effect sizes for the age effect in Experiment 1 (η p 2 = .33) with Experiment 2 (η p 2 = .24) is consistent with the idea that emphasizing more automatic, rather than deliberative memory decisions, in Experiment 2 facilitates general memory performance, particularly for older adults. The main effects of study, F(1, 89) = 49.83, p &lt; .001, η p 2 = .36, and age, F(1, 89) = 37.77, p &lt; .001, η p 2 = .30, were also significant. We only report the effects of age and study here, in keeping with our interest in using reaction times to substantiate the different types of decisions made across the two experiments, but it is important to note that the effects of valence would not be particularly interpretable as the valence levels were not tested as independently in Experiment 2 (i.e., participants decided which of two faces was more positive and faces were selected from two different levels of valence).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head><p>The results of Experiment 2 indicate that memory for general memory for impression information can be intact with age, even when memory for specific information about others is impaired. Our findings could account for the age-equivalent memory for information regarding trustworthiness, character, or safety <ref type="bibr" target="#b41">(May et al., 2005;</ref><ref type="bibr" target="#b46">Rahhal et al., 2002</ref>; American participants in <ref type="bibr" target="#b56">Yang et al., 2013)</ref>, in that only a general impression (e.g., "good" or "bad") was required in those tasks. It may be that memory for socioemotionally relevant information is preserved with age to some extent, but not enough to support memory for specific, detailed information. Older adults tend to rely less on this type of detailed information <ref type="bibr" target="#b20">(Hess et al., 1998)</ref>, likely because it requires additional cognitive resources and does not support the motivational goals <ref type="bibr" target="#b19">(Hess, 2006;</ref><ref type="bibr" target="#b21">Hess et al., 2009)</ref>. Moreover, this finding is consistent with prior work on memory for emotional information in that older adults' memory for specific details is less enhanced by emotional content than younger adults' <ref type="bibr" target="#b10">(Denburg, Buchanan, Tranel, &amp; Adolphs, 2003)</ref>.</p><p>In terms of valence, we again find no evidence of a positivity bias in memory for character information, and no differences across the age groups in the valence of material that tended to be remembered, for general or specific memory. In fact, specific memory for positive information tended to be worse in this experiment. Although this could suggest that it is more advantageous to remember negative information about others across the lifespan, it also could reflect unintended differences in the types of character information presented in each condition. Future studies could better address this question by using stimuli that are more equivalent across the different types of valence, such as trait words. In addition, it is important to note that the general memory task, in which the participant selected which of two faces was more positive (based on the prior pairing of the faces with sentences), did not allow for a clean and direct comparison of the different levels of valences. Furthermore, the nature of the test may have biased memory scores based on the properties of the lure face. For example, memory tended to be better for distinguishing positive or neutral faces from negative ones, whereas memory for positive and neutral faces did not differ from each other. The orientation to selecting the positive face may have been most salient when in contrast with the most negative information.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>General Discussion</head><p>Across two studies, we find some evidence that age may impact memory for character information, in that specific memory may be poorer in older adults than general memory. However, this finding depends on task demands. Older adults were impaired on both types of memory in Experiment 1, when participants may have attempted to rely on more explicit memory for previously learned character information. When put in a situation in Experiment 2 that discouraged a search of explicit memory, older adults' general memory performance reached, or even slightly exceeded, the level of younger adults' performance. This pattern is consistent with the idea of two different routes to support memory. Traditionally this has been thought of as the distinction between explicit (e.g., conscious) memory and implicit (e.g., nonconscious) memory, with suggestions that explicit memory may undergo more age-related decline than implicit memory <ref type="bibr" target="#b37">(Light &amp; Singh, 1987)</ref>. Older adults may default to using their explicit system for memory tasks, perhaps reflecting their familiarity with approaching memory tasks in this manner and a lack of metacognition about other potential strategies or the systems that are relatively more preserved with age. This reliance on explicit systems may occur even though relying on their more intact implicit system could be more effective for retrieving general impressions about one's character. By discouraging the use of explicit memory in Experiment 2, we may have helped older adults to draw on this more intact system and set of information about general impressions. We discuss potential neural correlates of these systems in the next paragraph. The present finding may help to unite literatures documenting extensive decline in memory with age (as reviewed by <ref type="bibr" target="#b57">Zacks et al., 2000)</ref> with the surprising newer work revealing age-equivalent memory for socioemotional information <ref type="bibr" target="#b41">(May et al., 2005;</ref><ref type="bibr" target="#b46">Rahhal et al., 2002)</ref>. The current studies suggest that age impairments in memory for social information depend on the necessity of retrieving general versus specific memory, and having a context that supports implicit affectivebased responding (see <ref type="bibr" target="#b3">Cassidy &amp; Gutchess, 2012</ref>, for a related demonstration of the effects of task orientation on memory for socioemotional information).</p><p>In terms of relevant neural systems, the intact performance on general memory in Experiment 2 is consistent with literature suggesting that amnesia does not impair memory for character information <ref type="bibr" target="#b26">(Johnson et al., 1985;</ref><ref type="bibr" target="#b53">Todorov &amp; Olson, 2008)</ref> and that the amygdala, rather than the hippocampus, subserves encoding of character information that is consistent with impressions formed <ref type="bibr" target="#b50">(Schiller, Freeman, Mitchell, Uleman, &amp; Phelps, 2009)</ref>. Thus, it may be the case that an amygdala-based system supports memory for general impressions in a manner similar to implicit memory. Neuroimaging methods would allow for a test of these ideas in healthy older adults. Functional changes in the brain regions involved in socioemotional processes have been little-investigated in older adults, with most research examining the effects of emotion per se (see <ref type="bibr">Kensinger &amp; Gutchess, 2015 for a review)</ref>. With this task, we would predict a dissociation between the neural networks that respond to valenced and non-valenced information, and specific and general memory, consistent with the results of <ref type="bibr" target="#b52">Somerville et al. (2006)</ref>. More specifically, we expect that general information would be supported by systems involved in the automatic processing of information (e.g., amygdala) and that specific information would be supported by systems governing controlled processing (e.g., hippocampus, prefrontal cortex), which are more impacted by the aging process. Research in this area would help to discern the extent to which socially-relevant information is preserved with age due to its reliance on distinct neural systems than memory for relatively neutral information, at least for general memory.</p><p>Although much of the research thus far has focused on how age-related changes in motivation affect memory for emotional information (e.g., <ref type="bibr" target="#b6">Charles et al., 2003;</ref><ref type="bibr" target="#b15">Fung &amp; Carstensen, 2003;</ref><ref type="bibr">Mather &amp; Carstensen, 2003)</ref>, we do not believe that emotionality solely accounts for the prioritization of social information in memory. Both positive and negative information about others can be relevant to goals, and both types could be useful in different social situations. For example, perhaps an aggressive or assertive individual is someone you would want as a teammate or legal advocate, whereas a caring individual is someone you would want as a friend or caregiver when recuperating from surgery. Other work is consistent with our findings in showing that there is not an overall bias for positive or negative character information to be better remembered by younger or older adults, but that additional factors, such as whether the trait is shared by the self <ref type="bibr" target="#b34">(Leshikar, Cassidy, &amp; Gutchess, 2015;</ref><ref type="bibr">Leshikar &amp; Gutchess, 2015;</ref><ref type="bibr" target="#b36">Leshikar, Park, et al., 2015)</ref> or pertains to morality <ref type="bibr" target="#b22">(Hess &amp; Kotter-Grühn, 2011</ref>) can influence whether positive or negative trait information about others is prioritized in memory. The interplay between social and emotional factors is an interesting direction for future work, particularly in terms of the shared versus distinct effects of aging <ref type="bibr" target="#b30">(Kensinger &amp; Gutchess, 2015</ref><ref type="bibr" target="#b38">, 2017)</ref>. The current study adds to evidence of at least some separation between these domains. Moreover, it will be important to determine which aspects of socioemotional information are most beneficial in memory or engage distinct systems. Although we have attempted to balance our positive and negative behaviors on dimensions such as arousal, it is possible they differ, or differ from neutral items, in other unintended ways. For example, distinctiveness could contribute <ref type="bibr" target="#b24">(Hunt &amp; McDaniel, 1993)</ref>, as one is far more likely to make the acquaintance of someone who uses blue pens (a neutral item) than someone who is a murderer (negative item).</p><p>Our results have implications for the trait impression literature (e.g., <ref type="bibr" target="#b20">Hess et al., 1998)</ref>, which suggests that older adults would make less use of the specific information in forming their impressions and engage in less controlled processing, while the formation of an impression would be a relatively automatic process and less impaired with age. This is consistent with our findings of greater age differences in memory for specific information. Furthermore, when urged in Experiment 2 to rely more on "gut instinct" impressions formed through automatic processing and deliberation was discouraged, general memory performance was similar across age groups. Although differences across the two experiments prevent us from conclusively arguing that moving to more automatic processes better supported general memory performance, the pattern of reaction times is consistent with this suggestion. Reaction times were strikingly faster for Experiment 2 compared to Experiment 1, and disproportionately so for older adults. Although these experiments were not designed to be directly compared and several differences occur across them (e.g., for Experiment 2, participants decide amongst two alternatives vs. three, although are presented with two faces rather than one), the reaction time data nevertheless underscore the potential for older adults to benefit when impression memory can rely on automatic processes. Future work should further examine this question, employing process-specific tasks and tests of automaticity.</p><p>One consideration is that the nature of our memory tests may account for the diverging patterns of age effects for general and specific memory. The general memory tasks involved a forced-choice test with two or three options, while the specific memory task relied on recall. Recall is more difficult than recognition (e.g., <ref type="bibr" target="#b8">Craik &amp; McDowd, 1987;</ref><ref type="bibr" target="#b9">Davis, Trussell, &amp; Klebe, 2001)</ref>, so one concern is that the two types of memory we are measuring are more reflective of the differences in the tasks rather than differences in the types of memory. Although this should be addressed in future work, the diverging patterns of results across Experiments 1 and 2 are somewhat reassuring on this point. If the results simply reflected the greater difficulty of the specific memory test for older adults, then the pattern of age effects should be relatively similar across the two experiments. Despite the impairment to specific memory in both studies, the finding of age-equivalent general memory only occurs for Experiment 2, where there are supportive task conditions. In addition, specific memory performance is low in the experiments, despite attempts to reduce memory demands by providing multiple study trials, rich face and name cues at retrieval, and flexible scoring to capture the gist, or thematically-related information, rather than precise wording. Specific memory could also be lower in Experiment 2 due to the longer retrieval interval, and potential inference from the intervening general memory test. Ideally, the order of the tasks should be counterbalanced (although note that specific memory performance is still worse with age in Experiment 1, where the order did not differ). Relatedly, the age-equivalent general memory performance in Experiment 2 could reflect the demands of the task. Older adults can perform better on forced choice, rather than recognition tests, due to the contribution of familiarity <ref type="bibr" target="#b0">(Bastin &amp; Van der Linden, 2003)</ref>, and age differences can track task difficulty such that they are larger for more difficult tasks <ref type="bibr" target="#b11">(Earles &amp; Kersten, 1998;</ref><ref type="bibr" target="#b12">Earles, Kersten, Berlin Mas, &amp; Miccio, 2004)</ref>. Although both of these factors could contribute to our findings of spared general memory, Experiment 1 also shared these features but did not identify age-equivalent effects. The contribution of these effects cannot be conclusively ruled out without further experimentation. At the very least, the present studies provide evidence that memory for general impressions can be intact with age, and highlight the types of conditions, including demands for specific recall versus consideration of more general impressions not reliant on explicit memory, that are important to explore further.</p><p>Despite these limitations, our study informs what is currently known about aging and cognitive change. According to <ref type="bibr" target="#b17">Hess (1999)</ref>, the creation of an impression relies on a mixture of both cognitive resources and processing goals, such as maintaining positive affect, but these goals are mediated by processing limits. Some of these processing limits that increase with age, such as declines in working memory and inhibitory ability, may lead to difficulty creating, changing, and accessing mental models <ref type="bibr">(Radvansky, Zacks, &amp; Hasher, 2005)</ref>, such as the model one constructs when forming an impression. However, because both younger and older adults appear to process and use general evaluative information, such as that presented in our paradigm, in the same manner <ref type="bibr" target="#b20">(Hess et al., 1998)</ref>, we find that memory does not always simply reflect age differences in the ability to process information. General character information can be ageequivalent, even when older adults' memory is lacking in specific details. These studies suggest that the distinction between measuring specific and general memory, taken into consideration with the demands and difficulty of the memory task, could be important in understanding when age differences in memory for socioemotional information do and do not emerge.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data Accessibility Statements</head><p>Datafiles are available at osf.io/szuj7.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Notes</head><p>1 One older adult mistakenly omitted birthdate from the demographics form, but was recruited from a sample that fell within this age range. 2 Initially each group consisted of 16 participants and preliminary analyses were conducted. Sample size was increased in response to reviewer suggestions. 3 We thank an anonymous reviewer for this suggestion.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 :</head><label>1</label><figDesc>Figure 1: Example stimulus consisting of a face, name, and sentence indicating positive behavior. Actual stimuli were presented in color.</figDesc><graphic coords="3,150.59,504.24,302.61,248.18" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 4 :</head><label>4</label><figDesc>Figure 4: In Experiment 2, younger and older adults remembered general impressions equivalently, whereas young adults remembered more specific character information than older adults. The graph depicts average performance (+SE) on general and specific memory tasks, collapsed across valences.</figDesc><graphic coords="8,77.82,497.31,431.14,254.45" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><graphic coords="5,91.34,479.28,421.10,284.39" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><graphic coords="6,85.00,460.83,416.76,279.58" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 :</head><label>1</label><figDesc>Demographic and neuropsychological measures (means and standard deviations) for younger and older adults in the two studies.</figDesc><table><row><cell></cell><cell></cell><cell>Experiment 1</cell><cell></cell><cell cols="2">Experiment 2</cell></row><row><cell></cell><cell>Younger</cell><cell>Older</cell><cell>p-value</cell><cell>Younger</cell><cell>Older</cell><cell>p-value</cell></row><row><cell>Years Educ</cell><cell cols="2">13.20 (1.15) 15.95 (2.40)</cell><cell>&lt;.001*</cell><cell>12.95 (1.09)</cell><cell>16.14 (2.61)</cell><cell>&lt;.001*</cell></row><row><cell>Shipley Vocab</cell><cell cols="2">33.70 (2.74) 35.60 (2.98)</cell><cell>.04*</cell><cell>31.04 (4.31)</cell><cell>36.43 (2.49)</cell><cell>&lt;.001*</cell></row><row><cell>Digit Comparison</cell><cell cols="2">70.85 (10.13) 55.55 (9.63)</cell><cell cols="3">&lt;.001* 81.50 (14.34) 60.21 (12.94)</cell><cell>&lt;.001*</cell></row><row><cell>Letter-Number Sequencing</cell><cell cols="2">12.40 (1.98) 10.00 (2.22)</cell><cell>.001*</cell><cell>12.14 (2.41)</cell><cell>9.61 (2.36)</cell><cell>&lt;.001*</cell></row><row><cell>Verbal Paired Associates</cell><cell cols="2">25.50 (4.42) 19.15 (8.76)</cell><cell>.01*</cell><cell>25.46 (6.36)</cell><cell>16.39 (8.74)</cell><cell>&lt;.001*</cell></row><row><cell>MMSE</cell><cell cols="2">n/a 29.05 (1.10)</cell><cell>n/a</cell><cell>n/a</cell><cell>28.43 (1.26)</cell><cell>n/a</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 2 :</head><label>2</label><figDesc>Reaction times for younger and older adults' general memory decisions in Experiments 1 &amp; 2.</figDesc><table><row><cell>A. Experiment 1</cell><cell>Positive</cell><cell>Neutral</cell><cell>Negative</cell></row><row><cell>Younger</cell><cell>4382.46</cell><cell>5247.27</cell><cell>4855.18</cell></row><row><cell></cell><cell>(254.59)</cell><cell>(600.89)</cell><cell>(511.66)</cell></row><row><cell>Older</cell><cell>7889.50</cell><cell>11112.05</cell><cell>10829.10</cell></row><row><cell></cell><cell>(787.54)</cell><cell>(1547.41)</cell><cell>(1728.04)</cell></row></table><note><p>B.</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head>Table 3 :</head><label>3</label><figDesc>Averages and Standard Deviations for General and Specific Memory Performance in Experiment 2.</figDesc><table><row><cell>General</cell></row></table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>Downloaded from http://online.ucpress.edu/collabra/article-pdf/4/1/17/468380/109-1973-3-pb.pdf by guest on 22 July 2025</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgements</head><p>We thank <rs type="institution">The Productive Aging Lab</rs> for providing the face stimuli, <rs type="person">Leah Somerville</rs> for sharing her sentence stimuli, <rs type="person">Derek Isaacowitz</rs>, <rs type="person">Corinna Löckenhoff</rs>, <rs type="person">Matt King</rs>, <rs type="person">Brittany Cassidy</rs>, members of the <rs type="institution">ACC Lab</rs>, and <rs type="person">Xiaodong Liu</rs> for helpful comments and statistical advice, and <rs type="person">Phyllis Blumberg</rs>, <rs type="person">Abraham Lipton</rs>, <rs type="person">Shirley Lo</rs>, <rs type="person">Lila Starbuck</rs>, <rs type="person">Jennifer Silverberg</rs>, <rs type="person">Becky Sokal</rs>, <rs type="person">Gabriel del Carmen</rs>, <rs type="person">Lauren Puglisi</rs>, <rs type="person">Christine Talbot</rs>, <rs type="person">Katelyn Parisi</rs>, and <rs type="person">Kayla Shepherd</rs> for assistance with data collection, scoring, and organization.</p></div>
+			</div>
+			<div type="funding">
+<div><head>Funding Informations</head><p>This work was supported by the <rs type="funder">National Institute on Aging</rs> grant <rs type="grantNumber">R21 AG032382</rs>, awarded to AG.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_6uN4dFW">
+					<idno type="grant-number">R21 AG032382</idno>
+				</org>
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Competing Interests</head><p>The authors have no competing interests to declare.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Author Contributions</head><p>• Substantial contributions to conception and design: MJL, JAC, AG • Acquisition of data: MJL, JAC • Analysis and interpretation of data: MJL, AG • Drafting the article or revising it critically for important intellectual content: MJL, AG • Final approval of the version to be published: MJL, JAC, AG</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct status="extracted"  xml:id="b0">
+	<analytic>
+		<title level="a" type="main">The contribution of recollection and familiarity to recognition memory: A study of the effects of test format and aging</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Bastin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Van Der Linden</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/0894-4105.17.1.14</idno>
+		<ptr target="https://doi.org/10.1037/0894-4105.17.1.14" />
+	</analytic>
+	<monogr>
+		<title level="j">Neuropsychology</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="14" to="24" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bastin, C., &amp; Van der Linden, M. (2003). The contribution of recollection and familiarity to recognition memory: A study of the effects of test format and aging. Neuropsychology, 17(1), 14-24. DOI: https://doi. org/10.1037/0894-4105.17.1.14</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Taking time seriously -A theory of socioemotional selectivity</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">L</forename><surname>Carstensen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Isaacowitz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">T</forename><surname>Charles</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/0003-066X.54.3.165</idno>
+		<ptr target="https://doi.org/10.1037/0003-066X.54.3.165" />
+	</analytic>
+	<monogr>
+		<title level="j">American Psychologist</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="165" to="181" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Carstensen, L. L., Isaacowitz, D. M., &amp; Charles, S. T. (1999). Taking time seriously -A theory of socioemotional selectivity. American Psychologist, 54(3), 165-181. DOI: https://doi.org/10.1037/ 0003-066X.54.3.165</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b2">
+	<analytic>
+		<title level="a" type="main">At the intersection of emotion and cognition -Aging and the positivity effect</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">L</forename><surname>Carstensen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Mikels</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.0963-7214.2005.00348.x</idno>
+		<ptr target="https://doi.org/10.1111/j.0963-7214.2005.00348.x" />
+	</analytic>
+	<monogr>
+		<title level="j">Current Directions in Psychological Science</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="117" to="121" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Carstensen, L. L., &amp; Mikels, J. A. (2005). At the intersection of emotion and cognition -Aging and the positivity effect. Current Directions in Psychological Science, 14(3), 117-121. DOI: https://doi. org/10.1111/j.0963-7214.2005.00348.x</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Social relevance enhances memory for impressions in older adults</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">S</forename><surname>Cassidy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">H</forename><surname>Gutchess</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/09658211.2012.660956</idno>
+		<ptr target="https://doi.org/10.1080/09658211.2012.660956" />
+	</analytic>
+	<monogr>
+		<title level="j">Memory</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="332" to="345" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cassidy, B. S., &amp; Gutchess, A. H. (2012). Social relevance enhances memory for impressions in older adults. Memory, 20(4), 332-345. DOI: https://doi.org/10.108 0/09658211.2012.660956</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Valence-based age differences in medial prefrontal activity during impression formation</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">S</forename><surname>Cassidy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">D</forename><surname>Leshikar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Y</forename><surname>Shih</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Aizenman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">H</forename><surname>Gutchess</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/17470919.2013.832373</idno>
+		<ptr target="https://doi.org/10.1080/17470919.2013.832373" />
+	</analytic>
+	<monogr>
+		<title level="j">Soc Neurosci</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="462" to="473" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cassidy, B. S., Leshikar, E. D., Shih, J. Y., Aizenman, A., &amp; Gutchess, A. H. (2013). Valence-based age differences in medial prefrontal activity during impression formation. Soc Neurosci, 8(5), 462-473. DOI: https:// doi.org/10.1080/17470919.2013.832373</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Memory for grocery prices in younger and older adults: The role of schematic support</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Castel</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/0882-7974.20.4.718</idno>
+		<ptr target="https://doi.org/10.1037/0882-7974.20.4.718" />
+	</analytic>
+	<monogr>
+		<title level="j">Psychology and Aging</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="718" to="721" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Castel, A. D. (2005). Memory for grocery prices in younger and older adults: The role of schematic support. Psychology and Aging, 20, 718-721. DOI: https://doi. org/10.1037/0882-7974.20.4.718</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Aging and emotional memory: The forgettable nature of negative images for older adults</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">T</forename><surname>Charles</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mather</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">L</forename><surname>Carstensen</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/0096-3445.132.2.310</idno>
+		<ptr target="https://doi.org/10.1037/0096-3445.132.2.310" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Experimental Psychology-General</title>
+		<imprint>
+			<biblScope unit="volume">132</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="310" to="324" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Charles, S. T., Mather, M., &amp; Carstensen, L. L. (2003). Aging and emotional memory: The forgettable nature of negative images for older adults. Journal of Experimental Psychology-General, 132(2), 310-324. DOI: https://doi.org/10.1037/0096-3445.132.2.310</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b7">
+	<analytic>
+		<title level="a" type="main">A coefficient of agreement for nominal scales</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Cohen</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/001316446002000104</idno>
+		<ptr target="https://doi.org/10.1177/001316446002000104" />
+	</analytic>
+	<monogr>
+		<title level="j">Educational and Psychological Measurement</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="37" to="46" />
+			<date type="published" when="1960">1960</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cohen, J. (1960). A coefficient of agreement for nominal scales. Educational and Psychological Measurement, 20, 37-46. DOI: https://doi. org/10.1177/001316446002000104</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Age differences in recall and recognition</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">I M</forename><surname>Craik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Mcdowd</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/0278-7393.13.3.474</idno>
+		<ptr target="https://doi.org/10.1037/0278-7393.13.3.474" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Experimental Psychology: Learning, Memory, &amp; Cognition</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="474" to="479" />
+			<date type="published" when="1987">1987</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Craik, F. I. M., &amp; McDowd, J. M. (1987). Age differences in recall and recognition. Journal of Experimental Psychology: Learning, Memory, &amp; Cognition, 13, 474-479. DOI: https://doi.org/10.1037/0278-7393.13.3.474</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b9">
+	<analytic>
+		<title level="a" type="main">A tenyear longitudinal examination of repetition priming, incidental recall, free recall, and recognition in young and elderly</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">P</forename><surname>Davis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">H</forename><surname>Trussell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Klebe</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S0278-2626(01)80043-9</idno>
+		<ptr target="https://doi.org/10.1016/S0278-2626(01)80043-9" />
+	</analytic>
+	<monogr>
+		<title level="j">Brain and Cognition</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="page" from="99" to="104" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Davis, H. P., Trussell, L. H., &amp; Klebe, K. J. (2001). A ten- year longitudinal examination of repetition priming, incidental recall, free recall, and recognition in young and elderly. Brain and Cognition, 46, 99-104. DOI: https://doi.org/10.1016/S0278-2626(01)80043-9</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Evidence for preserved emotional memory in normal older persons</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">L</forename><surname>Denburg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">W</forename><surname>Buchanan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Tranel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Adolphs</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/1528-3542.3.3.239</idno>
+		<ptr target="https://doi.org/10.1037/1528-3542.3.3.239" />
+	</analytic>
+	<monogr>
+		<title level="j">Emotion</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="239" to="253" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Denburg, N. L., Buchanan, T. W., Tranel, D., &amp; Adolphs, R. (2003). Evidence for preserved emotional memory in normal older persons. Emotion, 3, 239-253. DOI: https://doi.org/10.1037/1528-3542.3.3.239</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Influences of age and perceived activity difficulty on activity recall</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Earles</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">W</forename><surname>Kersten</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/geronb/53B.5.P324</idno>
+		<ptr target="https://doi.org/10.1093/geronb/53B.5.P324" />
+	</analytic>
+	<monogr>
+		<title level="j">J Gerontol B Psychol Sci Soc Sci</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="324" to="328" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Earles, J. L., &amp; Kersten, A. W. (1998). Influences of age and perceived activity difficulty on activity recall. J Gerontol B Psychol Sci Soc Sci, 53(5), P324-328. DOI: https://doi.org/10.1093/geronb/53B.5.P324</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Aging and memory for self-performed tasks: effects of task difficulty and time pressure</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Earles</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">W</forename><surname>Kersten</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Berlin Mas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Miccio</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/geronb/59.6.P285</idno>
+		<ptr target="https://doi.org/10.1093/geronb/59.6.P285" />
+	</analytic>
+	<monogr>
+		<title level="j">J Gerontol B Psychol Sci Soc Sci</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="285" to="293" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Earles, J. L., Kersten, A. W., Berlin Mas, B., &amp; Miccio, D. M. (2004). Aging and memory for self-performed tasks: effects of task difficulty and time pressure. J Gerontol B Psychol Sci Soc Sci, 59(6), P285-293. DOI: https://doi.org/10.1093/geronb/59.6.P285</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Gist-based memory for prices and &quot;better buys&quot; in younger and older adults</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Flores</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">B</forename><surname>Hargis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Mcgillivray</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Friedman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Castel</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/09658211.2016.1197944</idno>
+		<ptr target="https://doi.org/10.1080/09658211.2016.1197944" />
+	</analytic>
+	<monogr>
+		<title level="j">Memory</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="565" to="573" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Flores, C. C., Hargis, M. B., McGillivray, S., Friedman, M. C., &amp; Castel, A. D. (2017). Gist-based memory for prices and &quot;better buys&quot; in younger and older adults. Memory, 25(4), 565-573. DOI: https://doi.org/10.108 0/09658211.2016.1197944</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Mini-Mental State -Practical Method for Grading Cognitive State of Patients for Clinician</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">F</forename><surname>Folstein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E</forename><surname>Folstein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">R</forename><surname>Mchugh</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0022-3956(75)90026-6</idno>
+		<ptr target="https://doi.org/10.1016/0022-3956(75)90026-6" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Psychiatric Research</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="189" to="198" />
+			<date type="published" when="1975">1975</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Folstein, M. F., Folstein, S. E., &amp; McHugh, P. R. (1975). Mini-Mental State -Practical Method for Grading Cognitive State of Patients for Clinician. Journal of Psychiatric Research, 12(3), 189-198. DOI: https://doi. org/10.1016/0022-3956(75)90026-6</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Sending memorable messages to the old: Age differences in preferences and memory for advertisements</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">H</forename><surname>Fung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">L</forename><surname>Carstensen</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/0022-3514.85.1.163</idno>
+		<ptr target="https://doi.org/10.1037/0022-3514.85.1.163" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Personality and Social Psychology</title>
+		<imprint>
+			<biblScope unit="volume">85</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="163" to="178" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Fung, H. H., &amp; Carstensen, L. L. (2003). Sending memorable messages to the old: Age differences in preferences and memory for advertisements. Journal of Personality and Social Psychology, 85(1), 163-178. DOI: https://doi.org/10.1037/0022-3514.85.1.163</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Cultural variation in verbal versus spatial neuropsychological function across the life span</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hedden</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Park</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">E</forename><surname>Nisbett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">J</forename><surname>Ji</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Jing</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Jiao</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/0894-4105.16.1.65</idno>
+		<ptr target="https://doi.org/10.1037/0894-4105.16.1.65" />
+	</analytic>
+	<monogr>
+		<title level="j">Neuropsychology</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="65" to="73" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hedden, T., Park, D. C., Nisbett, R. E., Ji, L. J., Jing, Q., &amp; Jiao, S. (2002). Cultural variation in verbal versus spatial neuropsychological function across the life span. Neuropsychology, 16(1), 65-73. DOI: https://doi. org/10.1037/0894-4105.16.1.65</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Cognitive and knowledge-based influences on social representations</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Hess</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/B978-012345260-3/50012-4</idno>
+		<ptr target="https://doi.org/10.1016/B978-012345260-3/50012-4" />
+	</analytic>
+	<monogr>
+		<title level="m">Social Cognition and Aging</title>
+		<editor>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Hess</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">F</forename><surname>Blanchard-Fields</surname></persName>
+		</editor>
+		<meeting><address><addrLine>San Diego, CA</addrLine></address></meeting>
+		<imprint>
+			<publisher>Academic Press</publisher>
+			<date type="published" when="1999">1999</date>
+			<biblScope unit="page" from="237" to="263" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hess, T. M. (1999). Cognitive and knowledge-based influences on social representations. In: Hess, T. M., &amp; Blanchard-Fields, F. (Eds.), Social Cognition and Aging, 237-263. San Diego, CA: Academic Press. DOI: https:// doi.org/10.1016/B978-012345260-3/50012-4</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Memory and aging in context</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Hess</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/0033-2909.131.3.383</idno>
+		<ptr target="https://doi.org/10.1037/0033-2909.131.3.383" />
+	</analytic>
+	<monogr>
+		<title level="j">Psychological Bulletin</title>
+		<imprint>
+			<biblScope unit="volume">131</biblScope>
+			<biblScope unit="page" from="383" to="406" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hess, T. M. (2005). Memory and aging in context. Psychological Bulletin, 131, 383-406. DOI: https://doi. org/10.1037/0033-2909.131.3.383</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Adaptive aspects of social cognitive functioning in adulthood: Age-related goal and knowledge influences</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Hess</surname></persName>
+		</author>
+		<idno type="DOI">10.1521/soco.2006.24.3.279</idno>
+		<ptr target="https://doi.org/10.1521/soco.2006.24.3.279" />
+	</analytic>
+	<monogr>
+		<title level="j">Social Cognition</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="279" to="309" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hess, T. M. (2006). Adaptive aspects of social cognitive functioning in adulthood: Age-related goal and knowledge influences. Social Cognition, 24(3), 279-309. DOI: https://doi.org/10.1521/ soco.2006.24.3.279</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Aging and impression formation: The impact of processing skills and goals</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Hess</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Follett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Mcgee</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/geronb/53B.3.P175</idno>
+		<ptr target="https://doi.org/10.1093/geronb/53B.3.P175" />
+	</analytic>
+	<monogr>
+		<title level="j">The Journals of Gerontology: Series B: Psychological Sciences and Social Sciences</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="175" to="187" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hess, T. M., Follett, K. J., &amp; McGee, K. A. (1998). Aging and impression formation: The impact of processing skills and goals. The Journals of Gerontology: Series B: Psychological Sciences and Social Sciences, 53(3), 175-187. DOI: https://doi.org/10.1093/ geronb/53B.3.P175</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Aging and Selective Engagement: The Moderating Impact of Motivation on Older Adults&apos; Resource Utilization</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Hess</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Germain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">L</forename><surname>Swaim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">L</forename><surname>Osowski</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/geronb/gbp020</idno>
+		<ptr target="https://doi.org/10.1093/geronb/gbp020" />
+	</analytic>
+	<monogr>
+		<title level="j">Journals of Gerontology Series B-Psychological Sciences and Social Sciences</title>
+		<imprint>
+			<biblScope unit="volume">64</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="447" to="456" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hess, T. M., Germain, C. M., Swaim, E. L., &amp; Osowski, N. L. (2009). Aging and Selective Engagement: The Moderating Impact of Motivation on Older Adults&apos; Resource Utilization. Journals of Gerontology Series B-Psychological Sciences and Social Sciences, 64(4), 447-456. DOI: https://doi.org/10.1093/geronb/ gbp020</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Social knowledge and goal-based influences on social information processing in adulthood</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Hess</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Kotter-Grühn</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/a0023775</idno>
+		<ptr target="https://doi.org/10.1037/a0023775" />
+	</analytic>
+	<monogr>
+		<title level="j">Psychology and aging</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="792" to="802" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hess, T. M., &amp; Kotter-Grühn, D. (2011). Social knowledge and goal-based influences on social information processing in adulthood. Psychology and aging, 26(4), 792-802. DOI: https://doi.org/10.1037/a0023775</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Adult age-differences in explanations and memory for behavioral information</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Hess</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S</forename><surname>Tate</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/0882-7974.6.1.86</idno>
+		<ptr target="https://doi.org/10.1037/0882-7974.6.1.86" />
+	</analytic>
+	<monogr>
+		<title level="j">Psychology and aging</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="86" to="92" />
+			<date type="published" when="1991">1991</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hess, T. M., &amp; Tate, C. S. (1991). Adult age-differences in explanations and memory for behavioral information. Psychology and aging, 6(1), 86-92. DOI: https://doi. org/10.1037/0882-7974.6.1.86</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b24">
+	<analytic>
+		<title level="a" type="main">The enigma of organization and distinctiveness</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">R</forename><surname>Hunt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Mcdaniel</surname></persName>
+		</author>
+		<idno type="DOI">10.1006/jmla.1993.1023</idno>
+		<ptr target="https://doi.org/10.1006/jmla.1993.1023" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Memory and Language</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="421" to="445" />
+			<date type="published" when="1993">1993</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hunt, R. R., &amp; McDaniel, M. A. (1993). The enigma of organization and distinctiveness. Journal of Memory and Language, 32(4), 421-445. DOI: https://doi. org/10.1006/jmla.1993.1023</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Age differences in recognition of emotion in lexical stimuli and facial expressions</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Isaacowitz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Löckenhoff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">D</forename><surname>Lane</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Wright</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Sechrest</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Riedel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">T</forename><surname>Costa</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/0882-7974.22.1.147</idno>
+		<ptr target="https://doi.org/10.1037/0882-7974.22.1.147" />
+	</analytic>
+	<monogr>
+		<title level="j">Psychology and aging</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="147" to="159" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Isaacowitz, D. M., Löckenhoff, C. E., Lane, R. D., Wright, R., Sechrest, L., Riedel, R., &amp; Costa, P. T. (2007). Age differences in recognition of emotion in lexical stimuli and facial expressions. Psychology and aging, 22, 147- 159. DOI: https://doi.org/10.1037/0882-7974.22.1.147</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Do alcoholic Korsakoff&apos;s syndrome patients acquire affective reactions</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">K</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Risse</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/0278-7393.11.1.22</idno>
+		<ptr target="https://doi.org/10.1037/0278-7393.11.1.22" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Experimental Psychology: Learning, Memory, and Cognition</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="22" to="36" />
+			<date type="published" when="1985">1985</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Johnson, M. K., Kim, J. K., &amp; Risse, G. (1985). Do alcoholic Korsakoff&apos;s syndrome patients acquire affective reactions? Journal of Experimental Psychology: Learning, Memory, and Cognition, 11(1), 22-36. DOI: https://doi.org/10.1037/0278-7393.11.1.22</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Lifespan adult faces: Norms for age, familiarity, memorability, mood, and picture quality</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Kennedy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Hope</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Raz</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/03610730902720638</idno>
+		<ptr target="https://doi.org/10.1080/03610730902720638" />
+	</analytic>
+	<monogr>
+		<title level="j">Experimental Aging Research</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="268" to="275" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kennedy, K. M., Hope, K., &amp; Raz, N. (2009). Lifespan adult faces: Norms for age, familiarity, memorability, mood, and picture quality. Experimental Aging Research, 35, 268-275. DOI: https://doi. org/10.1080/03610730902720638</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Memory for specific visual details can be enhanced by negative arousing content</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Kensinger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Garoff-Eaton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Schacter</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jml.2005.05.005</idno>
+		<ptr target="https://doi.org/10.1016/j.jml.2005.05.005" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Memory and Language</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="99" to="112" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kensinger, E. A., Garoff-Eaton, R. J., &amp; Schacter, D. L. (2006). Memory for specific visual details can be enhanced by negative arousing content. Journal of Memory and Language, 54(1), 99-112. DOI: https:// doi.org/10.1016/j.jml.2005.05.005</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Effects of emotion on memory specificity in young and older adults</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Kensinger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Garoff-Eaton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Schacter</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/geronb/62.4.P208</idno>
+		<ptr target="https://doi.org/10.1093/geronb/62.4.P208" />
+	</analytic>
+	<monogr>
+		<title level="j">Journals of Gerontology Series B-Psychological Sciences and Social Sciences</title>
+		<imprint>
+			<biblScope unit="volume">62</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="208" to="P215" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kensinger, E. A., Garoff-Eaton, R. J., &amp; Schacter, D. L. (2007). Effects of emotion on memory specificity in young and older adults. Journals of Gerontology Series B-Psychological Sciences and Social Sciences, 62(4), P208-P215. DOI: https://doi.org/10.1093/ geronb/62.4.P208</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b30">
+	<monogr>
+		<title level="m" type="main">Memory for emotional and social information in adulthood and old age</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Kensinger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">H</forename><surname>Gutchess</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/9781118332634.ch19</idno>
+		<ptr target="https://doi.org/10.1002/9781118332634.ch19" />
+		<editor>Duarte, A., Barense, M., &amp; Addis, D. R.</editor>
+		<imprint>
+			<date type="published" when="2015">2015</date>
+			<publisher>Wiley Blackwell</publisher>
+			<biblScope unit="page" from="393" to="414" />
+			<pubPlace>Chichester, UK</pubPlace>
+		</imprint>
+	</monogr>
+	<note>The Wiley Handbook on The Cognitive Neuroscience of Human Memory</note>
+	<note type="raw_reference">Kensinger, E. A., &amp; Gutchess, A. H. (2015). Memory for emotional and social information in adulthood and old age. In: Duarte, A., Barense, M., &amp; Addis, D. R. (Eds.), The Wiley Handbook on The Cognitive Neuroscience of Human Memory, 393-414. Chichester, UK: Wiley Blackwell. DOI: https://doi.org/10.1002/9781118332634.ch19</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Cognitive Aging in a Social and Affective Context: Advances Over the Past 50 Years</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Kensinger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">H</forename><surname>Gutchess</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/geronb/gbw056</idno>
+		<ptr target="https://doi.org/10.1093/geronb/gbw056" />
+	</analytic>
+	<monogr>
+		<title level="j">J Gerontol B Psychol Sci Soc Sci</title>
+		<imprint>
+			<biblScope unit="volume">72</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="61" to="70" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kensinger, E. A., &amp; Gutchess, A. H. (2017). Cognitive Aging in a Social and Affective Context: Advances Over the Past 50 Years. J Gerontol B Psychol Sci Soc Sci, 72(1), 61-70. DOI: https://doi.org/10.1093/geronb/ gbw056</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Flexible remembering</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Koutstaal</surname></persName>
+		</author>
+		<idno type="DOI">10.3758/BF03193817</idno>
+		<ptr target="https://doi.org/10.3758/BF03193817" />
+	</analytic>
+	<monogr>
+		<title level="j">Psychonomic Bulletin &amp; Review</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="84" to="91" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Koutstaal, W. (2006). Flexible remembering. Psychonomic Bulletin &amp; Review, 13, 84-91. DOI: https://doi. org/10.3758/BF03193817</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Gist-based false recognition of pictures in older and younger adults</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Koutstaal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Schacter</surname></persName>
+		</author>
+		<idno type="DOI">10.1006/jmla.1997.2529</idno>
+		<ptr target="https://doi.org/10.1006/jmla.1997.2529" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Memory and Language</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="555" to="583" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Koutstaal, W., &amp; Schacter, D. L. (1997). Gist-based false recognition of pictures in older and younger adults. Journal of Memory and Language, 37(4), 555-583. DOI: https://doi.org/10.1006/jmla.1997.2529</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Similarity to the self influences cortical recruitment during impression formation</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">D</forename><surname>Leshikar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">S</forename><surname>Cassidy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">H</forename><surname>Gutchess</surname></persName>
+		</author>
+		<idno type="DOI">10.3758/s13415-015-0390-3</idno>
+		<ptr target="https://doi.org/10.3758/s13415-015-0390-3" />
+	</analytic>
+	<monogr>
+		<title level="j">Cogn Affect Behav Neurosci</title>
+		<imprint>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Leshikar, E. D., Cassidy, B. S., &amp; Gutchess, A. H. (2015). Similarity to the self influences cortical recruitment during impression formation. Cogn Affect Behav Neurosci. DOI: https://doi.org/10.3758/s13415-015- 0390-3</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Similarity to the self affects memory for impressions of others</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">D</forename><surname>Leshikar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">H</forename><surname>Gutchess</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jarmac.2014.10.002</idno>
+		<ptr target="https://doi.org/10.1016/j.jarmac.2014.10.002" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Applied Research in Memory and Cognition</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="20" to="28" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Leshikar, E. D., &amp; Gutchess, A. H. (2015). Similarity to the self affects memory for impressions of others. Journal of Applied Research in Memory and Cognition, 4(1), 20-28. DOI: https://doi.org/10.1016/j.jarmac.2014.10. 002</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Similarity to the Self Affects Memory for Impressions of Others in Younger and Older Adults</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">D</forename><surname>Leshikar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Park</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">H</forename><surname>Gutchess</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/geronb/gbt132</idno>
+		<ptr target="https://doi.org/10.1093/geronb/gbt132" />
+	</analytic>
+	<monogr>
+		<title level="j">J Gerontol B Psychol Sci Soc Sci</title>
+		<imprint>
+			<biblScope unit="volume">70</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="737" to="742" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Leshikar, E. D., Park, J. M., &amp; Gutchess, A. H. (2015). Similarity to the Self Affects Memory for Impressions of Others in Younger and Older Adults. J Gerontol B Psychol Sci Soc Sci, 70(5), 737-742. DOI: https://doi. org/10.1093/geronb/gbt132</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Implicit and explicit memory in young and older adults</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">L</forename><surname>Light</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Singh</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/0278-7393.13.4.531</idno>
+		<ptr target="https://doi.org/10.1037/0278-7393.13.4.531" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Experimental Psychology-Learning Memory and Cognition</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="531" to="541" />
+			<date type="published" when="1987">1987</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Light, L. L., &amp; Singh, A. (1987). Implicit and explicit memory in young and older adults. Journal of Experimental Psychology-Learning Memory and Cognition, 13(4), 531- 541. DOI: https://doi.org/10.1037/0278-7393.13.4.531</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Motivated cognition: Effects of reward, emotion, and other motivational factors across a variety of cognitive domains</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><surname>Madan</surname></persName>
+		</author>
+		<idno type="DOI">10.1525/collabra.111</idno>
+		<ptr target="https://doi.org/10.1525/collabra.111" />
+	</analytic>
+	<monogr>
+		<title level="j">Collabra: Psychology</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">24</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Madan, C. R. (2017). Motivated cognition: Effects of reward, emotion, and other motivational factors across a variety of cognitive domains. Collabra: Psychology, 3(1), 24. DOI: https://doi.org/10.1525/collabra.111</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Aging and attentional biases for emotional faces</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mather</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">L</forename><surname>Carstensen</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/1467-9280.01455</idno>
+		<ptr target="https://doi.org/10.1111/1467-9280.01455" />
+	</analytic>
+	<monogr>
+		<title level="j">Psychol Sci</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="409" to="415" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mather, M., &amp; Carstensen, L. L. (2003). Aging and attentional biases for emotional faces. Psychol Sci, 14(5), 409-415. DOI: https://doi.org/10.1111/1467-9280.01455</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Aging and motivated cognition: the positivity effect in attention and memory</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mather</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">L</forename><surname>Carstensen</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.tics.2005.08.005</idno>
+		<ptr target="https://doi.org/10.1016/j.tics.2005.08.005" />
+	</analytic>
+	<monogr>
+		<title level="j">Trends in Cognitive Sciences</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="496" to="502" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mather, M., &amp; Carstensen, L. L. (2005). Aging and motivated cognition: the positivity effect in attention and memory. Trends in Cognitive Sciences, 9(10), 496-502. DOI: https://doi.org/10.1016/j.tics.2005.08. 005</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Aging, source memory, and emotion</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">P</forename><surname>May</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Rahhal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Berry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Leighton</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/0882-7974.20.4.571</idno>
+		<ptr target="https://doi.org/10.1037/0882-7974.20.4.571" />
+	</analytic>
+	<monogr>
+		<title level="j">Psychology and aging</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="571" to="578" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">May, C. P., Rahhal, T., Berry, E. M., &amp; Leighton, E. A. (2005). Aging, source memory, and emotion. Psychology and aging, 20(4), 571-578. DOI: https:// doi.org/10.1037/0882-7974.20.4.571</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Divergent trajectories in the aging mind: Changes in working memory for affective versus visual information with age</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Mikels</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">R</forename><surname>Larkin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Reuter-Lorenz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">L</forename><surname>Carstensen</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/0882-7974.20.4.542</idno>
+		<ptr target="https://doi.org/10.1037/0882-7974.20.4.542" />
+	</analytic>
+	<monogr>
+		<title level="j">Psychology and aging</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="542" to="553" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mikels, J. A., Larkin, G. R., Reuter-Lorenz, P. A., &amp; Carstensen, L. L. (2005). Divergent trajectories in the aging mind: Changes in working memory for affective versus visual information with age. Psychology and aging, 20, 542-553. DOI: https://doi. org/10.1037/0882-7974.20.4.542</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Preferences for emotional information in older and younger adults: A meta-analysis of memory and attention tasks</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">A</forename><surname>Murphy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Isaacowitz</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/0882-7974.23.2.263</idno>
+		<ptr target="https://doi.org/10.1037/0882-7974.23.2.263" />
+	</analytic>
+	<monogr>
+		<title level="j">Psychology and aging</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="263" to="286" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Murphy, N. A., &amp; Isaacowitz, D. M. (2008). Preferences for emotional information in older and younger adults: A meta-analysis of memory and attention tasks. Psychology and aging, 23, 263-286. DOI: https://doi. org/10.1037/0882-7974.23.2.263</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Age differences in memory for names: The effect of prelearned semantic associations</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Old</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Naveh-Benjamin</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/a0025194</idno>
+		<ptr target="https://doi.org/10.1037/a0025194" />
+	</analytic>
+	<monogr>
+		<title level="j">Psychology and aging</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="462" to="473" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Old, S. R., &amp; Naveh-Benjamin, M. (2012). Age differences in memory for names: The effect of prelearned semantic associations. Psychology and aging, 27(2), 462-473. DOI: https://doi.org/10.1037/ a0025194</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Models of visuospatial and verbal memory across the adult life span</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Park</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Lautenschlager</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hedden</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">S</forename><surname>Davidson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">K</forename><surname>Smith</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/0882-7974.17.2.299</idno>
+		<ptr target="https://doi.org/10.1037/0882-7974.17.2.299" />
+	</analytic>
+	<monogr>
+		<title level="j">Psychol Aging</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="299" to="320" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Park, D. C., Lautenschlager, G., Hedden, T., Davidson, N. S., Smith, A. D., &amp; Smith, P. K. (2002). Models of visuospatial and verbal memory across the adult life span. Psychol Aging, 17(2), 299-320. DOI: https://doi. org/10.1037/0882-7974.17.2.299</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Truth and character: Sources that older adults can remember</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">A</forename><surname>Rahhal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">P</forename><surname>May</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Hasher</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/1467-9280.00419</idno>
+		<ptr target="https://doi.org/10.1111/1467-9280.00419" />
+	</analytic>
+	<monogr>
+		<title level="j">Psychol Sci</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="101" to="105" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rahhal, T. A., May, C. P., &amp; Hasher, L. (2002). Truth and character: Sources that older adults can remember. Psychol Sci, 13(2), 101-105. DOI: https://doi. org/10.1111/1467-9280.00419</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Meta-analysis of the age-related positivity effect: age differences in preferences for positive over negative information</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">E</forename><surname>Reed</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Chan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Mikels</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/a0035194</idno>
+		<ptr target="https://doi.org/10.1037/a0035194" />
+	</analytic>
+	<monogr>
+		<title level="j">Psychol Aging</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="1" to="15" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Reed, A. E., Chan, L., &amp; Mikels, J. A. (2014). Meta-analysis of the age-related positivity effect: age differences in preferences for positive over negative information. Psychol Aging, 29(1), 1-15. DOI: https://doi. org/10.1037/a0035194</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b48">
+	<analytic>
+		<title level="a" type="main">The processing-speed theory of adult age differences in cognition</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">A</forename><surname>Salthouse</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/0033-295X.103.3.403</idno>
+		<ptr target="https://doi.org/10.1037/0033-295X.103.3.403" />
+	</analytic>
+	<monogr>
+		<title level="j">Psychol Rev</title>
+		<imprint>
+			<biblScope unit="volume">103</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="403" to="428" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Salthouse, T. A. (1996). The processing-speed theory of adult age differences in cognition. Psychol Rev, 103(3), 403- 428. DOI: https://doi.org/10.1037/0033-295X.103.3. 403</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Decomposing Adult Age-Differences in Working Memory</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">A</forename><surname>Salthouse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Babcock</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/0012-1649.27.5.763</idno>
+		<ptr target="https://doi.org/10.1037/0012-1649.27.5.763" />
+	</analytic>
+	<monogr>
+		<title level="j">Developmental Psychology</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="763" to="776" />
+			<date type="published" when="1991">1991</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Salthouse, T. A., &amp; Babcock, R. L. (1991). Decomposing Adult Age-Differences in Working Memory. Developmental Psychology, 27(5), 763-776. DOI: https://doi.org/10.1037/0012-1649.27.5.763</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b50">
+	<analytic>
+		<title level="a" type="main">A neural mechanism of first impressions</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Schiller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Freeman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Mitchell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Uleman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Phelps</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nn.2278</idno>
+		<ptr target="https://doi.org/10.1038/nn.2278" />
+	</analytic>
+	<monogr>
+		<title level="j">Nature neuroscience</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="508" to="514" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Schiller, D., Freeman, J. B., Mitchell, J. P., Uleman, J. S., &amp; Phelps, E. A. (2009). A neural mechanism of first impressions. Nature neuroscience, 12, 508-514. DOI: https://doi.org/10.1038/nn.2278</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b51">
+	<monogr>
+		<title level="m" type="main">Shipley Institute of Living Scale</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">C</forename><surname>Shipley</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1986">1986</date>
+			<publisher>Western Psychological Services</publisher>
+			<pubPlace>Los Angeles</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Shipley, W. C. (1986). Shipley Institute of Living Scale. Los Angeles: Western Psychological Services.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Dissociable medial temporal lobe contributions to social memory</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">H</forename><surname>Somerville</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">S</forename><surname>Wig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Whalen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">M</forename><surname>Kelley</surname></persName>
+		</author>
+		<idno type="DOI">10.1162/jocn.2006.18.8.1253</idno>
+		<ptr target="https://doi.org/10.1162/jocn.2006.18.8.1253" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Cognitive Neuroscience</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="1253" to="1265" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Somerville, L. H., Wig, G. S., Whalen, P. J., &amp; Kelley, W. M. (2006). Dissociable medial temporal lobe contributions to social memory. Journal of Cognitive Neuroscience, 18(8), 1253-1265. DOI: https://doi. org/10.1162/jocn.2006.18.8.1253</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Robust learning of affective trait associations with faces when the hippocampus is damaged, but not when the amygdala and temporal pole are damaged</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Todorov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">R</forename><surname>Olson</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/scan/nsn013</idno>
+		<ptr target="https://doi.org/10.1093/scan/nsn013" />
+	</analytic>
+	<monogr>
+		<title level="j">Soc Cogn Affect Neurosci</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="195" to="203" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Todorov, A., &amp; Olson, I. R. (2008). Robust learning of affective trait associations with faces when the hippocampus is damaged, but not when the amygdala and temporal pole are damaged. Soc Cogn Affect Neurosci, 3, 195-203. DOI: https://doi.org/10.1093/ scan/nsn013</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Response latencies for false memories: Gist-based processes in normal aging</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Tun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Wingfield</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Rosen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Blanchard</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/0882-7974.13.2.230</idno>
+		<ptr target="https://doi.org/10.1037/0882-7974.13.2.230" />
+	</analytic>
+	<monogr>
+		<title level="j">Psychology and aging</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="230" to="241" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Tun, P. A., Wingfield, A., Rosen, M. J., &amp; Blanchard, L. (1998). Response latencies for false memories: Gist-based processes in normal aging. Psychology and aging, 13(2), 230-241. DOI: https://doi.org/10.1037/0882-7974.13.2. 230</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b55">
+	<monogr>
+		<title level="m" type="main">Wechsler Memory Scale -Third Edition</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Wechsler</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1997">1997</date>
+			<publisher>The Psychological Corporation</publisher>
+			<pubPlace>San Antonio, TX</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wechsler, D. (1997). Wechsler Memory Scale -Third Edition. San Antonio, TX: The Psychological Corporation.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Aging, culture, and memory for categorically processed information</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">H</forename><surname>Ng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Fu</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/geronb/gbt006</idno>
+		<ptr target="https://doi.org/10.1093/geronb/gbt006" />
+	</analytic>
+	<monogr>
+		<title level="j">The Journals of Gerontology: Series B: Psychological Sciences and Social Sciences</title>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="872" to="881" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Yang, L., Chen, W., Ng, A. H., &amp; Fu, X. (2013). Aging, culture, and memory for categorically processed information. The Journals of Gerontology: Series B: Psychological Sciences and Social Sciences, 68(6), 872- 881. DOI: https://doi.org/10.1093/geronb/gbt006</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b57">
+	<analytic>
+		<title level="a" type="main">Human memory</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Zacks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Hasher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">Z H</forename><surname>Li</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">The handbook of aging and cognition</title>
+		<editor>
+			<persName><forename type="first">F</forename><forename type="middle">I M</forename><surname>Craik</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">T</forename><forename type="middle">A</forename><surname>Salthouse</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Mahwah, NJ, US</addrLine></address></meeting>
+		<imprint>
+			<publisher>Lawrence Erlbaum Associates Publishers</publisher>
+			<date type="published" when="2000">2000</date>
+			<biblScope unit="page" from="293" to="357" />
+		</imprint>
+	</monogr>
+	<note>nd ed.</note>
+	<note type="raw_reference">Zacks, R., Hasher, L., &amp; Li, K. Z. H. (2000). Human memory. In: Craik, F. I. M., &amp; Salthouse, T. A. (Eds.), The handbook of aging and cognition, (2nd ed.), 293- 357. Mahwah, NJ, US: Lawrence Erlbaum Associates Publishers.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

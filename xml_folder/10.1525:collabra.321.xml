@@ -1,0 +1,1248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">The Mirror Effect: A Preregistered Replication</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2025-07-22">22 July 2025</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Jean</forename><surname>Monéger</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Center for Research on Cognition and Learning (CeRCA)</orgName>
+								<orgName type="laboratory">UMR 7295</orgName>
+								<orgName type="institution">University of Poitiers and National Center for Scientific Research (CNRS)</orgName>
+								<address>
+									<region>FR</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Armand</forename><surname>Chatard</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Center for Research on Cognition and Learning (CeRCA)</orgName>
+								<orgName type="laboratory">UMR 7295</orgName>
+								<orgName type="institution">University of Poitiers and National Center for Scientific Research (CNRS)</orgName>
+								<address>
+									<region>FR</region>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">Leila</forename><surname>Selimbegović</surname></persName>
+							<email>leila.selimbegovic@univ-poitiers.fr</email>
+							<affiliation key="aff0">
+								<orgName type="department">Center for Research on Cognition and Learning (CeRCA)</orgName>
+								<orgName type="laboratory">UMR 7295</orgName>
+								<orgName type="institution">University of Poitiers and National Center for Scientific Research (CNRS)</orgName>
+								<address>
+									<region>FR</region>
+								</address>
+							</affiliation>
+							<affiliation key="aff0">
+								<orgName type="department">Center for Research on Cognition and Learning (CeRCA)</orgName>
+								<orgName type="laboratory">UMR 7295</orgName>
+								<orgName type="institution">University of Poitiers and National Center for Scientific Research (CNRS)</orgName>
+								<address>
+									<region>FR</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">The Mirror Effect: A Preregistered Replication</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2025-07-22">22 July 2025</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">31768ADC64F607A0D77C48C4AE7C3248</idno>
+					<idno type="DOI">10.1525/collabra.321</idno>
+					<note type="submission">Submitted: 10 January 2020 Accepted: 22 February 2020</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.3-SNAPSHOT" ident="GROBID" when="2025-09-17T15:44+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">b64991a</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Self-awareness</term>
+					<term>Suicide thought accessibility</term>
+					<term>Median Absolute Deviation</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>When individuals are exposed to their own image in a mirror, known to increase self-awareness, they may show increased accessibility of suicide-related words (a phenomenon labeled "the mirror effect"; <ref type="bibr" target="#b33">Selimbegović &amp; Chatard, 2013)</ref>. We attempted to replicate this effect in a pre-registered study (N = 150).</p><p>As in the original study, self-awareness was manipulated using a mirror and recognition latencies for accurately detecting suicide-related words, negative words, and neutral words in a lexical decision task were assessed. We found no evidence of the mirror effect in pre-registered analyses. A multiverse analysis revealed a significant mirror effect only when excluding extreme observations. An equivalence TOST test did not yield evidence for or against the mirror effect. Overall, the results suggest that the original effect was a false positive or that the conditions for obtaining it (in terms of statistical power and/or outlier detection method) are not yet fully understood. Implications for the mirror effect and recommendations for pre-registered replications are discussed.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p>Self-awareness can be defined as the capacity to direct attention towards oneself (self-focus state) and to engage in reflexive thought about oneself <ref type="bibr" target="#b3">(Carver &amp; Scheier, 1981)</ref>. Studies investigating the effects of selfawareness manipulate self-focus in a variety of manners: by displaying participants' names <ref type="bibr" target="#b34">(Silvia, 2012;</ref><ref type="bibr" target="#b36">Silvia &amp; Phillips, 2013)</ref>, by exposing participants to their own voices <ref type="bibr" target="#b18">(Ickes, Wicklund, &amp; Ferris, 1973)</ref>, or to their mirror-reflected images <ref type="bibr" target="#b2">(Bender, O'Connor, &amp; Evans, 2018;</ref><ref type="bibr">Dijksterhuis &amp; van Knippenberg, 2000;</ref><ref type="bibr" target="#b15">Gendolla &amp; Richter, 2010;</ref><ref type="bibr" target="#b16">Heine, Takemoto, Moskalenko, Lasaleta, &amp; Henrich, 2008;</ref><ref type="bibr" target="#b17">Hutton &amp; Baumeister, 1992)</ref>. The latter might be the most common manipulation of selfawareness, as shown by experiments focusing on the effects of the presence (vs. absence) of a mirror in various domains such as implicit behavior priming <ref type="bibr">(Dijksterhuis &amp; van Knippenberg, 2000)</ref>, cardiovascular effort and motivation <ref type="bibr" target="#b15">(Gendolla &amp; Richter, 2010;</ref><ref type="bibr">Silvia, 2012, Study 3)</ref>, resistance to persuasion <ref type="bibr" target="#b17">(Hutton &amp; Baumeister, 1992)</ref>, or semantic category activation <ref type="bibr" target="#b33">(Selimbegović &amp; Chatard, 2013)</ref>. Research also suggests that although the mere presence of a mirror might seem like a mundane detail, it can bring about very negative consequences, such as lowering self-esteem <ref type="bibr" target="#b16">(Heine et al., 2008;</ref><ref type="bibr" target="#b18">Ickes et al., 1973)</ref> and facilitating access to self-destructive thoughts <ref type="bibr" target="#b4">(Chatard &amp; Selimbegović, 2011</ref>; see also <ref type="bibr" target="#b13">Fejfar &amp; Hoyle, 2000;</ref><ref type="bibr" target="#b27">Mor &amp; Winquist, 2002;</ref><ref type="bibr" target="#b38">Smith &amp; Greenberg, 1981)</ref>. The present study focused on one specific consequence of self-awareness, the mirror effect <ref type="bibr" target="#b33">(Selimbegović &amp; Chatard, 2013)</ref>. <ref type="bibr" target="#b33">Selimbegović and Chatard (2013)</ref> suggested that mirror exposure may facilitate the detection of suicide-related words in a lexical decision task. Importantly, the authors did not claim that self-awareness alone could make people more suicidal. Instead, the core idea was that self-awareness would activate a motivation to avoid this aversive state and could therefore bring to mind escaperelated constructs. Suicide being an efficient and radical means to escape self-awareness <ref type="bibr" target="#b1">(Baumeister, 1990)</ref>, mirror exposure could inadvertently increase the accessibility of suicide-related words. The results of an experiment were consistent with this prediction <ref type="bibr" target="#b33">(Selimbegović &amp; Chatard, 2013)</ref>: participants were faster at correctly identifying suicide-related words when tested in front of a mirror, rather than in a no-mirror control condition. This finding was consistent with previous research and theorizing showing (a) that self-awareness activates unfavorable comparison between one's actual self-representation and one's ideal self-representations <ref type="bibr" target="#b10">(Duval &amp; Wicklund, 1972;</ref><ref type="bibr" target="#b32">Scheier &amp; Carver, 1983;</ref><ref type="bibr" target="#b35">Silvia &amp; Duval, 2001)</ref>, (b) that when a specific motivation is pursued the most effective means to reach that goal is activated <ref type="bibr" target="#b11">(Eitam &amp; Higgins, 2010;</ref><ref type="bibr" target="#b22">Kruglanski et al., 2002)</ref>, and (c) that unfavorable comparison between the actual and ideal self can be sufficient to increase the accessibility of suicide-related thoughts <ref type="bibr" target="#b4">(Chatard &amp; Selimbegović, 2011;</ref><ref type="bibr" target="#b5">Chatard, Selimbegović, Pyszczynski, &amp; Jaafari, 2017;</ref><ref type="bibr" target="#b40">Tang, Wu, &amp; Miao, 2013)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.1.">Aims of the current replication</head><p>The mirror effect brings a new perspective to the comprehension of self-awareness by positing that one of the simplest and most mundane acts of self-focusing (i.e. looking at one's mirror reflection) can inadvertently lead to the activation of escape responses among normal (i.e., non clinical) populations. These theoretical and practical interests encouraged us to test the reliability of the mirror effect in an attempt to conduct a replication as close to the original as possible.</p><p>In this study, the aim was to replicate the finding that self-awareness alone facilitates access to suicide-related words measured by a lexical decision task similar to the original one. Because the mirror effect may seem surprising at first sight, we decided to preregister the hypotheses and the analysis plan at the Open Science Framework website for a maximum of transparency (<ref type="url" target="https://osf.io/ek2gp/">https://osf.io/ek2gp/</ref>). Another main theoretical interest registered prior to data collection was to assess the possible emotional mechanisms involved in the mirror effect. In order to do that, post-experimental measures of shame and guilt were added. Since these constructs were assessed at the end of the experiment, they could not influence the replicated mirror effect. In addition, the analyses of these indicators were conditional to the detection of a significant mirror effect. As the mirror effect was not replicated in preregistered analyses, and as these indicators had no significant relation to the mirror effect, they will not be discussed further. This paper will thus focus on the replication of the mirror effect.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.2.">Power analysis</head><p>The original mirror effect was of moderate size <ref type="bibr">(Cohen's d = 0.43,</ref><ref type="bibr">95% CI [0.038;</ref><ref type="bibr">0.827]</ref>). Power analysis with G*Power software <ref type="bibr" target="#b12">(Erdfelder, Faul, &amp; Buchner, 1996)</ref> indicated that to have 80% statistical power to detect such an effect, the required sample size was 136 participants (one-tailed tests, directional hypothesis). We therefore decided in advance to recruit 150 participants for this study to anticipate possible exclusions.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Method</head><p>A hundred and fifty first-year psychology students at a French University (131 women and 19 men, M age = 18.83 years old) participated in the study in exchange for course credits. In accordance with the preregistration, one participant was excluded from the analyses because s/he failed to complete the selves questionnaire, and one participant was excluded because s/he was not a native French speaker. Thus, the final sample consisted of 148 students.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1.">Material</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1.1.">Mirror manipulation</head><p>Self-awareness was manipulated by mirror exposure (29 × 29 cm, or 11.42 × 11.42 inches). Participants were randomly assigned to one of the two self-awareness conditions using a random number generator (<ref type="url" target="https://www.randomizer.org/">https://  www.randomizer.org/</ref>). Half of them did the entire experiment while their mirror-reflected image was visible in their peripheral field of vision, while the other half of the participants were assigned to the control condition in which the mirror was facing the wall.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1.2.">The Selves questionnaire</head><p>In the original study, self-discrepancy salience was manipulated orthogonally to mirror exposure, in order to test the moderating effect of this variable. Although selfdiscrepancy salience did not qualify the mirror exposure effect in the original study, we kept this manipulation in the present study in order to be close to the original procedure. To make self-discrepancies salient, participants were asked to report 10 traits that they actually possessed and 10 traits that they wished they possessed. Participants were then asked to indicate the extent to which each of these traits (actual and ideal) they actually possessed (on a 7-point scale from 1 not at all to 7 totally) and the extent to which each of these traits they would ideally like to possess (on a similar 7-point scale). While half of the participants were asked to do this before the lexical decision task, the other half completed this task after the lexical decision task. Therefore, only half of the participants had their selfdiscrepancies explicitly made salient during the lexical decision task assessing suicide thought accessibility.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1.3.">Lexical decision task</head><p>The lexical decision task is a concept accessibility measure widely used in cognitive psychology. The rationale behind this task is that the more cognitively accessible a concept is, the faster the person is to recognize a related word. The task was programmed using Psychopy software <ref type="bibr" target="#b30">(Peirce, 2008)</ref>. In each trial, after a fixation cross (500 ms), a letter string was displayed on the screen until a key response was pressed by the participant, instructed to indicate as fast as possible whether the letter string was a word (e.g., ball) or not (e.g., blal) by pressing one of the two allowed keys on the keyboard. Non-words were simple transformations of the words from the task, obtained by switching the position of two adjacent letters (e.g., chair and cahir). After completing a training session including 10 neutral words and the corresponding 10 non-words, participants were shown 15 neutral words (different from those used during the training session), 5 negative words and 5 suicide-related words, and an equal number of non-words (i.e., 25 non words) in a computer-generated random order different for each participant. Except for the training session, words used in this study were the same as those used by <ref type="bibr" target="#b33">Selimbegović and Chatard (2013)</ref>. We assessed latencies to correctly recognize suicide-related words, negative words and neutral words (Table <ref type="table" target="#tab_0">1</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.">Procedure</head><p>The following procedure was approved by the local Internal Ethical Committee of the university where the study was conducted and the participants provided their written consent after reading an information notice about the procedure. All participants were greeted in an experimental room and, after very short instructions from the experimenter, left alone in the room. Participants were randomly assigned to one of the two self-awareness conditions (mirror reflecting the participant's face vs. mirror facing the wall). The experimenter told participants that the mirror was there for another experiment conducted by a colleague and that he preferred not to touch his colleague's material. Orthogonally, discrepancy salience was manipulated: participants were randomly assigned to one of the two conditions of discrepancy salience (lexical decision first vs. selves questionnaire first).</p><p>Known differences from the original studies are listed in the registration form (<ref type="url" target="https://osf.io/v6bhx">https://osf.io/v6bhx</ref>). These minor differences are unlikely to substantially influence the results.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.">Confirmatory (pre-registered) analyses</head><p>The following statistical analyses have been pre-registered prior to collecting data. Following <ref type="bibr" target="#b0">Bargh and Chartrand (2000)</ref> and as in the original study, recognition latencies longer than 2000 ms were replaced by 2000 ms and recognition latencies associated to wrong answers were discarded. As mentioned earlier, all the tests regarding the mirror effect are directional and hence the reported p-values are one-tailed. Similarly, one-tailed 95% confidence intervals are reported in order to be in line with one-sided testing <ref type="bibr" target="#b6">(Cho &amp; Abe, 2013)</ref>. As a consequence, confidence intervals include the resulting value in the opposite direction and all the other values toward infinity in the hypothesized direction, hence if the lower bound of the resulting confidence interval is superior to 0, the mirror effect would be significant. Tests relative to the effects that were originally null were kept non-directional and thus twotailed p-values were reported for these tests.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.1.">Pre-registered analyses</head><p>As in the original study, latencies to suicide-related words were predicted from mirror exposure, discrepancy salience, and the interaction term between these two variables, and latencies to neutral words were used as a covariate. In accordance with the preregistered exclusion criterion, one participant was excluded from this analysis because his or her score was associated to a studentized residual larger than 3. In this study, the mirror effect was not significant, t(142) = 0.16, p = .57 (one-tailed), η 2 p &lt; .001, 95% CI [-0.05, +∞]. Participants in the mirror condition did not recognize suicide related words faster than participants in the control condition (M = 788 ms, SD = 193 ms, and M = 779 ms, SD = 161 ms, respectively). As in the original study, there was no effect of discrepancy salience, t(142) = 0.13, p = .9, η 2 p &lt; .01, 95% CI [-0.06, 0.05], and no interaction between the mirror and the selves questionnaire, t(142) = 0.20, p = .85, η 2 p &lt; .01, 95% CI [-0.07, 0.09].</p><p>We found similar findings when response times to negative words (instead of neutral words) were used as a covariate. The mirror effect was not significant, t(142) = -0.77, p = .22 (one-tailed), η 2 p &lt; .01, 95% CI <ref type="bibr">[-0.08, +∞]</ref>. Participants in the mirror condition were not significantly faster to detect suicide-related words (M = 780 ms, SD = 193 ms) than participants in the control condition (M = 786 ms, SD = 161 ms). 1 In the original study, this effect was marginally significant (p &lt; .10, twotailed). As in the original study, the effect of the selfdiscrepancy salience manipulation was not significant, t(142) = -1.20, p = .23, η 2 p = .01, 95% CI <ref type="bibr">[-0.10, 0.02]</ref>. No significant interaction between the mirror condition and self-discrepancies saliency emerged t(142) = 0.78, p = .44, η 2 p &lt; .01, 95% CI [-0.05, 0.12]. Hence, the mirror effect failed to replicate following the registered analysis plan.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.">Exploratory analyses (not pre-registered)</head><p>The use of studentized residuals as an outlier detection method has recently been criticized <ref type="bibr" target="#b25">(Leys, Ley, Klein, Bernard, &amp; Licata, 2013)</ref>. Indeed, studentization of residuals is computed via the division of the residual by an estimate of the residuals' standard deviation. However, standard deviations are non-robust parameters sensitive to extreme values. Thus, this method fails to produce a satisfying outlier detection method (see also <ref type="bibr" target="#b31">Rousseeuw, 1990)</ref>, as it is itself sensitive to outliers. Therefore, <ref type="bibr" target="#b25">Leys et al. (2013)</ref> have recently recommended the use of more robust methods to detect outliers, such as the Median Absolute Deviation (MAD).</p><p>As suggested by the boxplots presented in Figure <ref type="figure" target="#fig_0">1</ref>, the outlier detection method preregistered in this replication (studentized residuals) failed to suppress all atypical observations from the sample. Thus, we decided to conduct complementary analyses using another, more robust, exclusion criterion: the MAD <ref type="bibr" target="#b25">(Leys et al., 2013)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.1.">Comparison between the original study and the replication study</head><p>In order to more thoroughly examine the original and replicated effects, a comparison was made between the original study and the replication study. We conducted analyses on these two sets of data to investigate how outlier exclusion threshold affects the results. To do this, we observed how the effect sizes in the original study and in the replication varied as a function of the cut-off used to exclude outliers in a multiverse approach (e.g., <ref type="bibr" target="#b39">Steegen, Tuerlinckx, Gelman, &amp; Vanpaemel, 2016)</ref>. More specifically, we varied the MAD cut-off from 1.5 MAD to 3.5 MAD and observed how partial eta squared evolved when studying the original data with neutral word or negative word latencies as a covariate, and when studying the replication data with neutral word or negative word latencies as a covariate.</p><p>When considering the original data, the multiverse analysis showed a mirror effect with neutral word latencies as a covariate. Despite variations of the MAD cut-off value used, the associated p-value varied between p = .02 and p = .10, with a partial eta squared varying between 2.5% and 5%. With negative word latencies as a covariate, the effect size decreased as the MAD cut-off value decreased (Figure <ref type="figure" target="#fig_1">2</ref>).</p><p>Concerning the replication data, the observed eta squared distributions were different. Whatever the covariate  (neutral or negative word latencies), effect size increased as the MAD cut-off became more severe. When negative words latencies were used as a covariate in the replication dataset, and data were excluded using 2MAD as a criterion for outliers' detection, the mirror effect was significant, t(127) = -1.77, p = .04, η 2 p = .02, 95% CI <ref type="bibr">[-0.10, +∞]</ref>. Participants in the experimental condition were faster at detecting suicide-related words (M = 728 ms, SD = 134 ms) than participants in the control condition (M = 767 ms, SD =140 ms). The mirror effect was therefore replicated in this case and in all the less conservative cases in which the cut-off value for excluding outliers was inferior to 2 MAD. 2</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.2.">Equivalence analyses</head><p>In order to evaluate if the mirror effect observed in the confirmatory analysis was statistically equivalent to 0, we conducted a TOST (two one sided t-tests). The procedure of the test consists in specifying a smallest effect size of interest (SESOI) and comparing the observed effect to the positive SESOI and the negative SESOI. Two one-sided tests are then conducted to assess if the observed effect size is statistically smaller than the positive smallest effect size of interest and statistically greater than the negative smallest effect size of interest. If the observed effect size is statistically different from these two marks, then we can conclude that the effect is too small to be considered as an effect of interest. However, if one of these two one-sided tests is not significantly different from one of these two marks, then there is no conclusive evidence for equivalence to 0. Conventionally, the reported test is the one of the two one-sided tests that has the largest p-value.</p><p>The choice of a SOSEI is a subjective one and depends on a cost/benefit analysis <ref type="bibr" target="#b23">(Lakens, 2017)</ref>. The investigated effect being mostly of theoretical interest, it is difficult to evaluate its costs and benefits. Recent high-powered meta-analyses reveal that most effect sizes in the field of social psychology are considered to be small (but see <ref type="bibr" target="#b14">Funder &amp; Ozer, 2019)</ref>. Judging from recent meta-analyses such as Many Labs 4 <ref type="bibr" target="#b20">(Klein et al., 2019)</ref>, a Cohen's d greater than 0.1 can be accepted as non-trivial (see the pre-registered project of <ref type="bibr" target="#b20">Klein et al., 2019, on</ref> the Open Science Foundation website). The original effect size of the mirror effect was a small to medium effect with a lower bound of the confidence interval reflecting a small effect <ref type="bibr">(Cohen's d = 0.43,</ref><ref type="bibr">95% CI [0.038;</ref><ref type="bibr">0.827]</ref>). A Cohen's d of 0.2 (considered to reflect a small effect, <ref type="bibr" target="#b7">Cohen, 1988</ref>; but see <ref type="bibr" target="#b14">Funder &amp; Ozer, 2019</ref> regarding the consequentiality of effect sizes) was chosen as the SESOI. Hence, we specified the lower equivalence bound as a Cohen's d of -0.2 and the upper equivalence bound as Cohen's d of 0.2.</p><p>In order to compute the TOST equivalence test, we regressed suicide words RT on neutral and negative words separately RT and saved the residuals from each regression model. This operation allowed us to do the TOST on the variance of suicide words RT that are not explained by neutral words RT on the one hand, and negative words RT on the other hand, consistent with the reported ANCOVA results.</p><p>The equivalence test showed that the mirror effect observed when using neutral words RT as a covariant was not statistically equivalent to 0, t(145.74) = 1.12, p = 0.13. Regarding the equivalence test conducted on the residuals from the regression of suicide words RT on neutral RT, the same conclusions were reached: though participants in the mirror condition did not significantly recognize suicide words faster than participants in the control condition as suggested in the previous ANCOVA, their scores were not significantly equivalent, t(145.56) = -0.56, p = .29. The results of these equivalence analyses suggest that the replication is inconclusive regarding the evidence for the mirror effect, which remains undetermined in light of the present data.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Discussion</head><p>In the present study, we attempted to replicate the mirror effect. We expected recognition latencies to suicide-related words to be shorter in the mirror exposure condition than in the control condition, when controlling for neutral words latencies or negative words latencies. These predictions remained unsupported when using the preregistered outlier detection method in the confirmatory analyses. However, a test assessing the equivalence of the observed effect to a null effect failed to significantly indicate that the mirror effect was equivalent to a null effect (considering d = 0.2 as the smallest effect size of interest). Moreover, an exploratory multiverse analyses showed increasing effect sizes as a function of the decreasing threshold of outlier exclusion, as detected by a robust outlier detection method (i.e, the median absolute deviation, <ref type="bibr" target="#b25">Leys et al., 2013)</ref> such that the mirror effect was significant after excluding observations diverging from 2 or less median absolute deviations from the median, but only when using negative words' RT as a covariate. This partial replication raises several interesting questions about the status of the mirror effect, the effect of outliers in a sample, and, more generally, about what allows for concluding that a replication is successful.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1.">Mixed results concerning the mirror effect</head><p>Several large-scale replication projects show that about half of published findings fail to replicate in direct and high-powered replications in psychology <ref type="bibr" target="#b21">(Klein et al., 2018;</ref><ref type="bibr">Open Science Collaboration, 2015;</ref><ref type="bibr" target="#b37">Simons, Holcombe, &amp; Spellman, 2014)</ref>. These recent studies point out that it is often difficult to replicate published effects. Between the noise inherent to behavioral sciences and the small-sized effects that we often encounter in psychology, observing statistically significant differences is not guaranteed in replication attempts, even when the effect exists in the population. Indeed, one must take into account the inevitable heterogeneity that exists between a study and its replications <ref type="bibr" target="#b19">(Kenny &amp; Judd, 2019)</ref>, among other factors.</p><p>The present replication findings suggest that the original finding might be a false positive. At the same time, equivalence testing does not warrant a conclusion that the effect is equivalent to 0. Also, multiverse analyses show that the effect was significant in some cases, when using a robust method and a severe criterion for detecting outliers. We believe that if the effect exists, the effect size is likely to be smaller than initially thought. In sum, the study did not provide evidence for a robust mirror effect, but neither did it provide evidence for a null effect (i.e., an effect too trivial to be studied, as defined by a Cohen's d smaller than 0.2). Therefore, further studies using larger samples are needed to establish more reliable estimates of the effect size and a better understanding of the mechanisms involved in this effect, if it exists.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2.">Detecting outliers in a sample</head><p>Outliers are atypical data points that are abnormally different from the "bulk" of observations in a study, and therefore non-representative of the population <ref type="bibr" target="#b24">(Leys, Delacre, Mora, Lakens, &amp; Ley, 2019)</ref>. There are many ways to define an outlier in a specific data set, as there are many statistical criteria that have been put forward in the literature. Studentized residuals and z-scores are among the most popular ways to detect outliers <ref type="bibr" target="#b8">(Cousineau &amp; Chartier, 2010)</ref>. However, as underlined by <ref type="bibr" target="#b31">Rousseeuw (1990)</ref>, these criteria can underperform. The reason for this is that they are based on the sample standard deviation, which is itself a parameter highly sensitive to outliers <ref type="bibr" target="#b42">(Wilcox, 2010)</ref>. Robust estimators are hence needed to detect outliers. Contrary to studentized and standardized residuals, the median is highly insensitive to outliers <ref type="bibr" target="#b25">(Leys et al., 2013)</ref>. As one robust estimator, the median absolute deviation (MAD) is particularly relevant in this case, since the classic methods would have failed to detect influential data points <ref type="bibr" target="#b25">(Leys et al., 2013</ref>; see also <ref type="bibr" target="#b43">Wilcox, 2017)</ref>.</p><p>How we manage the presence of outliers in a sample is a fundamental aspect of data analysis. However, to date, there is no consensus about which method is the most appropriate and what threshold should be used for detecting and excluding outliers <ref type="bibr" target="#b25">(Leys et al., 2013)</ref>. In an attempt to optimize the quality of the replication, the hypothesis, method, and statistical analysis were preregistered. However, what we failed to predict was that excluding outliers on the basis of studentized residuals would not be sufficient to discard all influential data points. Hence, pre-registering a single outlier detection technique might be insufficient. In this view, <ref type="bibr" target="#b24">Leys et al. (2019)</ref> recently provided specific recommendations concerning pre-registering and detecting outliers, one of which is to expand a priori reasoning in the registration, in order to manage unpredicted outliers. In our view, this amounts to the option of registering multiple ways to handle outliers. For instance, one could register a decision tree regarding the possible ways to handle outliers, as a function of the distribution. For instance, Nosek, Ebersole, DeHaven, and Mellor (2017) mention the possibility to define a sequence of tests and to determine the use of parametric or non-parametric approach according to the outcome of normality assumption tests. In a similar vein, standard operating procedures (SOPs) are procedures more general than decision trees that are shared in a given field of research in order to ground standardization of data handling (e.g., <ref type="bibr" target="#b26">Lin &amp; Green, 2016)</ref>. The development of such standard procedures applied to outlier detection and exclusion could provide a useful tool for pre-registration.</p><p>Developing common, consensual procedures can thus be a solution for dealing with the unpredictable aspects of data, such as the presence of outliers. This would be a controlled, transparent, and probably the optimal manner of handling unpredictability, while suppressing the researchers' degrees of freedom in post-hoc decisions concerning the method used to detect outliers (see <ref type="bibr" target="#b41">Wicherts et al., 2016)</ref>. In statistics and methodology, as in many fields, a perfect plan does not exist, so it is difficult to offer a perfect solution that fits all studies. In our view, there is a need to define a more general plan of how to handle data, a plan that could fit a large amount of studies. Among the issues that would need to be addressed in such a plan are, for instance, the question of outlier detection/exclusion criterion definition (intraindividually or interindividually), the question of the specific (robust) criterion to be used, and the question of the desired distribution.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Conclusion</head><p>To sum up, the present replication of the mirror effect yielded mixed findings, since the results depended on the outlier detection method, thereby pointing to a fragile effect. The present findings did not provide much evidence either in favor or against the existence of the mirror effect. They suggest that the mirror effect, assuming that it exists, may be more difficult to detect than previously thought. This underlines the difficulty of conducting well-powered replications and the value of trying to replicate social psychology findings.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data Accessibility Statement</head><p>Materials, participant data, and analysis scripts (R scripts) can be found on this paper's project page on the OSF (<ref type="url" target="https://osf.io/ek2gp/">https://osf.io/ek2gp/</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Notes</head><p>1 Means are adjusted for the influence of the covariate, hence the difference between the two neutral RT means associated to the two previous ANCOVA. 2 Though <ref type="bibr" target="#b25">Leys et al. (2013)</ref> recommend a 2.5 MAD threshold, they also argue that the use of 2 MAD thresholds can be justified depending on the extent to which outliers are present in the sample.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 :</head><label>1</label><figDesc>Figure 1: Boxplots of standardized RT to suicide-related words in the control condition (left) ad the experimental condition (right).</figDesc><graphic coords="4,54.11,200.52,232.56,192.00" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 :</head><label>2</label><figDesc>Figure 2: Effect size (η 2 p ) as a function of the MAD criterion used to detect outliers. Red dots indicate significance (p &lt; .05). Blue dots indicate marginal significance (p &lt; .10).</figDesc><graphic coords="4,56.26,455.42,474.25,297.00" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 :</head><label>1</label><figDesc>Lists of words used for the Lexical Decision Task.</figDesc><table><row><cell>Neutral</cell><cell>Negative</cell><cell>Suicide related</cell></row><row><cell>Souvent (Often)</cell><cell>Triste (Sad)</cell><cell>Suicide (Suicide)</cell></row><row><cell>Livre (Book)</cell><cell>Chagrin (Sorrow)</cell><cell>Corde (Rope)</cell></row><row><cell cols="3">Bonsoir (Good Evening) Souffrance (Suffering) Veine (Wrist)</cell></row><row><cell>Vent (Wind)</cell><cell>Mauvais (Bad)</cell><cell>Pendre (To hang)</cell></row><row><cell>Haie (Bush)</cell><cell>Nul (Worthless)</cell><cell>Tentative (Attempt)</cell></row><row><cell>Train (Train)</cell><cell></cell><cell></cell></row><row><cell>Poche (Pocket)</cell><cell></cell><cell></cell></row><row><cell>Ballon (Ball)</cell><cell></cell><cell></cell></row><row><cell>Le (The, masculine form)</cell><cell></cell><cell></cell></row><row><cell>Loi (Law)</cell><cell></cell><cell></cell></row><row><cell>Pas (Not)</cell><cell></cell><cell></cell></row><row><cell>La (The, feminine form)</cell><cell></cell><cell></cell></row><row><cell>Chat (Cat)</cell><cell></cell><cell></cell></row><row><cell>Tas (Pile)</cell><cell></cell><cell></cell></row><row><cell>Chaise (Chair)</cell><cell></cell><cell></cell></row></table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>Downloaded from http://online.ucpress.edu/collabra/article-pdf/6/1/18/437554/321-4357-1-pb.pdf by guest on 22 July 2025</p></note>
+		</body>
+		<back>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Competing Interests</head><p>The authors have no competing interests to declare.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Author Contributions</head><p>• Contributed to conception and design: LS, AC, JM • Contributed to acquisition of data: JM • Contributed to analysis and interpretation of data: LS, AC, JM • Drafted and/or revised the article: LS, AC, JM • Approved the submitted version for publication: LS, AC, JM</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct status="extracted"  xml:id="b0">
+	<analytic>
+		<title level="a" type="main">The mind in the middle: A practical guide to priming and automaticity research</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Bargh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">L</forename><surname>Chartrand</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Handbook of research methods in social and personality psychology</title>
+		<editor>
+			<persName><forename type="first">H</forename><forename type="middle">T</forename><surname>Reis</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Judd</surname></persName>
+		</editor>
+		<meeting><address><addrLine>New York, NY, US</addrLine></address></meeting>
+		<imprint>
+			<publisher>Cambridge University Press</publisher>
+			<date type="published" when="2000">2000</date>
+			<biblScope unit="page" from="253" to="285" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bargh, J. A., &amp; Chartrand, T. L. (2000). The mind in the middle: A practical guide to priming and automaticity research. In H. T. Reis &amp; C. M. Judd (Eds.), Handbook of research methods in social and personality psychology (pp. 253-285). New York, NY, US: Cambridge University Press.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Suicide as escape from self</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">F</forename><surname>Baumeister</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/0033-295X.97.1.90</idno>
+		<ptr target="https://doi.org/10.1037/0033-295X.97.1.90" />
+	</analytic>
+	<monogr>
+		<title level="j">Psychological Review</title>
+		<imprint>
+			<biblScope unit="volume">97</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="90" to="113" />
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Baumeister, R. F. (1990). Suicide as escape from self. Psychological Review, 97(1), 90-113. DOI: https://doi. org/10.1037/0033-295X.97.1.90</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Mirror, mirror on the wall: Increasing young children&apos;s honesty through inducing self-awareness</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Bender</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>O'connor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Evans</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jecp.2017.12.001</idno>
+		<ptr target="https://doi.org/10.1016/j.jecp.2017.12.001" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Experimental Child Psychology</title>
+		<imprint>
+			<biblScope unit="volume">167</biblScope>
+			<biblScope unit="page" from="414" to="422" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bender, J., O&apos;Connor, A. M., &amp; Evans, A. D. (2018). Mirror, mirror on the wall: Increasing young children&apos;s honesty through inducing self-awareness. Journal of Experimental Child Psychology, 167, 414-422. DOI: https://doi.org/10.1016/j.jecp.2017.12.001</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b3">
+	<monogr>
+		<title level="m" type="main">Attention and self-regulation: A control theory approach to human behavior</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S</forename><surname>Carver</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">F</forename><surname>Scheier</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/978-1-4612-5887-2</idno>
+		<ptr target="https://doi.org/10.1007/978-1-4612-5887-2" />
+		<imprint>
+			<date type="published" when="1981">1981</date>
+			<publisher>Springer-Verlag</publisher>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Carver, C. S., &amp; Scheier, M. F. (1981). Attention and self-regulation: A control theory approach to human behavior. New York: Springer-Verlag. DOI: https://doi. org/10.1007/978-1-4612-5887-2</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b4">
+	<analytic>
+		<title level="a" type="main">When selfdestructive thoughts flash through the mind: Failure to meet standards affects the accessibility of suiciderelated thoughts</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Chatard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Selimbegović</surname></persName>
+		</author>
+		<ptr target="https://doi.org/10.1037/a" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Personality and Social Psychology</title>
+		<imprint>
+			<biblScope unit="volume">100</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page">22461</biblScope>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Chatard, A., &amp; Selimbegović, L. (2011). When self- destructive thoughts flash through the mind: Failure to meet standards affects the accessibility of suicide- related thoughts. Journal of Personality and Social Psychology, 100(4), 587-605. DOI: https://doi.org/10. 1037/a0022461</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Dysphoria, failure, and suicide: Level of depressive symptoms moderates effects of failure on implicit thoughts of suicide and death</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Chatard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Selimbegović</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Pyszczynski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Jaafari</surname></persName>
+		</author>
+		<idno type="DOI">10.1521/jscp.2017.36.1.1</idno>
+		<ptr target="https://doi.org/10.1521/jscp.2017.36.1.1" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Social and Clinical Psychology</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="1" to="21" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Chatard, A., Selimbegović, L., Pyszczynski, T., &amp; Jaafari, N. (2017). Dysphoria, failure, and suicide: Level of depressive symptoms moderates effects of failure on implicit thoughts of suicide and death. Journal of Social and Clinical Psychology, 26, 1-21. DOI: https://doi.org/10.1521/jscp.2017.36.1.1</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Is two-tailed testing for directional research hypotheses tests legitimate</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">C</forename><surname>Cho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Abe</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jbusres.2012.02.023</idno>
+		<ptr target="https://doi.org/10.1016/j.jbusres.2012.02.023" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Business Research</title>
+		<imprint>
+			<biblScope unit="volume">66</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="1261" to="1266" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cho, H. C., &amp; Abe, S. (2013). Is two-tailed testing for directional research hypotheses tests legitimate? Journal of Business Research, 66(9), 1261-1266. DOI: https://doi.org/10.1016/j.jbusres.2012.02.023</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b7">
+	<monogr>
+		<author>
+			<persName><forename type="first">J</forename><surname>Cohen</surname></persName>
+		</author>
+		<idno type="DOI">10.4324/9780203771587</idno>
+		<ptr target="https://doi.org/10.4324/9780203771587" />
+		<title level="m">Statistical Power Analysis the Behavioral Sciences</title>
+		<meeting><address><addrLine>New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>Routledge</publisher>
+			<date type="published" when="1988">1988</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cohen, J. (1988). Statistical Power Analysis the Behavioral Sciences. New York: Routledge. DOI: https:// doi.org/10.4324/9780203771587</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Outliers detection and treatment: A review</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Cousineau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Chartier</surname></persName>
+		</author>
+		<idno type="DOI">10.21500/20112084.844</idno>
+		<ptr target="https://doi.org/10.21500/20112084.844" />
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Psychological Research</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="58" to="67" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cousineau, D., &amp; Chartier, S. (2010). Outliers detection and treatment: A review. International Journal of Psychological Research, 3(1), 58-67. DOI: https://doi. org/10.21500/20112084.844</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Behavioral indecision: Effects of self-focus on automatic behavior</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Dijksterhuis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">V</forename><surname>Knippenberg</surname></persName>
+		</author>
+		<idno type="DOI">10.1521/soco.2000.18.1.55</idno>
+		<ptr target="https://doi.org/10.1521/soco.2000.18.1.55" />
+	</analytic>
+	<monogr>
+		<title level="j">Social Cognition</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="55" to="74" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Dijksterhuis, A., &amp; Knippenberg, A. V. (2000). Behavioral indecision: Effects of self-focus on automatic behavior. Social Cognition, 18(1), 55-74. DOI: https://doi.org/ 10.1521/soco.2000.18.1.55</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b10">
+	<monogr>
+		<title level="m" type="main">A theory of objective self awareness</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Duval</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Wicklund</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1972">1972</date>
+			<publisher>Academic Press</publisher>
+			<pubPlace>Oxford, England</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Duval, S., &amp; Wicklund, R. A. (1972). A theory of objective self awareness. Oxford, England: Academic Press.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Motivation in mental accessibility: Relevance of a Representation (ROAR) as a new framework</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Eitam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">T</forename><surname>Higgins</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1751-9004.2010.00309.x</idno>
+		<ptr target="https://doi.org/10.1111/j.1751-9004.2010.00309.x" />
+	</analytic>
+	<monogr>
+		<title level="j">Social and Personality Psychology Compass</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="951" to="967" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Eitam, B., &amp; Higgins, E. T. (2010). Motivation in mental accessibility: Relevance of a Representation (ROAR) as a new framework. Social and Personality Psychology Compass, 4(10), 951-967. DOI: https://doi. org/10.1111/j.1751-9004.2010.00309.x</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b12">
+	<analytic>
+		<title level="a" type="main">GPOWER: A general power analysis program</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Erdfelder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Faul</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Buchner</surname></persName>
+		</author>
+		<idno type="DOI">10.3758/BF03203630</idno>
+		<ptr target="https://doi.org/10.3758/BF03203630" />
+	</analytic>
+	<monogr>
+		<title level="j">Behavior Research Methods, Instruments &amp; Computers</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="1" to="11" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Erdfelder, E., Faul, F., &amp; Buchner, A. (1996). GPOWER: A general power analysis program. Behavior Research Methods, Instruments &amp; Computers, 28(1), 1-11. DOI: https://doi.org/10.3758/BF03203630</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Effect of Private Self-Awareness on Negative Affect and Self-Referent Attribution: A Quantitative Review</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Fejfar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">H</forename><surname>Hoyle</surname></persName>
+		</author>
+		<idno type="DOI">10.1207/S15327957PSPR0402_02</idno>
+		<ptr target="https://doi.org/10.1207/S15327957PSPR0402_02" />
+	</analytic>
+	<monogr>
+		<title level="j">Personality and Social Psychology Review</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="132" to="142" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Fejfar, M. C., &amp; Hoyle, R. H. (2000). Effect of Private Self-Awareness on Negative Affect and Self-Referent Attribution: A Quantitative Review. Personality and Social Psychology Review, 4(2), 132-142. DOI: https:// doi.org/10.1207/S15327957PSPR0402_02</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Evaluating Effect Size in Psychological Research: Sense and Nonsense</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Funder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Ozer</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/2515245919847202</idno>
+		<ptr target="https://doi.org/10.1177/2515245919847202" />
+	</analytic>
+	<monogr>
+		<title level="m">Advances in Methods and Practices in Psychological Science</title>
+		<imprint>
+			<date type="published" when="2019">2019</date>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="156" to="168" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Funder, D. C., &amp; Ozer, D. J. (2019). Evaluating Effect Size in Psychological Research: Sense and Nonsense. Advances in Methods and Practices in Psychological Science, 2(2), 156-168. DOI: https://doi.org/10.1177/ 2515245919847202</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Effort mobilization when the self is involved: Some lessons from the cardiovascular system</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">H E</forename><surname>Gendolla</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Richter</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/a0019742</idno>
+		<ptr target="https://doi.org/10.1037/a0019742" />
+	</analytic>
+	<monogr>
+		<title level="j">Review of General Psychology</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="212" to="226" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gendolla, G. H. E., &amp; Richter, M. (2010). Effort mobilization when the self is involved: Some lessons from the cardiovascular system. Review of General Psychology, 14(3), 212-226. DOI: https://doi.org/10. 1037/a0019742</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Mirrors in the Head: Cultural Variation in Objective Self-Awareness</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Heine</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Takemoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Moskalenko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lasaleta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Henrich</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/0146167208316921</idno>
+		<ptr target="https://doi.org/10.1177/0146167208316921" />
+	</analytic>
+	<monogr>
+		<title level="j">Personality and Social Psychology Bulletin</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="879" to="887" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Heine, S. J., Takemoto, T., Moskalenko, S., Lasaleta, J., &amp; Henrich, J. (2008). Mirrors in the Head: Cultural Variation in Objective Self-Awareness. Personality and Social Psychology Bulletin, 34(7), 879-887. DOI: https://doi.org/10.1177/0146167208316921</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Selfawareness and attitude change: Seeing oneself on the central route to persuasion</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Hutton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">F</forename><surname>Baumeister</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/0146167292181010</idno>
+		<ptr target="https://doi.org/10.1177/0146167292181010" />
+	</analytic>
+	<monogr>
+		<title level="j">Personality and Social Psychology Bulletin</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="68" to="75" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hutton, D. G., &amp; Baumeister, R. F. (1992). Self- awareness and attitude change: Seeing oneself on the central route to persuasion. Personality and Social Psychology Bulletin, 18(1), 68-75. DOI: https://doi. org/10.1177/0146167292181010</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Objective self awareness and self esteem</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">J</forename><surname>Ickes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Wicklund</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">B</forename><surname>Ferris</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0022-1031(73)90010-3</idno>
+		<ptr target="https://doi.org/10.1016/0022-1031(73)90010-3" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Experimental Social Psychology</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="202" to="219" />
+			<date type="published" when="1973">1973</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ickes, W. J., Wicklund, R. A., &amp; Ferris, C. B. (1973). Objective self awareness and self esteem. Journal of Experimental Social Psychology, 9(3), 202-219. DOI: https://doi.org/10.1016/0022-1031(73)90010-3</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b19">
+	<analytic>
+		<title level="a" type="main">The unappreciated heterogeneity of effect sizes: Implications for power, precision, planning of research, and replication</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Kenny</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Judd</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/met0000209</idno>
+		<ptr target="https://doi.org/10.1037/met0000209" />
+	</analytic>
+	<monogr>
+		<title level="j">Psychological Methods. Advance online publication</title>
+		<imprint>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kenny, D. A., &amp; Judd, C. M. (2019). The unappreciated heterogeneity of effect sizes: Implications for power, precision, planning of research, and replication. Psychological Methods. Advance online publication. DOI: https://doi.org/10.1037/met0000209</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b20">
+	<monogr>
+		<title level="m" type="main">Many Labs 4: Failure to Replicate Mortality Salience Effect With and Without Original Author Involvement</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Klein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">L</forename><surname>Cook</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><surname>Ebersole</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Vitiello</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">A</forename><surname>Nosek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><surname>Chartier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Ratliff</surname></persName>
+		</author>
+		<idno type="DOI">10.31234/osf.io/vef2c</idno>
+		<ptr target="https://doi.org/10.31234/osf.io/vef2c" />
+		<imprint>
+			<date type="published" when="2019-12-11">2019, December 11</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Klein, R. A., Cook, C. L., Ebersole, C. R., Vitiello, C. A., Nosek, B. A., Chartier, C. R., … Ratliff, K. A. (2019, December 11). Many Labs 4: Failure to Replicate Mortality Salience Effect With and Without Original Author Involvement. DOI: https://doi.org/10.31234/ osf.io/vef2c</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Many Labs 2: Investigating Variation in Replicability Across Samples and Settings</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Klein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Vianello</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Hasselman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">G</forename><surname>Adams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">B</forename><surname>Adams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Alper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">A</forename><surname>Nosek</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/2515245918810225</idno>
+		<ptr target="https://doi.org/10.1177/2515245918810225" />
+	</analytic>
+	<monogr>
+		<title level="j">Advances in Methods and Practices in Psychological Science</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="443" to="490" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Klein, R. A., Vianello, M., Hasselman, F., Adams, B. G., Adams, R. B., Alper, S., … Nosek, B. A. (2018). Many Labs 2: Investigating Variation in Replicability Across Samples and Settings. Advances in Methods and Practices in Psychological Science, 1(4), 443-490. DOI: https://doi.org/10.1177/2515245918810225</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b22">
+	<analytic>
+		<title level="a" type="main">A theory of goal systems</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">W</forename><surname>Kruglanski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Y</forename><surname>Shah</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Fishbach</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Friedman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">Y</forename><surname>Chun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Sleeth-Keppler</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S0065-2601</idno>
+		<ptr target="https://doi.org/10.1016/S0065-2601" />
+	</analytic>
+	<monogr>
+		<title level="j">Advances in experimental social psychology</title>
+		<editor>
+			<persName><forename type="first">M</forename><forename type="middle">P</forename><surname>Zanna</surname></persName>
+		</editor>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="issue">02</biblScope>
+			<biblScope unit="page" from="80008" to="80009" />
+			<date type="published" when="2002">2002</date>
+			<publisher>Academic Press</publisher>
+			<pubPlace>San Diego, CA</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kruglanski, A. W., Shah, J. Y., Fishbach, A., Friedman, R., Chun, W. Y., &amp; Sleeth-Keppler, D. (2002). A theory of goal systems. In M. P. Zanna (Ed.), Advances in experimental social psychology, 34, 331-378. San Diego, CA: Academic Press. DOI: https://doi.org/10. 1016/S0065-2601(02)80008-9</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Equivalence tests: A practical primer for t-tests, correlations, and meta-analyses</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Lakens</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/1948550617697177</idno>
+		<ptr target="https://doi.org/10.1177/1948550617697177" />
+	</analytic>
+	<monogr>
+		<title level="j">Social Psychological and Personality Science</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="355" to="362" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lakens, D. (2017). Equivalence tests: A practical primer for t-tests, correlations, and meta-analyses. Social Psychological and Personality Science, 8(4), 355-362. DOI: https://doi.org/10.1177/1948550617697177</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b24">
+	<analytic>
+		<title level="a" type="main">How to Classify, Detect, and Manage Univariate and Multivariate Outliers, With Emphasis on Pre-Registration</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Leys</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Delacre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">L</forename><surname>Mora</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Lakens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Ley</surname></persName>
+		</author>
+		<idno type="DOI">10.5334/irsp.289</idno>
+		<ptr target="https://doi.org/10.5334/irsp.289" />
+	</analytic>
+	<monogr>
+		<title level="j">International Review of Social Psychology</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">5</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Leys, C., Delacre, M., Mora, Y. L., Lakens, D., &amp; Ley, C. (2019). How to Classify, Detect, and Manage Univariate and Multivariate Outliers, With Emphasis on Pre-Registration. International Review of Social Psychology, 32(1), 5. DOI: https://doi.org/10.5334/ irsp.289</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Detecting outliers: Do not use standard deviation around the mean, use absolute deviation around the median</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Leys</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Ley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Klein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Bernard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Licata</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jesp.2013.03.013</idno>
+		<ptr target="https://doi.org/10.1016/j.jesp.2013.03.013" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Experimental Social Psychology</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="764" to="766" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Leys, C., Ley, C., Klein, O., Bernard, P., &amp; Licata, L. (2013). Detecting outliers: Do not use standard deviation around the mean, use absolute deviation around the median. Journal of Experimental Social Psychology, 49(4), 764-766. DOI: https://doi.org/10.1016/j.jesp. 2013.03.013</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b26">
+	<monogr>
+		<author>
+			<persName><forename type="first">W</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Green</surname></persName>
+		</author>
+		<idno type="DOI">10.1017/S1049096516000810</idno>
+		<ptr target="https://doi.org/10.1017/S1049096516000810" />
+		<title level="m">Standard Operating Procedures: A Safety Net for Pre-Analysis Plans. PS: Political Science &amp; Politics</title>
+		<imprint>
+			<date type="published" when="2016">2016</date>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="page" from="495" to="500" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lin, W., &amp; Green, D. (2016). Standard Operating Procedures: A Safety Net for Pre-Analysis Plans. PS: Political Science &amp; Politics, 49(3), 495-500. DOI: https://doi.org/10.1017/S1049096516000810</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Self-focused attention and negative affect: A meta-analysis</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Mor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Winquist</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/0033-2909.128.4.638</idno>
+		<ptr target="https://doi.org/10.1037/0033-2909.128.4.638" />
+	</analytic>
+	<monogr>
+		<title level="j">Psychological Bulletin</title>
+		<imprint>
+			<biblScope unit="volume">128</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="638" to="662" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mor, N., &amp; Winquist, J. (2002). Self-focused attention and negative affect: A meta-analysis. Psychological Bulletin, 128(4), 638-662. DOI: https://doi.org/10.1037/0033- 2909.128.4.638</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b28">
+	<analytic>
+		<title level="a" type="main">The Preregistration Revolution</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">A</forename><surname>Nosek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><surname>Ebersole</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Dehaven</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">T</forename><surname>Mellor</surname></persName>
+		</author>
+		<idno type="DOI">10.1073/pnas.1708274114</idno>
+		<ptr target="https://doi.org/10.1073/pnas.1708274114" />
+	</analytic>
+	<monogr>
+		<title level="j">Proceedings of the National Academy of Sciences of the United States of America</title>
+		<imprint>
+			<biblScope unit="volume">115</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="2600" to="2606" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Nosek, B. A., Ebersole, C. R., DeHaven, A. C., &amp; Mellor, D. T. (2017). The Preregistration Revolution. Proceedings of the National Academy of Sciences of the United States of America, 115(11), 2600-2606. DOI: https://doi.org/10.1073/pnas.1708274114</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Estimating the reproducibility of psychological science</title>
+		<author>
+			<orgName type="collaboration">Open Science Collaboration</orgName>
+		</author>
+		<idno type="DOI">10.1126/science.aac4716</idno>
+		<ptr target="https://doi.org/10.1126/science.aac4716" />
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">349</biblScope>
+			<biblScope unit="issue">6251</biblScope>
+			<biblScope unit="page" from="1" to="8" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Open Science Collaboration. (2015). Estimating the reproducibility of psychological science. Science, 349(6251), 1-8. DOI: https://doi.org/10.1126/science. aac4716</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Generating Stimuli for Neuroscience Using PsychoPy</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Peirce</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/neuro.11.010.2008</idno>
+		<ptr target="https://doi.org/10.3389/neuro.11.010.2008" />
+	</analytic>
+	<monogr>
+		<title level="j">Frontiers in Neuroinformatics</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page">10</biblScope>
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Peirce, J. W. (2008). Generating Stimuli for Neuroscience Using PsychoPy. Frontiers in Neuroinformatics, 2, 10. DOI: https://doi.org/10.3389/neuro.11.010.2008</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Robust Estimation and Identifying Outliers</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Rousseeuw</surname></persName>
+		</author>
+		<ptr target="https://wis.kuleuven.be/stat/robust/papers/publications-1990/rousseeuw-robustestimation-handbookengineersscient.pdf" />
+	</analytic>
+	<monogr>
+		<title level="m">Handbook of Statistical Methods for Engineers and Scientists</title>
+		<editor>
+			<persName><forename type="first">H</forename><forename type="middle">M</forename><surname>Wadsworth</surname></persName>
+		</editor>
+		<meeting><address><addrLine>New York, NY</addrLine></address></meeting>
+		<imprint>
+			<publisher>McGraw-Hill</publisher>
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rousseeuw, P. J. (1990). Robust Estimation and Identifying Outliers. In H. M. Wadsworth (Ed.), Handbook of Statistical Methods for Engineers and Scientists. New York, NY: McGraw-Hill, retrieved at https://wis.kuleuven.be/stat/robust/papers/ publications-1990/rousseeuw-robustestimation- handbookengineersscient.pdf</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Self-directed attention and the comparison of self with standards</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">F</forename><surname>Scheier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S</forename><surname>Carver</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0022-1031(83)90038-0</idno>
+		<ptr target="https://doi.org/10.1016/0022-1031(83)90038-0" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Experimental Social Psychology</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="205" to="222" />
+			<date type="published" when="1983">1983</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Scheier, M. F., &amp; Carver, C. S. (1983). Self-directed attention and the comparison of self with standards. Journal of Experimental Social Psychology, 19, 205-222. DOI: https://doi.org/10.1016/0022-1031(83)90038-0</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b33">
+	<analytic>
+		<title level="a" type="main">The mirror effect: Self-awareness alone increases suicide thought accessibility</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Selimbegović</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Chatard</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.concog.2013.04.014</idno>
+		<ptr target="https://doi.org/10.1016/j.concog.2013.04.014" />
+	</analytic>
+	<monogr>
+		<title level="j">Consciousness And Cognition: An International Journal</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="756" to="764" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Selimbegović, L., &amp; Chatard, A. (2013). The mirror effect: Self-awareness alone increases suicide thought accessibility. Consciousness And Cognition: An International Journal, 22(3), 756-764. DOI: https:// doi.org/10.1016/j.concog.2013.04.014</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Mirrors, masks, and motivation: Implicit and explicit self-focused attention influence effortrelated cardiovascular reactivity</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Silvia</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.biopsycho.2012.03.017</idno>
+		<ptr target="https://doi.org/10.1016/j.biopsycho.2012.03.017" />
+	</analytic>
+	<monogr>
+		<title level="j">Biological Psychology</title>
+		<imprint>
+			<biblScope unit="volume">90</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="192" to="201" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Silvia, P. J. (2012). Mirrors, masks, and motivation: Implicit and explicit self-focused attention influence effort- related cardiovascular reactivity. Biological Psychology, 90(3), 192-201. DOI: https://doi.org/10.1016/j. biopsycho.2012.03.017</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Objective self-awareness theory: Recent progress and enduring problems</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Silvia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">S</forename><surname>Duval</surname></persName>
+		</author>
+		<idno type="DOI">10.1207/S15327957PSPR0503_4</idno>
+		<ptr target="https://doi.org/10.1207/S15327957PSPR0503_4" />
+	</analytic>
+	<monogr>
+		<title level="j">Personality and Social Psychology Review</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="230" to="241" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Silvia, P. J., &amp; Duval, T. S. (2001). Objective self-awareness theory: Recent progress and enduring problems. Personality and Social Psychology Review, 5(3), 230- 241. DOI: https://doi.org/10.1207/S15327957PSPR 0503_4</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Self-awareness without awareness? Implicit self-focused attention and behavioral self-regulation</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Silvia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">G</forename><surname>Phillips</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/15298868.2011.639550</idno>
+		<ptr target="https://doi.org/10.1080/15298868.2011.639550" />
+	</analytic>
+	<monogr>
+		<title level="j">Self and Identity</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="114" to="127" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Silvia, P. J., &amp; Phillips, A. G. (2013). Self-awareness without awareness? Implicit self-focused attention and behavioral self-regulation. Self and Identity, 12(2), 114-127. DOI: https://doi.org/10.1080/15298868.20 11.639550</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b37">
+	<analytic>
+		<title level="a" type="main">An introduction to registered replication reports at perspectives on psychological science</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Simons</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">O</forename><surname>Holcombe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">A</forename><surname>Spellman</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/1745691614543974</idno>
+		<ptr target="https://doi.org/10.1177/1745691614543974" />
+	</analytic>
+	<monogr>
+		<title level="j">Perspectives on Psychological Science</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="552" to="555" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Simons, D. J., Holcombe, A. O., &amp; Spellman, B. A. (2014). An introduction to registered replication reports at perspectives on psychological science. Perspectives on Psychological Science, 9(5), 552-555. DOI: https://doi. org/10.1177/1745691614543974</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Depression and self-focused attention</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">W</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Greenberg</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/BF00992551</idno>
+		<ptr target="https://doi.org/10.1007/BF00992551" />
+	</analytic>
+	<monogr>
+		<title level="j">Motivation and Emotion</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="323" to="331" />
+			<date type="published" when="1981">1981</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Smith, T. W., &amp; Greenberg, J. (1981). Depression and self-focused attention. Motivation and Emotion, 5(4), 323-331. DOI: https://doi.org/10.1007/BF00992551</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Increasing transparency through a multiverse analysis</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Steegen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Tuerlinckx</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Gelman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Vanpaemel</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/1745691616658637</idno>
+		<ptr target="https://doi.org/10.1177/1745691616658637" />
+	</analytic>
+	<monogr>
+		<title level="j">Perspectives on Psychological Science</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="702" to="712" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Steegen, S., Tuerlinckx, F., Gelman, A., &amp; Vanpaemel, W. (2016). Increasing transparency through a multiverse analysis. Perspectives on Psychological Science, 11(5), 702-712. DOI: https://doi.org/10.1177/ 1745691616658637</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Experimental test of escape theory: Accessibility to implicit suicidal mind</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Tang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Miao</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/sltb.12021</idno>
+		<ptr target="https://doi.org/10.1111/sltb.12021" />
+	</analytic>
+	<monogr>
+		<title level="j">Suicide and Life-Threatening Behavior</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="347" to="355" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Tang, J., Wu, S., &amp; Miao, D. (2013). Experimental test of escape theory: Accessibility to implicit suicidal mind. Suicide and Life-Threatening Behavior, 43(4), 347-355. DOI: https://doi.org/10.1111/sltb.12021</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Degrees of freedom in planning, running, analyzing, and reporting psychological studies: A checklist to avoid p-hacking</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Wicherts</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">L S</forename><surname>Veldkamp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">E M</forename><surname>Augusteijn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bakker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">C M</forename><surname>Van Aert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A L M</forename><surname>Van Assen</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fpsyg.2016.01832</idno>
+		<ptr target="https://doi.org/10.3389/fpsyg.2016.01832" />
+	</analytic>
+	<monogr>
+		<title level="j">Frontiers in Psychology</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wicherts, J. M., Veldkamp, C. L. S., Augusteijn, H. E. M., Bakker, M., van Aert, R. C. M., &amp; van Assen, M. A. L. M. (2016). Degrees of freedom in planning, running, analyzing, and reporting psychological studies: A checklist to avoid p-hacking. Frontiers in Psychology, 7. DOI: https://doi.org/10.3389/fpsyg.2016.01832</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b42">
+	<monogr>
+		<title level="m" type="main">Fundamentals of modern statistical methods substantially improving power and accuracy</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">R</forename><surname>Wilcox</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/978-1-4419-5525-8</idno>
+		<ptr target="https://doi.org/10.1007/978-1-4419-5525-8" />
+		<imprint>
+			<date type="published" when="2010">2010</date>
+			<publisher>Springer</publisher>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wilcox, R. R. (2010). Fundamentals of modern statistical methods substantially improving power and accuracy. New York: Springer. DOI: https://doi.org/10.1007/ 978-1-4419-5525-8</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b43">
+	<monogr>
+		<title level="m" type="main">Introduction to robust estimation and hypothesis testing</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">R</forename><surname>Wilcox</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/B978-0-12-804733-0.00010-X</idno>
+		<ptr target="https://doi.org/10.1016/B978-0-12-804733-0.00010-X" />
+		<imprint>
+			<date type="published" when="2017">2017</date>
+			<publisher>Academic Press</publisher>
+			<pubPlace>Amsterdam</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wilcox, R. R. (2017). Introduction to robust estimation and hypothesis testing. Amsterdam: Academic Press. DOI: https://doi.org/10.1016/B978-0-12-804733-0. 00010-X</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

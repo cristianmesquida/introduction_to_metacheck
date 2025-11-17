@@ -1,0 +1,749 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Effect of Subsequent Repetitive Tone Stimuli on Time Perception: Replication of Ono and Kitazawa (2010)</title>
+				<funder ref="#_YQEgHdA #_5WdMeCG">
+					<orgName type="full">JSPS KAKENHI</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2025-07-22">22 July 2025</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName><forename type="first">Fuminori</forename><surname>Ono</surname></persName>
+							<email>fuminoriono@gmail.com</email>
+							<idno type="ORCID">0000-0001-6776-9111</idno>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Education</orgName>
+								<orgName type="institution">Yamaguchi University</orgName>
+								<address>
+									<settlement>Yamaguchi</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Education</orgName>
+								<orgName type="institution">Yamaguchi University</orgName>
+								<address>
+									<addrLine>1677-1 Yoshida Yamaguchi-shi</addrLine>
+									<postCode>753-8513</postCode>
+									<settlement>Yamaguchi</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Effect of Subsequent Repetitive Tone Stimuli on Time Perception: Replication of Ono and Kitazawa (2010)</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2025-07-22">22 July 2025</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">3277859E1E75ED8E94EB15E1E5DA8BCD</idno>
+					<idno type="DOI">10.1525/collabra.74875</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.3-SNAPSHOT" ident="GROBID" when="2025-09-17T15:44+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">b64991a</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Time perception</term>
+					<term>Auditory flutter</term>
+					<term>Internal pacemaker</term>
+					<term>Postdiction</term>
+					<term>Replication</term>
+				</keywords>
+			</textClass>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"> <ref type="bibr" target="#b14">Ono and Kitazawa (2010)</ref> <p>found that the time interval immediately before a fast auditory flutter was perceived to be shorter than the time interval just before a slow auditory flutter, terming it the subsequent flutter effect. In contrast, conceptual replication studies suggested that this phenomenon is unlikely to replicate. A direct replication of the experiment of <ref type="bibr" target="#b14">Ono and Kitazawa (2010)</ref> was performed along with three additional experiments to determine why the subsequent flutter effect was not replicated by the previous conceptual replications. The results indicate that the presence or absence of a control condition in which a flutter is not presented within the same block, as well as the time range within which participants should direct attention, is important for the reproducibility of the subsequent flutter effect.</p><p>It is known that our perception of time can be longer or shorter than its actual length, depending on various factors, even though the physical length of time remains the same. For example, the presentation of repetitive tone stimuli or visual flickers has been shown to lengthen the perception of the following time interval <ref type="bibr" target="#b3">(Droit-Volet &amp; Wearden, 2002;</ref><ref type="bibr" target="#b16">Penton-Voak et al., 1996;</ref><ref type="bibr" target="#b22">Treisman et al., 1990;</ref><ref type="bibr" target="#b23">Wearden, 1999)</ref>. To explain these changes in time perception, researchers have generally hypothesized that repetitive stimulation accelerates some kind of internal pacemaker <ref type="bibr" target="#b2">(Creelman, 1962;</ref><ref type="bibr" target="#b21">Treisman, 1963)</ref>. The acceleration of this pacemaker causes an increase in pulse counts over a given period, thereby resulting in a lengthening of the perceived time. The scalar expectancy theory (SET; <ref type="bibr" target="#b6">Gibbon et al., 1984)</ref>, a widely used time perception model, employs the pacemaker framework. According to SET, temporal processing consists of three major components: a clock process comprising a pacemaker and accumulator, a memory process comprising short-term and reference-memory stores, and a comparator process that makes decisions.</p><p>Several studies have investigated the effect of repetitive stimuli just "before" a time, providing evidence for a pacemaker-accumulator clock of the type proposed by <ref type="bibr">SET (e.g., Droit-Volet &amp; Wearden, 2002;</ref><ref type="bibr" target="#b16">Penton-Voak et al., 1996)</ref>. <ref type="bibr" target="#b14">Ono and Kitazawa (2010)</ref> investigated whether repetitive tone stimuli presented "after" a time interval altered the perception of the preceding time interval. As the repetitive tones are presented immediately after the time to be eval-uated, this may affect the SET model's memory and judgment processes. One trial in the experiment consisted of reference and test intervals. The intervals were defined by delivering the first tone, followed by a silent period and the second tone. Following the test interval, a slow or fast series of tones (auditory flutter) was presented. Participants were asked to judge whether the test interval was longer or shorter than the reference interval. The results showed that the test interval just before a fast flutter was perceived as shorter than the test interval immediately before a slow flutter (hereinafter, the subsequent flutter effect). This is an important discovery because it indicates the possibility of retrospective processing in time perception.</p><p>However, in a conceptual replication of the study by <ref type="bibr" target="#b14">Ono and Kitazawa (2010)</ref>, <ref type="bibr" target="#b19">Repp et al. (2013)</ref> and <ref type="bibr" target="#b12">Masuda and Shirai (2021)</ref> failed to replicate the subsequent flutter effect, indicating that the conditions for replicating the effect may be limited. The experiment of <ref type="bibr" target="#b19">Repp et al. (2013)</ref> differed from that of <ref type="bibr" target="#b14">Ono and Kitazawa (2010)</ref> in many respects; however, the experiment of <ref type="bibr" target="#b12">Masuda and Shirai (2021)</ref> was considerably similar to that of <ref type="bibr" target="#b14">Ono and Kitazawa (2010)</ref>. The one aspect in common between the studies by <ref type="bibr" target="#b19">Repp et al. (2013)</ref> and <ref type="bibr" target="#b12">Masuda and Shirai (2021)</ref>, and different from <ref type="bibr" target="#b14">Ono and Kitazawa (2010)</ref>, was the presence or absence of a control condition. Specifically, <ref type="bibr" target="#b14">Ono and Kitazawa (2010)</ref> compared subsequent flutters that were fast (25 Hz) and slow (5 Hz), whereas <ref type="bibr" target="#b19">Repp et al. (2013)</ref> and <ref type="bibr" target="#b12">Masuda and Shirai (2021)</ref> used a control condition with no subsequent flutter. Therefore, in the present study, the author directly replicated the work of Ono and Kitazawa (2010) by conducting verification experiments focusing on the presence or absence of a control condition to determine why <ref type="bibr" target="#b19">Repp et al. (2013)</ref> and <ref type="bibr" target="#b12">Masuda and Shirai (2021)</ref> were unable to replicate the subsequent flutter effect.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Experiment 1</head><p>Experiment 1 was a direct replication of <ref type="bibr" target="#b14">Ono and Kitazawa (2010)</ref>. A fast (25 Hz) or slow flutter (5 Hz) was presented immediately after a time interval delimited by short tones. If the findings of <ref type="bibr" target="#b14">Ono and Kitazawa (2010)</ref> are replicated, the time interval immediately before a fast flutter should be perceived as shorter than that immediately before a slow flutter.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Method</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Participants</head><p>The sample size was determined based on a power analysis. Because the effect size was large in Experiment 1 of <ref type="bibr" target="#b14">Ono and Kitazawa (2010)</ref>  <ref type="bibr">(Cohen'</ref>s f = 1.333), we adopted a large effect size (Cohen's f = 0.4) for the power analysis in this study. The author calculated the sample size needed to detect a significant main effect in a two-way analysis of variance (ANOVA) using G*power (Cohen's f = 0.4, α = .05, 1-β = .95; <ref type="bibr" target="#b5">Faul et al., 2007</ref><ref type="bibr" target="#b4">Faul et al., , 2009))</ref>. According to the required sample size, 10 participants aged 20-23 years with normal hearing participated. The sample size and analyses of the study were registered on OSF (<ref type="url" target="https://osf.io/bv9ds/">https://osf.io/bv9ds/</ref>). The study was approved by the Yamaguchi University Ethics Committee, and written informed consent was obtained from all participants.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Apparatus and Stimuli</head><p>Participants wearing headphones responded using a keyboard in a quiet, dimly lit room. Psychophysics Toolbox extensions were used to program the experimental stimuli in this study <ref type="bibr" target="#b0">(Brainard, 1997;</ref><ref type="bibr" target="#b15">Pelli, 1997)</ref>. The author used high-tone (1000 Hz) and low-tone (500 Hz) bursts that lasted 10 ms and included a 1-ms rise and fall time. A pair of high-tone bursts (1000 Hz) were used as markers to indicate the beginning and end of each interval. To present repetitive stimuli at 5 or 25 Hz, low-tone bursts (500 Hz) were used. The same apparatus and stimuli were used in Experiments 2, 3, and 4.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Procedure</head><p>Each trial had reference and test intervals (Figure <ref type="figure" target="#fig_0">1</ref>). The participant started each trial by pressing the space bar. Following a 500-ms silence, a reference interval was presented by delivering the first high-tone burst, followed by a 400-ms silent period and the second high-tone burst. A test interval was presented after a 1,500-ms silence. The silent period of each test interval was chosen at random from a set of eight intervals <ref type="bibr">(100, 280, 340, 380, 420, 460, 520, or 700 ms)</ref>. After 100 ms of silence, a rapid sequence of low tones at 5 or 25 Hz was presented for 1,000 ms. The participants were required to determine whether the test interval was longer or shorter than the reference interval and responded by pressing a key corresponding to each judgment. Each participant completed 160 trials (2 repetition rate x 8 test intervals x 10 repetitions). The trial order was randomized across participants. Participants were free to take short breaks whenever they wanted. The participants completed 10 practice trials before the experiment.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results and Discussion</head><p>Figure <ref type="figure" target="#fig_2">2</ref> shows the proportion of trials in which the test interval was judged to be longer than the reference interval. According to a two-factor within-participant ANOVA, the main effects of the repetition rate (5 or 25 Hz) and test interval <ref type="bibr">(100,</ref><ref type="bibr">280,</ref><ref type="bibr">340,</ref><ref type="bibr">380,</ref><ref type="bibr">420,</ref><ref type="bibr">460,</ref><ref type="bibr">520</ref>, or 700 ms) were significant, but the interaction was not [F(1, 9) = 18.144, p = .002, η p 2 = .668; F( <ref type="formula">7</ref> Effect of Subsequent Repetitive Tone Stimuli on Time Perception: Replication of Ono and Kitazawa (2010) Collabra: Psychology sis). According to the t-test results, the point of subjective equality of the 5-Hz condition was smaller than that of the 25-Hz condition [t(9) = 3.774, p = .004, d = 1.358].</p><p>The analyses showed that the time interval preceding the fast flutter was perceived as shorter than that preceding the slow flutter, and that the subsequent flutter effect of Ono and Kitazawa (2010) could be replicated. In the next experiment, the author assumed that the reason why the subsequent flutter effect could not be replicated by <ref type="bibr" target="#b19">Repp et al. (2013)</ref> and <ref type="bibr" target="#b12">Masuda and Shirai (2021)</ref> was the presence or absence of a control condition, and conducted an experiment with an additional control condition.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Experiment 2</head><p>Experiment 2 was a conceptual replication of <ref type="bibr" target="#b14">Ono and Kitazawa's (2010)</ref> study, adding a No-flutter condition in which nothing was presented after the test interval. If the results of <ref type="bibr" target="#b14">Ono and Kitazawa (2010)</ref> are replicated, the time interval just before the fast flutter (25-Hz condition), as in Experiment 1, should be perceived as shorter than the time interval just before the slow flutter (5-Hz condition). However, based on the results of <ref type="bibr" target="#b19">Repp et al. (2013)</ref> and <ref type="bibr" target="#b12">Masuda and Shirai (2021)</ref>, there may be no difference between the 25-Hz and 5-Hz conditions.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Method</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Participants</head><p>The author calculated the sample size needed for detecting a significant main effect through a two-way ANOVA using G*power (Cohen's f = 0.4, α = .05, 1-β = .95; <ref type="bibr" target="#b5">Faul et al., 2007</ref><ref type="bibr" target="#b4">Faul et al., , 2009))</ref>. Based on the required sample size, 12 participants aged 20-24 years with normal hearing participated.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Procedure</head><p>All aspects of this experiment were the same as those in Experiment 1, except for the addition of the No-flutter condition. In the No-flutter condition, nothing was presented after the test interval. Each participant completed 240 trials (3 repetition rate x 8 test intervals x 10 repetitions).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results and Discussion</head><p>Figure <ref type="figure" target="#fig_4">3</ref> shows the proportion of trials in which the test interval was judged to be longer than the reference interval. According to a two-factor within-participant ANOVA, the main effects of the repetition rate (5-Hz, 25-Hz, or Noflutter), test interval <ref type="bibr">(100,</ref><ref type="bibr">280,</ref><ref type="bibr">340,</ref><ref type="bibr">380,</ref><ref type="bibr">420,</ref><ref type="bibr">460,</ref><ref type="bibr">520</ref>, or 700 ms), and the interaction were significant [F(2, 22) = 8.619, p = .002, η p 2 = .439; F(7, 77) = 100.423, p &lt; .001, η p 2 =</p><p>.901; F(14, 154) = 2.601, p = .002, η p 2 = .191]. Multiple comparisons using the Holm-Bonferroni method <ref type="bibr" target="#b9">(Holm, 1979)</ref> demonstrated that the proportion of longer judgments was significantly higher in the 5-Hz condition than in the Noflutter condition (p &lt; .001); however, there was no significant difference between the 5-Hz and 25-Hz conditions (p = .240). The points of subjective equality were 386.  time interval immediately before the slow flutter, and thus, the subsequent flutter effect of <ref type="bibr" target="#b14">Ono and Kitazawa (2010)</ref> could not be replicated. Why was the subsequent flutter effect not replicated simply by including the No-flutter condition? One possibility is that the effect does occur in these conditions, but that the difference was not statistically significant because of sampling variability or because the data were too noisy or the effect too small. To assume that the null hypothesis is true from a failure to reject it is a fallacy <ref type="bibr" target="#b1">(Cohen, 1994;</ref><ref type="bibr" target="#b8">Goodman, 2008)</ref>. In the next experiment, the author explored the possibility that the subsequent flutter effect was not statistically significant because the No-flutter condition was included in the same block; hence, all conditions were tested in different blocks.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Experiment 3</head><p>In Experiment 3, the 5-Hz, 25-Hz, and No-flutter conditions were tested in separate blocks. If the subsequent fluttering effect was not replicated because the No-flutter condition was included in the same block, then the subsequent fluttering effect should be replicated in Experiment 3.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Method</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Participants</head><p>The author calculated the sample size necessary for detecting a significant main effect in a two-way ANOVA using G*power (Cohen's f = 0.4, α = .05, 1-β = .95; <ref type="bibr" target="#b5">Faul et al., 2007</ref><ref type="bibr" target="#b4">Faul et al., , 2009))</ref>. The required sample size was set at 12, and 12 participants aged 20-24 years with normal hearing participated.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Procedure</head><p>All aspects of this experiment were the same as those in Experiment 2, except that the 5-Hz, 25-Hz, and No-flutter conditions were tested in separate blocks. The order of the three blocks was counterbalanced among the participants. Each participant completed 240 trials (3 repetition rate x 8 test intervals x 10 repetitions).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results and Discussion</head><p>Figure <ref type="figure" target="#fig_6">4</ref> shows the proportion of trials in which the test interval was judged to be longer than the reference interval. According to a two-factor within-participant ANOVA, the main effects of the repetition rate <ref type="bibr">test interval (100,</ref><ref type="bibr">280,</ref><ref type="bibr">340,</ref><ref type="bibr">380,</ref><ref type="bibr">420,</ref><ref type="bibr">460,</ref><ref type="bibr">520,</ref><ref type="bibr">or 700 ms)</ref>, and the interaction were significant [F(2, 22) = 13.118, p &lt; .001, η p 2 = .544; F(7, 77) = 161.421, p &lt; .001, η p 2 =</p><p>.936; F(14, 154) = 3.407, p &lt; .001, η p 2 = .236]. Multiple comparisons using the Holm-Bonferroni method <ref type="bibr" target="#b9">(Holm, 1979)</ref> showed that the proportion of longer judgments was significantly higher in the 5-Hz condition than in the 25-Hz and No-flutter conditions (p = .002; p &lt; .001). The points of subjective equality were 339.5 ms, 390.  the presence or absence of the subsequent fluttering effect depends on whether the No-flutter condition is included in the same block.</p><p>Why does including the No-flutter condition in the same block eliminate the subsequent flutter effect? One possibility is the wider time range that required attention. For example, in Experiment 1, without the No-flutter condition, participants needed to direct their attention to a time range of 1200-1800 ms, which was the target time interval of 100-700 ms in addition to 100 ms and 1000 ms for the blank and flutter, respectively. Although only the target time interval was sufficient for performing the task, the participants responded after the flutter presentation ended; therefore, the author assumed that they also paid attention during the flutter presentation time. However, when the No-flutter condition was included in the same block, the attentional load may have been too large for the participants because they needed to direct their attention over a wide time range of 100-1800 ms. A prior study demonstrated that a lack of attentional resources affects time perception <ref type="bibr" target="#b18">(Polti et al., 2018)</ref>. Therefore, in the next experiment, the target time range was narrowed for reducing the time range within which participants needed to direct attention.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Experiment 4</head><p>In Experiment 4, the 5-Hz, 25-Hz, and No-flutter conditions were tested in the same block, but with target time intervals of 340, 380, 420, and 460 ms. Thereafter, the time period to which the participants' attention should be directed would range from 340 ms to 1560 ms (460 ms for the target time interval in addition to 100 ms and 1000 ms for the blank and flutter, respectively). This allowed participants to devote more attention to the task. If the subsequent fluttering effect was not replicated due to a lack of attentional resources, then the subsequent fluttering effect could be replicated in Experiment 4.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Method</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Participants</head><p>The author calculated the sample size needed to detect a significant main effect in a two-way ANOVA using G*power <ref type="bibr">(Cohen's f = 0.4, α = .05, 1-β = .95;</ref><ref type="bibr" target="#b5">Faul et al., 2007</ref><ref type="bibr" target="#b4">Faul et al., , 2009))</ref>. The required sample size was set at 15, and 15 participants aged 20-26 years with normal hearing participated.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Procedure</head><p>All aspects of this experiment were the same as those in Experiment 2, except for the target time intervals of 340, 380, 420, and 460 ms. Each participant completed 120 trials (3 repetition rate x 4 test intervals x 10 repetitions).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results and Discussion</head><p>Figure <ref type="figure" target="#fig_8">5</ref> shows the proportion of trials in which the test interval was judged to be longer than the reference interval. According to a two-factor within-participant ANOVA, the main effects of the repetition rate <ref type="bibr">or Noflutter),</ref><ref type="bibr">test interval (340,</ref><ref type="bibr">380,</ref><ref type="bibr">420,</ref><ref type="bibr">or 460 ms)</ref>, and the interaction were significant [F(2, 28) = 8.953, p = .001, η p 2 = .390; F <ref type="bibr" target="#b10">(3,</ref><ref type="bibr">42)</ref> = 108.369, p &lt; .001, η p 2 = .886; F(6, 84) = 3.185, p = .007, η p 2 = .185]. Multiple comparisons using the Holm-Bonferroni method <ref type="bibr" target="#b9">(Holm, 1979)</ref> showed that the  proportion of longer judgments was significantly higher in the 5-Hz condition than in the 25-Hz and No-flutter conditions (p = .006; p = .003). The analyses showed that the time interval preceding the fast flutter was perceived as shorter than that immediately preceding the slow flutter and that the subsequent flutter effect of Ono and Kitazawa (2010) could be replicated. The results suggest that the presence or absence of a subsequent fluttering effect depends on whether there are sufficient attentional resources directed to the temporal task.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>General Discussion</head><p>The purpose of this study was to determine why <ref type="bibr" target="#b19">Repp et al. (2013)</ref> and <ref type="bibr" target="#b12">Masuda and Shirai (2021)</ref> were unable to replicate the subsequent flutter effect of <ref type="bibr" target="#b14">Ono and Kitazawa (2010)</ref>. In Experiment 1, direct replication of <ref type="bibr" target="#b14">Ono and Kitazawa (2010)</ref>, the time interval just before a fast flutter (25 Hz) was judged to be shorter than the time interval immediately before a slow flutter (5 Hz), thus replicating the subsequent flutter effect. A conceptual replication of <ref type="bibr" target="#b14">Ono and Kitazawa (2010)</ref> with an additional condition in which the subsequent flutter was not presented and did not replicate the subsequent flutter effect in Experiment 2. The reason for this is highly uncertain; it could be due to sampling variability. Experiment 3 replicated the subsequent flutter effect by testing each condition in separate blocks. Experiment 4 replicated the subsequent flutter effect by testing all conditions in the same block with a narrower test time interval.</p><p>Based on these results, let us consider why <ref type="bibr" target="#b19">Repp et al. (2013)</ref> and <ref type="bibr" target="#b12">Masuda and Shirai (2021)</ref> were unable to re-produce the subsequent flutter effect. The present author assumed it was because of a lack of attentional resources. Attention can be likened to a resource, and the concept has been expanded through various experiments <ref type="bibr" target="#b10">(Lavie, 1995;</ref><ref type="bibr" target="#b13">Norman &amp; Bobrow, 1975)</ref>. Furthermore, it has been demonstrated that attention has a significant effect on time perception (e.g., <ref type="bibr" target="#b20">Thomas &amp; Weaver, 1975;</ref><ref type="bibr" target="#b24">Zakay &amp; Block, 1996)</ref>. The author suspected that <ref type="bibr" target="#b19">Repp et al. (2013)</ref> and Masuda and Shirai (2021) were unable to replicate this effect because the control condition in which no subsequent flutter was presented was included in the same block, resulting in a too-long time span to which attention should be directed. Additionally, as a result of the lack of attentional resources and inability to direct attention to the flutter, the subsequent flutter effect could not be replicated.</p><p>The results of this study may also be explained by the fact that the preceding flutter effect was not replicated as well as the subsequent flutter effect. Previous studies have shown that the time interval just after a fast flutter is perceived as longer than the time interval immediately after a slow flutter <ref type="bibr" target="#b16">(Penton-Voak et al., 1996;</ref><ref type="bibr" target="#b22">Treisman et al., 1990)</ref>. This preceding flutter effect, however, was not replicated by the conceptual replications of <ref type="bibr" target="#b19">Repp et al. (2013)</ref> and <ref type="bibr" target="#b12">Masuda and Shirai (2021)</ref>. The author only examined the subsequent flutter effect in this study; however, the preceding flutter effect not being replicated could be explained by a lack of attentional resources, which will be clarified in a future study.</p><p>The internal pacemaker account <ref type="bibr" target="#b2">(Creelman, 1962;</ref><ref type="bibr" target="#b21">Treisman, 1963)</ref> predicts that the faster the flutter repetition rate, the longer the subjective time interval, as noted in the introduction. The current study, however, found that the faster the flutter repetition rate, the shorter the preced-Effect of Subsequent Repetitive Tone Stimuli on Time Perception: Replication of <ref type="bibr" target="#b14">Ono and Kitazawa (2010)</ref> Collabra: Psychology ing time interval perceived. This result can not only be explained by the internal pacemaker account but also by the flutter modulation of memory and judgment. This is consistent with the theories proposing that working memory is the foundation of temporal perception <ref type="bibr" target="#b11">(Lewis &amp; Miall, 2006)</ref>.</p><p>In this study, the author investigated the conditions under which the subsequent flutter effect of Ono and Kitazawa ( <ref type="formula">2010</ref>) can be replicated. The presence or absence of a control condition in which a flutter was not presented within the same block, and the time range within which participants should direct attention, were found to be important conditions. These findings may have far-reaching implications not only for the subsequent flutter effect but also for reproducibility in time perception studies involving attention.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. The trial sequence in one trial. Taller bars represent high-tone bursts (1000 Hz). Shorter bars represent low-tone bursts (500 Hz). Each tone burst lasted 10 ms.</figDesc><graphic coords="2,54.00,64.00,487.28,153.72" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><figDesc>Figure2shows the proportion of trials in which the test interval was judged to be longer than the reference interval. According to a two-factor within-participant ANOVA, the main effects of the repetition rate (5 or 25 Hz) and test interval(100, 280, 340, 380, 420, 460, 520, or 700 ms) were significant, but the interaction was not [F(1, 9) = 18.144, p = .002, η p 2 = .668; F(7, 63) = 131.295, p &lt; .001, η p 2 = .936; F(7, 63) = 2.136, p = .052, η p 2 = .192]. The points of subjective equality-defined as the intersection of the sigmoid curve with the P = 0.5 line-were 372.2 ms in the 5-Hz condition and 421.9 ms in the 25-Hz condition. A cumulative normal distribution function was used to fit the data (probit analy-</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. Mean of the probability that the participants judged the test interval as longer than the reference interval is plotted against the test interval. The error bars show standard errors of the mean.</figDesc><graphic coords="3,115.30,64.00,364.68,262.50" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><figDesc>3 ms, 400.3 ms, and 424.1 ms in the 5-Hz, 25-Hz, and No-flutter conditions, respectively. According to the t-test results, the point of subjective equality of the 5-Hz condition was not significantly different from that of the 25-Hz condition [t(11) = 1.206, p = .253, d = 0.253].The analysis did not show that time interval immediately before the fast flutter was perceived as shorter than the Effect of Subsequent Repetitive Tone Stimuli on Time Perception: Replication of<ref type="bibr" target="#b14">Ono and Kitazawa (2010)</ref> Collabra: Psychology</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figure 3 .</head><label>3</label><figDesc>Figure 3. Mean of the probability that the participants judged the test interval as longer than the reference interval is plotted against the test interval. The error bars show standard errors of the mean.</figDesc><graphic coords="4,115.30,64.00,364.68,262.50" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><figDesc>7 ms, and 398.6 ms in the 5-Hz, 25-Hz, and No-flutter conditions, respectively. According to the t-test results, the point of subjective equality of the 5-Hz condition was smaller than that of the 25-Hz condition [t(11) = 4.478, p = .001, d = 1.495].The analyses showed that the time interval preceding the fast flutter was perceived as shorter than the time interval preceding the slow flutter and that the subsequent flutter effect of<ref type="bibr" target="#b14">Ono and Kitazawa (2010)</ref> was replicated. Taken together, the results of Experiments 2 and 3 indicate that Effect of Subsequent Repetitive Tone Stimuli on Time Perception: Replication of<ref type="bibr" target="#b14">Ono and Kitazawa (2010)</ref> Collabra: Psychology</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Figure 4 .</head><label>4</label><figDesc>Figure 4. Mean of the probability that the participants judged the test interval as longer than the reference interval is plotted against the test interval. The error bars show standard errors of the mean.</figDesc><graphic coords="5,115.77,64.00,363.73,262.50" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><figDesc>Effect of Subsequent Repetitive Tone Stimuli on Time Perception: Replication of<ref type="bibr" target="#b14">Ono and Kitazawa (2010)</ref> Collabra: Psychology</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head>Figure 5 .</head><label>5</label><figDesc>Figure 5. Mean of the probability that the participants judged the test interval as longer than the reference interval is plotted against the test interval. The error bars show standard errors of the mean.</figDesc><graphic coords="6,115.30,64.00,364.68,262.50" type="bitmap" /></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>Downloaded from http://online.ucpress.edu/collabra/article-pdf/9/1/74875/829138/collabra_2023_9_1_74875.pdf by guest on 22 July 2025</p></note>
+		</body>
+		<back>
+
+			<div type="funding">
+<div><head>Funding</head><p>This study was supported by <rs type="funder">JSPS KAKENHI</rs> (<rs type="grantNumber">17K04432</rs> and <rs type="grantNumber">21K03132</rs>).</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_YQEgHdA">
+					<idno type="grant-number">17K04432</idno>
+				</org>
+				<org type="funding" xml:id="_5WdMeCG">
+					<idno type="grant-number">21K03132</idno>
+				</org>
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conflicts of Interest</head><p>The authors declare no potential conflicts of interest with respect to the research, authorship, or publication of this article.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Ethics Approval</head><p>This study was approved by the Ethics Committee of Yamaguchi University. The experiments were conducted in accordance with the Declaration of Helsinki guidelines. Written informed consent was obtained from all participants before the experiment.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Author Contributions</head><p>F. Ono is the sole author involved in the conceptualization, data curation, formal analysis, funding acquisition, investigation, methodology, project administration, resources, software, supervision, validation, visualization, and writing-original draft and review and editing of the manuscript.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data Accessibility Statement</head><p>The design and analysis plans were registered, and all data are publicly available on OSF at <ref type="url" target="https://osf.io/bv9ds/">https://osf.io/bv9ds/</ref>. The author originally stated in the pre-registration that they would use Ryan's method for post-hoc ANOVA comparisons; however, as Ryan's method is not used commonly, we used the Holm-Bonferroni method instead. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Peer Review History</head><p>Download: <ref type="url" target="https://collabra.scholasticahq.com/article/74875-effect-of-subsequent-repetitive-tone-stimuli-on-time-perception-replication-of-ono-and-kitazawa-2010/attachment/158003.docx?auth_token=di6tvykmgTgGfYWRrnjM">https://collabra.scholasticahq.com/article/74875-effect-of-subsequent-repetitive-tone-stimuli-on-time- perception-replication-of-ono-and-kitazawa-2010/attachment/158003.docx?auth_token=di6tvykmgTgGfYWRrnjM</ref> </p><p>Effect of Subsequent Repetitive Tone Stimuli on Time Perception: Replication of <ref type="bibr" target="#b14">Ono and Kitazawa (2010)</ref> Collabra: Psychology</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct status="extracted"  xml:id="b0">
+	<analytic>
+		<title level="a" type="main">The psychophysics toolbox</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">H</forename><surname>Brainard</surname></persName>
+		</author>
+		<idno type="DOI">10.1163/156856897x00357</idno>
+		<idno>116 3/156856897x00357</idno>
+		<ptr target="https://doi.org/10" />
+	</analytic>
+	<monogr>
+		<title level="j">Spatial Vision</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="433" to="436" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Brainard, D. H. (1997). The psychophysics toolbox. Spatial Vision, 10(4), 433-436. https://doi.org/10.116 3/156856897x00357</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b1">
+	<analytic>
+		<title level="a" type="main">The earth is round (p &lt; .05)</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Cohen</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/0003-066X.49.12.997</idno>
+		<idno>00 03-066X.49.12.997</idno>
+		<ptr target="https://doi.org/10.1037/" />
+	</analytic>
+	<monogr>
+		<title level="j">American Psychologist</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="page" from="997" to="1003" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cohen, J. (1994). The earth is round (p &lt; .05). American Psychologist, 49, 997-1003. https://doi.org/10.1037/00 03-066X.49.12.997</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Human discrimination of auditory duration</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">D</forename><surname>Creelman</surname></persName>
+		</author>
+		<idno type="DOI">10.1121/1.1918172</idno>
+		<ptr target="https://doi.org/10.1121/1.1918172" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of the Acoustical Society of America</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="582" to="593" />
+			<date type="published" when="1962">1962</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Creelman, C. D. (1962). Human discrimination of auditory duration. Journal of the Acoustical Society of America, 34(5), 582-593. https://doi.org/10.1121/1.19 18172</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Speeding up an internal clock in children? Effects of visual flicker on subjective duration</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Droit-Volet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wearden</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/02724990143000252</idno>
+		<ptr target="https://doi.org/10.1080/02724990143000252" />
+	</analytic>
+	<monogr>
+		<title level="j">Quarterly Journal of Experimental Psychology</title>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="193" to="211" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Droit-Volet, S., &amp; Wearden, J. (2002). Speeding up an internal clock in children? Effects of visual flicker on subjective duration. Quarterly Journal of Experimental Psychology, 55B(3), 193-211. https://doi.org/10.1080/ 02724990143000252</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Statistical power analyses using G*Power 3.1: Tests for correlation and regression analyses</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Faul</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Erdfelder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Buchner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A.-G</forename><surname>Lang</surname></persName>
+		</author>
+		<idno type="DOI">10.3758/brm.41.4.1149</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Behavior Research Methods</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="1149" to="1160" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Faul, F., Erdfelder, E., Buchner, A., &amp; Lang, A.-G. (2009). Statistical power analyses using G*Power 3.1: Tests for correlation and regression analyses. Behavior Research Methods, 41(4), 1149-1160. http s://doi.org/10.3758/brm.41.4.1149</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b5">
+	<analytic>
+		<title level="a" type="main">G*Power 3: A flexible statistical power analysis program for the social, behavioral, and biomedical sciences</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Faul</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Erdfelder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A.-G</forename><surname>Lang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Buchner</surname></persName>
+		</author>
+		<idno type="DOI">10.3758/bf03193146</idno>
+		<ptr target="https://doi.org/10.3758/bf03193146" />
+	</analytic>
+	<monogr>
+		<title level="j">Behavior Research Methods</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="175" to="191" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Faul, F., Erdfelder, E., Lang, A.-G., &amp; Buchner, A. (2007). G*Power 3: A flexible statistical power analysis program for the social, behavioral, and biomedical sciences. Behavior Research Methods, 39(2), 175-191. https://doi.org/10.3758/bf03193146</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Scalar timing in memory</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Gibbon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Church</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Meck</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1749-6632.1984.tb23417.x</idno>
+		<ptr target="https://doi.org/10.1111/j.174" />
+	</analytic>
+	<monogr>
+		<title level="m">Timing and time perception</title>
+		<editor>
+			<persName><forename type="first">J</forename><surname>Gibbon</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">L</forename><surname>Allan</surname></persName>
+		</editor>
+		<imprint>
+			<publisher>New York Academy of Sciences</publisher>
+			<date type="published" when="1984">1984</date>
+			<biblScope unit="page" from="52" to="77" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gibbon, J., Church, R. M., &amp; Meck, W. (1984). Scalar timing in memory. In J. Gibbon &amp; L. Allan (Eds.), Timing and time perception (pp. 52-77). New York Academy of Sciences. https://doi.org/10.1111/j.174</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b7">
+	<monogr>
+		<title/>
+		<idno type="DOI">10.1111/j.1749-6632.1984.tb23417.x</idno>
+		<imprint>
+			<date type="published" when="1984">1984.tb23417</date>
+			<biblScope unit="page" from="9" to="6632" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">9-6632.1984.tb23417.x</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b8">
+	<analytic>
+		<title level="a" type="main">A dirty dozen: Twelve P-value misconceptions</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Goodman</surname></persName>
+		</author>
+		<idno type="DOI">10.1053/j.seminhematol.2008.04.003</idno>
+		<ptr target="https://doi.org/10.1053/j.seminhematol.200" />
+	</analytic>
+	<monogr>
+		<title level="j">Seminars in Hematology</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="135" to="140" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Goodman, S. (2008). A dirty dozen: Twelve P-value misconceptions. Seminars in Hematology, 45(3), 135-140. https://doi.org/10.1053/j.seminhematol.200</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b9">
+	<analytic>
+		<title level="a" type="main">A simple sequentially rejective multiple test procedure</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Holm</surname></persName>
+		</author>
+		<idno type="DOI">10.2307/4615733</idno>
+		<ptr target="https://doi.org/10.2307/461573" />
+	</analytic>
+	<monogr>
+		<title level="j">Scandinavian Journal of Statistics</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="65" to="70" />
+			<date type="published" when="1979">1979</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Holm, S. (1979). A simple sequentially rejective multiple test procedure. Scandinavian Journal of Statistics, 6(2), 65-70. https://doi.org/10.2307/461573</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Perceptual load as a necessary condition for selective attention</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Lavie</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/0096-1523.21.3.451</idno>
+		<ptr target="https://doi.org/10.1037/0096-1523.21.3.451" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Experimental Psychology: Human Perception and Performance</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="451" to="468" />
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lavie, N. (1995). Perceptual load as a necessary condition for selective attention. Journal of Experimental Psychology: Human Perception and Performance, 21(3), 451-468. https://doi.org/10.1037/ 0096-1523.21.3.451</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Remembering the time: A continuous clock</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Lewis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">C</forename><surname>Miall</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.tics.2006.07.006</idno>
+		<ptr target="https://doi.org/10.1016/j.tics.2006.0" />
+	</analytic>
+	<monogr>
+		<title level="j">Trends in Cognitive Sciences</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="401" to="406" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lewis, P. A., &amp; Miall, R. C. (2006). Remembering the time: A continuous clock. Trends in Cognitive Sciences, 10(9), 401-406. https://doi.org/10.1016/j.tics.2006.0</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b12">
+	<monogr>
+		<title level="m" type="main">A reconsideration of the effects of repetitive auditory stimuli on time interval perception [Poster]. 85th Annual Convention of the Japanese Psychological Association</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Masuda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Shirai</surname></persName>
+		</author>
+		<idno type="DOI">10.4992/pacjpa.85.0_pi-024</idno>
+		<ptr target="https://doi.org/10.4992/pacjpa.85.0_pi-024" />
+		<imprint>
+			<date type="published" when="2021">2021</date>
+			<pubPlace>Tokyo</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>Meisei University</orgName>
+		</respStmt>
+	</monogr>
+	<note type="raw_reference">Masuda, Y., &amp; Shirai, N. (2021). A reconsideration of the effects of repetitive auditory stimuli on time interval perception [Poster]. 85th Annual Convention of the Japanese Psychological Association (Meisei University, Tokyo). https://doi.org/10.4992/pacjpa.8 5.0_pi-024</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b13">
+	<analytic>
+		<title level="a" type="main">On data-limited and resource-limited processes</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Norman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Bobrow</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0010-0285(75)90004-3</idno>
+		<ptr target="https://doi.org/10.1016/0010-0285(75)90" />
+	</analytic>
+	<monogr>
+		<title level="j">Cognitive Psychology</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="4" to="7" />
+			<date type="published" when="1975">1975</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Norman, D. A., &amp; Bobrow, D. G. (1975). On data-limited and resource-limited processes. Cognitive Psychology, 7(1), 44-64. https://doi.org/10.1016/0010-0285(75)90 004-3</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Shortening of subjective tone intervals followed by repetitive tone stimuli</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Ono</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kitazawa</surname></persName>
+		</author>
+		<idno type="DOI">10.3758/app.72.2.492</idno>
+		<ptr target="https://doi.org/10.3758/app.72.2.492" />
+	</analytic>
+	<monogr>
+		<title level="j">Perception, &amp; Psychophysics</title>
+		<imprint>
+			<biblScope unit="volume">72</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="492" to="500" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note>Attention</note>
+	<note type="raw_reference">Ono, F., &amp; Kitazawa, S. (2010). Shortening of subjective tone intervals followed by repetitive tone stimuli. Attention, Perception, &amp; Psychophysics, 72(2), 492-500. https://doi.org/10.3758/app.72.2.492</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b15">
+	<analytic>
+		<title level="a" type="main">The VideoToolbox software for visual psychophysics: Transforming numbers into movies</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Pelli</surname></persName>
+		</author>
+		<idno type="DOI">10.1163/156856897x00366</idno>
+		<ptr target="https://doi.org/10.1163/156856897x00366" />
+	</analytic>
+	<monogr>
+		<title level="j">Spatial Vision</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="437" to="442" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Pelli, D. G. (1997). The VideoToolbox software for visual psychophysics: Transforming numbers into movies. Spatial Vision, 10(4), 437-442. https://doi.org/10.116 3/156856897x00366</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Speeding up an internal clock in humans? Effects of click trains on subjective duration</title>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">S</forename><surname>Penton-Voak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Edwards</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Percival</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Wearden</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/0097-7403.22.3.307</idno>
+		<ptr target="https://doi.org/1" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Experimental Psychology: Animal Behavior Processes</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="307" to="320" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Penton-Voak, I. S., Edwards, H., Percival, A., &amp; Wearden, J. H. (1996). Speeding up an internal clock in humans? Effects of click trains on subjective duration. Journal of Experimental Psychology: Animal Behavior Processes, 22(3), 307-320. https://doi.org/1</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b17">
+	<monogr>
+		<title/>
+		<idno type="DOI">10.1037/0097-7403.22.3.307</idno>
+		<idno>1037/0097-7403.22.3.307</idno>
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">1037/0097-7403.22.3.307</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b18">
+	<analytic>
+		<title level="a" type="main">The effect of attention and working memory on the estimation of elapsed time</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Polti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Martin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Van Wassenhove</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41598-018-25119-y</idno>
+		<ptr target="https://doi.org/10.1038/s41598-018-25119-y" />
+	</analytic>
+	<monogr>
+		<title level="j">Scientific Reports</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">6690</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Polti, I., Martin, B., &amp; van Wassenhove, V. (2018). The effect of attention and working memory on the estimation of elapsed time. Scientific Reports, 8(1), 6690. https://doi.org/10.1038/s41598-018-25119-y</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Does rapid auditory stimulation accelerate an internal pacemaker?</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">H</forename><surname>Repp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">B</forename><surname>Mendlowitz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Hove</surname></persName>
+		</author>
+		<idno type="DOI">10.1163/22134468-00002001</idno>
+		<ptr target="https://doi.org/10.1163/22134" />
+	</analytic>
+	<monogr>
+		<title level="j">Don&apos;t bet on it. Timing &amp; Time Perception</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="468" to="00002001" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Repp, B. H., Mendlowitz, H. B., &amp; Hove, M. J. (2013). Does rapid auditory stimulation accelerate an internal pacemaker? Don&apos;t bet on it. Timing &amp; Time Perception, 1(1), 65-76. https://doi.org/10.1163/22134 468-00002001</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Cognitive processing and time perception</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Thomas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">B</forename><surname>Weaver</surname></persName>
+		</author>
+		<idno type="DOI">10.3758/bf03199347</idno>
+		<ptr target="https://doi.org/10.3758/bf03199347" />
+	</analytic>
+	<monogr>
+		<title level="j">Perception &amp; Psychophysics</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="363" to="367" />
+			<date type="published" when="1975">1975</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Thomas, E. A., &amp; Weaver, W. B. (1975). Cognitive processing and time perception. Perception &amp; Psychophysics, 17(4), 363-367. https://doi.org/10.375 8/bf03199347</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Temporal discrimination and the indifference interval: Implications for a model of the &quot;internal clock</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Treisman</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/h0093864</idno>
+		<ptr target="https://doi.org/10.1037/h0093864" />
+	</analytic>
+	<monogr>
+		<title level="j">Psychological Monographs</title>
+		<imprint>
+			<biblScope unit="issue">13</biblScope>
+			<biblScope unit="page" from="1" to="31" />
+			<date type="published" when="1963">1963</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Treisman, M. (1963). Temporal discrimination and the indifference interval: Implications for a model of the &quot;internal clock&quot;. Psychological Monographs, 77(13), 1-31. https://doi.org/10.1037/h0093864</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b22">
+	<analytic>
+		<title level="a" type="main">The internal clock: evidence for a temporal oscillator underlying time perception with some estimates of its characteristic frequency</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Treisman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Faulkner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">L</forename><surname>Naish</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Brogan</surname></persName>
+		</author>
+		<idno type="DOI">10.1068/p190705</idno>
+		<ptr target="https://doi.org/10.1068/p190705" />
+	</analytic>
+	<monogr>
+		<title level="j">Perception</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="705" to="742" />
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Treisman, M., Faulkner, A., Naish, P. L., &amp; Brogan, D. (1990). The internal clock: evidence for a temporal oscillator underlying time perception with some estimates of its characteristic frequency. Perception, 19(6), 705-742. https://doi.org/10.1068/p190705</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Exploring and developing scalar timing theory</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Wearden</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/s0376-6357(99)00006-6</idno>
+		<ptr target="https://doi.org/10.1016/s0376-6357(99)00006-6" />
+	</analytic>
+	<monogr>
+		<title level="j">Behavioural Processes</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="issue">1-3</biblScope>
+			<biblScope unit="page" from="3" to="21" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+	<note>Beyond the fields we know</note>
+	<note type="raw_reference">Wearden, J. H. (1999). &quot;Beyond the fields we know...&quot;: Exploring and developing scalar timing theory. Behavioural Processes, 45(1-3), 3-21. https://doi.org/ 10.1016/s0376-6357(99)00006-6</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b24">
+	<analytic>
+		<title level="a" type="main">The role of attention in time estimation processes</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Zakay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Block</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/s0166-4115(96)80057-4</idno>
+		<ptr target="https://doi.org/10.1016/s0166-4115(96)80057-4" />
+	</analytic>
+	<monogr>
+		<title level="m">Time, internal clocks and movement</title>
+		<editor>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Pastor</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">J</forename><surname>Artieda</surname></persName>
+		</editor>
+		<meeting><address><addrLine>North-Holland</addrLine></address></meeting>
+		<imprint>
+			<publisher>Elsevier Science Publishers</publisher>
+			<date type="published" when="1996">1996</date>
+			<biblScope unit="page" from="143" to="164" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Zakay, D., &amp; Block, R. A. (1996). The role of attention in time estimation processes. In M. A. Pastor &amp; J. Artieda (Eds.), Time, internal clocks and movement (pp. 143-164). North-Holland/Elsevier Science Publishers. https://doi.org/10.1016/s0166-4115(96)80057-4</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Effect of Subsequent Repetitive Tone Stimuli on Time Perception: Replication of Ono and Kitazawa</title>
+	</analytic>
+	<monogr>
+		<title level="j">Collabra: Psychology</title>
+		<imprint>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Effect of Subsequent Repetitive Tone Stimuli on Time Perception: Replication of Ono and Kitazawa (2010) Collabra: Psychology</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

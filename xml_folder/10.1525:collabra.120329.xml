@@ -1,0 +1,1390 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">The Effects of Reinforcing Task Alternations on Voluntary Task Selection</title>
+				<funder ref="#_PJ97rQc">
+					<orgName type="full">European Union</orgName>
+				</funder>
+				<funder ref="#_3FVHBcz #_QWkD3re">
+					<orgName type="full">Fonds Voor Wetenschappelijk Onderzoek-Research Foundation Flanders</orgName>
+				</funder>
+				<funder ref="#_Nusfr6E">
+					<orgName type="full">European Research Council</orgName>
+					<orgName type="abbreviated">ERC</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2025-07-22">22 July 2025</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName><forename type="first">Leslie</forename><forename type="middle">K</forename><surname>Held</surname></persName>
+							<email>leslie.held@ugent.be</email>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Experimental Psychology</orgName>
+								<orgName type="institution">Ghent University</orgName>
+								<address>
+									<settlement>Ghent</settlement>
+									<country key="BE">Belgium</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Luc</forename><surname>Vermeylen</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Experimental Psychology</orgName>
+								<orgName type="institution">Ghent University</orgName>
+								<address>
+									<settlement>Ghent</settlement>
+									<country key="BE">Belgium</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Faculty of Psychology and Educational Science</orgName>
+								<orgName type="institution">KU Leuven</orgName>
+								<address>
+									<settlement>Leuven</settlement>
+									<country key="BE">Belgium</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Ruth</forename><forename type="middle">M</forename><surname>Krebs</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Experimental Psychology</orgName>
+								<orgName type="institution">Ghent University</orgName>
+								<address>
+									<settlement>Ghent</settlement>
+									<country key="BE">Belgium</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Wim</forename><surname>Notebaert</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Experimental Psychology</orgName>
+								<orgName type="institution">Ghent University</orgName>
+								<address>
+									<settlement>Ghent</settlement>
+									<country key="BE">Belgium</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Senne</forename><surname>Braem</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Experimental Psychology</orgName>
+								<orgName type="institution">Ghent University</orgName>
+								<address>
+									<settlement>Ghent</settlement>
+									<country key="BE">Belgium</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">The Effects of Reinforcing Task Alternations on Voluntary Task Selection</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2025-07-22">22 July 2025</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">94B1050754BCC675FF521C10358834C8</idno>
+					<idno type="DOI">10.1525/collabra.120329</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.3-SNAPSHOT" ident="GROBID" when="2025-09-17T15:44+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">b64991a</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>cognitive control</term>
+					<term>cognitive flexibility</term>
+					<term>task switching</term>
+					<term>reward</term>
+					<term>selective reinforcement</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Everyday life often requires us to switch between states of cognitive flexibility and stability. However, little is known about what drives their regulation at the meta-control level. Based on current theories of cognitive control, we tested whether the regulation of cognitive flexibility and stability is guided by reinforcement learning. Using a task-switching paradigm with a double registration procedure -where people need to choose which task to perform before seeing the target, we systematically reinforced cued task switches or repetitions to test whether this led to more voluntary task switching (flexibility) or repeating (stability) on interspersed unrewarded free choice trials, respectively. While we did not find the hypothesized effect in an uninstructed version of the experiment (n=97), informing participants (n=58) on the reinforcement schedule on cued trials induced more switching or repeating on unrewarded free-choice trials. We speculate that people adapt their control strategies if they are aware of the respective benefits, even when they cease to be rewarded. Interestingly, choices were predominantly driven by task preference in both experiments and strongly correlated with task performance costs. This finding suggests that, when using an interspersed design with a double registration procedure, people mostly choose tasks based on task difficulty rather than switch avoidance. Together, these experiments help determine whether and when people can learn about the value of task selection strategies beyond the scope of a single task, and provide a self-regulating system to understand putative higher-order control processes.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>In our daily lives, we often need to switch between different tasks such as checking our e-mails and reading a document, thus requiring a certain level of cognitive flexibility. However, sometimes it is more beneficial to focus on a single task, and we should apply a less flexible, but more stable cognitive strategy, e.g., to better shield ourselves from interfering information. This regulation of the trade-off between cognitive flexibility and cognitive stability is important, as both control modes guide adaptive behaviour depending on the context <ref type="bibr" target="#b7">(Braem &amp; Egner, 2018;</ref><ref type="bibr" target="#b8">Brosowsky &amp; Egner, 2021;</ref><ref type="bibr" target="#b13">Cohen et al., 2007;</ref><ref type="bibr" target="#b15">Diamond, 2013;</ref><ref type="bibr">Dreisbach &amp; Fröber, 2019;</ref><ref type="bibr" target="#b18">Egner, 2023;</ref><ref type="bibr" target="#b25">Goschke &amp; Bolte, 2014;</ref><ref type="bibr" target="#b47">Xu et al., 2024)</ref>. In this study, we aimed to test if people learn to be more flexible (stable) when cognitive flexibility (stability) is selectively reinforced.</p><p>Research has shown that different types of prospective or immediate reward affect how cognitively flexible we are on a given or subsequent trial <ref type="bibr" target="#b23">(Fröber et al., 2019;</ref><ref type="bibr" target="#b19">Fröber &amp; Dreisbach, 2014</ref><ref type="bibr">, 2016;</ref><ref type="bibr" target="#b28">Jurczyk et al., 2019;</ref><ref type="bibr" target="#b39">Notebaert &amp; Braem, 2015;</ref><ref type="bibr" target="#b40">Padmala &amp; Pessoa, 2011)</ref>, or that reward anticipation affects control processes more generally <ref type="bibr" target="#b4">(Botvinick &amp; Braver, 2015;</ref><ref type="bibr" target="#b32">Kostandyan et al., 2019;</ref><ref type="bibr" target="#b33">Krebs et al., 2010;</ref><ref type="bibr" target="#b35">Locke &amp; Braver, 2008</ref>). Yet, the question of reinforcement of cognitive flexibility is rooted in an emerging learning perspective on cognitive control which focuses on the learning from reward history over a longer time <ref type="bibr">(retrospectively)</ref>. This overarching framework postulates that abstract cognitive functions are guided by similar learning principles as presumably lower-level stimulus-response mappings, replacing the homunculus problem with an empirical alternative <ref type="bibr" target="#b0">(Abrahamse et al., 2016;</ref><ref type="bibr" target="#b7">Braem &amp; Egner, 2018;</ref><ref type="bibr" target="#b12">Chiu &amp; Egner, 2019;</ref><ref type="bibr" target="#b16">Doebel, 2020;</ref><ref type="bibr" target="#b34">Lieder et al., 2018;</ref><ref type="bibr" target="#b36">Logan, 1988;</ref><ref type="bibr" target="#b46">Verbruggen et al., 2014)</ref>.</p><p>In a previous study, <ref type="bibr" target="#b5">Braem (2017)</ref> showed that selective reinforcement of task switching in blocks of cued trials led to significantly more voluntary task switching in blocks of (unrewarded) free choice trials -which is an indicator of learned cognitive flexibility. Moreover, the group rewarded more on task switches showed smaller task rule congruency effects, potentially reflecting more task shielding <ref type="bibr" target="#b38">(Musslick &amp; Cohen, 2021)</ref>. Task rule congruency effects arise when a stimulus elicits different (incongruent) versus similar (congruent) responses across tasks and are measured as respective differences in accuracy or reaction times.</p><p>In this study, we aimed to investigate whether these findings could be extended to a design with several motivated modifications. Specifically, the original study allowed participants to plan longer sequences of tasks by making use of a blocked design, where blocks of forty cued trials were alternated with blocks of forty voluntary trials. This might be less indicative of a true and spontaneous voluntary task switch rate (VSR). Moreover, the original design has "coin flip instructions" <ref type="bibr" target="#b1">(Arrington &amp; Logan, 2004)</ref>, where people are instructed to choose the next trial as if determined by a coin toss. Arguably, this voluntary switch rate can be interpreted as a measure of how much one tends to deviate from (the coin toss) instructions rather than cognitive flexibility. Therefore, we aimed to use a design where the free choice trials are interspersed between cued trials which can provide a measure of cognitive flexibility without additional instructions to "act randomly" (see also <ref type="bibr" target="#b20">Fröber &amp; Dreisbach, 2017)</ref>, while discouraging the planning of extended task sequences.</p><p>Another limitation of <ref type="bibr" target="#b5">Braem (2017)</ref> was that task choice needed to be inferred based on two separate pairs of response keys for either task which did not allow the separation of choice-related processes from task execution. Therefore, we replaced the task cue screen of <ref type="bibr" target="#b5">Braem (2017)</ref> with a task activation screen, where participants "activate" a given task through a button press <ref type="bibr" target="#b23">(Fröber et al., 2019)</ref> and subsequently use shared response keys for both tasks. This potentially strengthens congruency effects because of the additional overlap between task sets. In line with <ref type="bibr">Braem's results (2017)</ref>, we predicted that rewarding participants more often with high reward on task alternations would lead to larger VSR on interspersed free choice trials and larger congruency effects, i.e., larger relative differences in reaction time (RT) and accuracy between stimuli requiring the same or other response (relative to participants rewarded more often with high reward on task repetitions).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Experiment 1</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Participants</head><p>This study was approved by the Ghent University Psychology and Educational Sciences Ethical Committee and participants gave informed consent before participation. The sample size was determined based on a power analysis using simr <ref type="bibr" target="#b26">(Green &amp; MacLeod, 2016;</ref><ref type="bibr">and lme4 (Bates et al., 2015)</ref> for compatibility with simr) and fitting the model to <ref type="bibr">Braem's data (2017)</ref>. Using the original sample size (19 per group), we achieved good power (around 80 %) for the effect size of the main effect group on the voluntary switch rate (odds ratio of 1.3). Due to the major modifications to the design and as a more conservative default criterion, we aimed for a final sample size of 50 participants per group. To this end, 107 participants were recruited from the University's recruitment platform and compensated for their participation with course credit. The two highest-scoring participants (one per group) were additionally rewarded with a 50 Euro gift card. Of the participants, most (82%) were between 18-35 years old, 87% were right-handed, and 97% were female 1 . Based on our preregistered inclusion criteria, seven participants had to be excluded based on toolow accuracy and three due to a too-low baseline VSR (see pre-processing), resulting in a final sample of 97 participants (49 in the switch group).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Materials</head><p>The experiment was programmed in JsPsych (de <ref type="bibr" target="#b14">Leeuw, 2015)</ref>. Stimuli consisted of 400 unique Dutch words that can be categorized both according to their size and animacy, presented in white (30px Verdana) on a black background. They were adapted from <ref type="bibr" target="#b44">Schneider (2015)</ref> and <ref type="bibr" target="#b5">Braem (2017)</ref>, and extended by 80 novel items, selected from a Dutch database <ref type="bibr" target="#b29">(Keuleers et al., 2010)</ref> to match them in frequency and length per word category (e.g., small and animate, large and animate, see also <ref type="bibr" target="#b27">Held et al., 2024)</ref>. We included the same number of words per category in the experiment and each of the five experimental blocks consisted of a similar amount of task switches and task repetitions. Task cues consisted of either vowels ("A", "E", "I", "O", or "U") or the consonants "V", "F", "L", "Q", or "C" and they never reoccurred in two or three subsequent trials to avoid a salient association of specific cue sequences with rewards (as in <ref type="bibr" target="#b5">Braem, 2017)</ref>. Task cues were randomly presented above or below a central fixation cross with an offset of 1% of the inner window height and a hashtag was presented at the other location. They had to be activated by pressing the task activation keys "E" (above) versus "D" (below), or "I" (above) versus "K" (below), depending on whether Due to a mistake, demographic data was not registered in the first experiment which is why demographics had to be inferred retrospectively via the recruitment system. This allowed us to group participants into different age ranges but does not allow to specify their exact age.</p><p>1</p><p>The Effects of Reinforcing Task Alternations on Voluntary Task Selection Collabra: Psychology the left or right hand was the participant's task hand, randomized across participants. Stimuli had to be categorized with the "S" (left) or "D" (right) key or the "K" (left) or "L" (right) key respectively, i.e., the task set choice was on a vertical axis, while the decision was made on a horizontal axis. The left key always corresponded to the "smaller" response and the right key to the "larger" response, as this is a more natural response mapping. For the other task, the left versus right keys were randomly assigned to the animate versus inanimate condition to ensure counterbalancing across participants of task rule congruency per item. In the practice trials, we included three different feedback messages: "VERKEERDE TOETS!" (Dutch for "wrong key") for pressing the wrong activation key, "CORRECT!" or "FOUT!" (Dutch for "error") after responding to the target, and "TE TRAAG!" (Dutch for "too slow") if they responded too slowly. In the reward phase, we presented high rewards ("+10") and low rewards ("+1") in the centre of the screen (as in <ref type="bibr" target="#b5">Braem, 2017)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Task procedure</head><p>The experiment was conducted online. The total duration was about 30-35 minutes. As in <ref type="bibr" target="#b5">Braem (2017)</ref>, participants were informed that they had to perform two different tasks, indicated by the vowel or consonant cues (see Figure <ref type="figure" target="#fig_0">1</ref>). When seeing a consonant, they had to categorize the subsequent target stimulus into being smaller or larger than a basketball, when seeing a vowel, they had to categorize it according to its animacy, with animate referring to all organisms (plants, animals, fruits, and vegetables). Participants were encouraged to respond as fast and accurately as possible. Moreover, participants had to "activate" each task cue by pressing either the upper or lower key depending on the location of the cue (above or below the fixation cross, referred to as a "double registration" procedure where task choice has to be activated before execution, <ref type="bibr" target="#b23">Fröber et al., 2019)</ref>. After receiving instructions on this trial sequence, participants practised twelve cued trials of each task separately. If they activated the task with the wrong activation key, they saw a warning and had to repeat until they pressed the correct key. They received performance feedback after correct and incorrect responses to the target and a warning if they responded too slowly (response deadline of 5s). These practice trials were followed by a full practice block (baseline block) of 80 trials, in which they further encountered sixteen free choice trials (20%; randomly interspersed with at least 1 cued trial in between). In these free choice trials of main interest, they saw both letter types (above and below the fixation cross) and were told to choose freely which task they wanted to perform by activating the corresponding letter. In this baseline block, they only received feedback after correctly responding and were presented with a black screen of similar duration after incorrect responding. In addition to training participants on the two tasks, this block was also implemented to help rule out potential group differences in VSR independent of the main manipulation. However, in retrospect, we did not have sufficient trials per baseline block to compute a reliable VSR (max 16 trials after preprocessing).</p><p>Following the baseline block, participants performed the four main experimental blocks (again consisting of 80 trials each), in which performance feedback on correct trials was replaced by reward feedback according to the participant's reward group. Group assignment was random and participants were blind to the manipulation. If they were in the switch group, they received the high reward in 80% after correctly responding to a switch trial (and the low reward in the remaining 20%) and the low reward in 80% after correctly responding to a repetition trial (and the high reward in the remaining 20%). This coding was reversed for the other reward group which was selectively reinforced on task repetitions. We made sure that, before replacing 20% trials of a premade trial list per block with free choice trials (pseudo-randomly, see constraints above), there were 50% repetition and 50% switch trials to control for potential effects of switch frequency on participant's willingness to switch <ref type="bibr" target="#b22">(Fröber et al., 2022;</ref><ref type="bibr" target="#b20">Fröber &amp; Dreisbach, 2017)</ref>. In between blocks, participants were able to take self-paced breaks. At the end of the experiment, they filled in one open-ended and one multiple-choice question on contingency awareness. First, they were simply asked if they felt like some rounds were more often highly rewarded than others, or if this was completely arbitrary. Second, we described that participants were either rewarded more if two subsequent tasks were the same, or different, or that reward magnitude was truly arbitrary, and asked to indicate which of those three options was consistent with their experience.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Preprocessing</head><p>All exclusion and preprocessing pipelines were preregistered. At the participant level, we removed data from all participants performing below 60% accuracy per task and with a too-low VSR in the baseline block. Although we preregistered to exclude participants with a VSR of less than 10% in the baseline block, we also analysed two other exclusion criteria (no exclusion and 20%), as there are currently no gold standards in this literature <ref type="bibr" target="#b2">(Arrington &amp; Logan, 2005;</ref><ref type="bibr" target="#b5">Braem, 2017)</ref>. In what follows, we will present the results according to the most conservative exclusion criterion (i.e., 20%), but note that the statistical conclu-</p><p>The Effects of Reinforcing Task Alternations on Voluntary Task Selection Collabra: Psychology Free choice trials were not rewarded but provided performance feedback upon correct response. On cued trials, participants had to activate a predetermined cue, on free choice trials, they could freely select which task they wanted to perform.</p><p>sions were identical across all three exclusion criteria. At the trial level, we removed all trials following an error for the accuracy analyses. For the VSR and RT analyses, we additionally excluded all error trials 2 . In both VSR and RT models, we further removed all trials where the RT was within the slowest 1% (within-subject) as well as RT faster than 200ms. We additionally excluded the first trials from all analyses. Factors were set to zero-sum coding and continuous variables were standardized.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data analysis</head><p>The main statistical analyses were conducted with Bayesian mixed-effects models using brms <ref type="bibr" target="#b9">(Bürkner, 2017</ref><ref type="bibr" target="#b10">(Bürkner, , 2018</ref><ref type="bibr" target="#b11">(Bürkner, , 2021) )</ref> and RStudio (R Core Team, 2022). All analyses were performed on the four rewarded main experimental blocks. Our planned main model predicted transition choice (switch or repetition) in free choice trials (modelled with Bernoulli distributions (logit link)) based on group (between-subjects factor) and using random participant intercepts. This model was fit with 8000 iterations (of which 4000 warmup iterations across four chains). We also ran a planned follow-up model including block number to investigate potential changes over time. Additionally, we preregistered analyses on task performance for cued and free choice trials separately, predicting RT and accuracy based on group, congruency, transition, and their interactions, using random participant intercepts and random slopes for congruency, transition, and their interaction. RT was modelled using a shifted lognormal distribution (using 20000 iterations of which 10000 warmup iterations across four chains) and accuracy using a Bernoulli distribution (using 4000 iterations of which 2000 warmup iterations across four chains), using the link and logit link function. As we noted important differences between tasks, we decided to add task choice to the model. To account for differences between stimuli and enable generalization outside our stimulus set, we added random intercepts for stimuli (leading to a crossed-random effect structure). Due to an insufficient number of observations per cell, task could not be modelled as a random slope.</p><p>These preprocessing criteria were adopted from <ref type="bibr" target="#b5">Braem (2017)</ref> and other similar studies. However, it is worth noting that the exclusion of fast and slow RT as well as of error and post-error trials in the task sequence analyses is less important in our case where task choice can be inferred independently of task execution. Running our main VSR model of interest including all trials did not change the patterns of our results in Experiment 1 (but see Footnote 3 on Experiment 2). Using the same preprocessing criteria but applying the RT exclusion to the choice instead of the task RT also did not affect the results.  The significance of effects was inferred based on whether the 95% credible intervals (CI) of the regression weights include zero (two-sided test). We additionally report the probability of direction [pd], indicating the proportion of the posterior distribution that is of the median's sign.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head><p>All analyses below are performed on the free choice data. Results tables for performance analyses on the cued trials can be found in Appendix A. Additional exploratory analyses on activation RT are reported in Appendix B.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Voluntary Switch Rate</head><p>Our main model revealed no significant effect of reward group on the switch probability (Est. = 0.007, 95% CI [-0.070, 0.084], pd= 57.13%), i.e., the group rewarded more on switches did not switch significantly more often (M=45.61, SD=9.28) than the group rewarded more on repetitions (M= 45.99, SD= 9.67; see Figure <ref type="figure" target="#fig_2">2</ref>). We also found no modulation over time as the model including block as a predictor indicated the absence of a main effect of block (Est. = -0.035, 95% CI [-0.093, 0.023], pd= 88.31%) or interaction between group and block (Est.= 0.032, 95% CI [-0.025, 0.090], pd= 86.38%). Similarly, when including experiment half rather than block number as a predictor, there was neither a main effect (Est.= 0.025, 95% CI [-0.033, 0.083], pd= 80.51%) nor an interaction effect with group (Est.= -0.008, 95% CI [-0.065, 0.049], pd= 60.25%).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Figure 3. Task cost difference between the two reward groups</head><p>Note. The group rewarded more on switches showed a smaller difference in accuracy between the size task and the animacy task. Thin lines represent the mean plus and minus the standard error.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Accuracy model</head><p>In the accuracy model, we found a main effect of task choice (Est. = 0.267, 95% CI [0.140, 0.394], pd = 100%) with participants being overall more accurate on the animacy as compared to the size task. We did not see any main effect or interaction effect of reward group, transition, or congruency (see Appendix A). However, we observed an unexpected group by task choice interaction (Est. = 0.213, 95% CI [0.087, 0.339], pd= 99.96%), with the group rewarded more on switches showing a smaller difference in accuracy between the tasks (see Figure <ref type="figure">3</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Reaction time model</head><p>In the RT model, we found main effects of transition (Est. = -0.032, 95% CI [-0.050, -0.014], pd= 99.98%), congruency (Est. = -0.012, 95% CI [-0.024, -0.001], pd= 97.98%), and task choice (Est. = -0.072, 95% CI [-0.089, -0.054], pd= 100%), with participants being significantly faster on repetition, congruent and animacy trials. However, we did not observe any main effect or interaction effect with reward group.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Relationship of (cued) task and switch cost with choice behaviour</head><p>Importantly, we noticed a strong preference for the animacy task in participants' choices (chosen in 79%, averaged across participant's choice rates with no significant difference between groups), which also seemed to be the objectively easier task as indicated by the faster RTs (M= 942.13, SD= 267.66) and higher accuracy (M= 0.91, SD= 0.10) com-</p><p>The Effects of Reinforcing Task Alternations on Voluntary Task Selection Collabra: Psychology pared to the size task (RT: M= 1078.87, SD= 290.74; accuracy: M= 0.81, SD=0.22, see model results). This suggests that task choice during the free choice trials was more driven by task difficulty, rather than task switching difficulty. To test if task difficulty and task choice were related, we ran additional Pearson correlations between the two measures (see Figure <ref type="figure" target="#fig_3">4</ref>). First, we tested if the task cost, i.e., the difference in RT and accuracy between the size vs. animacy on cued trials was associated with task choice on free choice trials. Note, that this task cost was also significant in both the RT and accuracy model fitted to those cued trials, though not modulated by group (see Appendix A). Second, we also tested whether the switch cost on cued trials, i.e., the difference in RT and accuracy on switch vs. repeat trials was associated with the probability of switching tasks between trials. Our analyses showed that the choice of the size task was indeed negatively associated with RT (r(95)=-0.487, p &lt;0.001; see Figure <ref type="figure" target="#fig_3">4</ref>) and accuracy (r(95)= -0.209, p= 0.039) task costs, i.e., people with larger task costs on cued trials were less likely to choose the more difficult task on free choice trials and vice versa. Interestingly, this was not true for the relationship between the probability to switch on free choice trials and the switch cost on cued trials in both RT (r(95)= 0.107, p=0.296) and accuracy (r(95)= 0.023, p=0.822), i.e., people with higher switch costs were not less likely to switch on free choice trials.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Additional exploratory analyses</head><p>Contingency awareness. In general, 50% of the participants indicated that rewards were arbitrary, 28% guessed their reward condition correctly, and 22% guessed their reward condition incorrectly. We ran an additional model on the probability of switching, adding contingency awareness (correct or incorrect guess of the reward condition) as a variable. These analyses revealed no main effect of awareness (Est. = 0.016, 95% CI [-0.072, 0.106], pd= 64.38%) and no interaction effect between awareness and reward group (Est. = 0.019, 95% CI [-0.070, 0.107], pd= 66.71%).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Interim discussion</head><p>We did not replicate <ref type="bibr" target="#b5">Braem's (2017)</ref> findings in our adapted design where free choice trials were interspersed and a task selection screen was used. Instead, we found that rather than being guided by a reinforcement of task switching/repeating, participants' task choice behaviour was mostly driven by a strong preference for the (relatively easy) animacy task. It might be that our manipulation, introducing the additional layer of having to activate a task, was too complex for participants to detect the subtle reward contingencies. A potential absence of learning this reinforcement schedule was also further suggested by the seeming lack of learning over time, as shown in the models including block number and experiment half. If anything, it might have been the case that reward learning remained at the task level (rather than the task sequence level), manifesting as task cost differences between both groups, i.e., the reward switch group showed smaller "task costs" in accuracy. While this is speculation, it may have been the case that participants in the group rewarded more on switches attributed the rewards to overall higher task difficulty (i.e., because task switches are more difficult), relative to the group rewarded more on repetitions. In turn, this perceived reinforcement of higher difficulty may have led to more engagement and better accuracy on the noticeably more difficult size task (see Figure <ref type="figure">3</ref>).</p><p>Regardless of whether, or at which level, learning occurred, it seems that the task cost (i.e., the difference in task difficulty) generally dominated the switch cost in predicting choice behaviour, possibly resulting from some cost-benefit trade-off of control <ref type="bibr" target="#b31">(Kool &amp; Botvinick, 2013;</ref><ref type="bibr" target="#b45">Shenhav et al., 2013)</ref>. This is also in line with recent studies showing that avoidance of task difficulty can dominate the repetition bias <ref type="bibr" target="#b8">(Brosowsky &amp; Egner, 2021;</ref><ref type="bibr" target="#b21">Fröber &amp; Dreisbach, 2023)</ref>. In contrast, the coin flip instructions in previous task-switching designs (e.g., as in Braem, 2017) might have been more effective in nudging or causing participants to consider task-switching sequences, as opposed to the current design where no such instructions were given. To evaluate whether our results were due to a lack of picking up the contingency, in other words, to test whether VSR would be influenced when creating awareness about taskswitching processes, we ran a second experiment in which we explicitly informed all participants about their respective reward condition on cued trials. Moreover, we added liking ratings before and after the experiment to test if the reward groups differ in terms of their subjective switch preference following reinforcement.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Experiment 2</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Methods</head><p>All methods were similar to Experiment 1 with one crucial difference in the instructions. After the baseline block, i.e., before the start of the main experiment blocks, we informed the participants that they were assigned to the switch or repetition group, meaning that they had a higher chance to earn more reward on switch or repetition trials respectively. We also explicitly informed them that this was only true for cued trials, but not true for the free choice trials, which remained unrewarded. In addition, we assessed participants' subjective preference to switch or repeat tasks once after the baseline block without rewards, and again at the end of the experiment. Specifically, they could indicate with a slider from 0-100 (starting point 50), what their preference was with "prefer to repeat" or "prefer to switch" as the endpoints. We did not assess participants' contingency ratings, assuming they trusted their instructed group assignment and according reward contingency. Moreover, we looked at accuracies for each word stimulus from Experiment 1 separately, and replaced items (n=18) with low accuracies (e.g., "kitten" or "melon") in the size task, in an attempt to further balance (perceived) difficulty differences between the tasks. However, overall accuracy across all trials (combining all free and cued trials before preprocessing) stayed the same, i.e., 90% (Experiment 1) and 91% (Experiment 2) for the animacy task and 85% (both experiments) for the size task. The overall RTs were 1066.35ms for the an-</p><p>The Effects of Reinforcing Task Alternations on Voluntary Task Selection Collabra: Psychology imacy task and 1244.44ms for the size task in Experiment 1 and 1073.85ms for the animacy task and 1277.96ms for the size task in Experiment 2. This suggests that our attempt to make both tasks more equal in terms of task difficulty had little effect. Participants 68 participants were recruited for the second experiment. After the exclusion of accuracy outliers, the sample consisted of 60 participants with a mean age of 19.82 (SD=4.70) out of which 16 were male (44 female) and 10 were left-handed. Considering VSR outliers from the baseline block led to the exclusion of two additional participants. Power analyses of the previous study suggested a sample of 60 participants is sufficient (see above).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head><p>Again, the results below relate to the free choice trials. Results tables for performance analyses on the cued trials can be found in Appendix C. Exploratory analyses on the choice RT and the liking ratings are reported in Appendix D and E respectively.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Voluntary switch rate</head><p>When informing participants on the reinforcement schedule, the main effect of reward group reaches significance with a one-sided test (Est. = -0.097, 95% CI <ref type="bibr">[-0.196, 0</ref>.002], pd = 97.24%). Specifically, participants who were rewarded more on switches did switch significantly more often (M=48.81, SD=11.39) than participants rewarded more</p><p>The Effects of Reinforcing Task Alternations on Voluntary Task Selection Collabra: Psychology on repetitions 3 (M= 44.12, SD= 6.38, see Figure <ref type="figure" target="#fig_4">5</ref>). Again these results were similar when including the VSR outliers, and we also found no main effect of block (Est. = -0.007, 95% CI [-0.085, 0.069], pd= 56.75%) and no interaction between block and reward group (Est. = -0.008, 95% CI [-0.084, 0.068], pd= 57.56%).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Accuracy model</head><p>Similar to the first experiment, we found an effect of task choice (Est. = 0.285, 95% CI [0.118, 0.451], pd= 99.86%), with participants being more accurate on the animacy as compared to the size task. However, we no longer observed an interaction between reward group and task (Est. = -0.045, 95% CI [-0.212, 0.121], pd=69.75%). The model did reveal a significant group by transition interaction (Est. = 0.180, 95% CI [0.020, 0.343], pd= 98.62%), with the group rewarded more on switches showing reversed switch costs compared to the group rewarded more on repetitions, i.e., they were on average more accurate on switches than on repetitions. This result is arguably confounded with the switch group switching slightly more on these free choice trials overall (see VSR results above), thus being slightly more trained on alternations. Indeed, the effect disappeared when including participants' mean VSR as an additional predictor in the model (Est. = -0.456, 95% CI [-1.392, 0.478], pd= 83.41%). Notably, we found the same pattern in the cued trials, i.e., a significant group by transition interaction where the switch group was more accurate on switch trials (Est. = 0.180, 95% CI [0.020, 0.343], see Appendix C).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Reaction time model</head><p>As in Experiment 1, we found main effects of transition (Est. = -0.024, 95% CI -0.043, -0.006], pd= 99.55%) and choice (Est. = -0.087, 95% CI [-0.106, -0.068], pd= 100%), with participants being slower on switches and the size task. See Appendix C for all other effects. Interestingly, we now observed an interaction between group and task choice in the RT model (Est. = -0.035, 95% CI [-0.054, -0.016], pd= 99.99%; see Figure <ref type="figure" target="#fig_5">6</ref>), with the group rewarded more on switches showing a smaller difference in RT between the size and animacy task than the group rewarded more on repetitions.</p><p>For a comprehensive view of the data, we also fitted the main model to all free choice trials without the original preprocessing criteria, i.e., including fast and slow RT as well as error and post error trials (see Footnote 2). In this analysis, the main effect of group did not hold (Est. = -0.054, 95% CI [-0.144, 0.035], pd=88.50%). However, we cannot rule out that error trials in this analysis were the result of erroneously having selected the unintended task which might blunt the results. When applying the RT preprocessing criteria to the choice RT rather than task RT, the effect was stronger (Est. = -0.104, 95% CI [-0.204, -0.002], pd= 97.74%). </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Relationship of (cued) task and switch cost with choice behaviour</head><p>Given that we now made participants more aware of task-switching processes (by informing them on their reinforcement group), and tried to decrease the difference in task difficulty by replacing some of the items (see Method), we were interested in seeing whether we would still observe the same relationships between task costs and switch costs on task choice and VSR. We still observed a clear preference for the animacy task, which participants chose in 80% of the trials as well as better task performance in RT <ref type="bibr">(M= 980.40,</ref><ref type="bibr">SD= 295.88</ref>) and accuracy (M= 0.92, SD= 0.09) in the animacy as compared to the size task (RT: M=1191.46, SD=409.10; accuracy: M= 0.86, SD=0.21, see model results). Again, participants showing a larger task RT cost also showed a decreased choice rate of the size task (r(56)= -0.422, p &lt;0.001). However, we no longer observed the same effect in task accuracy costs (r(56)= -0.129, p = 0.336). No relationship was found between the switch cost in RT (r(56)= -0.058, p=0.666) or accuracy (r(56)= -0.133, p= 0.318) and switch probability (see Figure <ref type="figure" target="#fig_8">7</ref> for plots). However, excluding the two outliers with VSRs below 20% in the experiment blocks revealed a significant correlation between accuracy switch costs and VSR (r(56)=-0.330, p=0.013) in the expected direction, with participants with a larger switch cost switching less than participants with a lower switch cost.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Interim discussion</head><p>The results of Experiment 2 suggest that making participants aware of the reward manipulation leads to more task switching in the group rewarded more on task switches, even with free choice trials not being rewarded. Thus, the lack of a reinforcement effect in Experiment 1 was possibly due to a lack of manipulation awareness. Moreover, we again observed smaller task costs in the group rewarded more on task switches, albeit now in RT instead of accuracy as found in Experiment 1.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>General Discussion</head><p>Across two experiments, we tested whether we can selectively reinforce voluntary task switching when interspersing free choice trials in between cued trials where participants first had to indicate their task choice on each trial. Answering this research question is crucial to obtaining a better understanding of how we learn to regulate different control strategies and adaptively change between cognitive flexibility and stability <ref type="bibr" target="#b7">(Braem &amp; Egner, 2018;</ref><ref type="bibr">Dreisbach &amp; Fröber, 2019;</ref><ref type="bibr" target="#b25">Goschke &amp; Bolte, 2014;</ref><ref type="bibr" target="#b28">Jurczyk et al., 2019;</ref><ref type="bibr" target="#b38">Musslick &amp; Cohen, 2021;</ref><ref type="bibr" target="#b41">Qiao et al., 2023)</ref>. Our study is a conceptual replication of an earlier study by <ref type="bibr" target="#b5">Braem (2017)</ref> who found this effect on voluntary task switching in a blocked design without task activation screens, i.e., in contrast to our study, participants did not have to register the task (on cued choice trials) or indicate their choice (on free choice trials). We did not observe an effect of reinforcement in the first experiment in which participants were not explicitly aware of the reinforcement schedule at the start of the experiment but we did observe the effect in a second experiment where they were explicitly informed about it.</p><p>This, together with the absence of time-on-task effects, suggests that participants were not able to learn the reinforcement schedule in the first experiment, and because of this did not show transfer from the rewarded cued trials to unrewarded free choice trials. Perhaps this is due to our design being more complex than <ref type="bibr" target="#b5">Braem's (2017)</ref>. Participants not only had to keep track of the sequence of two subsequent trials, but they also had to pay attention to where task cues appear and activate them. This possibly left little resources for picking up on the more subtle reward manipulation consistent with the notion of an attentional bottleneck. This finding is further in line with a study by <ref type="bibr" target="#b23">(Fröber et al., 2019)</ref> who found no influence of changing rewards on task choice when using a simple double registration procedure and a hybrid task-switching design like the present study. In contrast, in their paper, this influence was only found with more effortful choice registration such as joystick and mouse movements, suggesting the importance of a design favouring deliberation rather than more automatic responses that could have occurred in our study. This methodological limitation could also explain differences between the uninstructed first and explicit second experiments, where information on the reinforcement schedule may have led to more deliberation. Across both experiments, participants' choices were mainly driven by a preference for the animacy task. This finding fits with a line of recent studies showing that (task) goal perseverance can be a driving factor of task choice even when this implies flexibility at a lower level of the action control hierarchy <ref type="bibr" target="#b21">(Fröber &amp; Dreisbach, 2023)</ref>. Similarly, although this is speculative at this point, reward learning may have occurred at the task level through a perceived differential contingency with overall difficulty, wrongfully attributed to the more difficult tasks rather than more difficult task sequences. That is, being rewarded on more difficult (switch) trials, may have increased caution on the more difficult size task, as reflected in smaller differences in task performance in accuracy (Experiment 1) or reaction time (Experiment 2).</p><p>4 One potential takeaway from the strong task preference observed in our experiment could be that the coin flip instructions in previous voluntary task-switching Related to the possibility of learning alternative reward mappings, participants may have built erroneous associations between previous rewards and for instance the location or the letter type. In other words, a vowel at the top location leading to high reward may have favoured subsequent responding to another vowel (presented at the top location). However, exploratory analyses revealed no such effect in either experiment.  experiments (e.g., <ref type="bibr" target="#b2">Arrington &amp; Logan, 2005;</ref><ref type="bibr" target="#b5">Braem, 2017)</ref> are helpful after all in nudging participants to consider more abstract control strategies, rather than only considering the task level when performing free choice paradigms.</p><p>The preference for the animacy task was mainly driven by a difference in difficulty between the two tasks as reflected in slower RT and lower accuracy on the size as compared to the animacy task. The observation that this cost dominated the switch cost is further consistent with recent work showing that increased difficulty of a task can induce flexibility <ref type="bibr" target="#b8">(Brosowsky &amp; Egner, 2021</ref>; see also <ref type="bibr" target="#b37">Mittelstädt et al., 2022</ref> for comparable findings on perceptual difficulty) or that participants rarely switch to the more difficult task on free choice trials in a hybrid task switching design with intentionally different difficulties <ref type="bibr" target="#b28">(Jurczyk et al., 2019)</ref>. Thus, to obtain a purer measure of switch costs, we would need to use two tasks that are similar in difficulty.</p><p>In contrast to Braem (2017), we did not find a group by congruency interaction in either experiment. This lack of finding group differences in congruency effects might be explained by the dissociation of task activation (or choice) and execution in our study where participants had time to prepare for the specific task at hand. However, this might not solely explain the result as there is a body of research suggesting that congruency effects do not benefit from preparation time as much (see <ref type="bibr">Kiesel et al., 2010 for a review)</ref>.</p><p>In addition to the methodological considerations raised above, our mixed findings beg the question of what may be the broader application of our findings. As discussed, we have shown both that contingency learning in a complex task is hard and that the effect is not robust to all outlier removal criteria even when participants are instructed on the reinforcement schedule. Thus one may speculate that this could make learning adaptive control settings even harder in the rich outside world and it would be interesting to set up a study with more ecological cues and stimuli. At the same time, this study tackled some important concerns regarding Psychology's closely related generalizability crisis <ref type="bibr" target="#b48">(Yarkoni, 2022)</ref>, by using a design with unique stimuli and random stimulus intercepts in the task performance analyses which should improve the generalization of the findings to at least other stimulus sets. Moreover, learning adaptive control settings in everyday life may also be a process that typically takes longer than a single experimental session <ref type="bibr" target="#b6">(Braem et al., 2024;</ref><ref type="bibr" target="#b16">Doebel, 2020;</ref><ref type="bibr" target="#b47">Xu et al., 2024)</ref>.</p><p>The Effects of Reinforcing Task Alternations on Voluntary Task Selection</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Collabra: Psychology</head><p>In sum, our findings suggest that selective reinforcement of task switching may be possible, but that it requires more simplistic or parsimonious designs to allow the detection of such a subtle manipulation. Without being nudged towards considering more abstract control strategies, participants may resort to regulating responses at a less abstract (task) level. However, once participants are made aware of the reinforcement schedule, they seem to successfully generalize learned control strategies to unrewarded trials in line with current theories on cognitive control.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. Task procedure Note. A trial procedure based on a participant in the group being rewarded more on switches. Participants underwent five blocks with 80 trials each, out of which 80% were cued. Depending on the reward group, participants either received a high or low reward following a task switch 80 (20)% of the time in the four testing blocks following the baseline block.</figDesc><graphic coords="4,100.80,64.00,393.67,262.50" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>2</head><figDesc>The Effects of Reinforcing Task Alternations on Voluntary Task Selection Collabra: Psychology</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. Voluntary switch rate per group Note. Groups did not significantly differ in their switch rate on free-choice trials. Dots present the mean per group, bars represent the mean plus and minus the standard deviation.</figDesc><graphic coords="5,90.79,64.00,164.06,262.50" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 4 .</head><label>4</label><figDesc>Figure 4. Relationship between task (sequence) difficulty and task (sequence) preference Note. Participants with larger task costs on cued trials were less likely to choose the size task on free choice trials (upper). The switch cost on cued trials did not affect the voluntary switch rate (lower).</figDesc><graphic coords="7,117.64,64.00,360.00,360.00" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figure 5 .</head><label>5</label><figDesc>Figure 5. Voluntary Switch Rate per group Note. In Experiment 2, the group rewarded more on switches, switches more often than the group rewarded more on repetitions, reaching significance in the expected direction with a one-sided test. Dots present the mean per group, bars represent the mean plus and minus the standard deviation.</figDesc><graphic coords="8,90.79,64.00,164.06,262.50" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Figure 6 .</head><label>6</label><figDesc>Figure 6. Task cost difference between the two reward groupsNote. The group rewarded more on switches showed a smaller difference in reaction time between the size task and the animacy task. Thin lines represent the mean plus and minus the standard error.</figDesc><graphic coords="8,303.64,64.00,237.64,237.64" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>3</head><figDesc>The Effects of Reinforcing Task Alternations on Voluntary Task Selection Collabra: Psychology</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>4</head><figDesc>The Effects of Reinforcing Task Alternations on Voluntary Task Selection Collabra: Psychology</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head>Figure 7 .</head><label>7</label><figDesc>Figure 7. Relationship between task (sequence) difficulty and task (sequence) preference in the second experiment Note. Correlations between RT and accuracy task cost and task choice and RT and accuracy switch costs and switch probabilities. The exclusion of the two outliers in the correlations between switch cost and VSR (VSR &lt; 20%) did not change the significance of the results in RT (r(54)= -0.113, p= 0.408), but in accuracy (r(54)= -0.330, p=0.013).</figDesc><graphic coords="10,117.64,64.00,360.00,360.00" type="bitmap" /></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>Downloaded from http://online.ucpress.edu/collabra/article-pdf/10/1/120329/840518/collabra_2024_10_1_120329.pdf by guest on 22 July 2025</p></note>
+		</body>
+		<back>
+
+			<div type="funding">
+<div><head>Funding Information</head><p>This work was supported by an <rs type="funder">ERC</rs> <rs type="grantName">Starting grant</rs> awarded to S.B. (<rs type="funder">European Union</rs>'s <rs type="programName">Horizon 2020 research and innovation program</rs>, Grant agreement <rs type="grantNumber">852570</rs>), and a fellowship by the <rs type="funder">Fonds Voor Wetenschappelijk Onderzoek-Research Foundation Flanders</rs> <rs type="grantNumber">11C2322N</rs> to L.K.H and <rs type="grantNumber">11H5619N</rs> to L.V.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_Nusfr6E">
+					<orgName type="grant-name">Starting grant</orgName>
+				</org>
+				<org type="funding" xml:id="_PJ97rQc">
+					<idno type="grant-number">852570</idno>
+					<orgName type="program" subtype="full">Horizon 2020 research and innovation program</orgName>
+				</org>
+				<org type="funding" xml:id="_3FVHBcz">
+					<idno type="grant-number">11C2322N</idno>
+				</org>
+				<org type="funding" xml:id="_QWkD3re">
+					<idno type="grant-number">11H5619N</idno>
+				</org>
+			</listOrg>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data Accessibility Statement</head><p>Our preregistration as well as all raw data, experiment files and data analysis scripts will be shared on OSF upon publication (OSF | Conditioning of cognitive flexibility).</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Contributions</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Competing Interests</head><p>The authors declare no competing interests. </p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct status="extracted"  xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Grounding cognitive control in associative learning</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Abrahamse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Braem</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Notebaert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Verguts</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/bul0000047</idno>
+		<ptr target="https://doi.org/10.1037/bul0000047" />
+	</analytic>
+	<monogr>
+		<title level="j">Psychological Bulletin</title>
+		<imprint>
+			<biblScope unit="volume">142</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note>Article 7</note>
+	<note type="raw_reference">Abrahamse, E., Braem, S., Notebaert, W., &amp; Verguts, T. (2016). Grounding cognitive control in associative learning. Psychological Bulletin, 142(7), Article 7. https://doi.org/10.1037/bul0000047</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b1">
+	<analytic>
+		<title level="a" type="main">The Cost of a Voluntary Task Switch</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Arrington</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">D</forename><surname>Logan</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.0956-7976.2004.00728.x</idno>
+		<ptr target="https://doi.org/10.1111/j.0956-7976.2004.00728.x" />
+	</analytic>
+	<monogr>
+		<title level="j">Psychological Science</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="610" to="615" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Arrington, C. M., &amp; Logan, G. D. (2004). The Cost of a Voluntary Task Switch. Psychological Science, 15(9), 610-615. https://doi.org/10.1111/ j.0956-7976.2004.00728.x</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Voluntary Task Switching: Chasing the Elusive Homunculus</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Arrington</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">D</forename><surname>Logan</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/0278-7393.31.4.683</idno>
+		<ptr target="https://doi.org/10.1037/0278-7393.31.4.683" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Experimental Psychology: Learning, Memory, and Cognition</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="683" to="702" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Arrington, C. M., &amp; Logan, G. D. (2005). Voluntary Task Switching: Chasing the Elusive Homunculus. Journal of Experimental Psychology: Learning, Memory, and Cognition, 31(4), 683-702. https://doi.org/10.1037/ 0278-7393.31.4.683</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Fitting linear mixed effects models using LME4</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Bates</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Maechler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Bolker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Walker</surname></persName>
+		</author>
+		<idno type="DOI">10.18637/jss.v067.i01</idno>
+		<ptr target="https://doi.org/10.18637/jss.v067.i01" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Statistical Software</title>
+		<imprint>
+			<biblScope unit="volume">67</biblScope>
+			<biblScope unit="page" from="1" to="48" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bates, D., Maechler, M., Bolker, B., &amp; Walker, S. (2015). Fitting linear mixed effects models using LME4. Journal of Statistical Software, 67, 1-48. https://doi.org/10.18637/jss.v067.i01</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Motivation and Cognitive Control: From Behavior to Neural Mechanism</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Botvinick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Braver</surname></persName>
+		</author>
+		<idno type="DOI">10.1146/annurev-psych-010814-015044</idno>
+		<ptr target="https://doi.org/10.1146/annurev-psych-010814-015044" />
+	</analytic>
+	<monogr>
+		<title level="j">Annual Review of Psychology</title>
+		<imprint>
+			<biblScope unit="volume">66</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="83" to="113" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Botvinick, M., &amp; Braver, T. (2015). Motivation and Cognitive Control: From Behavior to Neural Mechanism. Annual Review of Psychology, 66(1), 83-113. https://doi.org/10.1146/annurev- psych-010814-015044</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Conditioning task switching behavior</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Braem</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.cognition.2017.05.037</idno>
+		<ptr target="https://doi.org/10.1016/j.cognition.2017.05.037" />
+	</analytic>
+	<monogr>
+		<title level="j">Cognition</title>
+		<imprint>
+			<biblScope unit="volume">166</biblScope>
+			<biblScope unit="page" from="272" to="276" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Braem, S. (2017). Conditioning task switching behavior. Cognition, 166, 272-276. https://doi.org/10.1016/ j.cognition.2017.05.037</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b6">
+	<analytic>
+		<title level="a" type="main">One cannot simply &apos;be flexible&apos;: Regulating control parameters requires learning</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Braem</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Chai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">K</forename><surname>Held</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Xu</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.cobeha.2023.101347</idno>
+		<ptr target="https://doi.org/10.1016/j.cobeha.2023.101347" />
+	</analytic>
+	<monogr>
+		<title level="j">Current Opinion in Behavioral Sciences</title>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="page">101347</biblScope>
+			<date type="published" when="2024">2024</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Braem, S., Chai, M., Held, L. K., &amp; Xu, S. (2024). One cannot simply &apos;be flexible&apos;: Regulating control parameters requires learning. Current Opinion in Behavioral Sciences, 55, 101347. https://doi.org/ 10.1016/j.cobeha.2023.101347</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Getting a Grip on Cognitive Flexibility</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Braem</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Egner</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/0963721418787475</idno>
+		<ptr target="https://doi.org/10.1177/0963721418787475" />
+	</analytic>
+	<monogr>
+		<title level="j">Current Directions in Psychological Science</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Braem, S., &amp; Egner, T. (2018). Getting a Grip on Cognitive Flexibility. Current Directions in Psychological Science, 27(6), Article 6. https://doi.org/ 10.1177/0963721418787475</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Appealing to the cognitive miser: Using demand avoidance to modulate cognitive flexibility in cued and voluntary task switching</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">P</forename><surname>Brosowsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Egner</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/xhp0000942</idno>
+		<ptr target="https://doi.org/10.1037/xhp0000942" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Experimental Psychology: Human Perception and Performance</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="1329" to="1347" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Brosowsky, N. P., &amp; Egner, T. (2021). Appealing to the cognitive miser: Using demand avoidance to modulate cognitive flexibility in cued and voluntary task switching. Journal of Experimental Psychology: Human Perception and Performance, 47(10), 1329-1347. https://doi.org/10.1037/xhp0000942</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b9">
+	<analytic>
+		<title level="a" type="main">brms: An R Package for Bayesian Multilevel Models Using Stan</title>
+		<author>
+			<persName><forename type="first">P.-C</forename><surname>Bürkner</surname></persName>
+		</author>
+		<idno type="DOI">10.18637/jss.v080.i01</idno>
+		<ptr target="https://doi.org/10.18637/jss.v080.i01" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Statistical Software</title>
+		<imprint>
+			<biblScope unit="volume">80</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bürkner, P.-C. (2017). brms: An R Package for Bayesian Multilevel Models Using Stan. Journal of Statistical Software, 80(1). https://doi.org/10.18637/jss.v080.i01</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Advanced Bayesian Multilevel Modeling with the R Package brms</title>
+		<author>
+			<persName><forename type="first">P.-C</forename><surname>Bürkner</surname></persName>
+		</author>
+		<idno type="DOI">10.32614/RJ-2018-017</idno>
+		<ptr target="https://doi.org/10.32614/RJ-2018-017" />
+	</analytic>
+	<monogr>
+		<title level="j">The R Journal</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">395</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bürkner, P.-C. (2018). Advanced Bayesian Multilevel Modeling with the R Package brms. The R Journal, 10(1), 395. https://doi.org/10.32614/RJ-2018-017</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Bayesian Item Response Modeling in R with brms and Stan</title>
+		<author>
+			<persName><forename type="first">P.-C</forename><surname>Bürkner</surname></persName>
+		</author>
+		<idno type="DOI">10.18637/jss.v100.i05</idno>
+		<ptr target="https://doi.org/10.18637/jss.v100.i05" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Statistical Software</title>
+		<imprint>
+			<biblScope unit="volume">100</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bürkner, P.-C. (2021). Bayesian Item Response Modeling in R with brms and Stan. Journal of Statistical Software, 100(5). https://doi.org/10.18637/jss.v100.i05</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Cortical and subcortical contributions to context-control learning</title>
+		<author>
+			<persName><forename type="first">Y.-C</forename><surname>Chiu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Egner</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.neubiorev.2019.01.019</idno>
+		<ptr target="https://doi.org/10.1016/j.neubiorev.2019.01.019" />
+	</analytic>
+	<monogr>
+		<title level="j">Neuroscience &amp; Biobehavioral Reviews</title>
+		<imprint>
+			<biblScope unit="volume">99</biblScope>
+			<biblScope unit="page" from="33" to="41" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Chiu, Y.-C., &amp; Egner, T. (2019). Cortical and subcortical contributions to context-control learning. Neuroscience &amp; Biobehavioral Reviews, 99, 33-41. https://doi.org/10.1016/j.neubiorev.2019.01.019</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Should I stay or should I go? How the human brain manages the trade-off between exploitation and exploration</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Cohen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Mcclure</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Yu</surname></persName>
+		</author>
+		<idno type="DOI">10.1098/rstb.2007.2098</idno>
+		<ptr target="https://doi.org/10.1098/rstb.2007.2098" />
+	</analytic>
+	<monogr>
+		<title level="j">Philosophical Transactions of the Royal Society B: Biological Sciences</title>
+		<imprint>
+			<biblScope unit="volume">362</biblScope>
+			<biblScope unit="page" from="933" to="942" />
+			<date type="published" when="1481">2007. 1481</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cohen, J. D., McClure, S. M., &amp; Yu, A. J. (2007). Should I stay or should I go? How the human brain manages the trade-off between exploitation and exploration. Philosophical Transactions of the Royal Society B: Biological Sciences, 362(1481), 933-942. https://doi.org/10.1098/rstb.2007.2098</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b14">
+	<analytic>
+		<title level="a" type="main">jsPsych: A JavaScript library for creating behavioral experiments in a Web browser</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>De Leeuw</surname></persName>
+		</author>
+		<idno type="DOI">10.3758/s13428-014-0458-y</idno>
+		<ptr target="https://doi.org/10.3758/s13428-014-0458-y" />
+	</analytic>
+	<monogr>
+		<title level="j">Behavior Research Methods</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="1" to="12" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">de Leeuw, J. R. (2015). jsPsych: A JavaScript library for creating behavioral experiments in a Web browser. Behavior Research Methods, 47(1), 1-12. https://doi.org/10.3758/s13428-014-0458-y</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Executive Functions</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Diamond</surname></persName>
+		</author>
+		<idno type="DOI">10.1146/annurev-psych-113011-143750</idno>
+		<ptr target="https://doi.org/10.1146/annurev-psych-113011-143750" />
+	</analytic>
+	<monogr>
+		<title level="j">Annual Review of Psychology</title>
+		<imprint>
+			<biblScope unit="volume">64</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Diamond, A. (2013). Executive Functions. Annual Review of Psychology, 64(1), Article 1. https://doi.org/ 10.1146/annurev-psych-113011-143750</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Rethinking Executive Function and Its Development</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Doebel</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/1745691620904771</idno>
+		<ptr target="https://doi.org/10.1177/1745691620904771" />
+	</analytic>
+	<monogr>
+		<title level="j">Perspectives on Psychological Science</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Doebel, S. (2020). Rethinking Executive Function and Its Development. Perspectives on Psychological Science, 15(4), Article 4. https://doi.org/10.1177/ 1745691620904771</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b17">
+	<analytic>
+		<author>
+			<persName><forename type="first">G</forename><surname>Dreisbach</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Fröber</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/0963721418800030</idno>
+		<ptr target="https://doi.org/10.1177/0963721418800030" />
+	</analytic>
+	<monogr>
+		<title level="m">On How to Be Flexible (or Not): Modulation of the Stability-Flexibility Balance</title>
+		<imprint>
+			<date type="published" when="2019">2019</date>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="3" to="9" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Dreisbach, G., &amp; Fröber, K. (2019). On How to Be Flexible (or Not): Modulation of the Stability- Flexibility Balance. Current Directions in Psychological Science, 28(1), 3-9. https://doi.org/10.1177/ 0963721418800030</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Principles of cognitive control over task focus and task switching</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Egner</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s44159-023-00234-4</idno>
+		<ptr target="https://doi.org/10.1038/s44159-023-00234-4" />
+	</analytic>
+	<monogr>
+		<title level="j">Nature Reviews Psychology</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="702" to="714" />
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Egner, T. (2023). Principles of cognitive control over task focus and task switching. Nature Reviews Psychology, 2(11), 702-714. https://doi.org/10.1038/ s44159-023-00234-4</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b19">
+	<analytic>
+		<title level="a" type="main">How sequential changes in reward magnitude modulate cognitive flexibility: Evidence from voluntary task switching</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Fröber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Dreisbach</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Fröber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Dreisbach</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/xlm0000166</idno>
+		<ptr target="https://doi.org/10.1037/xlm0000166" />
+	</analytic>
+	<monogr>
+		<title level="m">The differential influences of positive affect, random reward, and performance-contingent reward on cognitive control. Cognitive, Affective, &amp; Behavioral Neuroscience</title>
+		<imprint>
+			<date type="published" when="2014">2014. 2016</date>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="285" to="295" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Fröber, K., &amp; Dreisbach, G. (2014). The differential influences of positive affect, random reward, and performance-contingent reward on cognitive control. Cognitive, Affective, &amp; Behavioral Neuroscience, 14(2), Article 2. https://doi.org/10.3758/s13415-014-0259-x Fröber, K., &amp; Dreisbach, G. (2016). How sequential changes in reward magnitude modulate cognitive flexibility: Evidence from voluntary task switching. Journal of Experimental Psychology: Learning, Memory, and Cognition, 42(2), 285-295. https://doi.org/ 10.1037/xlm0000166</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Keep flexible -Keep switching! The influence of forced task switching on voluntary task switching</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Fröber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Dreisbach</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.cognition.2017.01.024</idno>
+		<ptr target="https://doi.org/10.1016/j.cognition.2017.01.024" />
+	</analytic>
+	<monogr>
+		<title level="j">Cognition</title>
+		<imprint>
+			<biblScope unit="volume">162</biblScope>
+			<biblScope unit="page" from="48" to="53" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Fröber, K., &amp; Dreisbach, G. (2017). Keep flexible -Keep switching! The influence of forced task switching on voluntary task switching. Cognition, 162, 48-53. https://doi.org/10.1016/j.cognition.2017.01.024</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b21">
+	<analytic>
+		<title level="a" type="main">You can(&apos;t) always get what you want: When goal persistence requires flexibility</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Fröber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Dreisbach</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/mot0000297</idno>
+		<ptr target="https://doi.org/10.1037/mot0000297" />
+	</analytic>
+	<monogr>
+		<title level="j">Motivation Science</title>
+		<imprint>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Fröber, K., &amp; Dreisbach, G. (2023). You can(&apos;t) always get what you want: When goal persistence requires flexibility. Motivation Science. https://doi.org/10.1037/ mot0000297</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Keep flexible-Keep switching? Boundary conditions of the influence of forced task switching on voluntary task switching</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Fröber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Jurczyk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Dreisbach</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/xlm0001104</idno>
+		<ptr target="https://doi.org/10.1037/xlm0001104" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Experimental Psychology: Learning, Memory, and Cognition</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="1249" to="1262" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Fröber, K., Jurczyk, V., &amp; Dreisbach, G. (2022). Keep flexible-Keep switching? Boundary conditions of the influence of forced task switching on voluntary task switching. Journal of Experimental Psychology: Learning, Memory, and Cognition, 48(9), 1249-1262. https://doi.org/10.1037/xlm0001104</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Increasing reward prospect promotes cognitive flexibility: Direct evidence from voluntary task switching with double registration</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Fröber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Pfister</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Dreisbach</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/1747021818819449</idno>
+		<ptr target="https://doi.org/10.1177/1747021818819449" />
+	</analytic>
+	<monogr>
+		<title level="j">Quarterly Journal of Experimental Psychology</title>
+		<imprint>
+			<biblScope unit="volume">72</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="1926" to="1944" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Fröber, K., Pfister, R., &amp; Dreisbach, G. (2019). Increasing reward prospect promotes cognitive flexibility: Direct evidence from voluntary task switching with double registration. Quarterly Journal of Experimental Psychology, 72(8), 1926-1944. https://doi.org/10.1177/1747021818819449</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b24">
+	<monogr>
+		<title level="m" type="main">The Effects of Reinforcing Task Alternations on Voluntary Task Selection Collabra: Psychology</title>
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">The Effects of Reinforcing Task Alternations on Voluntary Task Selection Collabra: Psychology</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Emotional modulation of control dilemmas: The role of positive affect, reward, and dopamine in cognitive stability and flexibility</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Goschke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bolte</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.neuropsychologia.2014.07.015</idno>
+		<ptr target="https://doi.org/10.1016/j.neuropsychologia.2014.07.015" />
+	</analytic>
+	<monogr>
+		<title level="j">Neuropsychologia</title>
+		<imprint>
+			<biblScope unit="volume">62</biblScope>
+			<biblScope unit="page" from="403" to="423" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Goschke, T., &amp; Bolte, A. (2014). Emotional modulation of control dilemmas: The role of positive affect, reward, and dopamine in cognitive stability and flexibility. Neuropsychologia, 62, 403-423. https://doi.org/10.1016/ j.neuropsychologia.2014.07.015</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b26">
+	<analytic>
+		<title level="a" type="main">SIMR: An R package for power analysis of generalized linear mixed models by simulation</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Green</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Macleod</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/2041-210X.12504</idno>
+		<ptr target="https://doi.org/10.1111/2041-210X.12504" />
+	</analytic>
+	<monogr>
+		<title level="j">Methods in Ecology and Evolution</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Green, P., &amp; MacLeod, C. J. (2016). SIMR: An R package for power analysis of generalized linear mixed models by simulation. Methods in Ecology and Evolution, 7(4), Article 4. https://doi.org/10.1111/2041-210X.12504</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Reinforcement learning of adaptive control strategies</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">K</forename><surname>Held</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Vermeylen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Dignath</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Notebaert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Krebs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Braem</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s44271-024-00055-y</idno>
+		<ptr target="https://doi.org/10.1038/s44271-024-00055-y" />
+	</analytic>
+	<monogr>
+		<title level="j">Communications Psychology</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<date type="published" when="2024">2024</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Held, L. K., Vermeylen, L., Dignath, D., Notebaert, W., Krebs, R. M., &amp; Braem, S. (2024). Reinforcement learning of adaptive control strategies. Communications Psychology, 2(1), 8. https://doi.org/ 10.1038/s44271-024-00055-y</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Increasing reward prospect motivates switching to the more difficult task</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Jurczyk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Fröber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Dreisbach</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/mot0000119</idno>
+		<ptr target="https://doi.org/10.1037/mot0000119" />
+	</analytic>
+	<monogr>
+		<title level="j">Motivation Science</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="295" to="313" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Jurczyk, V., Fröber, K., &amp; Dreisbach, G. (2019). Increasing reward prospect motivates switching to the more difficult task. Motivation Science, 5(4), 295-313. https://doi.org/10.1037/mot0000119</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b29">
+	<analytic>
+		<title level="a" type="main">SUBTLEX-NL: A new measure for Dutch word frequency based on film subtitles</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Keuleers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Brysbaert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>New</surname></persName>
+		</author>
+		<idno type="DOI">10.3758/BRM.42.3.643</idno>
+		<ptr target="https://doi.org/10.3758/BRM.42.3.643" />
+	</analytic>
+	<monogr>
+		<title level="j">Behavior Research Methods</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="643" to="650" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Keuleers, E., Brysbaert, M., &amp; New, B. (2010). SUBTLEX- NL: A new measure for Dutch word frequency based on film subtitles. Behavior Research Methods, 42(3), 643-650. https://doi.org/10.3758/BRM.42.3.643</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Control and interference in task switching-A review</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kiesel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Steinhauser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Wendt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Falkenstein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Jost</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Philipp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Koch</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/a0019842</idno>
+		<ptr target="https://doi.org/10.1037/a0019842" />
+	</analytic>
+	<monogr>
+		<title level="j">Psychological Bulletin</title>
+		<imprint>
+			<biblScope unit="volume">136</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="849" to="874" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kiesel, A., Steinhauser, M., Wendt, M., Falkenstein, M., Jost, K., Philipp, A. M., &amp; Koch, I. (2010). Control and interference in task switching-A review. Psychological Bulletin, 136(5), 849-874. https://doi.org/10.1037/a0019842</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b31">
+	<analytic>
+		<title level="a" type="main">The intrinsic cost of cognitive control</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Kool</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Botvinick</surname></persName>
+		</author>
+		<idno type="DOI">10.1017/S0140525X1300109X</idno>
+		<ptr target="https://doi.org/10.1017/S0140525X1300109" />
+	</analytic>
+	<monogr>
+		<title level="j">Behavioral and Brain Sciences</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="697" to="698" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kool, W., &amp; Botvinick, M. (2013). The intrinsic cost of cognitive control. Behavioral and Brain Sciences, 36(6), 697-698. https://doi.org/10.1017/ S0140525X1300109X</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Differential effects of sustained and transient effort triggered by reward -A combined EEG and pupillometry study</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kostandyan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Bombeke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Carsten</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Krebs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Notebaert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">N</forename><surname>Boehler</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.neuropsychologia.2018.04.032</idno>
+		<ptr target="https://doi.org/10.1016/j.neuropsychologia.2018.04.032" />
+	</analytic>
+	<monogr>
+		<title level="j">Neuropsychologia</title>
+		<imprint>
+			<biblScope unit="volume">123</biblScope>
+			<biblScope unit="page" from="116" to="130" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kostandyan, M., Bombeke, K., Carsten, T., Krebs, R. M., Notebaert, W., &amp; Boehler, C. N. (2019). Differential effects of sustained and transient effort triggered by reward -A combined EEG and pupillometry study. Neuropsychologia, 123, 116-130. https://doi.org/ 10.1016/j.neuropsychologia.2018.04.032</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b33">
+	<analytic>
+		<title level="a" type="main">The influence of reward associations on conflict processing in the Stroop task</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Krebs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">N</forename><surname>Boehler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Woldorff</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.cognition.2010.08.018</idno>
+		<ptr target="https://doi.org/10.1016/j.cognition.2010.08.018" />
+	</analytic>
+	<monogr>
+		<title level="j">Cognition</title>
+		<imprint>
+			<biblScope unit="volume">117</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="341" to="347" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Krebs, R. M., Boehler, C. N., &amp; Woldorff, M. G. (2010). The influence of reward associations on conflict processing in the Stroop task. Cognition, 117(3), 341-347. https://doi.org/10.1016/ j.cognition.2010.08.018</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Rational metareasoning and the plasticity of cognitive control</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Lieder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Shenhav</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Musslick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">L</forename><surname>Griffiths</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pcbi.1006043</idno>
+		<ptr target="https://doi.org/10.1371/journal.pcbi.1006043" />
+	</analytic>
+	<monogr>
+		<title level="j">PLOS Computational Biology</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page">1006043</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lieder, F., Shenhav, A., Musslick, S., &amp; Griffiths, T. L. (2018). Rational metareasoning and the plasticity of cognitive control. PLOS Computational Biology, 14(4), e1006043. https://doi.org/10.1371/ journal.pcbi.1006043</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Motivational influences on cognitive control: Behavior, brain activation, and individual differences</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">S</forename><surname>Locke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">S</forename><surname>Braver</surname></persName>
+		</author>
+		<idno type="DOI">10.3758/CABN.8.1.99</idno>
+		<ptr target="https://doi.org/10.3758/CABN.8.1.99" />
+	</analytic>
+	<monogr>
+		<title level="j">Cognitive, Affective, &amp; Behavioral Neuroscience</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="99" to="112" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Locke, H. S., &amp; Braver, T. S. (2008). Motivational influences on cognitive control: Behavior, brain activation, and individual differences. Cognitive, Affective, &amp; Behavioral Neuroscience, 8(1), 99-112. https://doi.org/10.3758/CABN.8.1.99</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Toward an instance theory of automatization</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">D</forename><surname>Logan</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/0033-295X.95.4.492</idno>
+		<ptr target="https://doi.org/10.1037/0033-295X.95.4.492" />
+	</analytic>
+	<monogr>
+		<title level="j">Psychological Review</title>
+		<imprint>
+			<biblScope unit="volume">95</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<date type="published" when="1988">1988</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Logan, G. D. (1988). Toward an instance theory of automatization. Psychological Review, 95(4), Article 4. https://doi.org/10.1037/0033-295X.95.4.492</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Perceptual processing demands influence voluntary task choice</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Mittelstädt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Miller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kiesel</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.cognition.2022.105232</idno>
+		<ptr target="https://doi.org/10.1016/j.cognition.2022.105232" />
+	</analytic>
+	<monogr>
+		<title level="j">Cognition</title>
+		<imprint>
+			<biblScope unit="volume">229</biblScope>
+			<biblScope unit="page">105232</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mittelstädt, V., Miller, J., &amp; Kiesel, A. (2022). Perceptual processing demands influence voluntary task choice. Cognition, 229, 105232. https://doi.org/10.1016/ j.cognition.2022.105232</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Rationalizing constraints on the capacity for cognitive control</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Musslick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Cohen</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.tics.2021.06.001</idno>
+		<ptr target="https://doi.org/10.1016/j.tics.2021.06.001" />
+	</analytic>
+	<monogr>
+		<title level="j">Trends in Cognitive Sciences</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="757" to="775" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Musslick, S., &amp; Cohen, J. D. (2021). Rationalizing constraints on the capacity for cognitive control. Trends in Cognitive Sciences, 25(9), 757-775. https://doi.org/10.1016/j.tics.2021.06.001</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Parsing the effects of reward on cognitive control</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Notebaert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Braem</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Motivation and Cognitive Control</title>
+		<imprint>
+			<publisher>Routledge</publisher>
+			<date type="published" when="2015">2015</date>
+			<biblScope unit="page" from="105" to="122" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Notebaert, W., &amp; Braem, S. (2015). Parsing the effects of reward on cognitive control. In Motivation and Cognitive Control (pp. 105-122). Routledge.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Reward Reduces Conflict by Enhancing Attentional Control and Biasing Visual Cortical Processing</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Padmala</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Pessoa</surname></persName>
+		</author>
+		<idno type="DOI">10.1162/jocn_a_00011</idno>
+		<ptr target="https://doi.org/10.1162/jocn_a_00011" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Cognitive Neuroscience</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="3419" to="3432" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Padmala, S., &amp; Pessoa, L. (2011). Reward Reduces Conflict by Enhancing Attentional Control and Biasing Visual Cortical Processing. Journal of Cognitive Neuroscience, 23(11), 3419-3432. https://doi.org/10.1162/jocn_a_00011</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Control dilemma: Evidence of the stability-flexibility tradeoff</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Qiao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Chen</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ijpsycho.2023.07.002</idno>
+		<ptr target="https://doi.org/10.1016/j.ijpsycho.2023.07.002" />
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Psychophysiology</title>
+		<imprint>
+			<biblScope unit="volume">191</biblScope>
+			<biblScope unit="page" from="29" to="41" />
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Qiao, L., Zhang, L., &amp; Chen, A. (2023). Control dilemma: Evidence of the stability-flexibility trade- off. International Journal of Psychophysiology, 191, 29-41. https://doi.org/10.1016/j.ijpsycho.2023.07.002</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b42">
+	<monogr>
+		<title level="m" type="main">R: A language and environment for statistical computing</title>
+		<author>
+			<orgName type="collaboration">R Core Team.</orgName>
+		</author>
+		<imprint>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note>Computer software</note>
+	<note type="raw_reference">R Core Team. (2022). R: A language and environment for statistical computing. [Computer software].</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b43">
+	<monogr>
+		<ptr target="https://www.R-project.org/" />
+		<title level="m">R Foundation for Statistical Computing</title>
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">R Foundation for Statistical Computing. https://www.R-project.org/.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Isolating a mediated route for response congruency effects in task switching</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>Schneider</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/xlm0000049</idno>
+		<ptr target="https://doi.org/10.1037/xlm0000049" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Experimental Psychology: Learning, Memory, and Cognition</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="235" to="245" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Schneider, D. W. (2015). Isolating a mediated route for response congruency effects in task switching. Journal of Experimental Psychology: Learning, Memory, and Cognition, 41(1), 235-245. https://doi.org/ 10.1037/xlm0000049</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b45">
+	<analytic>
+		<title level="a" type="main">The Expected Value of Control: An Integrative Theory of Anterior Cingulate Cortex Function</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Shenhav</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Botvinick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Cohen</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.neuron.2013.07.007</idno>
+		<ptr target="https://doi.org/10.1016/j.neuron.2013.07.007" />
+	</analytic>
+	<monogr>
+		<title level="j">Neuron</title>
+		<imprint>
+			<biblScope unit="volume">79</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Shenhav, A., Botvinick, M. M., &amp; Cohen, J. D. (2013). The Expected Value of Control: An Integrative Theory of Anterior Cingulate Cortex Function. Neuron, 79(2), Article 2. https://doi.org/10.1016/ j.neuron.2013.07.007</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Banishing the Control Homunculi in Studies of Action Control and Behavior Change</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Verbruggen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">P L</forename><surname>Mclaren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">D</forename><surname>Chambers</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/1745691614526414</idno>
+		<ptr target="https://doi.org/10.1177/1745691614526414" />
+	</analytic>
+	<monogr>
+		<title level="j">Perspectives on Psychological Science</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Verbruggen, F., McLaren, I. P. L., &amp; Chambers, C. D. (2014). Banishing the Control Homunculi in Studies of Action Control and Behavior Change. Perspectives on Psychological Science, 9(5), Article 5. https://doi.org/10.1177/1745691614526414</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Learning where to be flexible: Using environmental cues to regulate cognitive control</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Simoens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Verguts</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Braem</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/xge0001488</idno>
+		<ptr target="https://doi.org/10.1037/xge0001488" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Experimental Psychology: General</title>
+		<imprint>
+			<biblScope unit="volume">153</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="328" to="338" />
+			<date type="published" when="2024">2024</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Xu, S., Simoens, J., Verguts, T., &amp; Braem, S. (2024). Learning where to be flexible: Using environmental cues to regulate cognitive control. Journal of Experimental Psychology: General, 153(2), 328-338. https://doi.org/10.1037/xge0001488</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b48">
+	<analytic>
+		<title level="a" type="main">The generalizability crisis</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Yarkoni</surname></persName>
+		</author>
+		<idno type="DOI">10.1017/S0140525X20001685</idno>
+		<ptr target="https://doi.org/10.1017/S0140525X20001685" />
+	</analytic>
+	<monogr>
+		<title level="j">Behavioral and Brain Sciences</title>
+		<imprint>
+			<biblScope unit="page" from="45" to="e46" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Yarkoni, T. (2022). The generalizability crisis. Behavioral and Brain Sciences, 45, e1. https://doi.org/10.1017/ S0140525X20001685</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b49">
+	<monogr>
+		<title level="m" type="main">The Effects of Reinforcing Task Alternations on Voluntary Task Selection Collabra: Psychology</title>
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">The Effects of Reinforcing Task Alternations on Voluntary Task Selection Collabra: Psychology</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>
